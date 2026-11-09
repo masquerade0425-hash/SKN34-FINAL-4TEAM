@@ -1,11 +1,11 @@
 import { useEffect, useEffectEvent, useRef, useState } from 'react'
 import { appContainer } from '../../../../app/appContainer'
-import type { Draft, WritingEpisode } from '../../../../domain/entities/content'
+import type { Draft, WritingEpisode, PublicationEvent } from '../../../../domain/entities/content'
 import type { EpisodeUseCase } from '../../../../domain/usecases/EpisodeUseCase'
 import type {MediaUseCase} from '../../../../domain/usecases/MediaUseCase'
 import {imageMarker,manuscriptText} from '../../../../domain/entities/media'
 
-type WritingApi = Pick<EpisodeUseCase,'writingList'|'createEpisode'|'writeEpisode'|'restoreEpisode'|'publishEpisode'|'orderScope'|'deleteDraft'|'deleteEpisode'>
+type WritingApi = Pick<EpisodeUseCase,'writingList'|'createEpisode'|'writeEpisode'|'restoreEpisode'|'publishEpisode'|'orderScope'|'deleteDraft'|'deleteEpisode'|'setPublicationVisibility'|'history'>
 export function useWritingViewModel(id:string, api:WritingApi=appContainer.resolve('episodeUseCase'), media:Pick<MediaUseCase,'upload'>=appContainer.resolve('mediaUseCase')) {
   const [episodes,setEpisodes]=useState<WritingEpisode[]>([])
   const [active,setActive]=useState<WritingEpisode|null>(null)
@@ -15,6 +15,7 @@ export function useWritingViewModel(id:string, api:WritingApi=appContainer.resol
   const [ready,setReady]=useState(false)
   const [error,setError]=useState('')
   const [notice,setNotice]=useState('')
+  const [publicationHistory,setPublicationHistory]=useState<PublicationEvent[]|null>(null)
   const current=useRef(draft)
   const pending=useRef<AbortController|null>(null)
   const downloads=useRef(new Map<string,ReturnType<typeof setTimeout>>())
@@ -78,7 +79,25 @@ export function useWritingViewModel(id:string, api:WritingApi=appContainer.resol
       setNotice(whole?'회차를 삭제했어요.':'작업 초안을 삭제했어요. 새로 입력하면 새 초안으로 저장돼요.')
     })
   }
-  return {episodes,active,draft,busy,editingLocked,ready,error,notice,dirty,mayLeave,
+  const changeVisibility=(visible:boolean,rights:boolean)=>{
+    if(!active||active.inherited||dirty||pending.current)return Promise.resolve(false)
+    if(!visible&&!window.confirm('이 회차의 공개를 중단할까요? 저장 버전과 기존 Fork는 보존돼요.'))return Promise.resolve(false)
+    return run(async signal=>{
+      const result=await api.setPublicationVisibility(id,active.number,current.current.revision,visible,rights,signal)
+      if(signal.aborted)return
+      setPublicationHistory(null);merge(result);put({...current.current,revision:result.draft.revision})
+      setNotice(visible?'중단했던 발행본을 다시 공개했어요.':'회차 공개를 중단했어요.')
+    })
+  }
+  return {publicationHistory,changeVisibility,
+    loadPublicationHistory:()=>run(async signal=>{
+      setPublicationHistory(null)
+      const result=await api.history(id,signal)
+      if(signal.aborted)return
+      if(!result.publicationHistory)throw new Error('발행 이력 응답을 확인할 수 없어요.')
+      setPublicationHistory(result.publicationHistory)
+    },false),
+    episodes,active,draft,busy,editingLocked,ready,error,notice,dirty,mayLeave,
     edit:(patch:Partial<Pick<Draft,'title'|'body'>>)=>{put({...current.current,...patch});setNotice('')},
     save:()=>save(true),
     deleteDraft:()=>remove(false),
@@ -110,6 +129,6 @@ export function useWritingViewModel(id:string, api:WritingApi=appContainer.resol
     create:(title:string)=>{if(!mayLeave())return Promise.resolve(false);return run(async signal=>{const e=await api.createEpisode(id,title,signal);if(!signal.aborted){merge(e);put(e.draft);setNotice('비공개 회차를 만들었어요.')}})},
     reload:()=>{if(!mayLeave())return Promise.resolve(false);return run(async signal=>{const rows=await api.writingList(id,signal);if(!signal.aborted){setEpisodes(rows);const e=rows.find(x=>x.number===active?.number)??rows[0];if(e)install(e);else {setActive(null);put({title:'',body:'',revision:0})}setReady(true)}})},
     restore:(versionId:string)=>{if(!mayLeave())return Promise.resolve(false);return run(async signal=>{if(!active)return;const e=await api.restoreEpisode(id,active.number,current.current.revision,versionId,signal);if(!signal.aborted){merge(e);put(e.draft);setNotice('선택한 원고를 새 버전으로 복원했어요. 발행본은 그대로예요.')}})},
-    publish:(versionId:string,rights:boolean)=>run(async signal=>{if(!active)return;const e=await api.publishEpisode(id,active.number,current.current.revision,versionId,rights,signal);if(!signal.aborted){merge(e);put({...current.current,revision:e.draft.revision});setNotice('선택한 저장 버전을 공개했어요.')}}),
+    publish:(versionId:string,rights:boolean)=>run(async signal=>{if(!active)return;const e=await api.publishEpisode(id,active.number,current.current.revision,versionId,rights,signal);if(!signal.aborted){setPublicationHistory(null);merge(e);put({...current.current,revision:e.draft.revision});setNotice('선택한 저장 버전을 공개했어요.')}}),
   }
 }

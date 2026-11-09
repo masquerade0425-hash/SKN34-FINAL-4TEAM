@@ -8,7 +8,7 @@ it('inserts an uploaded immutable image reference at the cursor and keeps it thr
  const id='b142427a-cd9d-4fdc-a40d-c9e553d87d30';const imageId='e25ffb25-8128-48c0-8d66-e1d56831cd56'
  const episode={number:1,draft:{title:'1화',body:'앞뒤',revision:0},versions:[],publishedVersionId:null,inherited:false,updatedAt:null,checkpointStatus:'content_only'}
  const body=`앞\n\n[[image:${imageId}]]\n\n뒤`
- const api={writingList:vi.fn().mockResolvedValue([episode]),createEpisode:vi.fn(),writeEpisode:vi.fn().mockResolvedValue({...episode,draft:{...episode.draft,body,revision:1}}),restoreEpisode:vi.fn(),publishEpisode:vi.fn(),orderScope:vi.fn(),deleteDraft:vi.fn(),deleteEpisode:vi.fn()}
+ const api={setPublicationVisibility:vi.fn(),history:vi.fn(),writingList:vi.fn().mockResolvedValue([episode]),createEpisode:vi.fn(),writeEpisode:vi.fn().mockResolvedValue({...episode,draft:{...episode.draft,body,revision:1}}),restoreEpisode:vi.fn(),publishEpisode:vi.fn(),orderScope:vi.fn(),deleteDraft:vi.fn(),deleteEpisode:vi.fn()}
  const media={upload:vi.fn().mockResolvedValue({id:imageId})}
  const {result}=renderHook(()=>useWritingViewModel(id,api,media))
  await act(async()=>{})
@@ -24,7 +24,7 @@ it('inserts an uploaded immutable image reference at the cursor and keeps it thr
 it('accepts server-normalized titles without an endless autosave loop',async()=>{
   vi.useFakeTimers()
   const episode={number:1,draft:{title:'제목',body:'기존',revision:0},versions:[],publishedVersionId:null,inherited:false,updatedAt:null,checkpointStatus:'content_only'}
-  const api={writingList:vi.fn().mockResolvedValue([episode]),createEpisode:vi.fn(),writeEpisode:vi.fn().mockResolvedValue({...episode,draft:{...episode.draft,revision:1}}),restoreEpisode:vi.fn(),publishEpisode:vi.fn(),orderScope:vi.fn(),deleteDraft:vi.fn(),deleteEpisode:vi.fn()}
+  const api={setPublicationVisibility:vi.fn(),history:vi.fn(),writingList:vi.fn().mockResolvedValue([episode]),createEpisode:vi.fn(),writeEpisode:vi.fn().mockResolvedValue({...episode,draft:{...episode.draft,revision:1}}),restoreEpisode:vi.fn(),publishEpisode:vi.fn(),orderScope:vi.fn(),deleteDraft:vi.fn(),deleteEpisode:vi.fn()}
   const {result}=renderHook(()=>useWritingViewModel('w',api))
   await act(async()=>{})
   act(()=>result.current.edit({title:' 제목 '}))
@@ -37,7 +37,7 @@ it('accepts server-normalized titles without an endless autosave loop',async()=>
 it('autosaves only the draft after two seconds and retains edits on conflict',async()=>{
   vi.useFakeTimers()
   const episode={number:1,draft:{title:'1화',body:'기존',revision:0},versions:[],publishedVersionId:null,inherited:false,updatedAt:null,checkpointStatus:'content_only'}
-  const api={writingList:vi.fn().mockResolvedValue([episode]),createEpisode:vi.fn(),writeEpisode:vi.fn().mockRejectedValue(new Error('동시 수정 충돌')),restoreEpisode:vi.fn(),publishEpisode:vi.fn(),orderScope:vi.fn(),deleteDraft:vi.fn(),deleteEpisode:vi.fn()}
+  const api={setPublicationVisibility:vi.fn(),history:vi.fn(),writingList:vi.fn().mockResolvedValue([episode]),createEpisode:vi.fn(),writeEpisode:vi.fn().mockRejectedValue(new Error('동시 수정 충돌')),restoreEpisode:vi.fn(),publishEpisode:vi.fn(),orderScope:vi.fn(),deleteDraft:vi.fn(),deleteEpisode:vi.fn()}
   const {result}=renderHook(()=>useWritingViewModel('w',api))
   await act(async()=>{})
   act(()=>result.current.edit({body:'내 수정'}))
@@ -55,7 +55,7 @@ it('late autosave response preserves newer typing and manual save creates a vers
   vi.useFakeTimers()
   const episode={number:1,draft:{title:'1화',body:'기존',revision:0},versions:[],publishedVersionId:null,inherited:false,updatedAt:null,checkpointStatus:'content_only'}
   let resolveSave: (value:typeof episode)=>void=()=>{}
-  const api={writingList:vi.fn().mockResolvedValue([episode]),createEpisode:vi.fn(),writeEpisode:vi.fn().mockImplementationOnce(()=>new Promise(resolve=>{resolveSave=resolve})).mockResolvedValue({...episode,draft:{title:'1화',body:'최신 입력',revision:2}}),restoreEpisode:vi.fn(),publishEpisode:vi.fn(),orderScope:vi.fn(),deleteDraft:vi.fn(),deleteEpisode:vi.fn()}
+  const api={setPublicationVisibility:vi.fn(),history:vi.fn(),writingList:vi.fn().mockResolvedValue([episode]),createEpisode:vi.fn(),writeEpisode:vi.fn().mockImplementationOnce(()=>new Promise(resolve=>{resolveSave=resolve})).mockResolvedValue({...episode,draft:{title:'1화',body:'최신 입력',revision:2}}),restoreEpisode:vi.fn(),publishEpisode:vi.fn(),orderScope:vi.fn(),deleteDraft:vi.fn(),deleteEpisode:vi.fn()}
   const {result}=renderHook(()=>useWritingViewModel('w',api))
   await act(async()=>{})
   act(()=>result.current.edit({body:'첫 입력'}))
@@ -72,7 +72,7 @@ it('late autosave response preserves newer typing and manual save creates a vers
 it('returns false when episode navigation is cancelled and keeps the dirty draft',async()=>{
   const first={number:1,draft:{title:'1화',body:'기존',revision:0},versions:[],publishedVersionId:null,inherited:false,updatedAt:null,checkpointStatus:'content_only'}
   const second={...first,number:2,draft:{...first.draft,title:'2화'}}
-  const api={writingList:vi.fn().mockResolvedValue([first,second]),createEpisode:vi.fn(),writeEpisode:vi.fn(),restoreEpisode:vi.fn(),publishEpisode:vi.fn(),orderScope:vi.fn(),deleteDraft:vi.fn(),deleteEpisode:vi.fn()}
+  const api={setPublicationVisibility:vi.fn(),history:vi.fn(),writingList:vi.fn().mockResolvedValue([first,second]),createEpisode:vi.fn(),writeEpisode:vi.fn(),restoreEpisode:vi.fn(),publishEpisode:vi.fn(),orderScope:vi.fn(),deleteDraft:vi.fn(),deleteEpisode:vi.fn()}
   const {result}=renderHook(()=>useWritingViewModel('w',api))
   await act(async()=>{})
   act(()=>result.current.edit({body:'미저장'}))
@@ -90,7 +90,7 @@ it('returns false when episode navigation is cancelled and keeps the dirty draft
 
 it('clears deleted input even when refreshing the list fails',async()=>{
   const episode={number:1,draft:{title:'1화',body:'기존',revision:4},versions:[],publishedVersionId:null,inherited:false,updatedAt:null,checkpointStatus:'content_only'}
-  const api={writingList:vi.fn().mockResolvedValueOnce([episode]).mockRejectedValueOnce(new Error('목록 조회 실패')),createEpisode:vi.fn(),writeEpisode:vi.fn(),restoreEpisode:vi.fn(),publishEpisode:vi.fn(),orderScope:vi.fn(),deleteDraft:vi.fn().mockResolvedValue(undefined),deleteEpisode:vi.fn()}
+  const api={setPublicationVisibility:vi.fn(),history:vi.fn(),writingList:vi.fn().mockResolvedValueOnce([episode]).mockRejectedValueOnce(new Error('목록 조회 실패')),createEpisode:vi.fn(),writeEpisode:vi.fn(),restoreEpisode:vi.fn(),publishEpisode:vi.fn(),orderScope:vi.fn(),deleteDraft:vi.fn().mockResolvedValue(undefined),deleteEpisode:vi.fn()}
   const {result}=renderHook(()=>useWritingViewModel('w',api))
   await act(async()=>{})
   act(()=>result.current.edit({body:'버릴 입력'}))
@@ -107,7 +107,7 @@ it('clears deleted input even when refreshing the list fails',async()=>{
 it('reports whether leaving the studio would lose work: clean may leave, dirty asks first, in-flight requests block',async()=>{
   const episode={number:1,draft:{title:'1화',body:'기존',revision:0},versions:[],publishedVersionId:null,inherited:false,updatedAt:null,checkpointStatus:'content_only'}
   let release:()=>void=()=>{}
-  const api={writingList:vi.fn().mockResolvedValue([episode]),createEpisode:vi.fn(),writeEpisode:vi.fn().mockImplementation(()=>new Promise(resolve=>{release=()=>resolve(episode)})),restoreEpisode:vi.fn(),publishEpisode:vi.fn(),orderScope:vi.fn(),deleteDraft:vi.fn(),deleteEpisode:vi.fn()}
+  const api={setPublicationVisibility:vi.fn(),history:vi.fn(),writingList:vi.fn().mockResolvedValue([episode]),createEpisode:vi.fn(),writeEpisode:vi.fn().mockImplementation(()=>new Promise(resolve=>{release=()=>resolve(episode)})),restoreEpisode:vi.fn(),publishEpisode:vi.fn(),orderScope:vi.fn(),deleteDraft:vi.fn(),deleteEpisode:vi.fn()}
   const confirm=vi.spyOn(window,'confirm').mockReturnValue(false)
   try {
     const {result}=renderHook(()=>useWritingViewModel('w',api))
@@ -128,4 +128,47 @@ it('reports whether leaving the studio would lose work: clean may leave, dirty a
   } finally {
     confirm.mockRestore()
   }
+})
+
+
+it('공개 상태 실패는 기존 상태를 보존하고 재요청 성공만 반영한다',async()=>{
+  const episode={number:1,draft:{title:'1화',body:'원고',revision:4},versions:[],publishedVersionId:'v1',publicationStatus:'published' as const,inherited:false,updatedAt:null,checkpointStatus:'content_only'}
+  const stopped={...episode,publishedVersionId:null,publicationStatus:'suspended' as const,draft:{...episode.draft,revision:5}}
+  const api={setPublicationVisibility:vi.fn().mockRejectedValueOnce(new Error('공개 상태 충돌')).mockResolvedValue(stopped),history:vi.fn().mockResolvedValue({versions:[],proposals:[],publicationHistory:[]}),writingList:vi.fn().mockResolvedValue([episode]),createEpisode:vi.fn(),writeEpisode:vi.fn(),restoreEpisode:vi.fn(),publishEpisode:vi.fn(),orderScope:vi.fn(),deleteDraft:vi.fn(),deleteEpisode:vi.fn()}
+  const confirm=vi.spyOn(window,'confirm').mockReturnValue(true)
+  try {
+    const {result}=renderHook(()=>useWritingViewModel('w',api))
+    await act(async()=>{})
+    await act(async()=>{await result.current.loadPublicationHistory()})
+    await act(async()=>{expect(await result.current.changeVisibility(false,false)).toBe(false)})
+    expect(result.current.active?.publishedVersionId).toBe('v1')
+    expect(result.current.error).toBe('공개 상태 충돌')
+    expect(result.current.publicationHistory).toEqual([])
+    await act(async()=>{expect(await result.current.changeVisibility(false,false)).toBe(true)})
+    expect(result.current.active?.publicationStatus).toBe('suspended')
+    expect(result.current.draft.revision).toBe(5)
+    expect(result.current.publicationHistory).toBeNull()
+    await act(async()=>{await result.current.loadPublicationHistory()})
+    expect(result.current.publicationHistory).toEqual([])
+  } finally {confirm.mockRestore()}
+})
+
+
+it('자동저장은 조회한 발행 이력을 유지하고 실제 발행 성공만 무효화한다',async()=>{
+  vi.useFakeTimers()
+  const episode={number:1,draft:{title:'1화',body:'기존 원고',revision:4},versions:[],publishedVersionId:'v1',inherited:false,updatedAt:null,checkpointStatus:'content_only'}
+  const events=[{episode:1,versionId:'v1',publishedAt:'2026-11-09T00:00:00Z',action:'publish' as const}]
+  const saved={...episode,draft:{...episode.draft,body:'수정 원고',revision:5}}
+  const api={setPublicationVisibility:vi.fn(),history:vi.fn().mockResolvedValue({versions:[],proposals:[],publicationHistory:events}),writingList:vi.fn().mockResolvedValue([episode]),createEpisode:vi.fn(),writeEpisode:vi.fn().mockResolvedValue(saved),restoreEpisode:vi.fn(),publishEpisode:vi.fn().mockResolvedValue({...saved,publishedVersionId:'v2'}),orderScope:vi.fn(),deleteDraft:vi.fn(),deleteEpisode:vi.fn()}
+  const {result}=renderHook(()=>useWritingViewModel('w',api))
+  await act(async()=>{})
+  act(()=>result.current.edit({body:'수정 원고'}))
+  await act(async()=>{await result.current.loadPublicationHistory()})
+  await act(async()=>{await vi.advanceTimersByTimeAsync(2000)})
+  expect(api.writeEpisode).toHaveBeenCalledWith('w',1,{...episode.draft,body:'수정 원고'},false,expect.any(AbortSignal))
+  expect(result.current.dirty).toBe(false)
+  expect(result.current.publicationHistory).toEqual(events)
+  expect(api.history).toHaveBeenCalledTimes(1)
+  await act(async()=>{await result.current.publish('v2',true)})
+  expect(result.current.publicationHistory).toBeNull()
 })

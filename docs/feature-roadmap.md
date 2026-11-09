@@ -232,9 +232,9 @@
 <tr><td>회차의 기준 세계관 버전 변경</td><td>❌</td></tr>
 <tr><td rowspan="9">발행 관리</td><td rowspan="9">13 발행·공개 관리</td><td>저장 버전 발행</td><td>✅ <a href="https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN34-FINAL-4TEAM/pull/68">PR #68</a></td><td rowspan="9"><a href="https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN34-FINAL-4TEAM/issues/50">#50</a> · <a href="https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN34-FINAL-4TEAM/issues/34">#34</a> · <a href="https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN34-FINAL-4TEAM/pull/68">PR #68</a> · <a href="https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN34-FINAL-4TEAM/pull/91">PR #91</a> · <a href="https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN34-FINAL-4TEAM/pull/83">PR #83</a> · <a href="https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN34-FINAL-4TEAM/issues/49">#49</a> · <a href="https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN34-FINAL-4TEAM/pull/81">PR #81</a> · <a href="https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN34-FINAL-4TEAM/issues/54">#54</a> · <a href="#미등록-009">미등록-009</a></td></tr>
 <tr><td>발행본 교체</td><td>❌</td></tr>
-<tr><td>회차 공개 중단</td><td>❌</td></tr>
-<tr><td>회차 재공개</td><td>❌</td></tr>
-<tr><td>발행 이력 조회</td><td>❌</td></tr>
+<tr><td>회차 공개 중단</td><td>✅ <a href="usecase-spec/UC-13.md#현재-구현-계약--회차-공개-중단재공개발행-이력">API·화면 연결</a> · 단위 검증, CI 통합 검증 대기</td></tr>
+<tr><td>회차 재공개</td><td>✅ <a href="usecase-spec/UC-13.md#현재-구현-계약--회차-공개-중단재공개발행-이력">API·화면 연결</a> · 단위 검증, CI 통합 검증 대기</td></tr>
+<tr><td>발행 이력 조회</td><td>✅ <a href="usecase-spec/UC-13.md#현재-구현-계약--회차-공개-중단재공개발행-이력">API·화면 연결</a> · 단위 검증, CI 통합 검증 대기</td></tr>
 <tr><td>예약 발행 등록</td><td>❌</td></tr>
 <tr><td>예약 발행 조회</td><td>❌</td></tr>
 <tr><td>예약 발행 변경</td><td>❌</td></tr>

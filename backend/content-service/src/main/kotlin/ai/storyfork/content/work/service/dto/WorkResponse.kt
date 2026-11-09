@@ -16,4 +16,5 @@ data class WorkResponse(
     val forkableEpisodes: List<Int> = emptyList(),
     /** 최근 24시간 조회 수. 공개 목록·검색·랭킹 응답에서만 채우고 그 밖에는 0이다. */
     val views: Long = 0,
+    val writingEpisodeNumber: Int? = null,
 )

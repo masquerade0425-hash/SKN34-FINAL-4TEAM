@@ -150,7 +150,7 @@ class EpisodeService(
             if(draft==null && p==null && saved[row.id].isNullOrEmpty() && floor<0) null else EpisodeResponse(row.sequence,
                 DraftResponse(draft?.title ?: p?.title ?: saved[row.id]?.lastOrNull()?.title ?: "새 회차",draft?.content ?: if(floor<0) p?.content.orEmpty() else "",draft?.editRevision ?: maxOf(0,floor)),
                 saved[row.id].orEmpty().map { VersionResponse(it.contentVersionId,it.title,it.content,it.revisionNo,row.sequence,it.createdAt.toString()) },
-                p?.contentVersionId,row.inherited,draft?.updatedAt?.toString(),hasDraft=draft!=null)
+                p?.contentVersionId,row.inherited,draft?.updatedAt?.toString(),hasDraft=draft!=null,publicationStatus=row.publicationStatus)
         }
     }
     private fun missing(): Nothing = throw ContentFailure(404,"회차를 찾을 수 없어요.")
