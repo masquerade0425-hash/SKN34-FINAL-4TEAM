@@ -2,21 +2,16 @@
 
 고대 이집트의 신격·태양 순환·오시리스 전승·장례 관념을 요약한다. 시대와 도시마다 달라지는 신들의 계보와 역할을 단일 정본으로 고정하지 않는다.
 
-## 자료 구성
+## 읽는 순서
 
-- `source/tradition-cards.json`: 출전이 붙은 전승 카드 15장.
-- `source/template.json`: 항목별 구조화 자료.
-- `source/original.md`: 위 카드와 동일한 자체 요약문. 고대 원문이나 현대 번역문을 복제한 파일이 아니다.
+1. [전승 서사](source/original.md)를 먼저 읽는다. 사건의 원인과 결과, 인물 관계를 연결한 자체 한국어 재서술이다. 새 주인공이나 창작 도입 원고가 아니다.
+2. [세계관 정리](source/template.json)의 content_markdown은 서사 전문이며 setting_bible.sections는 그 글에서 추출한 카드다.
+3. [카드 데이터](source/tradition-cards.json)의 narrative_refs는 원고 절 ID와 정확한 근거 문단을 보존한다. 원고에 없는 설정을 카드에 보태지 않는다.
 
-신·존재는 `character`, 장소는 `location`, 신물은 `object`, 사건은 `event`로 구분한다. 사건은 WorldStudio의 `history` 영역에 표시한다. 새 전승 자료는 v1 동결본 없이 최종 카탈로그에서 직접 적재한다. 창작 작품명·새 주인공·도입 원고는 포함하지 않는다.
+## 출전과 한계
 
-## 출전과 범위
+각 서사 절의 링크에서 사용한 문헌과 학술 해설을 확인할 수 있다. 지역·시대·문헌의 차이를 유지하며 완전한 전승 목록이나 현대 신앙 전체의 교리를 주장하지 않는다. 현대 번역문을 전재하지 않았다.
 
-- [메트로폴리탄미술관: Divine Egypt](https://www.metmuseum.org/exhibitions/divine-egypt/inside-the-exhibition)
-- [메트로폴리탄미술관: Isis and Horus](https://www.metmuseum.org/art/collection/search/570685)
-- [호주박물관: 고대 이집트의 명계와 사후 세계](https://australian.museum/learn/cultures/international-collection/ancient-egyptian/the-underworld-and-the-afterlife-in-ancient-egypt/)
-- [퀸즐랜드박물관: 오시리스·이시스와 신들의 비석](https://www.museum.qld.gov.au/kurilpa/discovering-ancient-egypt-self-guided-tours/self-guided-tour/07-stela-of-osiris-isis-and-other-gods)
-- [UCL Digital Egypt: 이시스와 라의 이름](https://www.ucl.ac.uk/museums-static/digitalegypt/literature/isisandra.html)
-- [메트로폴리탄미술관: 고대 이집트 미술 교육 자료](https://resources.metmuseum.org/resources/metpublications/pdf/The_Art_of_Ancient_Egypt_A_Resource_for_Educators.pdf)
+## 데이터 유지
 
-각 카드는 해당 문헌·전승에 한정한 요약이다. 현대 신앙 전체의 교리나 완전한 전승 목록을 대표하지 않는다. 기존 창작 예시는 PR #287 이전 Git 이력에서 확인할 수 있으며 이 카탈로그에는 적재하지 않는다.
+기존 이름·범위·식별자·카드 순서와 유형을 유지한다. 사건은 event/history, 나머지는 해당 유형/basic이다. 원고 수정 시 근거 문단과 두 JSON을 함께 검토한다. 생성기는 카드를 원고에서 추론하지 않고 최종 리소스만 생성한다. 이 변경은 소스 자료에 한정하며 사용자 DB나 UI에 원고를 새로 등록하지 않는다.

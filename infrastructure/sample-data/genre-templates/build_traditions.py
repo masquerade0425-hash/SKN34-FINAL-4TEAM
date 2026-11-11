@@ -1,10 +1,11 @@
-"""Rebuild factual cards only; preserve the eleven released genre templates.
+"""Validate narrative references and rebuild cards; preserve eleven released genres.
 
 Run from any directory with Python 3: python build_traditions.py [--check].
 This prepares local JSON only. It never connects to a database or server.
 """
 import argparse
 import json
+import re
 from pathlib import Path
 from uuid import UUID, NAMESPACE_URL, uuid5
 
@@ -29,6 +30,21 @@ def read(path):
     return json.loads(path.read_text(encoding="utf-8-sig"))
 
 
+def validate_narrative(data, text):
+    """Check editorial traceability, not automatic factual entailment."""
+    assert data.get("narrative") == "original.md", "narrative must be the local source document"
+    parts = re.split(r'<a id="([a-z0-9-]+)"></a>', text)
+    anchors = parts[1::2]
+    assert anchors and len(anchors) == len(set(anchors)), "missing/duplicate narrative anchors"
+    sections = dict(zip(anchors, parts[2::2]))
+    for card in data["cards"]:
+        refs = card.get("narrative_refs")
+        assert refs, card["title"] + ": missing narrative evidence"
+        for ref in refs:
+            assert ref["section"] in sections, card["title"] + ": unknown narrative section"
+            assert ref["evidence"].strip() and ref["evidence"] in sections[ref["section"]], card["title"] + ": stale evidence"
+
+
 def build(current):
     """Keep published entries/IDs; derive stable semantic IDs for new cards."""
     by_genre = {item["genre"]: item for item in current}
@@ -36,6 +52,7 @@ def build(current):
     for genre in TRADITIONS:
         data = read(ROOT / genre / "source/tradition-cards.json")
         assert data["genre"] == genre and data["sources"], genre
+        validate_narrative(data, (ROOT / genre / "source/original.md").read_text(encoding="utf-8-sig"))
         world_id = by_genre.get(genre, {}).get("worldId") or str(uuid5(
             NAMESPACE_URL, "storyfork:tradition:" + genre))
         cards = []

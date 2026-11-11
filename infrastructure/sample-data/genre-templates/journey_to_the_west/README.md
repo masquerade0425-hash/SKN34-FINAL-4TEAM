@@ -2,28 +2,16 @@
 
 100회본 서유기의 인물·천계·용궁·서천·요괴·법보·팔십일난을 원문 회차별로 요약한 자료. 현대 번역문을 옮기지 않고 새 문장으로 정리하며 역사적 현장과 소설을 구분한다. 판본·각색의 차이를 하나의 설정으로 합치지 않는다.
 
-## 자료 구성
+## 읽는 순서
 
-- `source/tradition-cards.json`: 출전과 유형을 가진 전승 카드 28장.
-- `source/template.json`: 항목별 구조화 자료.
-- `source/original.md`: 위 카드의 새로 작성한 전체 요약문이며 원전 번역문 전재가 아닙니다.
+1. [전승 서사](source/original.md): 사건과 관계가 이어지는 자체 한국어 재서술을 먼저 읽습니다. 새 주인공이나 창작 도입부가 아니며 완역·전승 전체의 망라를 주장하지 않습니다.
+2. [세계관 정리](source/template.json): content_markdown은 원고 전문이며 setting_bible.sections는 원고에서 추출한 별도의 설정 요약입니다.
+3. [카드 데이터](source/tradition-cards.json): 28장의 기존 카드 ID·제목·유형·순서를 유지합니다. narrative_refs에서 근거 절과 정확한 문단을 확인합니다.
 
-새로 만든 작품명·주인공·도입 원고는 없습니다. 사건은 `event`/`history`, 나머지는 유형에 맞춰 `basic`에 표시합니다. 이 자료는 선택적 입문 요약이며 전체 원전의 대체물이 아닙니다.
+## 출전과 갱신
 
-## 출전
+각 원고 절에 문헌·권 또는 회차와 공개 판본 링크를 표시했습니다. 현대 번역문을 전재하지 않았으며 문헌과 판본의 다른 전승을 하나의 확정 연표로 합치지 않습니다. 원고를 수정하면 카드 요약과 근거 문단, template.json도 함께 갱신해야 합니다. 카드 body는 원고 문단을 복제한 것이 아니라 제목과 유형에 맞춰 추출한 요약입니다.
 
-- [서유기 제1회](https://zh.wikisource.org/wiki/西遊記/第001回)
-- [서유기 제2회](https://zh.wikisource.org/wiki/西遊記/第002回)
-- [서유기 제3회](https://zh.wikisource.org/wiki/西遊記/第003回)
-- [서유기 제7회](https://zh.wikisource.org/wiki/西遊記/第007回)
-- [서유기 제14회](https://zh.wikisource.org/wiki/西遊記/第014回)
-- [서유기 제15회](https://zh.wikisource.org/wiki/西遊記/第015回)
-- [서유기 제19회](https://zh.wikisource.org/wiki/西遊記/第019回)
-- [서유기 제22회](https://zh.wikisource.org/wiki/西遊記/第022回)
-- [서유기 제27회](https://zh.wikisource.org/wiki/西遊記/第027回)
-- [서유기 제42회](https://zh.wikisource.org/wiki/西遊記/第042回)
-- [서유기 제59회](https://zh.wikisource.org/wiki/西遊記/第059回)
-- [서유기 제98회](https://zh.wikisource.org/wiki/西遊記/第098回)
-- [서유기 제99회](https://zh.wikisource.org/wiki/西遊記/第099回)
-- [서유기 제100회](https://zh.wikisource.org/wiki/西遊記/第100回)
-- [서유기 제8회](https://zh.wikisource.org/wiki/西遊記/第008回)
+## 검증과 적재
+
+원고 앵커·근거 문단·카드 길이·기존 ID·원고 전문과 설정 미러를 검사합니다. 최종 리소스 생성과 전체 검사는 상위 폴더의 build_traditions.py 및 test_traditions.py를 따릅니다. 원고 전문을 UI에 노출하거나 이미 저장된 사용자 세계관을 덮어쓰는 런타임 변경은 포함하지 않습니다. v1 동결본을 새로 만들지 않습니다.

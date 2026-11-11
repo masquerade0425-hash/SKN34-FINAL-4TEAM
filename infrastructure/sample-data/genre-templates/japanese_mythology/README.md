@@ -2,24 +2,16 @@
 
 『고사기』의 신대 서사를 중심으로 정리하고 『일본서기』 계열의 이설을 구분한다. 요괴 전체나 현대 창작의 능력 체계까지 대표하지 않는다.
 
-## 자료 구성
+## 읽는 순서
 
-- `source/tradition-cards.json`: 출전이 붙은 전승 카드 15장.
-- `source/template.json`: 항목별 구조화 자료.
-- `source/original.md`: 위 카드와 동일한 자체 요약문. 고대 원문이나 현대 번역문을 복제한 파일이 아니다.
+1. [전승 서사](source/original.md): 사건과 관계가 이어지는 자체 한국어 재서술을 먼저 읽습니다. 새 주인공이나 창작 도입부가 아니며 완역·전승 전체의 망라를 주장하지 않습니다.
+2. [세계관 정리](source/template.json): content_markdown은 원고 전문이며 setting_bible.sections는 원고에서 추출한 별도의 설정 요약입니다.
+3. [카드 데이터](source/tradition-cards.json): 15장의 기존 카드 ID·제목·유형·순서를 유지합니다. narrative_refs에서 근거 절과 정확한 문단을 확인합니다.
 
-신·존재는 `character`, 장소는 `location`, 신물은 `object`, 사건은 `event`로 구분한다. 사건은 WorldStudio의 `history` 영역에 표시한다. 새 전승 자료는 v1 동결본 없이 최종 카탈로그에서 직접 적재한다. 창작 작품명·새 주인공·도입 원고는 포함하지 않는다.
+## 출전과 갱신
 
-## 출전과 범위
+각 원고 절에 문헌·권 또는 회차와 공개 판본 링크를 표시했습니다. 현대 번역문을 전재하지 않았으며 문헌과 판본의 다른 전승을 하나의 확정 연표로 합치지 않습니다. 원고를 수정하면 카드 요약과 근거 문단, template.json도 함께 갱신해야 합니다. 카드 body는 원고 문단을 복제한 것이 아니라 제목과 유형에 맞춰 추출한 요약입니다.
 
-- [『고사기』 제3절: 오노고로섬](https://sacred-texts.com/book/the-kojiki-2/section-iii-the-island-of-onogoro)
-- [『고사기』 제9절: 요미](https://sacred-texts.com/book/the-kojiki-2/section-ix-the-land-of-hades)
-- [『고사기』 제10절: 이자나기의 정화](https://sacred-texts.com/book/the-kojiki-2/section-x-the-purification-of-the-august-person)
-- [『고사기』 제11절: 세 신의 임명](https://sacred-texts.com/book/the-kojiki-2/section-xi-investiture-of-the-three-deities-the-illustrious-august-children)
-- [고쿠가쿠인대학: Susanoo](https://d-museum.kokugakuin.ac.jp/eos/detail/?id=9152)
-- [고쿠가쿠인대학: Amaterasu Omikami](https://d-museum.kokugakuin.ac.jp/bts/detail/?id=3654)
-- [고쿠가쿠인대학: 세 가지 신보](https://d-museum.kokugakuin.ac.jp/eos/detail/?id=8656)
-- [고쿠가쿠인대학: 천손강림](https://d-museum.kokugakuin.ac.jp/eos/detail/?id=8746)
-- [고쿠가쿠인대학: 천신과 국신](https://jmapps.ne.jp/kokugakuin/det.html?data_id=77583)
+## 검증과 적재
 
-각 카드는 해당 문헌·전승에 한정한 요약이다. 현대 신앙 전체의 교리나 완전한 전승 목록을 대표하지 않는다. 기존 창작 예시는 PR #287 이전 Git 이력에서 확인할 수 있으며 이 카탈로그에는 적재하지 않는다.
+원고 앵커·근거 문단·카드 길이·기존 ID·원고 전문과 설정 미러를 검사합니다. 최종 리소스 생성과 전체 검사는 상위 폴더의 build_traditions.py 및 test_traditions.py를 따릅니다. 원고 전문을 UI에 노출하거나 이미 저장된 사용자 세계관을 덮어쓰는 런타임 변경은 포함하지 않습니다. v1 동결본을 새로 만들지 않습니다.

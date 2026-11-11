@@ -2,23 +2,16 @@
 
 『산해경』과 『회남자』 계열의 신화 및 후대 문헌이 인용하는 전승을 구분한다. 『서유기』와 『봉신연의』의 소설적 신계는 고대 신화에 소급해 합치지 않는다.
 
-## 자료 구성
+## 읽는 순서
 
-- `source/tradition-cards.json`: 출전이 붙은 전승 카드 15장.
-- `source/template.json`: 항목별 구조화 자료.
-- `source/original.md`: 위 카드와 동일한 자체 요약문. 고대 원문이나 현대 번역문을 복제한 파일이 아니다.
+1. [전승 서사](source/original.md): 사건과 관계가 이어지는 자체 한국어 재서술을 먼저 읽습니다. 새 주인공이나 창작 도입부가 아니며 완역·전승 전체의 망라를 주장하지 않습니다.
+2. [세계관 정리](source/template.json): content_markdown은 원고 전문이며 setting_bible.sections는 원고에서 추출한 별도의 설정 요약입니다.
+3. [카드 데이터](source/tradition-cards.json): 15장의 기존 카드 ID·제목·유형·순서를 유지합니다. narrative_refs에서 근거 절과 정확한 문단을 확인합니다.
 
-신·존재는 `character`, 장소는 `location`, 신물은 `object`, 사건은 `event`로 구분한다. 사건은 WorldStudio의 `history` 영역에 표시한다. 새 전승 자료는 v1 동결본 없이 최종 카탈로그에서 직접 적재한다. 창작 작품명·새 주인공·도입 원고는 포함하지 않는다.
+## 출전과 갱신
 
-## 출전과 범위
+각 원고 절에 문헌·권 또는 회차와 공개 판본 링크를 표시했습니다. 현대 번역문을 전재하지 않았으며 문헌과 판본의 다른 전승을 하나의 확정 연표로 합치지 않습니다. 원고를 수정하면 카드 요약과 근거 문단, template.json도 함께 갱신해야 합니다. 카드 body는 원고 문단을 복제한 것이 아니라 제목과 유형에 맞춰 추출한 요약입니다.
 
-- [『회남자』 남명훈 인용 대조](https://ctext.org/text.pl?if=en&node=3125&show=parallel)
-- [『논형』 순고: 공공·여와 전승 인용](https://ctext.org/text.pl?if=gb&node=281309&show=parallel)
-- [『산해경』 서산경](https://ctext.org/shan-hai-jing/xi-shan-jing/zh)
-- [『산해경』 북산경: 정위](https://ctext.org/text.pl?if=en&node=83673&remap=gb&show=parallel)
-- [『산해경』 해내북경](https://ctext.org/shan-hai-jing/hai-nei-bei-jing)
-- [『예문유취』 천부: 예의 사일 전승 인용](https://ctext.org/text.pl?if=en&node=539921&show=parallel)
-- [『겸명서』 권1: 삼황 이설](https://ctext.org/wiki.pl?chapter=192032&if=en)
-- [『산해경광주』 권8: 과보 전승과 주석](https://ctext.org/wiki.pl?chapter=580417&if=en)
+## 검증과 적재
 
-각 카드는 해당 문헌·전승에 한정한 요약이다. 현대 신앙 전체의 교리나 완전한 전승 목록을 대표하지 않는다. 기존 창작 예시는 PR #287 이전 Git 이력에서 확인할 수 있으며 이 카탈로그에는 적재하지 않는다.
+원고 앵커·근거 문단·카드 길이·기존 ID·원고 전문과 설정 미러를 검사합니다. 최종 리소스 생성과 전체 검사는 상위 폴더의 build_traditions.py 및 test_traditions.py를 따릅니다. 원고 전문을 UI에 노출하거나 이미 저장된 사용자 세계관을 덮어쓰는 런타임 변경은 포함하지 않습니다. v1 동결본을 새로 만들지 않습니다.

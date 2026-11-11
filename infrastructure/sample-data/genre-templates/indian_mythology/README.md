@@ -2,22 +2,16 @@
 
 『리그베다』, 『라마야나』, 『마하바라타』의 『바가바드기타』, 『비슈누 푸라나』의 선택 대목을 구분해 정리한다. 인도의 모든 종교와 지역 전승을 하나의 교리로 묶지 않는다.
 
-## 자료 구성
+## 읽는 순서
 
-- `source/tradition-cards.json`: 출전이 붙은 전승 카드 15장.
-- `source/template.json`: 항목별 구조화 자료.
-- `source/original.md`: 위 카드와 동일한 자체 요약문. 고대 원문이나 현대 번역문을 복제한 파일이 아니다.
+1. [전승 서사](source/original.md)를 먼저 읽는다. 사건의 원인과 결과, 인물 관계를 연결한 자체 한국어 재서술이다. 새 주인공이나 창작 도입 원고가 아니다.
+2. [세계관 정리](source/template.json)의 content_markdown은 서사 전문이며 setting_bible.sections는 그 글에서 추출한 카드다.
+3. [카드 데이터](source/tradition-cards.json)의 narrative_refs는 원고 절 ID와 정확한 근거 문단을 보존한다. 원고에 없는 설정을 카드에 보태지 않는다.
 
-신·존재는 `character`, 장소는 `location`, 신물은 `object`, 사건은 `event`로 구분한다. 사건은 WorldStudio의 `history` 영역에 표시한다. 새 전승 자료는 v1 동결본 없이 최종 카탈로그에서 직접 적재한다. 창작 작품명·새 주인공·도입 원고는 포함하지 않는다.
+## 출전과 한계
 
-## 출전과 범위
+각 서사 절의 링크에서 사용한 문헌과 학술 해설을 확인할 수 있다. 지역·시대·문헌의 차이를 유지하며 완전한 전승 목록이나 현대 신앙 전체의 교리를 주장하지 않는다. 현대 번역문을 전재하지 않았다.
 
-- [『리그베다』 1.32: 인드라와 브리트라](https://sacred-texts.com/hin/rigveda/rv01032.htm)
-- [『리그베다』 10.90: 푸루샤 찬가](https://sacred-texts.com/hin/rigveda/rv10090.htm)
-- [『리그베다』 10.129: 창조 찬가](https://sacred-texts.com/hin/rigveda/rv10129.htm)
-- [『비슈누 푸라나』 제1권 9장](https://sacred-texts.com/hin/vp/vp044.htm)
-- [『라마야나』 축약 번역 제8부: 시타의 발견](https://original.sacred-texts.com/hin/dutt/rama08.htm)
-- [『바가바드기타』 제1장](https://sacred-texts.com/hin/gita/bg01.htm)
-- [『마하바라타』 제6권 26절: 바가바드기타 제2장](https://sacred-texts.com/hin/m06/m06026.htm)
+## 데이터 유지
 
-각 카드는 해당 문헌·전승에 한정한 요약이다. 현대 신앙 전체의 교리나 완전한 전승 목록을 대표하지 않는다. 기존 창작 예시는 PR #287 이전 Git 이력에서 확인할 수 있으며 이 카탈로그에는 적재하지 않는다.
+기존 이름·범위·식별자·카드 순서와 유형을 유지한다. 사건은 event/history, 나머지는 해당 유형/basic이다. 원고 수정 시 근거 문단과 두 JSON을 함께 검토한다. 생성기는 카드를 원고에서 추론하지 않고 최종 리소스만 생성한다. 이 변경은 소스 자료에 한정하며 사용자 DB나 UI에 원고를 새로 등록하지 않는다.

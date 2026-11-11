@@ -5,7 +5,7 @@
 - 기존 **창작 장르 11종**은 주인공·갈등·도입 장면을 바꾸어 쓰는 예시입니다. 원문과 기존 세계관·카드 ID를 유지합니다.
 - **신화·고전 15종**은 실제 전승 또는 고전 작품에 등장하는 존재·장소·사건을 출전별로 요약한 자료입니다. 새로 지은 작품명·주인공·도입 원고를 넣지 않습니다. 서로 다른 전승과 이설을 한 설정으로 확정하지 않습니다.
 
-신화 자료는 대표 항목을 골라 정리한 입문용 카드이며 백과사전 전체를 대체하지 않습니다. 살아 있는 종교·문화의 다양한 전통을 단일 규칙으로 설명하지 않습니다. [표시 안내](TEMPLATE_GUIDE.md)를 함께 참고하세요.
+신화 자료는 전승 하나를 단위로 다룹니다. **전승 서사 작성 → 그 서사에서 세계관 추출**의 두 단계로 구성합니다. 각 전승은 독립된 원고와 세계관이며 다른 지역·시대의 이야기를 하나의 정본 연대표로 합치지 않습니다. 대표 범위를 다루며 백과사전 전체를 대체하지 않습니다. 살아 있는 종교·문화의 다양한 전통을 단일 규칙으로 설명하지 않습니다. [표시 안내](TEMPLATE_GUIDE.md)를 함께 참고하세요.
 
 ## 창작 장르 11종
 
@@ -41,10 +41,10 @@
 ## 원문·출전·저작권
 
 기존 11종의 `source/original.md`는 기존 창작 원문의 보관본입니다.
-신화 15종의 같은 파일명은 이번에 새로 작성한 **전승 요약문**을 뜻하며, 고전 번역문을 그대로 옮긴 것이 아닙니다.
+신화 15종의 같은 파일명은 각 전승의 사건과 관계를 먼저 풀어 쓴 **한국어 전승 서사**입니다. 카드 본문을 이어 붙인 목록이나 고전 번역문을 그대로 옮긴 자료가 아닙니다.
 
-- `source/tradition-cards.json`: 신화별 범위, 출전 목록, 안정된 항목 key, 카드 유형과 본문.
-- `source/template.json`: 표시용 구조화 문서. `setting_bible.sections`가 카드와 대응하며 `template_part`는 전승 자료입니다.
+- `source/tradition-cards.json`: 신화별 범위, 출전 목록, 안정된 항목 key, 카드 유형과 본문. `narrative`는 먼저 작성한 `original.md`를 가리키며, 각 카드의 `narrative_refs`에는 근거 절과 그 절의 정확한 문장을 기록합니다.
+- `source/template.json`: 표시용 구조화 문서. `content_markdown`은 카드 모음이 아닌 전승 서사이며, `setting_bible`은 그 서사에서 추출한 세계관입니다. `setting_bible.sections`가 카드와 대응하며 `template_part`는 전승 자료입니다.
 - 각 카드 본문에 출전을 표시합니다. 단일 문헌의 주장·화자의 추론·후대 전승을 구분합니다.
 - 크툴루는 러브크래프트 원작 범위에 한정합니다. 후대 작가나 Chaosium TRPG의 위계·수치·고유 설정을 넣지 않습니다.
 - 신·존재는 `character`, 장소는 `location`, 집단은 `organization`, 권능은 `ability`, 신물은 `object`, 규칙은 `rule`, 사건은 `event`입니다. 사건의 area는 `history`, 나머지는 `basic`입니다.
@@ -84,3 +84,7 @@ python -m unittest discover -s infrastructure/sample-data/genre-templates -p tes
 - 로컬 단위·데이터 검사는 실제 DB 적재, 브라우저 동작, 최신 커밋의 Required CI 검증을 대신하지 않습니다.
 
 설계: [WorldStudio 독립 스키마](../../../docs/design/worldstudio-independent-schema.md#플랫폼-장르-템플릿-세계관).
+
+## 서사 우선 자료 검증
+
+각 전승의 `source/original.md`를 먼저 읽고 `source/template.json`의 세계관 항목을 근거 절과 대조합니다. [그리스 전승](greco_roman_mythology/source/original.md)과 [세계관](greco_roman_mythology/source/template.json)이 한 예입니다. `build_traditions.py`는 모든 전승에 원고가 연결되어 있는지, 모든 카드에 근거가 있는지, 절 ID와 인용 문장이 현재 원고에 실제로 존재하는지 검사합니다. 단위 테스트는 같은 본문을 여러 카드에 반복하거나 근거 문단을 카드 본문으로 그대로 복제한 경우도 검출합니다. `narrative_refs.evidence`에는 원고 문단을 정확히 보관하되 카드 본문은 인물·장소·신물·사건별로 필요한 설정을 따로 추출합니다. 이 검사는 출처 추적과 형식 검사이지 문장의 모든 의미가 논리적으로 입증되었다는 자동 판정이 아니므로 편집 검토를 함께 합니다. 원고 전문은 현재 앱의 카드 적재 대상이 아니며, DB나 UI에서 원고 표시를 연결한 변경은 아닙니다.
