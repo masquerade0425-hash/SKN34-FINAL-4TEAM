@@ -1,0 +1,131 @@
+{
+  "genre": "chinese_folklore",
+  "name": "중국 고대 신화·설화",
+  "scope": "『산해경』과 『회남자』 계열의 신화 및 후대 문헌이 인용하는 전승을 구분한다. 『서유기』와 『봉신연의』의 소설적 신계는 고대 신화에 소급해 합치지 않는다.",
+  "sources": [
+    {
+      "title": "『회남자』 남명훈 인용 대조",
+      "url": "https://ctext.org/text.pl?if=en&node=3125&show=parallel"
+    },
+    {
+      "title": "『논형』 순고: 공공·여와 전승 인용",
+      "url": "https://ctext.org/text.pl?if=gb&node=281309&show=parallel"
+    },
+    {
+      "title": "『산해경』 서산경",
+      "url": "https://ctext.org/shan-hai-jing/xi-shan-jing/zh"
+    },
+    {
+      "title": "『산해경』 북산경: 정위",
+      "url": "https://ctext.org/text.pl?if=en&node=83673&remap=gb&show=parallel"
+    },
+    {
+      "title": "『산해경』 해내북경",
+      "url": "https://ctext.org/shan-hai-jing/hai-nei-bei-jing"
+    },
+    {
+      "title": "『예문유취』 천부: 예의 사일 전승 인용",
+      "url": "https://ctext.org/text.pl?if=en&node=539921&show=parallel"
+    },
+    {
+      "title": "『겸명서』 권1: 삼황 이설",
+      "url": "https://ctext.org/wiki.pl?chapter=192032&if=en"
+    },
+    {
+      "title": "『산해경광주』 권8: 과보 전승과 주석",
+      "url": "https://ctext.org/wiki.pl?chapter=580417&if=en"
+    }
+  ],
+  "cards": [
+    {
+      "key": "nuwa",
+      "title": "여와",
+      "cardType": "character",
+      "body": "무너진 하늘과 땅의 질서를 회복하는 신격이다. 오색돌과 큰 거북의 다리가 보천 이야기의 표지다. 사람을 빚는 이야기나 복희와의 혼인 전승은 별도 계통이므로 이 자료의 보천 대목만으로 모두 확정하지 않는다.\n\n출전: [『회남자』 남명훈 인용 대조](https://ctext.org/text.pl?if=en&node=3125&show=parallel)."
+    },
+    {
+      "key": "repair_sky",
+      "title": "여와의 보천",
+      "cardType": "event",
+      "body": "여와가 오색돌을 녹여 하늘을 보수하고 큰 거북의 다리로 사방을 지탱하며 재난을 수습한다. 여기서의 우주 회복 서사와 공공의 충돌을 모든 문헌이 같은 순서로 잇는 것은 아니다.\n\n출전: [『회남자』 남명훈 인용 대조](https://ctext.org/text.pl?if=en&node=3125&show=parallel)."
+    },
+    {
+      "key": "five_stones",
+      "title": "오색돌",
+      "cardType": "object",
+      "body": "여와의 보천에서 하늘을 메우는 데 쓰이는 돌이다. 다섯 색이라는 표지는 전하지만 색마다 고정된 주문이나 전투 능력이 있다는 설정은 이 출전에 없다.\n\n출전: [『회남자』 남명훈 인용 대조](https://ctext.org/text.pl?if=en&node=3125&show=parallel)."
+    },
+    {
+      "key": "gonggong",
+      "title": "공공",
+      "cardType": "character",
+      "body": "전욱과 제위를 다투다가 부주산에 부딪치는 전승의 인물이다. 천지의 비대칭을 설명하는 사건과 연결된다. 상대와 시대에 관한 후대 이설을 한 계보로 확정하지 않는다.\n\n출전: [『논형』 순고: 공공·여와 전승 인용](https://ctext.org/text.pl?if=gb&node=281309&show=parallel)."
+    },
+    {
+      "key": "buzhou",
+      "title": "부주산",
+      "cardType": "location",
+      "body": "공공의 충돌로 하늘을 받치는 기둥과 땅을 잇는 줄이 훼손되는 신화적 장소다. 하늘의 서북쪽 기울기와 물의 동남쪽 흐름을 설명한다. 현대의 특정 산과 곧바로 동일시하지 않는다.\n\n출전: [『논형』 순고: 공공·여와 전승 인용](https://ctext.org/text.pl?if=gb&node=281309&show=parallel)."
+    },
+    {
+      "key": "gonggong_collision",
+      "title": "공공의 부주산 충돌",
+      "cardType": "event",
+      "body": "공공이 분노하여 부주산을 들이받자 하늘과 땅의 지지 구조가 손상된다. 천체와 물길의 방향을 풀이하는 이야기이며 실제 지질 사건의 기록으로 취급하지 않는다.\n\n출전: [『논형』 순고: 공공·여와 전승 인용](https://ctext.org/text.pl?if=gb&node=281309&show=parallel)."
+    },
+    {
+      "key": "xiwangmu",
+      "title": "서왕모",
+      "cardType": "character",
+      "body": "『산해경』 서산경에서는 사람 같은 몸에 표범 꼬리와 호랑이 이빨을 지닌 존재로 묘사된다. 흐트러진 머리와 승 장식이 표지이며 재앙·형벌과 관련된다. 후대의 우아한 불사 여신 모습과 구분한다.\n\n출전: [『산해경』 서산경](https://ctext.org/shan-hai-jing/xi-shan-jing/zh)."
+    },
+    {
+      "key": "kunlun",
+      "title": "곤륜의 언덕",
+      "cardType": "location",
+      "body": "『산해경』 서산경에 천제의 아래 도읍으로 나타나는 신화적 산이다. 육오가 관장한다고 기록된다. 여러 편의 곤륜 묘사와 후대 선계 지리를 완전히 일치하는 지도처럼 만들지 않는다.\n\n출전: [『산해경』 서산경](https://ctext.org/shan-hai-jing/xi-shan-jing/zh)."
+    },
+    {
+      "key": "qingniao",
+      "title": "서왕모와 세 청조",
+      "cardType": "character",
+      "body": "『산해경』 해내북경에서 세 마리의 청조는 서왕모에게 먹을 것을 가져오는 새들이다. 서왕모와의 봉사 관계가 명시되지만 별도 전투 계급이나 일률적인 인간 모습은 덧붙이지 않는다.\n\n출전: [『산해경』 해내북경](https://ctext.org/shan-hai-jing/hai-nei-bei-jing)."
+    },
+    {
+      "key": "jingwei",
+      "title": "정위",
+      "cardType": "character",
+      "body": "염제의 딸 여와(女娃)가 동해에서 익사한 뒤 정위라는 새가 되었다는 전승이다. 서산의 나무와 돌을 물어 바다를 메우려 한다. 여와(女媧)와 한글 이름이 비슷하지만 별개의 존재다.\n\n출전: [『산해경』 북산경: 정위](https://ctext.org/text.pl?if=en&node=83673&remap=gb&show=parallel)."
+    },
+    {
+      "key": "jingwei_fills_sea",
+      "title": "정위가 바다를 메우다",
+      "cardType": "event",
+      "body": "작은 새가 나무와 돌을 계속 날라 동해를 메우려 한다. 죽음과 끝나지 않는 행위가 핵심이며 성공하여 바다가 실제로 사라졌다고 결말을 만들어 넣지 않는다.\n\n출전: [『산해경』 북산경: 정위](https://ctext.org/text.pl?if=en&node=83673&remap=gb&show=parallel)."
+    },
+    {
+      "key": "yi",
+      "title": "예의 활쏘기",
+      "cardType": "ability",
+      "body": "예는 여러 태양이 함께 떠올라 생긴 재난을 활쏘기로 해결하는 영웅으로 전한다. 『예문유취』가 인용한 『회남자』 문구에서는 요의 명을 받아 아홉 태양을 맞힌다. 다른 시대의 후예와 무조건 동일인으로 단정하지 않는다.\n\n출전: [『예문유취』 천부: 예의 사일 전승 인용](https://ctext.org/text.pl?if=en&node=539921&show=parallel)."
+    },
+    {
+      "key": "ten_suns",
+      "title": "열 태양과 사일",
+      "cardType": "event",
+      "body": "동시에 떠오른 열 태양 때문에 초목이 마르고, 예가 태양을 쏘는 전승이다. 인용문에 등장하는 태양 속 까마귀를 다른 문헌의 태양 계보와 혼합하지 않는다.\n\n출전: [『예문유취』 천부: 예의 사일 전승 인용](https://ctext.org/text.pl?if=en&node=539921&show=parallel)."
+    },
+    {
+      "key": "three_sovereigns",
+      "title": "삼황의 서로 다른 목록",
+      "cardType": "organization",
+      "body": "삼황은 상고의 성스러운 통치자들을 묶는 명칭이나 구성원이 고정되어 있지 않다. 복희·여와·신농을 드는 견해와 수인·복희·신농 등을 드는 견해가 함께 전한다. 하나의 확정된 신족 명단으로 만들지 않는다.\n\n출전: [『겸명서』 권1: 삼황 이설](https://ctext.org/wiki.pl?chapter=192032&if=en)."
+    },
+    {
+      "key": "kuafu",
+      "title": "과보의 해 추격",
+      "cardType": "event",
+      "body": "과보가 해를 뒤쫓다 목이 말라 강물을 마시고도 충분하지 않아 죽으며, 버린 지팡이가 숲으로 변하는 전승이다. 『산해경광주』의 본문과 여러 인용·해설을 구분하며 모든 설명을 한 사건의 세부로 합치지 않는다.\n\n출전: [『산해경광주』 권8: 과보 전승과 주석](https://ctext.org/wiki.pl?chapter=580417&if=en)."
+    }
+  ]
+}

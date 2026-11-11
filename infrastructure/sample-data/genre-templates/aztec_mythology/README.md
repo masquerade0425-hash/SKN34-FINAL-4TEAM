@@ -1,21 +1,21 @@
-# 아즈텍 신화 전용 샘플
+# 아즈텍·메시카 전승
 
-작품: 《태양이 쉬는 날》
+메시카의 신화와 의례를 문헌·유물 해설별로 요약한다. 정복 이후 기록의 성격과 신격·시대별 이설을 구분하며, 현대 창작의 단일 설정 체계로 만들지 않는다.
 
-빈 화면에서 시작하기 어려운 사용자를 위한 **자유롭게 수정·삭제하는 예시용 디폴트 템플릿**입니다. 인물·배경·능력·갈등을 원하는 대로 바꾸세요. 신화와 설화의 모티프를 활용한 창작이며 전승 전체를 대표하는 자료집이 아닙니다. 다른 템플릿과 독립된 작품입니다.
+## 자료와 범위
 
-## 자료 구분
+- 12장의 전승 자료 카드이며 창작 소설의 작품명·주인공·도입 원고를 넣지 않는다.
+- 각 카드에 출전을 표시한다. 번역문을 복사하지 않고 한국어로 요약했다.
+- original.md는 이번에 작성한 요약본이며 고대 원문이나 번역 전문이 아니다. 이전 창작 예시는 Git 이력에서 확인할 수 있다.
+- tradition-cards.json은 적재용 카드 정본, template.json은 문서 구조화본이다. 사건은 event/history, 나머지는 해당 유형/basic으로 적재한다.
+- 미배포 신화 자료이므로 v1 동결본에 넣지 않고 최종 카탈로그로 직접 적재한다.
 
-- **기본 템플릿:** `basic_template.content_markdown`에서 이야기의 출발점을 확인합니다.
-- **확장 설정:** `setting_bible.sections` 중 `template_part`가 `확장 설정`인 항목을 필요한 만큼 선택합니다.
-- **도입 예시:** `template_part`가 `도입 예시`인 항목은 장면·초기 상태·후속 전개 참고용입니다. 채택 전에는 실제 작품에서 발생한 사건이 아닙니다.
-- `setting_bible.sections`에는 기본 템플릿도 항목별로 보관합니다. 기본 본문과 항목별 자료를 중복 적용하지 않습니다.
-- `source/original.md`와 `content_markdown`은 동일한 원문 보관본입니다. 원문에 제시된 대안은 동시에 확정하지 않습니다.
+## 출전
 
-## 적재
-
-Content 서버 시작 시 `GenreTemplateSeeder`가 운영 관리자 소유의 독립 WorldStudio 세계관으로 저장합니다. 세계관 ID는 `b91abcca-af8b-5460-bf33-4bf5bf668e04`, key는 `genre-template-aztec_mythology`, 카드는 14장입니다. 제목에 기본·확장·도입을 표시하며 카드 유형은 항목별로 분리합니다. 3,000자 제한을 넘는 본문은 순서대로 나누어 보존합니다.
-
-작품·회차·체크포인트·Fork는 만들지 않습니다. 일반 사용자의 선택·가져오기 화면은 추가 구현이 필요합니다. [적재 방식과 한계](../README.md), [공통 사용 안내](../TEMPLATE_GUIDE.md)를 참고하세요.
-
-서비스용 안내는 `setting_bible.display_introduction_markdown`입니다. 채팅의 작업 응답과 묶음 번호는 원문 보관본에만 남기고 표시 카드에서는 제외합니다.
+- [Arqueología Mexicana, 위칠로포치틀리의 탄생](https://arqueologiamexicana.mx/mexico-antiguo/el-nacimiento-de-huitzilopochtli)
+- [Arqueología Mexicana, 메시카의 신들](https://arqueologiamexicana.mx/mexico-antiguo/los-dioses-de-los-mexicas)
+- [British Museum / Smarthistory, 테스카틀리포카 가면](https://smarthistory.org/mosaic-mask-of-tezcatlipoca/)
+- [British Museum / Smarthistory, 케찰코아틀 또는 틀랄록 가면](https://smarthistory.org/serpent-mask-of-quetzalcoatl-or-tlaloc/)
+- [INAH, 새 불 의례와 해 묶기](https://lugares.inah.gob.mx/en/node/5370)
+- [British Museum, 믹틀란테쿠틀리 상](https://artsandculture.google.com/asset/sandstone-seated-figure-of-mictlantecuhtli/8gEWZDIMx5CdRw?hl=en)
+- [Estudios de Cultura Náhuatl, 태양석의 날짜와 도상](https://www.scielo.org.mx/scielo.php?lng=es&nrm=iso&pid=S0071-16752023000100047&script=sci_arttext_plus&tlng=en)

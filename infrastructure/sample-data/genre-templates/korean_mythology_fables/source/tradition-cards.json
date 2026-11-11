@@ -1,0 +1,119 @@
+{
+  "genre": "korean_mythology_fables",
+  "name": "한국 신화·무속 전승",
+  "scope": "『삼국유사』의 단군 전승, 고구려 건국 전승, 바리공주와 제주 본풀이를 구분하여 정리한다. 우화 일반이나 현대 재창작은 이번 자료의 범위가 아니다.",
+  "sources": [
+    {
+      "title": "국립민속박물관: 단군신화",
+      "url": "https://folkency.nfm.go.kr/en/topic/detail/5336"
+    },
+    {
+      "title": "한국민족문화대백과사전: 동명왕 신화",
+      "url": "https://encykorea.aks.ac.kr/Article/E0016436"
+    },
+    {
+      "title": "한국민족문화대백과사전: 바리공주",
+      "url": "https://encykorea.aks.ac.kr/Article/E0020479"
+    },
+    {
+      "title": "한국민족문화대백과사전: 세경본풀이",
+      "url": "https://encykorea.aks.ac.kr/Article/E0029745"
+    },
+    {
+      "title": "한국민족문화대백과사전: 이공본풀이",
+      "url": "https://encykorea.aks.ac.kr/Article/E0043638"
+    }
+  ],
+  "cards": [
+    {
+      "key": "hwanung",
+      "title": "환웅",
+      "cardType": "character",
+      "body": "『삼국유사』 계열에서 환인의 아들이며 인간 세상에 내려온 존재다. 풍백·우사·운사를 거느리고 인간의 여러 일을 다스린다. 단군의 아버지로 연결되며 하늘에서 내려온 통치권을 나타낸다.\n\n출전: [국립민속박물관: 단군신화](https://folkency.nfm.go.kr/en/topic/detail/5336)."
+    },
+    {
+      "key": "ungnyeo",
+      "title": "웅녀",
+      "cardType": "character",
+      "body": "곰이 환웅이 제시한 금기를 지킨 뒤 여자가 되어 환웅과의 사이에서 단군을 낳는다고 전한다. 곰·동굴·쑥과 마늘이 이야기의 핵심 표지다. 다른 단군 전승의 여성 계보를 이 이야기와 자동으로 동일시하지 않는다.\n\n출전: [국립민속박물관: 단군신화](https://folkency.nfm.go.kr/en/topic/detail/5336)."
+    },
+    {
+      "key": "dangun",
+      "title": "단군과 조선 건국",
+      "cardType": "event",
+      "body": "『삼국유사』 계열에서 환웅과 웅녀의 아들 단군이 조선을 세운다. 신화 속 건국 연대와 수명은 전승의 시간 체계이며 고고학적으로 확정된 사실로 표시하지 않는다.\n\n출전: [국립민속박물관: 단군신화](https://folkency.nfm.go.kr/en/topic/detail/5336)."
+    },
+    {
+      "key": "cheonbuin",
+      "title": "천부인",
+      "cardType": "object",
+      "body": "환인이 환웅에게 준 세 개의 하늘의 표지로 통치의 권위를 나타낸다. 거울·검·방울 등으로 풀이하는 해석이 있으나 『삼국유사』가 세 물건의 이름을 직접 열거한 것으로 쓰지 않는다.\n\n출전: [국립민속박물관: 단군신화](https://folkency.nfm.go.kr/en/topic/detail/5336)."
+    },
+    {
+      "key": "jumong",
+      "title": "주몽",
+      "cardType": "character",
+      "body": "고구려 건국 전승의 시조로 유화에게서 알로 태어나며 활쏘기에 뛰어나다. 해모수·하백 계보와 부여에서의 시련이 왕권의 신성성을 설명한다. 『삼국사기』·『삼국유사』·「동명왕편」의 세부를 단일 기록으로 취급하지 않는다.\n\n출전: [한국민족문화대백과사전: 동명왕 신화](https://encykorea.aks.ac.kr/Article/E0016436)."
+    },
+    {
+      "key": "yuhwa",
+      "title": "유화",
+      "cardType": "character",
+      "body": "하백의 딸이자 주몽의 어머니로 전한다. 천신 계통의 해모수와 수신 계통의 하백을 주몽의 혈통에 연결한다. 금와의 보호와 햇빛에 의한 잉태 등 세부는 해당 문헌을 구분해 읽는다.\n\n출전: [한국민족문화대백과사전: 동명왕 신화](https://encykorea.aks.ac.kr/Article/E0016436)."
+    },
+    {
+      "key": "river_crossing",
+      "title": "주몽의 강 건너기",
+      "cardType": "event",
+      "body": "부여를 떠난 주몽이 추격을 받자 물고기와 자라가 다리를 이루어 강을 건너게 한다. 천손·수신 후손이라는 자기 소개와 신적 도움이 연결되는 장면이다. 강의 이름과 이동 경로는 기록별 차이가 있다.\n\n출전: [한국민족문화대백과사전: 동명왕 신화](https://encykorea.aks.ac.kr/Article/E0016436)."
+    },
+    {
+      "key": "bari",
+      "title": "바리공주",
+      "cardType": "character",
+      "body": "버려진 딸이 부모를 살릴 약을 구하러 먼 세계로 가는 서사무가의 인물이다. 망자를 인도하는 신령의 내력을 설명하며 약수와 저승길이 주요 표지다. 부모 이름, 여정, 혼인과 자녀 이야기는 지역·구연본에 따라 다르다.\n\n출전: [한국민족문화대백과사전: 바리공주](https://encykorea.aks.ac.kr/Article/E0020479)."
+    },
+    {
+      "key": "bari_journey",
+      "title": "바리공주의 약수 구하기",
+      "cardType": "event",
+      "body": "부모의 병을 고치기 위해 바리가 고난을 거쳐 약을 얻고 돌아오는 이야기다. 모든 판본에 같은 사건이나 같은 결말이 있다고 확정하지 않는다. 효행 서사와 망자 인도 신격의 유래가 함께 나타난다.\n\n출전: [한국민족문화대백과사전: 바리공주](https://encykorea.aks.ac.kr/Article/E0020479)."
+    },
+    {
+      "key": "funeral_rite",
+      "title": "바리공주와 망자천도굿",
+      "cardType": "rule",
+      "body": "바리공주 무가는 망자의 저승길을 돕는 굿에서 구연된다. 서울·호남·동해안의 연행 명칭과 절차가 다르므로 하나의 전국 공통 의례 순서로 제시하지 않는다.\n\n출전: [한국민족문화대백과사전: 바리공주](https://encykorea.aks.ac.kr/Article/E0020479)."
+    },
+    {
+      "key": "jacheongbi",
+      "title": "자청비",
+      "cardType": "character",
+      "body": "제주 「세경본풀이」에서 시련을 겪고 문도령과 인연을 맺은 뒤 농경의 풍요를 맡는 신격이다. 곡식·농사가 주요 표지이며 문도령·정수남과의 관계가 서사를 이룬다.\n\n출전: [한국민족문화대백과사전: 세경본풀이](https://encykorea.aks.ac.kr/Article/E0029745)."
+    },
+    {
+      "key": "segyeong",
+      "title": "세경신의 좌정",
+      "cardType": "event",
+      "body": "자청비가 천상의 곡식을 지상에 가져오고 농경신이 되는 과정이 「세경본풀이」에 전한다. 풍농을 비는 제주 굿의 맥락에서 읽으며 이 서사를 한국 전체의 단일 창세 신화로 확대하지 않는다.\n\n출전: [한국민족문화대백과사전: 세경본풀이](https://encykorea.aks.ac.kr/Article/E0029745)."
+    },
+    {
+      "key": "flower_garden",
+      "title": "서천 꽃밭",
+      "cardType": "location",
+      "body": "제주 「이공본풀이」에서 생명을 되살리는 꽃과 해를 끼치는 꽃을 관리하는 공간이다. 꽃감관의 신직과 관련된다. 바리공주의 서천 여정과 이름이 비슷해도 동일한 지도·신격 체계로 합치지 않는다.\n\n출전: [한국민족문화대백과사전: 이공본풀이](https://encykorea.aks.ac.kr/Article/E0043638)."
+    },
+    {
+      "key": "hallakgungi",
+      "title": "할락궁이",
+      "cardType": "character",
+      "body": "「이공본풀이」에서 사라도령과 원강아미의 아들로 등장해 서천 꽃밭에 닿는 인물이다. 꽃의 힘으로 어머니와 관련된 사건을 해결하고 꽃감관의 신직에 연결된다. 이름 표기와 세부는 구연본별로 다르다.\n\n출전: [한국민족문화대백과사전: 이공본풀이](https://encykorea.aks.ac.kr/Article/E0043638)."
+    },
+    {
+      "key": "revival_flowers",
+      "title": "환생꽃과 악심꽃",
+      "cardType": "object",
+      "body": "「이공본풀이」의 환생꽃은 죽은 이를 되살리는 힘, 악심꽃은 파멸을 가져오는 힘과 연결된다. 생명과 재난을 함께 관장하는 서천 꽃밭의 성격을 보여 주며 실제 의약품의 효능을 뜻하지 않는다.\n\n출전: [한국민족문화대백과사전: 이공본풀이](https://encykorea.aks.ac.kr/Article/E0043638)."
+    }
+  ]
+}

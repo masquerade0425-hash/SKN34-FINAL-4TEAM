@@ -1,0 +1,89 @@
+{
+  "genre": "slavic_mythology",
+  "name": "슬라브 신화와 동슬라브 민담",
+  "scope": "중세 루스 기록과 19세기 채록 민담을 분리한다. 슬라브 전역의 통일된 신계·창세 신화는 복원하지 않는다. 페룬과 벨레스의 체계적인 전쟁 서사는 후대 학술 재구성과 현존 기록을 구별해야 한다.",
+  "sources": [
+    {
+      "title": "Slavic Religion, Encyclopedia of Religion",
+      "url": "https://www.encyclopedia.com/environment/encyclopedias-almanacs-transcripts-and-maps/slavic-religion"
+    },
+    {
+      "title": "아파나시예프 선집 『Russian Folk-Tales』, Magnus 번역",
+      "url": "https://www.gutenberg.org/cache/epub/62509/pg62509-images.html"
+    }
+  ],
+  "cards": [
+    {
+      "key": "perun",
+      "title": "페룬",
+      "cardType": "character",
+      "body": "천둥과 관련된 신이며 루스의 조약 맹세에서 권위를 가진다. 무기와 전사들의 맹세가 그 역할을 드러내지만, 보편적인 가족 계보는 기록하지 않는다. 후기 민속의 성 엘리야와의 연관은 역사적 습합이며 처음부터 같은 신이었다는 뜻은 아니다.\n\n출전: Slavic Religion, Encyclopedia of Religion (https://www.encyclopedia.com/environment/encyclopedias-almanacs-transcripts-and-maps/slavic-religion)."
+    },
+    {
+      "key": "veles",
+      "title": "벨레스·볼로스",
+      "cardType": "character",
+      "body": "벨레스 또는 볼로스는 루스 기록에서 가축과 관련된 신으로 맹세에 등장한다. 가축과 부의 연관은 주요 기능이지만 페룬과의 상세한 전쟁 서사는 직접 전하는 중세 원문과 구별해야 한다. 계보와 고정된 동물 형상은 이 카드에서 확정하지 않는다.\n\n출전: Slavic Religion, Encyclopedia of Religion (https://www.encyclopedia.com/environment/encyclopedias-almanacs-transcripts-and-maps/slavic-religion)."
+    },
+    {
+      "key": "oath",
+      "title": "신들의 이름을 건 맹세",
+      "cardType": "rule",
+      "body": "루스의 조약 기록에는 페룬과 볼로스를 부르는 맹세가 나타난다. 전 슬라브 사회의 단일한 의례로 확대하지 않는다.\n\n출전: Slavic Religion, Encyclopedia of Religion (https://www.encyclopedia.com/environment/encyclopedias-almanacs-transcripts-and-maps/slavic-religion)."
+    },
+    {
+      "key": "sources",
+      "title": "기록과 후대 재구성",
+      "cardType": "rule",
+      "body": "중세 기독교 저자의 기록과 근대 민담 채록은 시대·목적이 다르다. 빈틈을 현대 창작 계보로 채우지 않는다.\n\n출전: Slavic Religion, Encyclopedia of Religion (https://www.encyclopedia.com/environment/encyclopedias-almanacs-transcripts-and-maps/slavic-religion)."
+    },
+    {
+      "key": "baba-yaga",
+      "title": "바바 야가",
+      "cardType": "character",
+      "body": "숲의 초자연적 노파로 방문자를 위협하거나 도움을 주는 역할을 한다. 이 선집에서는 뼈 같은 다리·긴 코 등의 표지가 나타나며 이야기마다 행동이 다르다. 여러 영웅과 만나는 인물을 단일한 악신이나 고정된 가족 계보로 만들지 않는다.\n\n출전: 아파나시예프 선집 『Russian Folk-Tales』, Magnus 번역 (https://www.gutenberg.org/cache/epub/62509/pg62509-images.html)."
+    },
+    {
+      "key": "hut",
+      "title": "바바 야가의 오두막",
+      "cardType": "location",
+      "body": "숲에서 초자연적 노파와 마주치는 장소다. 이 선집에서는 방문·위협·도움의 상황이 이야기마다 달라 하나의 저승 구조로 고정하지 않는다.\n\n출전: 아파나시예프 선집 『Russian Folk-Tales』, Magnus 번역 (https://www.gutenberg.org/cache/epub/62509/pg62509-images.html)."
+    },
+    {
+      "key": "koshchei",
+      "title": "불사의 코셰이",
+      "cardType": "character",
+      "body": "여성을 가두거나 영웅과 대립하는 마법적 존재다. 마리야 모레브나 이야기와 다른 판본에서는 관계·탈출·죽음의 조건이 달라진다. 몸 밖의 알에 죽음을 숨기는 유형도 있지만 이를 모든 코셰이의 불변 약점으로 두지 않는다.\n\n출전: 아파나시예프 선집 『Russian Folk-Tales』, Magnus 번역 (https://www.gutenberg.org/cache/epub/62509/pg62509-images.html)."
+    },
+    {
+      "key": "external-death",
+      "title": "몸 밖에 숨겨진 죽음",
+      "cardType": "rule",
+      "body": "일부 코셰이 이야기에서 죽음은 멀리 숨긴 알 등에 있다. 모든 코셰이 판본의 고정 약점은 아니다.\n\n출전: 아파나시예프 선집 『Russian Folk-Tales』, Magnus 번역 (https://www.gutenberg.org/cache/epub/62509/pg62509-images.html)."
+    },
+    {
+      "key": "firebird",
+      "title": "불새",
+      "cardType": "character",
+      "body": "빛나는 새로 깃털을 찾거나 새를 붙잡는 일이 영웅의 탐색을 촉발한다. 이반과 회색 늑대의 이야기에서는 왕들이 차지하려는 대상이다. 광채와 깃털은 표지지만 태양신이라는 계보를 부여하지 않는다.\n\n출전: 아파나시예프 선집 『Russian Folk-Tales』, Magnus 번역 (https://www.gutenberg.org/cache/epub/62509/pg62509-images.html)."
+    },
+    {
+      "key": "feather",
+      "title": "불새의 깃털",
+      "cardType": "object",
+      "body": "빛을 내는 귀중한 깃털이다. 발견 자체가 더 어려운 임무의 시작이 되기도 한다.\n\n출전: 아파나시예프 선집 『Russian Folk-Tales』, Magnus 번역 (https://www.gutenberg.org/cache/epub/62509/pg62509-images.html)."
+    },
+    {
+      "key": "grey-wolf",
+      "title": "회색 늑대",
+      "cardType": "character",
+      "body": "이반 왕자의 탐색을 돕는 동물 조력자다. 공주나 말로 변신하고 먼 거리를 이동하는 능력으로 임무를 해결한다. 이반에게 한 경고와 그 위반이 반복되며, 늑대의 역할은 해당 민담에 한정한다.\n\n출전: 아파나시예프 선집 『Russian Folk-Tales』, Magnus 번역 (https://www.gutenberg.org/cache/epub/62509/pg62509-images.html)."
+    },
+    {
+      "key": "quest",
+      "title": "불새를 찾아가는 이반",
+      "cardType": "event",
+      "body": "이반은 불새를 구하려다 말과 공주에 관한 임무도 겪는다. 늑대의 도움과 경고가 반복된다.\n\n출전: 아파나시예프 선집 『Russian Folk-Tales』, Magnus 번역 (https://www.gutenberg.org/cache/epub/62509/pg62509-images.html)."
+    }
+  ]
+}

@@ -12,17 +12,26 @@ import tools.jackson.module.kotlin.KotlinModule
 
 /** genre-templates.json이 WorldStudioService의 입력 제한을 이미 만족하는지 확인한다. 어기면 서버 시작 때 장르 적재가 실패한다. */
 class GenreTemplateResourceTest {
-    private val templates = GenreTemplateSeeder(mock(WorldStudioService::class.java),
-        JsonMapper.builder().addModule(KotlinModule.Builder().build()).build()).load()
+    private val seeder = GenreTemplateSeeder(mock(WorldStudioService::class.java),
+        JsonMapper.builder().addModule(KotlinModule.Builder().build()).build())
+    private val templates = seeder.load()
     private val cards = templates.flatMap { it.cards }
 
-    @Test fun `twenty five templates with 830 cards in the documented order`() {
+    @Test fun `tradition templates follow the original eleven genres in documented order`() {
         assertEquals(listOf("wuxia", "romance_fantasy", "modern_fantasy", "science_fiction", "alternate_history", "game_fantasy",
             "fusion_fantasy", "territory_management", "apocalypse", "sports_fantasy", "entertainment",
-            "sumerian_mythology", "cthulhu_mythos", "norse_mythology", "greco_roman_mythology", "germanic_folklore", "chinese_folklore", "japanese_mythology", "korean_mythology_fables", "egyptian_mythology", "indian_mythology", "celtic_mythology", "slavic_mythology", "maya_mythology", "aztec_mythology"), templates.map { it.genre })
-        assertEquals(830, cards.size)
+            "sumerian_mythology", "cthulhu_mythos", "norse_mythology", "greco_roman_mythology", "germanic_folklore", "chinese_folklore", "japanese_mythology", "korean_mythology_fables", "egyptian_mythology", "indian_mythology", "celtic_mythology", "slavic_mythology", "maya_mythology", "aztec_mythology", "journey_to_the_west"), templates.map { it.genre })
+        assertEquals(248, templates.take(11).sumOf { it.cards.size })
+        assertTrue(templates.drop(11).all { it.cards.isNotEmpty() })
     }
 
+    @Test fun `only the eleven previously deployed genres have frozen v1 inputs`() {
+        val legacy = seeder.loadLegacy()
+        assertEquals(templates.take(11).map { it.genre }, legacy.map { it.genre })
+        assertEquals(templates.take(11).map { it.worldId }, legacy.map { it.worldId })
+        assertEquals(248, legacy.sumOf { it.cards.size })
+        assertTrue(templates.drop(11).none { current -> legacy.any { it.worldId == current.worldId } })
+    }
     @Test fun `world and card ids are globally unique`() {
         val ids = templates.map { it.worldId } + cards.map { it.id }
         assertEquals(ids.size, ids.toSet().size)

@@ -1,0 +1,213 @@
+{
+  "genre": "greco_roman_mythology",
+  "name": "그리스·로마 신화",
+  "scope": "헤시오도스·호메로스 계열 문헌과 아폴로도로스, 베르길리우스의 전승을 구분해 정리합니다. 그리스 신과 로마 신의 대응은 동일한 종교·단일 족보라는 뜻이 아닙니다.",
+  "sources": [
+    {
+      "title": "헤시오도스 신통기·호메로스 찬가 (Evelyn-White, 1914)",
+      "url": "https://www.gutenberg.org/files/348/348-h/348-h.htm"
+    },
+    {
+      "title": "아폴로도로스 도서관 2권 (Frazer, 1921)",
+      "url": "https://myths.uvic.ca/APOL1-L2.html"
+    },
+    {
+      "title": "호메로스 일리아스 1권 (Butler)",
+      "url": "https://classics.mit.edu/Homer/iliad.1.i.html"
+    },
+    {
+      "title": "호메로스 일리아스 15권 (Butler)",
+      "url": "https://classics.mit.edu/Homer/iliad.15.xv.html"
+    },
+    {
+      "title": "호메로스 오디세이아 9권 (Butler)",
+      "url": "https://classics.mit.edu/Homer/odyssey.9.ix.html"
+    },
+    {
+      "title": "베르길리우스 아이네이스 6권 (Dryden)",
+      "url": "https://classics.mit.edu/Virgil/aeneid.6.vi.html"
+    }
+  ],
+  "cards": [
+    {
+      "key": "creation",
+      "title": "카오스와 신들의 계보",
+      "cardType": "event",
+      "body": "헤시오도스는 카오스, 가이아, 타르타로스, 에로스에서 계보를 시작한다. 가이아가 낳은 우라노스와의 사이에서 티탄 등이 나온다. 단일한 무에서의 창조 교리라기보다 존재의 발생과 신권 계승을 설명하는 시적 계보다.\n\n출전: 신통기 116–210 — https://www.gutenberg.org/files/348/348-h/348-h.htm"
+    },
+    {
+      "key": "titans",
+      "title": "티탄 신족",
+      "cardType": "organization",
+      "body": "가이아와 우라노스의 자손인 크로노스·레아·오케아노스·테티스 등이 속한다. 크로노스는 아버지를 몰아내지만 다시 제우스에게 패한다. 모든 티탄이 제우스의 적으로만 행동하는 것은 아니며 테미스·므네모시네처럼 새 질서와 연결되는 존재도 있다.\n\n출전: 신통기 132–138, 453–506, 901–906 — https://www.gutenberg.org/files/348/348-h/348-h.htm"
+    },
+    {
+      "key": "olympians",
+      "title": "올림포스의 신들",
+      "cardType": "organization",
+      "body": "제우스를 중심으로 올림포스에서 회의하고 인간사에 개입하는 신들이다. 헤라·아테나·아폴론 등이 서로 다른 편을 후원하며 같은 집단 안에서도 충돌한다. 특정 열두 신 목록을 모든 고대 문헌에 통용되는 단일 명단으로 고정하지 않는다.\n\n출전: 일리아스 1권 신들의 회의 — https://classics.mit.edu/Homer/iliad.1.i.html"
+    },
+    {
+      "key": "zeus",
+      "title": "제우스",
+      "cardType": "character",
+      "body": "크로노스와 레아의 아들, 헤라의 배우자. 하늘과 왕권을 대표하며 번개가 핵심 표지다. 형제 포세이돈·하데스와 영역을 나누고 티탄 전쟁 뒤 신들의 지배자가 된다. 로마 유피테르와 대응되지만 양자의 숭배와 서사를 전부 동일시하지 않는다.\n\n출전: 신통기 453–506, 617–735, 881–885 — https://www.gutenberg.org/files/348/348-h/348-h.htm"
+    },
+    {
+      "key": "hera",
+      "title": "헤라",
+      "cardType": "character",
+      "body": "크로노스와 레아의 딸이자 제우스의 배우자. 신들의 왕비로 나타나며 결혼 질서와 연결된다. 왕좌와 왕비의 위엄이 문헌상의 표지다. 일리아스에서는 아카이아 편을 후원하고 제우스와 대립한다. 로마의 유노와 대응된다.\n\n출전: 호메로스 찬가 12; 일리아스 1권 — https://classics.mit.edu/Homer/iliad.1.i.html"
+    },
+    {
+      "key": "poseidon",
+      "title": "포세이돈",
+      "cardType": "character",
+      "body": "제우스·하데스의 형제로 바다를 분배받은 신. 땅을 흔드는 권능과 삼지창으로 알려져 있다. 오디세우스가 아들 폴리페모스를 눈멀게 한 사건 때문에 귀환을 방해한다. 바다의 신을 그리스 세계 전체의 유일한 수신으로 보지 않는다.\n\n출전: 일리아스 15권 영역 분배; 오디세이아 9권 — https://classics.mit.edu/Homer/iliad.15.xv.html"
+    },
+    {
+      "key": "athena",
+      "title": "아테나",
+      "cardType": "character",
+      "body": "제우스와 메티스에 연결되며 제우스의 머리에서 태어난 무장한 여신이다. 지혜·전술·기예와 연관되고 갑옷과 아이기스가 표지다. 페르세우스의 메두사 처치와 오디세우스의 귀환을 돕는다. 단순히 전쟁 일반의 신 아레스와 같은 역할로 합치지 않는다.\n\n출전: 신통기 886–900, 924–926; 도서관 2.4.2 — https://www.gutenberg.org/files/348/348-h/348-h.htm"
+    },
+    {
+      "key": "apollo",
+      "title": "아폴론",
+      "cardType": "character",
+      "body": "제우스와 레토의 아들, 아르테미스의 형제. 활·리라·신탁과 연결된다. 일리아스에서는 사제 크리세스의 호소에 응하여 아카이아군에 역병을 보낸다. 치유와 재앙을 모두 다루며 초기 문헌의 태양신 헬리오스와 처음부터 동일한 인물로 고정하지 않는다.\n\n출전: 일리아스 1권; 호메로스 찬가 3 — https://classics.mit.edu/Homer/iliad.1.i.html"
+    },
+    {
+      "key": "artemis",
+      "title": "아르테미스",
+      "cardType": "character",
+      "body": "제우스와 레토의 딸, 아폴론의 자매. 활과 야생동물이 특징인 사냥의 여신이다. 헤라클레스가 케리네이아의 암사슴을 붙잡을 때 그 동물의 성스러움을 문제 삼는다. 로마 디아나와의 대응은 후대의 접촉과 해석을 구별해 읽는다.\n\n출전: 호메로스 찬가 9; 도서관 2.5.3 — https://myths.uvic.ca/APOL1-L2.html"
+    },
+    {
+      "key": "aphrodite",
+      "title": "아프로디테와 출생 이설",
+      "cardType": "character",
+      "body": "사랑과 성적 매혹의 여신. 헤시오도스에서는 잘린 우라노스의 신체가 바다에 떨어진 뒤 거품에서 태어난다. 일리아스 5권에서는 제우스와 디오네의 딸로 제시된다. 두 계보를 하나의 확정 족보로 합치지 않는다. 로마 베누스는 아이네아스의 어머니로도 중요하다.\n\n출전: 신통기 188–206; 일리아스 5.370–417 — https://www.gutenberg.org/files/348/348-h/348-h.htm"
+    },
+    {
+      "key": "hermes",
+      "title": "헤르메스",
+      "cardType": "character",
+      "body": "제우스와 마이아의 아들. 전령·여행·교환과 경계 넘기를 담당하며 지팡이가 표지다. 탄생 직후 아폴론의 소를 훔치고 리라를 만들어 화해하는 이야기가 있다. 죽은 자의 혼을 인도하는 역할도 지니지만 명계의 지배자는 아니다.\n\n출전: 호메로스 찬가 4; 오디세이아 24권 — https://www.gutenberg.org/files/348/348-h/348-h.htm"
+    },
+    {
+      "key": "demeter",
+      "title": "데메테르",
+      "cardType": "character",
+      "body": "크로노스와 레아의 딸, 곡물과 경작의 여신이며 페르세포네의 어머니다. 딸의 실종에 슬퍼하여 땅의 결실을 멈춘다. 곡물과 횃불이 이야기의 표지다. 풍요의 회복은 딸의 귀환 및 신들 사이의 합의와 연결된다.\n\n출전: 데메테르 찬가 — https://www.gutenberg.org/files/348/348-h/348-h.htm"
+    },
+    {
+      "key": "hades-persephone",
+      "title": "하데스와 페르세포네",
+      "cardType": "character",
+      "body": "하데스는 제우스의 형제로 죽은 자들의 영역을 다스린다. 페르세포네는 데메테르와 제우스의 딸이며 명계의 왕비가 된다. 석류를 먹은 일이 귀환 조건과 연결된다. 하데스라는 신, 명계라는 장소, 죽음의 의인화 타나토스를 혼동하지 않는다.\n\n출전: 데메테르 찬가; 일리아스 15권 — https://classics.mit.edu/Homer/iliad.15.xv.html"
+    },
+    {
+      "key": "heracles",
+      "title": "헤라클레스",
+      "cardType": "character",
+      "body": "제우스와 알크메네의 아들. 사자 가죽과 곤봉이 표지인 영웅으로 에우리스테우스의 명령 아래 과업을 수행한다. 도서관에서는 자녀 살해 이후 속죄와 봉사의 경위를 설명하지만 비극 작품은 사건 순서가 다를 수 있다. 로마명은 헤르쿨레스다.\n\n출전: 도서관 2.4.8–12, 2.5 — https://myths.uvic.ca/APOL1-L2.html"
+    },
+    {
+      "key": "perseus",
+      "title": "페르세우스",
+      "cardType": "character",
+      "body": "제우스와 다나에의 아들. 아테나와 헤르메스의 도움으로 메두사를 베고 안드로메다를 구한다. 메두사의 머리, 자루, 날개 달린 신발이 주요 도구다. 방패의 반사상을 보며 공격하는 방식이 도서관에 나온다.\n\n출전: 도서관 2.4.1–5 — https://myths.uvic.ca/APOL1-L2.html"
+    },
+    {
+      "key": "odysseus",
+      "title": "오디세우스",
+      "cardType": "character",
+      "body": "이타케의 왕이며 라에르테스의 아들, 페넬로페의 남편, 텔레마코스의 아버지다. 뛰어난 말솜씨와 책략으로 알려진다. 폴리페모스에게 이름을 숨겨 탈출하지만 나중에 실명을 밝힌 결과 포세이돈의 적의를 산다. 영리함이 항상 안전을 보장하지 않는다.\n\n출전: 오디세이아 9권 — https://classics.mit.edu/Homer/odyssey.9.ix.html"
+    },
+    {
+      "key": "olympus",
+      "title": "올림포스",
+      "cardType": "location",
+      "body": "신들의 거처와 회의 장소로 묘사된다. 지상의 산 이름이면서 서사 속 신적 공간이다. 일리아스에서 신들은 이곳에서 논쟁하고 잔치한다. 모든 신격과 죽은 인간이 올림포스에 함께 산다는 뜻은 아니다.\n\n출전: 일리아스 1권 끝부분 — https://classics.mit.edu/Homer/iliad.1.i.html"
+    },
+    {
+      "key": "underworld",
+      "title": "명계·타르타로스·엘리시움",
+      "cardType": "location",
+      "body": "죽은 자의 영역은 문헌별로 구조와 강조점이 다르다. 헤시오도스의 타르타로스는 티탄의 감금과 깊이의 이미지에 연결된다. 아이네이스 6권은 형벌 구역과 복된 자들의 거처를 구분한다. 서로 다른 시대의 지도를 하나의 고정 구조로 합치지 않는다.\n\n출전: 신통기 713–819; 아이네이스 6권 — https://classics.mit.edu/Virgil/aeneid.6.vi.html"
+    },
+    {
+      "key": "delphi",
+      "title": "델포이",
+      "cardType": "location",
+      "body": "아폴론의 신탁 성소. 아폴론 찬가는 신이 이곳에 성소를 세우고 용을 죽인 이야기를 전한다. 신탁은 영웅의 과업과 선택을 이끄는 장치지만 신탁 문구·해석·실행의 결과는 각 서사에 따라 확인해야 한다.\n\n출전: 호메로스 찬가 3, 델포이 부분 — https://www.gutenberg.org/files/348/348-h/348-h.htm"
+    },
+    {
+      "key": "troy",
+      "title": "트로이",
+      "cardType": "location",
+      "body": "프리아모스가 다스리고 헥토르가 수호하는 도시로 트로이 전쟁의 중심 무대다. 일리아스는 도시 함락까지 전부 이야기하지 않고 전쟁 말기의 짧은 기간과 아킬레우스의 분노에 집중한다. 유적지의 고고학적 역사를 서사의 모든 사건과 동일시하지 않는다.\n\n출전: 일리아스 1권; 아이네이스 2권과 구별 — https://classics.mit.edu/Homer/iliad.1.i.html"
+    },
+    {
+      "key": "thunderbolt",
+      "title": "제우스의 번개",
+      "cardType": "object",
+      "body": "키클롭스가 제우스에게 준 천둥과 번개는 티탄과의 전쟁에서 중요한 무기다. 신왕의 권능과 통치를 드러낸다. 모든 신의 무기를 같은 대장장이가 같은 때 제작했다는 체계로 통일하지 않는다.\n\n출전: 신통기 501–506, 687–712 — https://www.gutenberg.org/files/348/348-h/348-h.htm"
+    },
+    {
+      "key": "gorgon-head",
+      "title": "메두사의 머리",
+      "cardType": "object",
+      "body": "페르세우스가 벤 뒤에도 보는 이를 돌로 만드는 힘이 남는 물건으로 서술된다. 페르세우스는 이를 무기로 사용한 뒤 아테나에게 준다. 메두사의 기원에 관한 후대 이야기는 도서관의 원정 서술과 별도로 구분한다.\n\n출전: 도서관 2.4.2–3 — https://myths.uvic.ca/APOL1-L2.html"
+    },
+    {
+      "key": "golden-bough",
+      "title": "황금 가지",
+      "cardType": "object",
+      "body": "아이네이스 6권에서 살아 있는 아이네아스가 명계로 내려가기 위해 얻어야 하는 표지다. 시뷜라의 안내를 받고 비둘기들의 도움으로 찾는다. 그리스 영웅 모두에게 똑같이 요구되는 보편적 명계 입장권은 아니다.\n\n출전: 아이네이스 6.136–211, 406–416 — https://classics.mit.edu/Virgil/aeneid.6.vi.html"
+    },
+    {
+      "key": "titanomachy",
+      "title": "티타노마키아",
+      "cardType": "event",
+      "body": "제우스 편의 신들과 티탄들이 오랜 전쟁을 벌인다. 제우스는 백수거인들의 도움을 얻고 승리한 뒤 티탄들을 가둔다. 가이아에게서 나온 기가스와의 전쟁인 기간토마키아와 구별한다.\n\n출전: 신통기 617–735 — https://www.gutenberg.org/files/348/348-h/348-h.htm"
+    },
+    {
+      "key": "twelve-labours",
+      "title": "헤라클레스의 열두 과업",
+      "cardType": "event",
+      "body": "네메아의 사자·레르나의 히드라·케리네이아 암사슴 등 괴물, 동물, 신물을 다루는 연속 과업이다. 도서관에서는 히드라와 외양간 일이 인정되지 않아 열두 과업이 된다. 각 과업의 전승을 일괄적인 전투 규칙으로 환원하지 않는다.\n\n출전: 도서관 2.5.1–12 — https://myths.uvic.ca/APOL1-L2.html"
+    },
+    {
+      "key": "trojan-war",
+      "title": "트로이 전쟁과 귀환 전승",
+      "cardType": "event",
+      "body": "파리스·헬레네와 그리스 연합군의 원정, 아킬레우스·헥토르의 대결, 함락 뒤 귀환으로 이어지는 여러 작품의 서사군이다. 일리아스는 전쟁 전부나 목마 장면을 직접 서술하는 작품이 아니다. 아이네이스의 트로이 탈출은 로마 계보 서사로 이어진다.\n\n출전: 일리아스 1권; 아이네이스 2·6권 — https://classics.mit.edu/Homer/iliad.1.i.html"
+    },
+    {
+      "key": "persephone-return",
+      "title": "페르세포네의 납치와 귀환",
+      "cardType": "event",
+      "body": "데메테르가 실종된 딸을 찾고 곡물 생산을 멈추자 신들이 중재한다. 데메테르 찬가에서는 페르세포네가 해의 삼분의 일을 지하에서 지내고 나머지를 어머니와 지낸다. 널리 알려진 반년씩의 도식을 이 찬가의 수치로 바꾸어 쓰지 않는다.\n\n출전: 데메테르 찬가 398–403, 445–447 — https://www.gutenberg.org/files/348/348-h/348-h.htm"
+    },
+    {
+      "key": "xenia",
+      "title": "손님 접대와 제우스",
+      "cardType": "rule",
+      "body": "오디세이아에서 낯선 이와 청원자를 보호하는 제우스의 권위가 접대 의무와 연결된다. 폴리페모스는 이를 무시하고 손님들을 잡아먹는다. 이 규범은 선악 점수나 자동 처벌 마법이 아니라 사건 속 인물들의 행위를 평가하는 기준이다.\n\n출전: 오디세이아 9.259–278 — https://classics.mit.edu/Homer/odyssey.9.ix.html"
+    },
+    {
+      "key": "styx-oath",
+      "title": "스틱스의 맹세",
+      "cardType": "rule",
+      "body": "헤시오도스에서 신들은 스틱스의 물로 엄숙히 맹세한다. 거짓 맹세를 한 신은 일정 기간 무기력과 신들의 모임 배제를 겪는다. 이 규칙을 인간의 모든 약속에 자동 적용하거나 현대 계약법처럼 해석하지 않는다.\n\n출전: 신통기 775–806 — https://www.gutenberg.org/files/348/348-h/348-h.htm"
+    },
+    {
+      "key": "roman-tradition",
+      "title": "로마 전승과 아이네아스",
+      "cardType": "character",
+      "body": "아이네아스는 안키세스와 베누스의 아들이며 트로이에서 탈출해 이탈리아로 향한다. 아이네이스 6권의 명계 방문은 아버지와의 재회 및 로마의 미래 계보를 보여 준다. 그는 로물루스와 같은 인물도, 로마 시를 직접 건설한 인물도 아니다.\n\n출전: 아이네이스 6권 — https://classics.mit.edu/Virgil/aeneid.6.vi.html"
+    }
+  ]
+}

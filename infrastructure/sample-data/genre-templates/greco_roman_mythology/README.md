@@ -1,19 +1,22 @@
-# 그리스·로마 신화 전용 샘플
+# 그리스·로마 신화 전승 자료
 
-작품: 《신탁에서 누락된 열세 번째 영웅》
+헤시오도스·호메로스 계열 문헌과 아폴로도로스, 베르길리우스의 전승을 구분해 정리합니다. 그리스 신과 로마 신의 대응은 동일한 종교·단일 족보라는 뜻이 아닙니다.
 
-빈 화면에서 시작하기 어려운 사용자를 위한 **자유롭게 수정·삭제하는 예시용 디폴트 템플릿**입니다. 인물·배경·능력·갈등을 원하는 대로 바꾸세요. 신화와 설화의 모티프를 활용한 창작이며 전승 전체를 대표하는 자료집이 아닙니다. 다른 템플릿과 독립된 작품입니다.
+## 구성
 
-## 자료 구분
+- 원전의 신·존재, 세계 구조, 장소, 신물, 사건, 규칙을 정리한 30장입니다. 창작 작품명·새 주인공·도입 원고는 포함하지 않습니다.
+- `source/tradition-cards.json`: 유형과 안정적인 key를 가진 카드 정본.
+- `source/template.json`: 동일 내용을 담은 구조화 설정집.
+- `source/original.md`: 이번에 작성한 한국어 요약 전문이며 고전 원문이나 번역문 복제본이 아닙니다.
+- 사건은 `event`/`history`, 나머지는 각 카드 유형/`basic`입니다. 신규 자료는 v1 동결본이 아니라 최종 리소스로 바로 적재합니다.
 
-- **기본 템플릿:** `basic_template.content_markdown`에서 이야기의 출발점을 확인합니다.
-- **확장 설정:** `setting_bible.sections` 중 `template_part`가 `확장 설정`인 항목을 필요한 만큼 선택합니다.
-- **도입 예시:** `template_part`가 `도입 예시`인 항목은 장면·초기 상태·후속 전개 참고용입니다. 채택 전에는 실제 작품에서 발생한 사건이 아닙니다.
-- `setting_bible.sections`에는 기본 템플릿도 항목별로 보관합니다. 기본 본문과 항목별 자료를 중복 적용하지 않습니다.
-- `source/original.md`와 `content_markdown`은 동일한 원문 보관본입니다. 원문에 제시된 대안은 동시에 확정하지 않습니다.
+## 출전과 범위
 
-## 적재
+- [헤시오도스 신통기·호메로스 찬가 (Evelyn-White, 1914)](https://www.gutenberg.org/files/348/348-h/348-h.htm)
+- [아폴로도로스 도서관 2권 (Frazer, 1921)](https://myths.uvic.ca/APOL1-L2.html)
+- [호메로스 일리아스 1권 (Butler)](https://classics.mit.edu/Homer/iliad.1.i.html)
+- [호메로스 일리아스 15권 (Butler)](https://classics.mit.edu/Homer/iliad.15.xv.html)
+- [호메로스 오디세이아 9권 (Butler)](https://classics.mit.edu/Homer/odyssey.9.ix.html)
+- [베르길리우스 아이네이스 6권 (Dryden)](https://classics.mit.edu/Virgil/aeneid.6.vi.html)
 
-Content 서버 시작 시 `GenreTemplateSeeder`가 운영 관리자 소유의 독립 WorldStudio 세계관으로 저장합니다. 세계관 ID는 `7c081689-8b1f-53b7-856f-78b779bbe289`, key는 `genre-template-greco_roman_mythology`, 카드는 60장입니다. 제목에 기본·확장·도입을 표시하며 카드 유형은 항목별로 분리합니다. 3,000자 제한을 넘는 본문은 순서대로 나누어 보존합니다.
-
-작품·회차·체크포인트·Fork는 만들지 않습니다. 일반 사용자의 선택·가져오기 화면은 추가 구현이 필요합니다. [적재 방식과 한계](../README.md), [공통 사용 안내](../TEMPLATE_GUIDE.md)를 참고하세요.
+각 카드의 출전과 문헌명을 함께 읽으세요. 전승 간 차이와 편찬자의 재구성을 단일 확정 사실로 합치지 않습니다. 고대 종교 전승을 현대인의 실제 신앙 전체에 일반화하지 않습니다.

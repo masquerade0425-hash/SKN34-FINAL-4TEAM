@@ -1,19 +1,21 @@
-# 크툴루 신화 전용 샘플
+# 크툴루 신화 · 러브크래프트 원작
 
-작품: 《조수 없는 항구의 기록관》
+러브크래프트 단독 원작의 내용을 새 문장으로 요약한 자료. 후대 작가·Chaosium TRPG 고유 설정과 현대 번역문 전재를 제외한다. 원작의 허구·화자의 추론·서로 다른 작품의 명칭을 구분한다.
 
-빈 화면에서 시작하기 어려운 사용자를 위한 **자유롭게 수정·삭제하는 예시용 디폴트 템플릿**입니다. 인물·배경·능력·갈등을 원하는 대로 바꾸세요. 신화와 설화의 모티프를 활용한 창작이며 전승 전체를 대표하는 자료집이 아닙니다. 다른 템플릿과 독립된 작품입니다.
+## 자료 구성
 
-## 자료 구분
+- `source/tradition-cards.json`: 출전과 유형을 가진 전승 카드 22장.
+- `source/template.json`: 항목별 구조화 자료.
+- `source/original.md`: 위 카드의 새로 작성한 전체 요약문이며 원전 번역문 전재가 아닙니다.
 
-- **기본 템플릿:** `basic_template.content_markdown`에서 이야기의 출발점을 확인합니다.
-- **확장 설정:** `setting_bible.sections` 중 `template_part`가 `확장 설정`인 항목을 필요한 만큼 선택합니다.
-- **도입 예시:** `template_part`가 `도입 예시`인 항목은 장면·초기 상태·후속 전개 참고용입니다. 채택 전에는 실제 작품에서 발생한 사건이 아닙니다.
-- `setting_bible.sections`에는 기본 템플릿도 항목별로 보관합니다. 기본 본문과 항목별 자료를 중복 적용하지 않습니다.
-- `source/original.md`와 `content_markdown`은 동일한 원문 보관본입니다. 원문에 제시된 대안은 동시에 확정하지 않습니다.
+새로 만든 작품명·주인공·도입 원고는 없습니다. 사건은 `event`/`history`, 나머지는 유형에 맞춰 `basic`에 표시합니다. 이 자료는 선택적 입문 요약이며 전체 원전의 대체물이 아닙니다.
 
-## 적재
+## 출전
 
-Content 서버 시작 시 `GenreTemplateSeeder`가 운영 관리자 소유의 독립 WorldStudio 세계관으로 저장합니다. 세계관 ID는 `79fceb31-e918-5605-bfd3-a5123daf799f`, key는 `genre-template-cthulhu_mythos`, 카드는 69장입니다. 제목에 기본·확장·도입을 표시하며 카드 유형은 항목별로 분리합니다. 3,000자 제한을 넘는 본문은 순서대로 나누어 보존합니다.
-
-작품·회차·체크포인트·Fork는 만들지 않습니다. 일반 사용자의 선택·가져오기 화면은 추가 구현이 필요합니다. [적재 방식과 한계](../README.md), [공통 사용 안내](../TEMPLATE_GUIDE.md)를 참고하세요.
+- [크툴루의 부름](https://www.hplovecraft.com/writings/texts/fiction/cc.aspx)
+- [던위치의 공포](https://www.hplovecraft.com/writings/texts/fiction/dh.aspx)
+- [인스머스의 그림자](https://www.hplovecraft.com/writings/texts/fiction/soi.aspx)
+- [광기의 산맥](https://www.hplovecraft.com/writings/texts/fiction/mm.aspx)
+- [미지의 카다스를 향한 몽환의 추적](https://www.hplovecraft.com/writings/texts/fiction/dq.aspx)
+- [니알라토텝](https://www.hplovecraft.com/writings/texts/fiction/n.aspx)
+- [네크로노미콘의 역사](https://www.hplovecraft.com/writings/texts/fiction/hn.aspx)

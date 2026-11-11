@@ -1,0 +1,123 @@
+{
+  "genre": "egyptian_mythology",
+  "name": "이집트 신화와 사후 세계",
+  "scope": "고대 이집트의 신격·태양 순환·오시리스 전승·장례 관념을 요약한다. 시대와 도시마다 달라지는 신들의 계보와 역할을 단일 정본으로 고정하지 않는다.",
+  "sources": [
+    {
+      "title": "메트로폴리탄미술관: Divine Egypt",
+      "url": "https://www.metmuseum.org/exhibitions/divine-egypt/inside-the-exhibition"
+    },
+    {
+      "title": "메트로폴리탄미술관: Isis and Horus",
+      "url": "https://www.metmuseum.org/art/collection/search/570685"
+    },
+    {
+      "title": "호주박물관: 고대 이집트의 명계와 사후 세계",
+      "url": "https://australian.museum/learn/cultures/international-collection/ancient-egyptian/the-underworld-and-the-afterlife-in-ancient-egypt/"
+    },
+    {
+      "title": "퀸즐랜드박물관: 오시리스·이시스와 신들의 비석",
+      "url": "https://www.museum.qld.gov.au/kurilpa/discovering-ancient-egypt-self-guided-tours/self-guided-tour/07-stela-of-osiris-isis-and-other-gods"
+    },
+    {
+      "title": "UCL Digital Egypt: 이시스와 라의 이름",
+      "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/isisandra.html"
+    },
+    {
+      "title": "메트로폴리탄미술관: 고대 이집트 미술 교육 자료",
+      "url": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Art_of_Ancient_Egypt_A_Resource_for_Educators.pdf"
+    }
+  ],
+  "cards": [
+    {
+      "key": "ra",
+      "title": "라·레",
+      "cardType": "character",
+      "body": "태양의 신으로 낮의 하늘과 밤의 명계를 순환하여 생명과 질서를 유지한다. 태양 원반과 배가 대표적인 표지다. 아문과 결합한 아문라 등은 지역·시대의 신학적 결합으로 구분한다.\n\n출전: [메트로폴리탄미술관: Divine Egypt](https://www.metmuseum.org/exhibitions/divine-egypt/inside-the-exhibition)."
+    },
+    {
+      "key": "osiris",
+      "title": "오시리스",
+      "cardType": "character",
+      "body": "죽은 자의 세계, 재생과 풍요에 연결되는 신이다. 수의를 두른 몸이 표지이며 이시스·호루스와 가족 관계를 이룬다. 여러 시대의 기록을 완전히 일치하는 하나의 일대기로 만들지 않는다.\n\n출전: [퀸즐랜드박물관: 오시리스·이시스와 신들의 비석](https://www.museum.qld.gov.au/kurilpa/discovering-ancient-egypt-self-guided-tours/self-guided-tour/07-stela-of-osiris-isis-and-other-gods)."
+    },
+    {
+      "key": "isis",
+      "title": "이시스",
+      "cardType": "character",
+      "body": "오시리스의 배우자이자 호루스의 어머니로 모성과 보호에 연결된다. 어린 호루스에게 젖을 먹이는 모습이 널리 표현된다. 이런 도상이 다른 여신에게도 나타나므로 모자상만으로 언제나 이시스라고 단정하지 않는다.\n\n출전: [메트로폴리탄미술관: Isis and Horus](https://www.metmuseum.org/art/collection/search/570685)."
+    },
+    {
+      "key": "horus",
+      "title": "호루스",
+      "cardType": "character",
+      "body": "매의 모습과 왕권에 연결되는 신이다. 오시리스와 이시스의 아들인 호루스 전승과 여러 지역의 호루스 형상을 구분한다. 살아 있는 왕을 호루스와 연결하는 관념이 전한다.\n\n출전: [메트로폴리탄미술관: 고대 이집트 미술 교육 자료](https://resources.metmuseum.org/resources/metpublications/pdf/The_Art_of_Ancient_Egypt_A_Resource_for_Educators.pdf)."
+    },
+    {
+      "key": "maat",
+      "title": "마아트",
+      "cardType": "character",
+      "body": "진실·질서·균형을 신격화한 여신이다. 머리의 타조 깃털이 표지이며 죽은 자의 심판에 연결된다. 단순한 무게 수치나 개인 능력으로 환원하지 않는다.\n\n출전: [퀸즐랜드박물관: 오시리스·이시스와 신들의 비석](https://www.museum.qld.gov.au/kurilpa/discovering-ancient-egypt-self-guided-tours/self-guided-tour/07-stela-of-osiris-isis-and-other-gods)."
+    },
+    {
+      "key": "anubis",
+      "title": "아누비스",
+      "cardType": "character",
+      "body": "시신 보존과 죽은 자의 여정에 연결되는 개과 동물 머리의 신이다. 사후 심판 장면에서 심장 계량에 관여한다. 계보와 장례 역할은 문헌·시대에 따라 달라질 수 있다.\n\n출전: [호주박물관: 고대 이집트의 명계와 사후 세계](https://australian.museum/learn/cultures/international-collection/ancient-egyptian/the-underworld-and-the-afterlife-in-ancient-egypt/)."
+    },
+    {
+      "key": "duat",
+      "title": "두아트",
+      "cardType": "location",
+      "body": "태양의 밤 여정과 죽은 자의 이동이 이루어지는 명계다. 문과 수호자 등 여러 위험이 묘사되지만 모든 장례 문헌이 같은 지도와 경로를 갖는 것은 아니다.\n\n출전: [호주박물관: 고대 이집트의 명계와 사후 세계](https://australian.museum/learn/cultures/international-collection/ancient-egyptian/the-underworld-and-the-afterlife-in-ancient-egypt/)."
+    },
+    {
+      "key": "judgment",
+      "title": "심장 계량",
+      "cardType": "event",
+      "body": "죽은 자의 심장을 마아트의 깃털과 견주는 심판 도상이 전한다. 아누비스와 토트, 오시리스 등이 각기 역할을 맡는다. 장례 문헌의 내세관을 실제 사망 후 절차로 주장하지 않는다.\n\n출전: [호주박물관: 고대 이집트의 명계와 사후 세계](https://australian.museum/learn/cultures/international-collection/ancient-egyptian/the-underworld-and-the-afterlife-in-ancient-egypt/)."
+    },
+    {
+      "key": "feather",
+      "title": "마아트의 깃털",
+      "cardType": "object",
+      "body": "마아트의 머리 장식이자 질서와 진실을 나타내는 표지다. 심장 계량 장면에서 판단의 기준으로 등장한다. 오시리스와 함께 표현된 도상도 전한다.\n\n출전: [퀸즐랜드박물관: 오시리스·이시스와 신들의 비석](https://www.museum.qld.gov.au/kurilpa/discovering-ancient-egypt-self-guided-tours/self-guided-tour/07-stela-of-osiris-isis-and-other-gods)."
+    },
+    {
+      "key": "solar_cycle",
+      "title": "태양의 밤 여정과 재생",
+      "cardType": "event",
+      "body": "태양이 밤의 명계를 지나 아침에 다시 나타나는 주기가 세계 질서와 재생의 근거로 설명된다. 종말 뒤 단 한 번의 부활 이야기와는 구분되는 반복적 우주관이다.\n\n출전: [메트로폴리탄미술관: Divine Egypt](https://www.metmuseum.org/exhibitions/divine-egypt/inside-the-exhibition)."
+    },
+    {
+      "key": "ennead",
+      "title": "헬리오폴리스의 엔네아드",
+      "cardType": "organization",
+      "body": "헬리오폴리스에서 우주 형성과 관련하여 설명하는 아홉 신의 집합이다. 다른 도시의 창조 설명과 병존하며 이집트 전역에 동일한 신족 명단만 있었다고 보지 않는다.\n\n출전: [메트로폴리탄미술관: Divine Egypt](https://www.metmuseum.org/exhibitions/divine-egypt/inside-the-exhibition)."
+    },
+    {
+      "key": "osiris_restored",
+      "title": "오시리스의 회복",
+      "cardType": "event",
+      "body": "세트에게 훼손된 오시리스를 이시스와 네프티스가 돌보고 아누비스가 장례 의례를 돕는 전승이다. 회복은 장례와 재생의 근거가 되며 모든 세부가 가장 이른 기록부터 동일했던 것은 아니다.\n\n출전: [메트로폴리탄미술관: Divine Egypt](https://www.metmuseum.org/exhibitions/divine-egypt/inside-the-exhibition)."
+    },
+    {
+      "key": "secret_name",
+      "title": "라의 비밀 이름",
+      "cardType": "rule",
+      "body": "이시스와 라의 이야기에서 신의 이름을 아는 일은 힘과 연결된다. 라는 이시스에게 비밀 이름을 전하면서 호루스 외에는 알리지 않도록 한다. 이를 모든 이집트 문헌에 적용되는 만능 주문 규칙으로 일반화하지 않는다.\n\n출전: [UCL Digital Egypt: 이시스와 라의 이름](https://www.ucl.ac.uk/museums-static/digitalegypt/literature/isisandra.html)."
+    },
+    {
+      "key": "isis_ra",
+      "title": "이시스가 라의 이름을 얻다",
+      "cardType": "event",
+      "body": "이시스가 만든 뱀에 라가 물리고, 이시스가 치료의 조건으로 비밀 이름을 요구한다. 라메세스 시대 자료에 남은 독을 물리치는 주문의 서사이며 실제 독 치료법으로 사용하지 않는다.\n\n출전: [UCL Digital Egypt: 이시스와 라의 이름](https://www.ucl.ac.uk/museums-static/digitalegypt/literature/isisandra.html)."
+    },
+    {
+      "key": "royal_afterlife",
+      "title": "왕권과 사후의 오시리스",
+      "cardType": "rule",
+      "body": "왕을 살아서는 호루스와, 죽은 뒤에는 오시리스와 연결하는 관념이 전한다. 왕권과 신성의 관계를 설명하는 역사적 신앙이며 모든 시대·계층의 장례가 같았다는 뜻은 아니다.\n\n출전: [메트로폴리탄미술관: 고대 이집트 미술 교육 자료](https://resources.metmuseum.org/resources/metpublications/pdf/The_Art_of_Ancient_Egypt_A_Resource_for_Educators.pdf)."
+    }
+  ]
+}

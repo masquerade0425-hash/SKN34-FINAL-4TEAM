@@ -2,6 +2,7 @@ package ai.storyfork.content.world
 
 import ai.storyfork.content.world.domain.WorldStudioFailure
 import ai.storyfork.content.world.service.GenreTemplate
+import ai.storyfork.content.world.service.GenreTemplateRepair
 import ai.storyfork.content.world.service.GenreTemplateSeeder
 import ai.storyfork.content.world.service.WorldStudioService
 import ai.storyfork.content.world.service.dto.*
@@ -19,8 +20,9 @@ import tools.jackson.module.kotlin.KotlinModule
 /** 시작 시 장르 템플릿 적재: 서비스 대역으로 호출 계약과 장르별 실패 격리를 확인한다. */
 class GenreTemplateSeederTest {
     private val service = mock(WorldStudioService::class.java)
-    private val seeder = GenreTemplateSeeder(service, JsonMapper.builder().addModule(KotlinModule.Builder().build()).build())
+    private val seeder = spy(GenreTemplateSeeder(service, JsonMapper.builder().addModule(KotlinModule.Builder().build()).build()))
     private val templates = seeder.loadLegacy()
+    init { doReturn(seeder.load().filter { current -> templates.any { it.worldId == current.worldId } }).`when`(seeder).load() }
     /** Core auth V8 운영 관리자(admin@example.test, operator=true)의 회원 ID. 템플릿 소유자로 임시 할당한 값을 리터럴로 고정한다. */
     private val owner = UUID.fromString("5f0c2c7e-8a51-4d6b-9a39-1f4f2b6d0a01")
 
@@ -42,7 +44,7 @@ class GenreTemplateSeederTest {
     }
 
     @Test fun `every genre is created edited and saved once by the template owner in that order`() {
-        assertEquals(25, templates.size)
+        assertEquals(11, templates.size)
         templates.forEach(::fresh)
         seeder.seed()
         val order = inOrder(service)
@@ -68,7 +70,7 @@ class GenreTemplateSeederTest {
     }
 
     @Test fun `a resource that cannot be read is logged and never escapes so the server still starts`() {
-        val broken = spy(seeder) // @Component는 allopen이라 load()를 그대로 가로챌 수 있다
+        val broken = seeder // @Component는 allopen이라 load()를 그대로 가로챌 수 있다
         doThrow(IllegalStateException("깨진 JSON")).`when`(broken).loadLegacy()
         assertDoesNotThrow { broken.seed() }
         verifyNoInteractions(service)
@@ -86,7 +88,7 @@ class GenreTemplateSeederTest {
 
     @Test fun `unreadable repair resource does not block legacy seeding`() {
         templates.forEach(::fresh)
-        val broken = spy(seeder)
+        val broken = seeder
         doThrow(IllegalStateException("보완 JSON 오류")).`when`(broken).load()
         assertDoesNotThrow { broken.seed() }
         templates.forEach { verify(service).save(it.worldId, owner, save(it, 1)) }
@@ -110,6 +112,52 @@ class GenreTemplateSeederTest {
         verify(service).save(pending.worldId, owner, save(pending, 1))
     }
 
+    @Test fun `new template is loaded directly with final metadata and no legacy repair`() {
+        val source = seeder.load().first()
+        val current = source.copy(genre = "new_mythology", worldId = UUID.randomUUID(), name = "전승 설정집",
+            cards = source.cards.take(2).mapIndexed { index, card -> card.copy(cardType = if (index == 0) "event" else "object") })
+        val direct = seeder
+        doReturn(emptyList<GenreTemplate>()).`when`(direct).loadLegacy()
+        doReturn(listOf(current)).`when`(direct).load()
+        val request = EditWorldDraftRequest(0, current.name, current.description,
+            GenreTemplateRepair.payloads(current), key = "genre-template-${current.genre}")
+        `when`(service.create(owner, create(current))).thenReturn(draft(current))
+        `when`(service.edit(current.worldId, owner, request)).thenReturn(draft(current, 1))
+        `when`(service.save(current.worldId, owner, save(current, 1))).thenReturn(revision(current))
+        direct.seed()
+        val order = inOrder(service)
+        order.verify(service).create(owner, create(current))
+        order.verify(service).edit(current.worldId, owner, request)
+        order.verify(service).save(current.worldId, owner, save(current, 1))
+        verifyNoMoreInteractions(service)
+    }
+
+    @Test fun `saved new template is not repaired or overwritten`() {
+        val current = seeder.load().first().copy(worldId = UUID.randomUUID())
+        val direct = seeder
+        doReturn(emptyList<GenreTemplate>()).`when`(direct).loadLegacy()
+        doReturn(listOf(current)).`when`(direct).load()
+        `when`(service.create(owner, create(current))).thenReturn(draft(current, 2, UUID.randomUUID()))
+        direct.seed()
+        verify(service).create(owner, create(current))
+        verifyNoMoreInteractions(service)
+    }
+
+    @Test fun `new template interrupted after edit resumes the identical final payload`() {
+        val current = seeder.load().first().copy(worldId = UUID.randomUUID())
+        val direct = seeder
+        doReturn(emptyList<GenreTemplate>()).`when`(direct).loadLegacy()
+        doReturn(listOf(current)).`when`(direct).load()
+        val request = EditWorldDraftRequest(0, current.name, current.description,
+            GenreTemplateRepair.payloads(current), key = "genre-template-${current.genre}")
+        doThrow(WorldStudioFailure.incomplete()).`when`(service).create(owner, create(current))
+        `when`(service.edit(current.worldId, owner, request)).thenReturn(draft(current, 1))
+        `when`(service.save(current.worldId, owner, save(current, 1))).thenReturn(revision(current))
+        direct.seed()
+        verify(service).edit(current.worldId, owner, request)
+        verify(service).save(current.worldId, owner, save(current, 1))
+        verify(service, never()).draft(current.worldId, owner)
+    }
     @Test fun `runs as a component once the application is ready`() {
         assertTrue(GenreTemplateSeeder::class.java.isAnnotationPresent(Component::class.java))
         val listener = AnnotatedElementUtils.findMergedAnnotation(GenreTemplateSeeder::class.java.getMethod("seed"), EventListener::class.java)
