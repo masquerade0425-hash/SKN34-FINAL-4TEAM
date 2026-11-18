@@ -1,33 +1,19 @@
-# 헤시오도스 《신통기》 한국어 완역 자료
+# 그리스·로마 신화와 전승 설정집
 
-이 자료의 작품은 《신통기》 하나다. 휴 G. 에벌린화이트의 1914년 영어 번역을 저본으로 삼아 한국어로 새로 옮겼다. 고대 그리스어 직접 번역이 아닌 중역이며, 다른 작품들의 요약을 연결한 신화 개론이 아니다. 기존 장르 식별자 `greco_roman_mythology`는 유지한다.
+헤시오도스 《신통기》, 호메로스 서사시·찬가, 아폴로도로스 신화집, 베르길리우스 서사시의 선별된 전승을 다룬다. 저자·시대와 출전별 이설을 단일 정본으로 합치지 않는다.
 
-## 읽는 순서
+헬레네의 이집트 이설, 케르베로스의 머리 수, 라오콘의 죽음, 크레타 황소의 출신 등은 해당 출전을 구분해 기록했다. 《일리아스》가 트로이 함락으로 끝난다고 하거나, 《신통기》에 석류를 먹은 페르세포네의 귀환 조건이 있다고 덧붙이지 않는다. 입문 의례의 비밀처럼 원전이 밝히지 않은 내용은 재구성하지 않는다.
 
-1. [한국어 전문](source/original.md): 1–1022행 전 구간 및 저본에 수록된 별도 이문 929a–929t. 첫 무사 찬양부터 마지막 여성들의 계보 요청까지 포함한다.
-2. [세계관 템플릿](source/template.json): `content_markdown`은 원문 파일 전체와 같다. `setting_bible.sections`는 그 한 작품에서 추출한 카드다.
-3. [카드 원천](source/tradition-cards.json): 각 `narrative_refs`의 앵커와 정확한 인용으로 카드의 근거를 확인한다.
+[카드](source/tradition-cards.json) 103장과 [템플릿](source/template.json), [출전 위치](source/sources.md)를 제공한다. 한국어 번역 전문과 그 문단의 복제는 보관하지 않는다. [보충 출전](source/supplementary.md)의 기존 원어 발췌와 링크는 유지한다. 카드의 출전·이설은 각각 구분한다. 이 자료는 해당 전승 전체를 망라하지 않는다.
 
-## 저본과 범위
+출전 위치는 기존 편집 앵커와 원전 URL·장절을 기록한다. 편집 앵커는 외부 원전의 공식 문단 번호가 아닐 수 있다. 생성기는 링크·앵커와 보충 발췌 해시를 검사하지만 번역 문단의 정확 일치나 원전에서 카드의 사실 관계를 자동 검증하지 못한다. 원전 대조와 해석은 편집 검토가 필요하다.
 
-[공개 영어 저본](https://www.gutenberg.org/files/348/348-h/348-h.htm#chap26)의 《신통기》 본문 95개 문단에 한국어 95개 문단을 대응시켰다. 원전 구간·권리·번역 방법·저본 전사 오류의 제한적 교정은 원문 파일의 판본 안내에 기록했다. 현대 한국어 번역을 복사하지 않았다. 별도 이문에 있는 결락은 복원하지 않았다.
+## 참고 링크
 
-신들의 반복되는 계보와 화자의 여성관을 포함한 본문을 임의로 통일하거나 순화하지 않았다. 호메로스 서사시와 찬가, 아폴로도로스, 베르길리우스의 이야기는 본문과 카드에서 제외했다. 아이네아스와 오디세우스도 《신통기》가 실제로 말하는 출생·자손 관계만 다룬다.
-
-## 데이터와 검증
-
-- 원문 앵커는 `theogony-p001`–`theogony-p095`이며 판본 안내에는 별도 앵커가 있다. 행 구간은 원시의 행 번호이지 한국어 줄 수가 아니다.
-- 같은 대상을 가리키는 기존 카드 키와 템플릿 ID는 유지했다. 원작에 없는 황금 가지·트로이 전쟁·열두 과업 전체·손님 접대 등의 카드는 제외하고 작품에 근거가 있는 카드로 재구성했다.
-- 원문과 템플릿 본문 일치, 95개 문단의 순서와 중복 없는 앵커, 1–1022행 구간 포괄, 카드 근거의 정확한 문자열 포함, 카드와 설정 섹션의 일치를 검증한다.
-- 이 작업은 이 폴더의 `source/original.md`, `source/tradition-cards.json`, `source/template.json`, `README.md`만 수정한다. 런타임 JSON·데이터베이스·기존 사용자 세계관에는 반영하지 않는다.
-- 따라서 `build_traditions.py --check`의 런타임 동기화 검사는 현재 원천 변경과 런타임이 다르다고 보고할 수 있다. 실제 반영은 별도 작업이며 여기서 빌드 스크립트를 쓰기 모드로 실행하지 않는다.
-
-## 전문 파생 카드 확장
-
-카드 73개로 확장하여 기존 30개 키를 모두 보존했다. 새 대상에는 새 키를 부여하고, 기존 템플릿 식별자와 순서를 유지한 채 새 섹션을 뒤에 추가했다.
-
-원초 신족, 밤과 불화의 자손, 바다·강·님프들의 이름 명단, 괴물 계보, 백수거인, 제물·불·여성 창조, 밤낮의 경계, 제우스의 혼인과 작품 끝의 신·인간 자손을 보완했다. 모이라이의 중복 계보, 네레우스 딸들의 명단과 수사 표현, 별도 이문을 임의로 통일하지 않는다.
-
-본문 95개 앵커를 주요 인물·집단·장소·사물·능력·사건·질문의 카드 근거에 모두 연결했다. 이름 명단은 집단 카드에 묶어 보존하므로 각 이름에 독립된 전기를 만들어 붙이지 않는다. 앵커 연결의 완전성은 의미의 자동 증명이 아니며, 원문의 문장과 카드의 진술을 별도로 대조했다.
-
-카드 본문은 UTF-16 기준 3,000자 이하이며, 모든 근거는 해당 앵커의 실제 문자열이다. 이번 카드 확장에서 original.md와 템플릿의 전문 content_markdown은 변경하지 않았다. 런타임 JSON과 다른 장르의 생성·반영은 상위 통합 작업에서 따로 수행한다.
+- <https://www.gutenberg.org/files/348/348-h/348-h.htm#chap26>
+- <https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0012/tlg001/tlg0012.tlg001.perseus-grc2.xml>
+- <https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0012/tlg002/tlg0012.tlg002.perseus-grc2.xml>
+- <https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0013/tlg002/tlg0013.tlg002.perseus-grc2.xml>
+- <https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0548/tlg001/tlg0548.tlg001.perseus-grc2.xml>
+- <https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0548/tlg002/tlg0548.tlg002.perseus-grc2.xml>
+- <https://github.com/PerseusDL/canonical-latinLit/blob/master/data/phi0690/phi003/phi0690.phi003.perseus-lat2.xml>

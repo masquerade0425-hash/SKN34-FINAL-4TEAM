@@ -17,11 +17,14 @@ class GenreTemplateResourceTest {
     private val templates = seeder.load()
     private val cards = templates.flatMap { it.cards }
 
-    @Test fun `twenty five templates with 472 cards in the documented order`() {
+    @Test fun `twenty six templates with 1254 cards and 379 souls in documented order`() {
         assertEquals(listOf("wuxia", "romance_fantasy", "modern_fantasy", "science_fiction", "alternate_history", "game_fantasy",
             "fusion_fantasy", "territory_management", "apocalypse", "sports_fantasy", "entertainment",
-            "sumerian_mythology", "cthulhu_mythos", "norse_mythology", "greco_roman_mythology", "germanic_folklore", "chinese_folklore", "japanese_mythology", "korean_mythology_fables", "egyptian_mythology", "indian_mythology", "celtic_mythology", "slavic_mythology", "maya_mythology", "aztec_mythology"), templates.map { it.genre })
-        assertEquals(472, cards.size)
+            "sumerian_mythology", "cthulhu_mythos", "norse_mythology", "greco_roman_mythology", "germanic_folklore", "chinese_folklore", "japanese_mythology", "korean_mythology_fables", "egyptian_mythology", "indian_mythology", "celtic_mythology", "slavic_mythology", "maya_mythology", "aztec_mythology", "journey_to_the_west"), templates.map { it.genre })
+        assertEquals(1254, cards.size)
+        assertEquals(379, cards.count { it.cardType == "character" })
+        assertTrue(cards.all { if (it.cardType == "character") !it.soul.isNullOrBlank() && it.soul.length <= 3000 else it.soul == null })
+        assertEquals(seeder.loadV2(), templates.take(26).map { t -> t.copy(cards = t.cards.map { it.copy(soul = null) }) })
     }
 
     @Test fun `only the original eleven worlds have a frozen legacy input`() {
@@ -50,9 +53,12 @@ class GenreTemplateResourceTest {
 
     @Test fun `repair payloads fit the service and preserve canonical frontend fields`() {
         val mapper = JsonMapper.builder().addModule(KotlinModule.Builder().build()).build()
+        val legacy = seeder.loadLegacy().associateBy { it.worldId }
         templates.forEach { template ->
             val payload = GenreTemplateRepair.payloads(template)
-            val request = EditWorldDraftRequest(2, template.name, template.description, payload, key = "genre-template-${template.genre}-repair-v2")
+            val request = EditWorldDraftRequest(2, template.name, template.description, payload, key = "genre-template-${template.genre}-repair-v2", replace = true)
+            assertTrue(payload.size <= 1000, template.genre)
+            assertTrue((payload.map { it.id } + legacy[template.worldId]?.cards.orEmpty().map { it.id }).toSet().size <= 1000, template.genre)
             assertTrue(mapper.writeValueAsBytes(request).size <= 2_000_000)
             payload.forEachIndexed { index, card ->
                 val row = card.semanticMetadata["studio"] as Map<*, *>
@@ -67,4 +73,5 @@ class GenreTemplateResourceTest {
             }
         }
     }
+
 }

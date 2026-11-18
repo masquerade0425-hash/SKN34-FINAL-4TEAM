@@ -1,25 +1,25 @@
-# 크툴루 신화 · 크툴루의 부름
+# 크툴루 신화 · 러브크래프트의 선택된 작품
 
-## 읽는 순서
+《크툴루의 부름》과 《던위치의 공포》·《다곤》·《우주에서 온 색채》·《인스머스의 그림자》의 선택된 대목을 다룬다. 화자·증언자·꿈·작중 문헌의 주장과 후대 분류를 구분하며, 후대 작가나 TRPG의 체계를 원작의 사실로 넣지 않는다.
 
-1. [한국어 완역](source/original.md): 《크툴루의 부름》 한 작품의 제사·머리말·3부 전체. 판본 및 번역 안내는 본문과 구분한다.
-2. [세계관 카드](source/tradition-cards.json): 해당 작품에서 추출한 38장. 각 카드의 narrative_refs는 완역의 문단 앵커와 정확한 근거를 가리킨다.
-3. [소스 템플릿](source/template.json): content_markdown은 완역 파일과 같고 setting_bible.sections는 카드와 대응한다.
+[카드](source/tradition-cards.json) 60장과 [템플릿](source/template.json), [출전 위치](source/sources.md)를 제공한다. 한국어 번역 전문과 그 문단의 복제는 보관하지 않는다. [보충 출전](source/supplementary.md)의 기존 원어 발췌와 링크는 유지한다. 카드의 출전·이설은 각각 구분한다. 이 자료는 해당 전승 전체를 망라하지 않는다.
 
-## 범위와 권리
+출전 위치는 기존 편집 앵커와 원전 URL·장절을 기록한다. 편집 앵커는 외부 원전의 공식 문단 번호가 아닐 수 있다. 생성기는 링크·앵커와 보충 발췌 해시를 검사하지만 번역 문단의 정확 일치나 원전에서 카드의 사실 관계를 자동 검증하지 못한다. 원전 대조와 해석은 편집 검토가 필요하다.
 
-1928년 발표된 러브크래프트의 한 작품만 다룬다. 영어 공개 전사본을 직접 번역했으며 현대 한국어 번역을 전재하지 않았다. 저본·초출 서지·취득한 HTML 해시·역사적 편견에 관한 주의는 원고 첫머리에 기록했다. 원문의 화자와 신도들의 주장을 객관적인 설정 사실과 구분한다.
+《인스머스의 그림자》의 카드 근거는 [Project Gutenberg의 Weird Tales 1942년 1월호 전사본](https://www.gutenberg.org/files/73181/73181-h/73181-h.htm)이다. 이 전사자의 주석은 **1942년 출판물의 미국 저작권 갱신 증거를 조사했으나 찾지 못했다**고 말하며, [도서 페이지](https://www.gutenberg.org/ebooks/73181)는 미국 퍼블릭 도메인이라고 표시한다. 이는 1936년 단행본의 갱신 여부에 관한 주장이 아니다.
 
-종전 여러 작품 모음의 22장을 먼저 이 작품의 20장으로 재구성한 뒤, 본문 파생 항목 감사를 거쳐 38장으로 확장했다. 같은 대상을 가리키는 scope, cthulhu, rlyeh, necronomicon, idol, dream-contact, rising 키는 유지한다. 다른 작품 전용 인물·지역·사건은 제거했으며 동일 키를 다른 사건에 재사용하지 않았다. 이미 저장된 사용자 세계관을 덮어쓰는 이관 작업은 하지 않는다.
+1936년 단행본은 별도 판본이다. [영문 Wikisource 1936판](https://en.wikisource.org/wiki/The_Shadow_Over_Innsmouth_(1936))은 `PD-US-no-renewal-old-80`으로 표시하고, [Project Gutenberg Australia](https://gutenberg.net.au/ebooks15/1500511h.html)는 원작 raw text가 퍼블릭 도메인이지만 Roy Glashan's Library의 부가 콘텐츠에는 별도 권리가 있다고 밝힌다. 이 표기는 각 출처의 설명이며 등록 원부는 직접 확인하지 않았다. 한국을 포함한 각 관할에서의 이용 가능성이나 모든 판본의 권리 상태를 보장하지 않는다. 기존 번역과 삽화는 복제하지 않는다.
 
-## 검증
+《광기의 산맥》(1936), 《어둠 속의 속삭임》(1931)은 미국 내 권리 상태를 확정하지 못해 제외한다.
 
-제1부 16개, 제2부 37개, 제3부 31개 본문·인용 블록과 별도 머리말·제사·신문 제목을 원문과 대조했다. 의미 검토와 별개로 상위 test_traditions.py와 build_traditions.py --check가 원고·카드 근거·템플릿·생성 리소스 일치를 검증한다. 원고를 수정하면 카드 근거와 템플릿도 갱신한다.
+## 참고 링크
 
-## 본문 파생 항목 보강
-
-앤젤의 서류·신문 기사·요한센의 수기, 서로 다른 두 석상, 엠마호·얼러트호·비질런트호, 해전과 조사 경로, 교단의 의식문·옛 존재·파괴적 해방 전승을 보강했다. 꿈·목격·전언·화자의 추론을 구분하며, 숲속 전설을 다른 작품의 괴물명으로 확정하지 않는다.
-
-이번 보강은 기존 20개 키와 해당 대상·템플릿 섹션 ID·순서를 유지하고, 새 대상 18개만 뒤에 추가한다. 모든 카드에는 실제 본문 앵커 안의 정확한 인용을 붙였으며 본문은 카드당 3,000 UTF-16 코드 단위 이하다. 주요 인물·사건·장소·물건·규칙을 포괄하되 모든 문장을 별도 카드로 만들지는 않는다.
-
-이번 단계는 tradition-cards.json·template.json·이 README만 변경한다. original.md의 전문과 template의 content_markdown, 최상위 id·genre_id·order는 보존한다. 런타임 JSON·전역 README·기존 사용자 세계관은 변경하지 않는다. 따라서 런타임 재생성 전에는 전체 리소스 일치 검사가 불일치를 표시할 수 있으며, 런타임 반영은 통합 단계에서 별도로 수행한다.
+- <https://www.hplovecraft.com/writings/texts/fiction/cc.aspx>
+- <https://www.hplovecraft.com/writings/texts/fiction/dh.aspx>
+- <https://www.hplovecraft.com/writings/texts/fiction/d.aspx>
+- <https://www.hplovecraft.com/writings/texts/fiction/cs.aspx>
+- <https://www.gutenberg.org/files/73181/73181-h/73181-h.htm>
+- <https://www.hplovecraft.com/writings/fiction/publish.aspx>
+- <https://www.gutenberg.org/ebooks/73181>
+- <https://en.wikisource.org/wiki/The_Shadow_Over_Innsmouth_(1936)>
+- <https://gutenberg.net.au/ebooks15/1500511h.html>

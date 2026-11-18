@@ -7,7 +7,7 @@
 AI가 사용자가 프론트에서 할 수 있는 세계관·작품·회차 작업을 똑같이 하도록, Content 서비스 안에 MCP(Model Context Protocol) 서버 창구를 둔다.
 창구는 `ai.storyfork.content.mcp` 패키지 하나이며 기존 기능 패키지의 Service 함수를 그대로 호출하는 어댑터다. 새 비즈니스 로직·인가 규칙·저장소는 두지 않는다.
 
-- 이번 범위: Content MCP 서버와 도구. ai-service의 MCP 클라이언트 연결은 후속 이슈다.
+- 이번 범위: Content MCP 서버와 도구. ai-service 연결은 아래 [집필 AI 연결](#집필-ai-연결)만 있다.
 - 제외: 댓글·좋아요·관심·독서 기록·조회수·피드백 신고·문장 수정 제안(독자 피드백 계열), 파일 업로드·다운로드(작품·세계관 표지, 회차 이미지, 설정 첨부, 원고 가져오기·내보내기), `Internal*` 내부 API.
 
 ## 전송·인증
@@ -16,7 +16,7 @@ AI가 사용자가 프론트에서 할 수 있는 세계관·작품·회차 작�
 |---|---|
 | 라이브러리 | Spring AI MCP Server(`spring-ai-starter-mcp-server-webmvc`, 공식 MCP Java SDK 기반). 도구는 `@McpTool` |
 | 전송 | Stateless Streamable HTTP, 경로 `/mcp`. 공개 진입점(Nginx)에 노출하지 않는 내부 전용 |
-| 공개 도구 | 인증 없이 호출된다. 대응 Controller가 쓰는 공개 조회 Service 함수(공개 작품·발행 회차·공개 카드 필터 포함)를 그대로 쓴다 |
+| 공개 도구 | 인증 없이 호출된다. 대응 Controller가 쓰는 공개 조회 Service 함수(공개 작품·발행 회차·기준 회차 이하로 공개된 카드 필터와 본문 링크 치환 포함, DEC-53)를 그대로 쓴다 |
 | 사용자 도구 | AI를 호출한 사용자의 `Authorization: Bearer <토큰>`을 그대로 전달받는다. 기존 `ContentAuthenticationFilter`(Core 검증)가 만든 회원 UUID·운영자 권한을 owner로 Service에 넘긴다. 토큰이 없으면 도구 오류(인증 필요)다 |
 | 신뢰 경계 | 회원 ID는 검증된 토큰에서만 얻는다. 도구 인자로 회원 ID를 받지 않으며 모델이 준 작품·세계관 ID는 Service의 소유권 검사를 거친다 |
 | CSRF | 브라우저 쿠키가 아닌 Bearer 서비스 간 호출이라 `/mcp` 체인에서만 끈다. 기존 `/api/v1/**` CSRF는 그대로다 |
@@ -44,6 +44,7 @@ AI가 사용자가 프론트에서 할 수 있는 세계관·작품·회차 작�
 | `work_public_read` (공개) | `GET /api/v1/public/works/{id}` |
 | `work_link_world_studio` | `PUT /api/v1/works/{id}/world-studio` |
 | `work_public_world_cards` (공개) | `GET /api/v1/public/works/{id}/world-cards` |
+| `work_inherited_world` | `GET /api/v1/works/{id}/inherited-world` |
 | `work_notice_public_list` (공개) | `GET /api/v1/public/works/{id}/notices` |
 | `work_notice_create` | `POST /api/v1/works/{id}/notices` |
 | `work_notice_update` | `PUT /api/v1/works/{id}/notices/{noticeId}` |
@@ -114,7 +115,9 @@ AI가 사용자가 프론트에서 할 수 있는 세계관·작품·회차 작�
 | `world_analysis_apply` | `POST …/analyses/{analysisId}/applications` |
 | `world_analysis_application_read` | `GET …/applications/{applicationId}` |
 
-`world_studio_read`·`world_studio_edit_draft`는 선택 인자 `episode`(관계의 회차 시점, 1 이상, 생략하면 최신 회차, [DEC-51](worldstudio-independent-schema.md#회차별-관계--dec-51))를 받는다. `world_studio_read`는 HTTP `?episode=`처럼 문자열로 받아 값 오류를 422로 낸다.
+`world_studio_read`·`world_studio_edit_draft`는 선택 인자 `episode`(관계의 회차 시점, 1 이상, 생략하면 최신 회차, [DEC-51](worldstudio-independent-schema.md#회차별-관계--dec-51))를 받는다. `world_studio_read`는 HTTP `?episode=`처럼 문자열로 받아 값 오류를 422로 낸다. 설정(카드) 삭제는 `episode`를 생략한 편집에서만 허용되며 지정하면 422다.
+
+공개·이어받기 도구(`work_public_world_cards`·`work_inherited_world`·`world_studio_public_read`·`world_studio_public_list`)는 화면과 같은 Service 함수라 DEC-53의 카드 집합(유효 공개 회차 ≤ 기준 회차)·관계 시점·본문 링크 치환을 그대로 따른다([공개 세계관 계약](public-world-contract.md#카드-공개-기준-일원화--dec-53)). `world_studio_read`·`world_studio_edit_draft`는 작가 범위(초안 전체)라 작가 전용 카드와 본문 링크 id를 그대로 주고받으며, 모델에 넘기기 전에 링크를 글자로 벗기는 일은 AI 쪽 입력 경계가 한다(ai-service `world_snapshot`). 「동일 인물」(`category: identity`)을 새로 쓰거나 바꾸는 `world_studio_edit_draft`는 `episode`를 지정해야 한다([규칙](worldstudio-independent-schema.md#동일-인물-관계--dec-53)).
 
 ## 오류 형식
 
@@ -122,6 +125,19 @@ AI가 사용자가 프론트에서 할 수 있는 세계관·작품·회차 작�
 - Controller의 `@Valid` 검사는 도구에서 `validated()`로 같은 422를 낸다. UUID 형식 오류는 400이다.
 - `world_analysis_create`는 실행 상태 `failed`를 502, `unknown`을 503 도구 오류로 낸다(HTTP API가 본문과 함께 같은 상태로 답하는 경우). `world_analysis_apply`의 `failed`·`unknown`은 503이다.
 - 본문 없는 성공(204)은 Spring AI 기본 완료 문구(`Done`)다. `Location`·`Retry-After` 같은 응답 헤더는 전달하지 않는다.
+
+## 집필 AI 연결
+
+ai-service `app/content_mcp/`가 `openai-agents`의 `MCPServerStreamableHttp`로 `{CONTENT_SERVICE_BASE_URL}/mcp`를 호출한다(2026-11-13 사용자 결정).
+
+| 항목 | 계약 |
+|---|---|
+| 호출 시점 | 집필 AI 대화에서 Writing & Editing 결과를 작가가 resume으로 승인했을 때만. 승인 전·거절·대화 밖 요청은 호출하지 않는다 |
+| 도구 | `episode_read`(최신 초안·revision) → `episode_update_draft`. 버전 저장·발행·삭제 등 그 밖의 도구는 부르지 않는다 |
+| 대상 | Content `WritingAiService`가 새 턴에 보낸 `target {workId, episode}`(episode는 요청의 `targetEpisode`, 없으면 근거 `episode`. 근거 회차가 다르면 `baseEpisode`를 더하지만 반영에는 쓰지 않는다). 모델이 만든 ID는 쓰지 않는다 |
+| 토큰 | Content가 작가의 `Authorization`을 AI에 `X-User-Authorization`으로 넘기고, AI는 그 요청의 MCP 호출에만 쓴다. 그래프 상태·체크포인트·추적에 넣지 않는다. resume 요청마다 새 토큰을 쓴다 |
+| 반영 | Text는 기존 초안 뒤에 잇고, Patch는 선택 문장이 초안에 정확히 한 번 있을 때만 바꾼다(없거나 여러 곳이면 쓰지 않고 409) |
+| 오류 | 도구 오류의 401·403·404·409·422는 Content detail 그대로, 그 밖은 502, 연결 실패는 503으로 Writing 단계를 실패시킨다 |
 
 ## 한계
 

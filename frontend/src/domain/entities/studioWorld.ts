@@ -9,20 +9,17 @@ export type SettingItem = {
  orderEvidence: {sourceId:string;quote:string}[]; evidence: {sourceId:string;quote:string}[]
  origin: 'extraction'|'correction'|'author_addition'|'author_input'; authorText: string|null; decision: 'pending'|'approved'|'rejected'|'held'
 }
-<<<<<<< HEAD
-export type StudioSetting = {item:SettingItem;userCategory:string;tags:string[];aliases?:string[];templateOrder?:number}
-export type StudioWorld = {id:string;name:string;description:string;version:number;settings:StudioSetting[];relationshipStatus?:'current'|'incomplete'|'migration_required';analysis:{id:string;status:string;candidates:SettingItem[];issues:string[]}|null}
-=======
 /** 설정 카드 단위 공개(DEC-46). 세계관 단위 공개([WorldVisibility])와 다르다. */
 export type CardVisibility = 'private'|'public'
 /** 다른 세계관에서 가져온 카드의 출처 스냅샷(DEC-46). 가져온 뒤 원본의 변경·비공개 전환·삭제는 반영하지 않는다. */
 export type ImportedFrom = {worldId:string;worldName:string;authorNickname:string;revisionNo:number;cardId:string}
 /**
  * 인물 카드의 작가용 문서. 인물 카드는 문서 네 종류로 쓴다: `IDENTITY.md`는 카드 본문(`item.text`)이고, 여기에는 나머지인
- * `SOUL.md`(soul)·`MEMORY.md`(memory)·회차별 기억 `memory/NN회차.md`(episodes, 키는 0 이상의 정수인 회차 번호)를 둔다.
+ * `SOUL.md`(soul)·`GOAL.md`(goal)·회차별 기억 `memory/NN회차.md`(episodes, 키는 0 이상의 정수인 회차 번호, `00회차`는 이야기 시작 전부터 아는 것)를 둔다.
  * 공개 세계관·독자 설정 위키에는 본문만 나가고 이 문서들은 나가지 않는다. 규칙은 `characterDocs.ts`에 있다.
+ * DEC-47로 `MEMORY.md`(옛 `memory`)는 없어졌다: 읽을 때 `00회차` 앞에 이어 붙여 옮기므로(`migrateCharacterDocs`) 이 타입에는 없다.
  */
-export type CharacterDocs = {soul:string;memory:string;episodes:Record<number,string>}
+export type CharacterDocs = {soul:string;goal:string;episodes:Record<number,string>}
 export type StudioSetting = {serverMetadata?:Record<string,unknown>;item:SettingItem;userCategory:string;tags:string[];aliases?:string[]
  /** 카드 단위 공개. 없으면 비공개다. 관계 행에는 쓰지 않는다. */
  visibility?:CardVisibility
@@ -30,18 +27,30 @@ export type StudioSetting = {serverMetadata?:Record<string,unknown>;item:Setting
  revealFromEpisode?:number
  /** 다른 세계관에서 가져온 카드의 출처. 직접 만든 카드에는 없다. */
  importedFrom?:ImportedFrom
- /** 인물 문서(SOUL.md·MEMORY.md·회차별 기억). 인물 카드에만 쓰고, 없으면 본문(IDENTITY.md)만 있는 인물이다. */
- characterDocs?:CharacterDocs}
+ /** 인물 문서(SOUL.md·GOAL.md·회차별 기억). 인물 카드에만 쓰고, 없으면 본문(IDENTITY.md)만 있는 인물이다. */
+ characterDocs?:CharacterDocs
+ /** 카드 대표 이미지 id(#401): 이 세계관에 올린 이미지(`uploadCardImage`)의 id다. 올린 이미지는 바뀌지 않아 교체는 새 id로 바꾸는 것이고, 없으면 이미지 없는 카드다. 관계 행에는 쓰지 않는다. */
+ imageId?:string
+ /** 장르 템플릿 카드의 읽기 순서(서버 `semanticMetadata.studio.templateOrder`). 없으면 뒤로 간다. */
+ templateOrder?:number}
 /** 독자 공개 회차가 잘못됐는지: 값이 있는데 1 이상의 정수가 아니다. 저장 전 확인([worldWritingIssues])과 저장 검증(WorldStudioUseCase.save)이 같은 규칙·문구를 쓴다. */
 export const REVEAL_EPISODE_ERROR='독자 공개 회차는 1 이상의 정수로 입력해 주세요.'
 export const invalidReveal=({revealFromEpisode:n}:Pick<StudioSetting,'revealFromEpisode'>)=>n!==undefined&&!(Number.isInteger(n)&&n>=1)
+/** 관계 기준 회차(DEC-51, 연결된 소설의 회차 순번): 값이 있으면 1 이상의 정수여야 하고, 없으면(`null`) 최신 회차다. 조회·저장 검증(`invalidRelationEpisode`)과 입력 칸(`relationEpisodeInput`)이 같은 규칙·문구를 쓴다. */
+export const RELATION_EPISODE_ERROR='관계 기준 회차는 1 이상의 정수로 입력해 주세요.'
+export const invalidRelationEpisode=(n:number)=>!(Number.isInteger(n)&&n>=1)
+/** `관계 기준 회차` 입력 글자를 값으로: 비어 있으면 최신(`null`), 1 이상의 정수 글자(앞의 0은 무시)면 그 회차, 그 밖은 이유다. */
+export function relationEpisodeInput(text:string):{episode:number|null}|{error:string}{
+ const trimmed=text.trim()
+ if(!trimmed)return {episode:null}
+ return /^0*[1-9]\d*$/.test(trimmed)?{episode:Number(trimmed)}:{error:RELATION_EPISODE_ERROR}
+}
 /** 세계관 단위 공개 설정(설정 카드 단위 공개와 다르다). 값이 없으면 비공개·장르 미지정이다(서버가 이 필드를 주기 전 응답과 메모리 데모). */
 export type WorldVisibility = 'private'|'public'
 export type WorldPublicationInput = {visibility:WorldVisibility;genre:PublicWorldGenre|null}
 /** `listed`는 지금 공개 목록·상세에 실제로 나오는지다. 공개로 설정해도 확정 버전이 없으면 false이고, `publishedAt`은 비공개이면 null이다. */
 export type WorldPublication = WorldPublicationInput & {worldId:string;publishedAt:string|null;listed:boolean}
-export type StudioWorld = {currentRevisionId?:string|null;id:string;name:string;description:string;version:number;visibility?:WorldVisibility;genre?:PublicWorldGenre|null;/** 올린 표지가 있는지(없으면 자동 생성 표지). 값이 없으면 없다. */hasCover?:boolean;/** 이 세계관에 연결된 내 소설 id(DEC-46 1:1 연결). 없으면 미연결이다. */linkedWorkId?:string|null;settings:StudioSetting[];relationshipStatus?:'current'|'incomplete'|'migration_required';analysis:{id:string;status:string;candidates:SettingItem[];issues:string[]}|null}
->>>>>>> 243423237fe91204f89d25cab238c64cabe6e285
+export type StudioWorld = {currentRevisionId?:string|null;id:string;name:string;description:string;version:number;visibility?:WorldVisibility;genre?:PublicWorldGenre|null;/** 올린 표지가 있는지(없으면 기본 표지). 값이 없으면 없다. */hasCover?:boolean;/** 이 세계관에 연결된 내 소설 id(DEC-46 1:1 연결). 없으면 미연결이다. */linkedWorkId?:string|null;/** 목록 요약에만 있는 초안의 활성 카드 수(요약은 settings를 싣지 않는다). */cardCount?:number;settings:StudioSetting[];/** 지난 회차 관계의 끝점이 될 수 있는, 그 뒤에 삭제한 설정의 이름(카드 id → 이름). 서버 저장소가 채우고(삭제된 카드가 없으면 빈 객체) 메모리 데모에는 없다. */deletedTitles?:Record<string,string>;relationshipStatus?:'current'|'incomplete'|'migration_required';analysis:{id:string;status:string;candidates:SettingItem[];issues:string[]}|null}
 export const newSetting = (section:StudioSection='basic'):StudioSetting => ({userCategory:'설정',tags:[],item:{id:crypto.randomUUID(),title:'',text:'',topics:[],subjectId:null,targetId:null,predicate:null,polarity:'asserted',relatedIds:[],condition:'',timeText:'',afterId:null,orderEvidence:[],evidence:[],origin:'author_addition',authorText:'',decision:'approved',...sectionFields(section)}})
 export function authorEdit(setting:StudioSetting,patch:Partial<SettingItem>):StudioSetting {
  const item={...setting.item,...patch,origin:'author_addition' as const,decision:'approved' as const,evidence:[],orderEvidence:[]}
@@ -56,6 +65,14 @@ export function worldCoverError(file: Pick<File, 'type' | 'size'>): string | nul
  if (!file.size) return '빈 파일은 표지로 쓸 수 없어요.'
  if (!(WORLD_COVER_TYPES as readonly string[]).includes(file.type)) return 'PNG·JPEG·WebP 이미지만 표지로 쓸 수 있어요.'
  if (file.size > WORLD_COVER_MAX_BYTES) return '표지는 5 MiB 이하여야 해요.'
+ return null
+}
+
+/** 설정 카드 대표 이미지도 세계관 표지와 같은 형식·크기만 올린다(서버가 실제 바이트로 다시 검사한다). 문제가 없으면 null이다. */
+export function cardImageError(file: Pick<File, 'type' | 'size'>): string | null {
+ if (!file.size) return '빈 파일은 이미지로 쓸 수 없어요.'
+ if (!(WORLD_COVER_TYPES as readonly string[]).includes(file.type)) return 'PNG·JPEG·WebP 이미지만 올릴 수 있어요.'
+ if (file.size > WORLD_COVER_MAX_BYTES) return '이미지는 5 MiB 이하여야 해요.'
  return null
 }
 

@@ -1,7 +1,7 @@
 import type {EpisodeRepository} from '../../domain/repositories/EpisodeRepository'
 import type {WorkRankingQuery, WorkSearchQuery, WorkSearchRepository} from '../../domain/repositories/WorkSearchRepository'
 import { z } from 'zod'
-import {settingCategories, type Draft, type SettingInput, type WorkRegistration, type WorkTaxonomy} from '../../domain/entities/content'
+import {settingCategories, type Draft, type SettingInput, type StoryQaInput, type WorkRegistration, type WorkTaxonomy} from '../../domain/entities/content'
 import type { PublicationScheduleInput, PublicationScheduleRevision } from '../../domain/entities/publicationSchedule'
 import { SessionExpired } from '../../domain/repositories/ProfileRepository'
 import { authVersion, getAccessToken, protectedRequest } from '../api/auth'
@@ -53,9 +53,14 @@ const cardId = z.string().min(1)
 /** 연결된 세계관의 독자 공개 카드(DEC-46). 관계 상태를 주기 전 응답은 current로 읽는다. */
 const readingWorldCards = z.object({
   workId: z.string(), worldId: z.string().min(1).nullable(), upto: z.number().int().nonnegative(),
-  cards: z.array(z.object({ id: cardId, title: z.string(), text: z.string(), cardType: z.enum(cardTypes.map((type) => type.id)), aliases: z.array(z.string()), tags: z.array(z.string()), revealFromEpisode: z.number().int().positive() })),
-  relationships: z.array(z.object({ id: cardId, sourceCardId: cardId, targetCardId: cardId, label: z.string() })),
+  cards: z.array(z.object({ id: cardId, title: z.string(), text: z.string(), cardType: z.enum(cardTypes.map((type) => type.id)), aliases: z.array(z.string()), tags: z.array(z.string()), revealFromEpisode: z.number().int().positive(), imageId: z.string().min(1).nullable().default(null) })),
+  relationships: z.array(z.object({ id: cardId, sourceCardId: cardId, targetCardId: cardId, label: z.string(), category: z.enum(['structural', 'emotional']).nullable().optional(), direction: z.enum(['directed', 'symmetric']).nullable().optional(), body: z.string().nullable().optional(), polarity: z.enum(['asserted', 'denied']).nullable().optional() })),
   relationshipStatus: z.enum(['current', 'unavailable']).default('current'),
+})
+/** Fork가 이어받는 원작 세계관(#365): 시작 양식이 쓰는 카드 필드만 읽는다. 이어받는 세계관이 없으면 worldId가 null이다. */
+const inheritedWorld = z.object({
+  worldId: z.uuid().nullable(), upto: z.number().int().nonnegative(),
+  cards: z.array(z.object({ id: cardId, title: z.string(), cardType: z.string(), aliases: z.array(z.string()) })),
 })
 const publicationSchedule = z.object({
   id: z.string().min(1),
@@ -67,12 +72,34 @@ const publicationSchedule = z.object({
   failureReason: z.string().nullable(),
 })
 const schedulesPath = (id: string, number: number) => `/works/${encodeURIComponent(id)}/episodes/${number}/publication-schedules`
+const qaEpisode = z.object({ number: z.number().int().positive(), versionId: z.string() })
+const qaSource = z.object({
+  id: z.string(), workId: z.string(), sourceWorkId: z.string().nullable(), episode: z.number().int().positive(), quote: z.string(),
+})
+const manuscriptQaAnswer = z.object({
+  status: z.enum(['answered', 'partial', 'insufficient']),
+  claims: z.array(z.object({ text: z.string(), kind: z.enum(['confirmed', 'inferred']), sourceIds: z.array(z.string()) })),
+  sources: z.array(z.discriminatedUnion('kind', [
+    qaSource.extend({ kind: z.literal('manuscript'), episodeId: z.string(), versionId: z.string(),
+      startUtf16: z.number().int().nonnegative(), endUtf16: z.number().int().positive() }),
+    qaSource.extend({ kind: z.literal('setting'), settingId: z.string(), versionId: z.string(), title: z.string() }),
+    qaSource.extend({ kind: z.literal('relationship'), worldId: z.uuid(), graphVersion: z.number().int().nonnegative(),
+      relationshipId: z.uuid(), title: z.string() }),
+  ])),
+  gaps: z.array(z.object({ code: z.string(), detail: z.string() })),
+  coverage: z.object({
+    expected: z.array(qaEpisode), withVerifiedExcerpt: z.array(qaEpisode), withoutVerifiedExcerpt: z.array(qaEpisode),
+  }),
+})
 export type ReadingWorkRecord = z.infer<typeof readingWork>
 export type ReadingWorldRecord = z.infer<typeof readingWorld>
 
 export class HttpEpisodeRepository implements EpisodeRepository, WorkSearchRepository {
   private readonly fetcher?: typeof fetch
   constructor(fetcher?: typeof fetch) { this.fetcher = fetcher }
+  askStoryContext(id: string, input: StoryQaInput, owner: boolean, signal?: AbortSignal) {
+    return this.request(`${owner ? '' : '/public'}/works/${encodeURIComponent(id)}/context/qa`, manuscriptQaAnswer, 'POST', input, signal)
+  }
   /** anonymous면 Bearer 없이 보낸다. 기본은 공개 목록·세계관 같은 /public/works 읽기이고, 회차 댓글은 로그인 상태면 Bearer로 읽어 mine·liked를 받는다. */
   async request<T>(path: string, schema: z.ZodType<T>, method = 'GET', body?: unknown, signal?: AbortSignal, anonymous = path.startsWith('/public/works') && method === 'GET'): Promise<T> {
     const fetcher = this.fetcher ?? fetch
@@ -157,6 +184,7 @@ export class HttpEpisodeRepository implements EpisodeRepository, WorkSearchRepos
   }
   list(signal?: AbortSignal) { return this.request('/works', z.array(work), 'GET', undefined, signal) }
   create(title: string, summary: string, signal?: AbortSignal, registration?: WorkRegistration) { return this.request('/works',work,'POST',registration?{title,summary,...registration}:{title,summary},signal) }
+  suggestWorkTags(id: string, signal?: AbortSignal) { return this.request(`/works/${id}/tag-suggestions`,z.object({genres:z.array(z.string()),hashtags:z.array(z.string())}),'POST',undefined,signal) }
   /** 장르·해시태그는 주었을 때만 본문에 싣는다(생략하면 서버가 유지하고, 빈 배열은 비운다). */
   updateWork(id: string, title: string, summary: string, revision: number, signal?: AbortSignal, taxonomy?: WorkTaxonomy) { return this.request(`/works/${id}`,work,'PUT',{title,summary,revision,...taxonomy},signal) }
   stopForkPublication(id: string, signal?: AbortSignal) { return this.request(`/works/${id}/fork-publication`,z.undefined(),'DELETE',undefined,signal) }
@@ -164,6 +192,11 @@ export class HttpEpisodeRepository implements EpisodeRepository, WorkSearchRepos
   /** 작품과 내 세계관의 1:1 연결(DEC-46). worldId가 null이면 해제한다. 남의 것·없는 것은 404, 이미 다른 작품에 연결된 세계관은 409이며 서버 detail을 그대로 알린다. */
   linkWorldStudio(workId: string, worldId: string | null, signal?: AbortSignal) {
     return this.request(`/works/${encodeURIComponent(workId)}/world-studio`, z.object({ workId: z.string(), worldId: z.uuid().nullable() }), 'PUT', { worldId }, signal)
+  }
+  /** Fork 소유자가 자기 세계관 없이 이어받는 원작 세계관(읽기 전용, #365). 이어받는 세계관이 없으면 null이고, 서버 거절·형식 오류는 없음으로 바꾸지 않고 그대로 던진다. */
+  async inheritedWorld(workId: string, upto?: number, signal?: AbortSignal) {
+    const world = await this.request(`/works/${encodeURIComponent(workId)}/inherited-world${upto === undefined ? '' : `?upto=${upto}`}`, inheritedWorld, 'GET', undefined, signal)
+    return world.worldId ? { upto: world.upto, cards: world.cards } : null
   }
   save(id: string, value: Draft) { return this.request(`/works/${id}/draft`,draft,'PUT',value) }
   publish(id: string, revision: number, rightsConfirmed: boolean, allowFork: boolean, allowForkPublication = false, versionId?: string) { return this.request(`/works/${id}/publish`,work,'POST',{revision,rightsConfirmed,allowFork,allowForkPublication,versionId}) }
