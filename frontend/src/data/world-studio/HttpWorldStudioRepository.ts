@@ -72,8 +72,8 @@ const metadata = z.union([
   z.object({studio,preprocessing:preprocessing.optional()}).passthrough(),
   z.object({studio:partialStudio,preprocessing}).passthrough(),
 ])
-// 카드 semanticMetadata의 최상위 키(DEC-46): 독자 공개 시작 회차와 가져온 출처. 모양이 어긋난 값은 읽지 않는다.
-const revealFromEpisode = z.number().int().min(1)
+// 카드 semanticMetadata의 최상위 키(DEC-46·53): 공개 시작 회차와 가져온 출처. 모양이 어긋난 값은 읽지 않는다. 회차는 서버(`shownCardEpisode`)와 같이 1 이상 Int 범위의 정수만 읽는다.
+const revealFromEpisode = z.number().int().min(1).max(2147483647)
 const importedFrom = z.object({ worldId: z.string(), worldName: z.string(), authorNickname: z.string(), revisionNo: z.number().int(), cardId: z.string() })
 // 인물 문서(SOUL.md·GOAL.md·회차별 기억)도 인물 카드 semanticMetadata의 최상위 키 `characterDocs`다. IDENTITY.md는 카드 본문(body)이라 여기 없다.
 // DEC-47 이전에 저장한 문서는 `memory`가 있고 `goal`이 없어 둘 다 선택으로 받고, 읽을 때 지금 모양으로 옮긴다(memory는 00회차 앞에 이어 붙임).
@@ -128,7 +128,7 @@ const relation = z.object({
   id: uuid,
   sourceCardId: uuid.nullable(),
   targetCardId: uuid.nullable(),
-  category: z.enum(['structural', 'emotional']).nullable(),
+  category: z.enum(['structural', 'emotional', 'identity']).nullable(),
   body: z.string(),
   label: z.string(),
   direction: z.enum(['directed', 'symmetric']).nullable(),
@@ -183,7 +183,7 @@ function relationship(row: StudioSetting) {
     id: row.item.id,
     sourceCardId: row.item.subjectId,
     targetCardId: row.item.targetId,
-    category: definition ? definition.group === 'emotion' ? 'emotional' : 'structural' : null,
+    category: definition ? definition.group === 'emotion' ? 'emotional' : definition.group === 'identity' ? 'identity' : 'structural' : null,
     direction: definition ? definition.symmetric ? 'symmetric' : 'directed' : null,
     polarity: row.item.polarity,
     body: row.item.text,
@@ -200,11 +200,11 @@ function world(value: z.infer<typeof draft>, id: string): StudioWorld {
   const settings: StudioSetting[] = active.map((c) => {
     // 기존 Seeder는 정본 필드만 저장했다(빈 메타데이터). 그 카드만 정본 필드로 복원하며 손상된 studio는 검증에서 거절한다.
     const m = c.semanticMetadata
-    let row: StudioSetting, reveal: unknown, source: unknown, written: unknown, image: unknown
+    let row: StudioSetting, source: unknown, written: unknown, image: unknown
     if (hasStudio(m)) {
-      // 독자 공개 회차·가져온 출처·인물 문서·대표 이미지는 서버 메타데이터에 남기지 않고 행 필드로 옮긴다(지운 값이 다음 저장에서 되살아나지 않게). 어긋난 값은 버리고 읽기는 계속한다.
-      const {revealFromEpisode:r,importedFrom:f,characterDocs:w,imageId:i,...known}=m
-      reveal=r; source=f; written=w; image=i
+      // 공개 회차·가져온 출처·인물 문서·대표 이미지는 서버 메타데이터에 남기지 않고 행 필드로 옮긴다(지운 값이 다음 저장에서 되살아나지 않게). 어긋난 값은 버리고 읽기는 계속한다.
+      const {revealFromEpisode:_reveal,importedFrom:f,characterDocs:w,imageId:i,...known}=m
+      source=f; written=w; image=i
       row = setting(known,{id:c.id,title:c.title,text:c.body,category:c.areaCode},
         {userCategory:c.classification,aliases:c.aliases,tags:c.tags})
       if(m.studio.item.id!==c.id)throw invalid()
@@ -223,14 +223,16 @@ function world(value: z.infer<typeof draft>, id: string): StudioWorld {
       JSON.stringify(row.tags) !== JSON.stringify(c.tags) ||
       JSON.stringify(row.aliases ?? []) !== JSON.stringify(c.aliases)
     ) throw invalid()
-    const episode = revealFromEpisode.safeParse(reveal), from = importedFrom.safeParse(source), docs = characterDocs.safeParse(written), picture = uuid.safeParse(image)
-    return {...row,...(c.visibility==='public'&&{visibility:c.visibility}),...(episode.success&&{revealFromEpisode:episode.data}),...(from.success&&{importedFrom:from.data}),
+    // 키가 있는데(JSON null 포함) 값이 잘못됐으면 서버는 작가 전용으로 닫으므로(옛 `visibility`로 열지 않는다) 화면도 같게 읽고, 저장하면 비공개로 맞춘다. 키가 없을 때만 옛 공개 카드다.
+    const stored = m.revealFromEpisode, episode = revealFromEpisode.safeParse(stored), closed = stored !== undefined && !episode.success
+    const from = importedFrom.safeParse(source), docs = characterDocs.safeParse(written), picture = uuid.safeParse(image)
+    return {...row,...(c.visibility==='public'&&!closed&&{visibility:c.visibility}),...(episode.success&&{revealFromEpisode:episode.data}),...(from.success&&{importedFrom:from.data}),
       ...(docs.success&&c.cardType==='character'&&{characterDocs:docs.data}),...(picture.success&&{imageId:picture.data})}
   }).sort((a,b)=>(a.templateOrder??Number.MAX_SAFE_INTEGER)-(b.templateOrder??Number.MAX_SAFE_INTEGER))
   for (const r of value.relationships) {
     const row = setting(r.semanticMetadata,{id:r.id,kind:'relation',title:r.label,text:r.body,
       subjectId:r.sourceCardId,targetId:r.targetCardId,polarity:r.polarity??'asserted',
-      predicate:r.category==='emotional'?(r.direction==='symmetric'?'preserved_emotion_symmetric':'custom_emotion'):r.direction==='symmetric'?'custom_relation':'custom_relation_directed'},
+      predicate:r.category==='identity'?'identity_of':r.category==='emotional'?(r.direction==='symmetric'?'preserved_emotion_symmetric':'custom_emotion'):r.direction==='symmetric'?'custom_relation':'custom_relation_directed'},
       {userCategory:'',tags:[],aliases:[]}), expected = relationship(row)
     if(r.semanticMetadata.studio.item.id!==r.id)throw invalid()
     if (
@@ -492,12 +494,18 @@ export class HttpWorldStudioRepository implements WorldStudioRepository {
       const removed=baseline.settings.filter(row=>!after.has(row.item.id) || (row.item.kind==='relation')!==(after.get(row.item.id)?.item.kind==='relation'))
       const cards=[...changed.filter(row=>row.item.kind!=='relation').map(row=>({row,lifecycle:'active'})),...removed.filter(row=>row.item.kind!=='relation').map(row=>({row,lifecycle:'removed'}))]
       const relationships=[...changed.filter(row=>row.item.kind==='relation').map(row=>relationship(row)),...removed.filter(row=>row.item.kind==='relation').map(row=>({...relationship(row),lifecycle:'removed'}))]
+      // 「동일 인물」은 회차가 정하는 정체 공개라 새로 쓰거나 바꾸거나 끝내는 저장은 회차가 있어야 한다(서버도 422). 소설을 연결하지 않은 세계관은 1화뿐이라 1로 보낸다(#485).
+      const identityTouched=relationships.some(r=>r.category==='identity')
+      const savedAt=episode ?? (identityTouched && !baseline.linkedWorkId ? 1 : undefined)
+      // 설정을 지우는 저장은 회차를 지정할 수 없는데(서버 422) 「동일 인물」을 새로 쓰거나 바꾸거나 끝내는 저장은 회차가 있어야 한다(미연결 세계관은 1). 관계와 상관없는 설정 삭제도 같은 저장에 담을 수 없다.
+      if(identityTouched && cards.some(c=>c.lifecycle==='removed'))throw new Error('「동일 인물」 관계를 새로 쓰거나 바꾸거나 끝내는 저장은 설정 삭제와 함께 보낼 수 없어요. 한쪽을 먼저 저장한 뒤 나머지를 저장해 주세요(이어진 「동일 인물」이 있는 설정은 관계를 먼저 지우세요). 입력은 보존했어요.',{cause:'WORLD_WRITE_REJECTED'})
+      if(identityTouched && savedAt===undefined)throw new Error('「동일 인물」 관계를 새로 쓰거나 바꾸거나 끝내려면 관계 기준 회차를 정해야 해요. 입력을 보존하고 회차를 정해 주세요.',{cause:'WORLD_WRITE_REJECTED'})
       if(cards.length>1000 || relationships.length>1000)throw new Error('한 번에 저장할 수 있는 변경 한도를 넘었어요. 입력을 보존하고 변경을 줄여 주세요.',{cause:'WORLD_WRITE_REJECTED'})
       body=JSON.stringify({
         expectedDraftRevision: value.version,
         key: crypto.randomUUID(),
         replace: false,
-        episode,
+        episode: savedAt,
         name: value.name,
         description: value.description,
         cards: cards.map(({row,lifecycle}) => ({

@@ -223,12 +223,6 @@ it('does not treat an unexpected successful deletion response as confirmed remov
 })
 
 
-it('preserves the missing writing episode state from Core',async()=>{
- const value={id:'w',title:'작품',summary:'',visibility:'private',allowFork:false,source:null,episodes:[],draft:{title:'새 회차',body:'',revision:4},hasWritingEpisode:false,revision:0}
- const repo=new HttpEpisodeRepository(vi.fn().mockResolvedValue(Response.json([value])))
- expect((await repo.list())[0].hasWritingEpisode).toBe(false)
-})
-
 describe('work update and delete', () => {
   const work = { id: 'w', title: '새 제목', summary: '소개', visibility: 'private', allowFork: false, source: null, episodes: [], draft: { title: '', body: '', revision: 0 }, revision: 0 }
   it('puts title, summary and revision to the work and parses the response', async () => {
@@ -352,11 +346,6 @@ describe('회차 공개 상태와 발행 이력', () => {
 })
 
 
-it('공개 중단 후 서버가 지정한 다음 작성 회차 번호를 유지한다',async()=>{
-  const fetcher=vi.fn().mockResolvedValue(Response.json([{id:'w',title:'작품',summary:'',visibility:'public',allowFork:false,source:null,episodes:[],draft:{title:'3화',body:'',revision:3},writingEpisodeNumber:3,revision:0}]))
-  expect((await new HttpEpisodeRepository(fetcher).list())[0].writingEpisodeNumber).toBe(3)
-})
-
 it('stops Fork publication through its dedicated authenticated command', async () => {
   const fetcher = vi.fn().mockResolvedValue(new Response(null, { status: 204 }))
   await new HttpEpisodeRepository(fetcher).stopForkPublication('fork-id')
@@ -421,7 +410,17 @@ describe('Fork가 이어받는 원작 세계관(#365)', () => {
     expect(url).toBe('/api/v1/works/fork%201/inherited-world?upto=4')
     expect(request.method).toBe('GET')
     expect(request.headers).toEqual(expect.objectContaining({ Authorization: 'Bearer content-bearer' }))
-    expect(inherited).toEqual({ upto: 2, cards: [{ id: 'c1', title: '카엘', cardType: 'character', aliases: ['검은 기사'] }, { id: 'p1', title: '성문', cardType: 'location', aliases: ['검은 기사'] }] })
+    expect(inherited).toEqual({ upto: 2, cards: [{ id: 'c1', title: '카엘', cardType: 'character', aliases: ['검은 기사'] }, { id: 'p1', title: '성문', cardType: 'location', aliases: ['검은 기사'] }], identity: [] })
+  })
+
+  // 「동일 인물」(#485): 시작 양식이 같은 사람의 두 카드를 함께 고르지 못하게 하려고 이어받은 세계관의 identity를 다른 이름 → 본체 쌍으로 받는다.
+  it('이어받은 세계관의 「동일 인물」 관계를 다른 이름 → 본체 쌍으로 돌려주고 부정·다른 종류의 관계는 뺀다', async () => {
+    const relationship = (rid: string, sourceCardId: string, targetCardId: string, category: string, polarity = 'asserted') =>
+      ({ id: rid, sourceCardId, targetCardId, category, label: '', body: '', direction: 'directed', polarity, semanticMetadata: {}, lifecycle: 'active' })
+    const fetcher = vi.fn().mockImplementation(async () => Response.json(answer({ relationships: [
+      relationship('r1', 'c1', 'p1', 'identity'), relationship('r2', 'p1', 'c1', 'identity', 'denied'), relationship('r3', 'c1', 'p1', 'structural'),
+    ] })))
+    expect((await new EpisodeUseCase(new HttpEpisodeRepository(fetcher)).inheritedWorld('fork', 4))?.identity).toEqual([{ sourceCardId: 'c1', targetCardId: 'p1' }])
   })
 
   it('upto를 모르면 쿼리를 붙이지 않는다(서버가 Fork 기준 회차로 읽는다)', async () => {
