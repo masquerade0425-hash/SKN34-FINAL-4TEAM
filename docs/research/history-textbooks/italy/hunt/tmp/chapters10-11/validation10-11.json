@@ -1,0 +1,64 @@
+{
+  "preserved_files": {
+    "01-main-prose.ko.draft.md": true,
+    "01-section-01.ko.partial.md": true,
+    "01-sections-02-05.ko.partial.md": true,
+    "01-sections-06-08.ko.partial.md": true,
+    "01-sections-09-12.ko.partial.md": true,
+    "02-main-prose.ko.draft.md": true,
+    "02-qa.ko.md": true,
+    "03-main-prose.ko.draft.md": true,
+    "03-qa.ko.md": true,
+    "04-main-prose.ko.draft.md": true,
+    "04-qa.ko.md": true,
+    "05-main-prose.ko.draft.md": true,
+    "05-qa.ko.md": true,
+    "06-main-prose.ko.draft.md": true,
+    "06-qa.ko.md": true,
+    "07-main-prose.ko.draft.md": true,
+    "07-qa.ko.md": true,
+    "08-main-prose.ko.draft.md": true,
+    "08-qa.ko.md": true,
+    "09-main-prose.ko.draft.md": true,
+    "09-qa.ko.md": true,
+    "source-en.txt": true,
+    "source-scan.pdf": true,
+    "source-toronto-1883-scan.pdf": true,
+    "worldbuilding-01.derived-draft.md": true
+  },
+  "chapter_01_to_09_manifest_records_unchanged": true,
+  "new_deliverables": [
+    {
+      "file": "10-main-prose.ko.draft.md",
+      "bytes": 59004,
+      "sha256": "E9054344DBF1330D58D56DEEE914133B8E9C410732030CE74A94323F458D48E2"
+    },
+    {
+      "file": "10-qa.ko.md",
+      "bytes": 7377,
+      "sha256": "675D8B532BFCD858F87D4AD5B679DB25A4D01B852B559B2FA573746FD703A8E0"
+    },
+    {
+      "file": "11-main-prose.ko.draft.md",
+      "bytes": 76497,
+      "sha256": "6A707D8EEBF97A11AE7710C457C607049B6752513BEA00C86BDB69AD391BF4EA"
+    },
+    {
+      "file": "11-qa.ko.md",
+      "bytes": 9706,
+      "sha256": "1090A6ADA82A35150E0E343F9639666EF9AEBEB28930412ACD5478CCE994B262"
+    },
+    {
+      "file": "source-toronto-1883-extracted.txt",
+      "bytes": 584954,
+      "sha256": "8006E12EB376BA37163FD3777E84A257B116E7556645CC8A62F39A9748FB97F4"
+    },
+    {
+      "file": "scan-collation-first-sample.ko.md",
+      "bytes": 5838,
+      "sha256": "05DBE1531BD20DC4237AD483B423E10884E3EEA7BC8306316DAF9B4399E66B50"
+    }
+  ],
+  "no_commit_or_push": true,
+  "all_pages_image_proofread": false
+}

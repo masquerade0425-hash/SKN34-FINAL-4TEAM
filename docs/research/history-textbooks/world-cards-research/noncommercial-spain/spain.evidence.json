@@ -1,0 +1,387 @@
+{
+  "status": "RIGHTS HOLD: conflicting BY-NC-ND badge / BY-NC-SA text; preserve preexisting draft, no further adaptation, redistribution or production use",
+  "license": "Unresolved: PDF page2 image badge explicitly BY NC ND with equals sign; caption Atribución-NoComercial-CompartirIgual. Version unspecified. Publisher clarification required.",
+  "world_id": "168810ee-cd89-5a0a-aac7-fbfb52eb7c63",
+  "source_title": "Historia de España. Manual para estudiantes de español de las Secciones Bilingües",
+  "author": "Lara Torrego Otero",
+  "reviewer": "Joaquín Pascual López",
+  "publication_date": "2016-11-28",
+  "changes": "Korean paraphrase, thematic cards, source attribution, separate editorial caveats",
+  "third_party_content_excluded": true,
+  "entries": [
+    {
+      "card_id": "c6625531-5a61-54f4-a695-bf8822a4bc78",
+      "kind": "author_narrative_paraphrase",
+      "source_file": "../../spain/ministry-2016-noncommercial-research/source-es.pdf",
+      "source_sha256": "52F69A10D2AD5C679B922A39B185065438B1211554ABEF0FA3C134010AB251AB",
+      "pdf_page": 9,
+      "extraction_file": "../../spain/ministry-2016-noncommercial-research/source-pages.json",
+      "extraction_sha256": "67E3D968E4F84FAAD127771B241721894F5C4658AAEB59430FBF60BC7E155785",
+      "coordinate_system": "Python Unicode code-point offsets within this pdf_page text",
+      "source_ranges": [
+        {
+          "start_char": 1503,
+          "end_char_exclusive": 1788,
+          "text": "• Las cuevas de Altamira (Cantabria). En ellas \naparecen representaciones  de distintos animales  \ncomo ciervos, caballos y bisontes  (realizadas \ndurante el Paleolítico Superior), que han servido a \nlos estudiosos para aclarar creencias y \ncostumbres de los hombres de entonces. \n \n \n"
+        }
+      ],
+      "review_status": "원문 대조; 독립 현대 역사감수 미완료",
+      "held_or_excluded": "정확한 제작 연대와 의미 해석은 고고학 전문 자료 대조 전 보류."
+    },
+    {
+      "card_id": "32661030-e115-5a23-88de-cf97f4f21f9f",
+      "kind": "author_narrative_paraphrase",
+      "source_file": "../../spain/ministry-2016-noncommercial-research/source-es.pdf",
+      "source_sha256": "52F69A10D2AD5C679B922A39B185065438B1211554ABEF0FA3C134010AB251AB",
+      "pdf_page": 12,
+      "extraction_file": "../../spain/ministry-2016-noncommercial-research/source-pages.json",
+      "extraction_sha256": "67E3D968E4F84FAAD127771B241721894F5C4658AAEB59430FBF60BC7E155785",
+      "coordinate_system": "Python Unicode code-point offsets within this pdf_page text",
+      "source_ranges": [
+        {
+          "start_char": 689,
+          "end_char_exclusive": 1517,
+          "text": "Durante la conquista romana, los habitantes hispanos conquistados \nfueron adaptándose a las costumbres y a la cultura romana, así como a su \nlengua, el latín, a su economía y política. Este largo proceso se conoce como romanización. \n \n En esa adaptación podemos destacar el \ncaso de las ciudades, centros de la actividad \npolítica, que se organizaban igual que en Roma. \nSe construyeron muchas calzadas imperiales que \nlas unían entre sí. Estas ciudades estaban \nprotegidas con murallas  (como en Ávila, Lugo, \nTarragona…), y en ellas había acueductos (como \nel de Segovia, Mérida…) con los que se \ncanalizaba el agua para llevarlo hasta la ciudad. \nLos lugares importantes de las ciudades eran: la \nplaza o foro , las basílicas, la curia, las termas \n(baños públicos) y otros edificios de ocio ( teatros, \nanfiteatros…).  \n \n "
+        }
+      ],
+      "review_status": "원문 대조; 독립 현대 역사감수 미완료",
+      "held_or_excluded": "지역별 차이와 정복의 강제성을 단일 발전 단계로 단순화하지 않음."
+    },
+    {
+      "card_id": "fcd10623-3fa7-5280-ab21-ad55e3cce278",
+      "kind": "author_narrative_paraphrase",
+      "source_file": "../../spain/ministry-2016-noncommercial-research/source-es.pdf",
+      "source_sha256": "52F69A10D2AD5C679B922A39B185065438B1211554ABEF0FA3C134010AB251AB",
+      "pdf_page": 24,
+      "extraction_file": "../../spain/ministry-2016-noncommercial-research/source-pages.json",
+      "extraction_sha256": "67E3D968E4F84FAAD127771B241721894F5C4658AAEB59430FBF60BC7E155785",
+      "coordinate_system": "Python Unicode code-point offsets within this pdf_page text",
+      "source_ranges": [
+        {
+          "start_char": 1858,
+          "end_char_exclusive": 2360,
+          "text": "Abd al-Rahman III proclamó el Califato de \nCórdoba en el año 929, perdiendo así toda unión \ncon el Imperio, y durante su reinado y el de su hijo, \nAl-Ándalus se convirtió en uno de los estados más \npoderosos de la época. \nEn 1031 desapareció el Califato por las \nconstantes revueltas e inestabilidad política. Tras \nesto, el territorio se dividió en taifas, por lo que los \ncristianos consiguieron avanzar en la conquista y \nlas taifas tuvieron que pedir ayuda a los \nalmorávides del norte de África. \n"
+        }
+      ],
+      "review_status": "원문 대조; 독립 현대 역사감수 미완료",
+      "held_or_excluded": "원문929·1031년을 따르지만 독립 현대 역사감수 미완료."
+    },
+    {
+      "card_id": "0822c0fb-177d-516e-87aa-be65a2d848a2",
+      "kind": "author_narrative_paraphrase",
+      "source_file": "../../spain/ministry-2016-noncommercial-research/source-es.pdf",
+      "source_sha256": "52F69A10D2AD5C679B922A39B185065438B1211554ABEF0FA3C134010AB251AB",
+      "pdf_page": 27,
+      "extraction_file": "../../spain/ministry-2016-noncommercial-research/source-pages.json",
+      "extraction_sha256": "67E3D968E4F84FAAD127771B241721894F5C4658AAEB59430FBF60BC7E155785",
+      "coordinate_system": "Python Unicode code-point offsets within this pdf_page text",
+      "source_ranges": [
+        {
+          "start_char": 0,
+          "end_char_exclusive": 547,
+          "text": "b. La vida en la ciudad \n Los musulmanes recuperaron las construcciones urbanas anteriores, \nfundando pocas ciudades, porque era más barato y práctico repoblar  las \nciudades que ya existían. \n Las ciudades musulmanas \ntenían un núcleo urbano llamado \nmedina, rodeada de una muralla \ny dividida en barrios (por \nprofesión o religión). Muchas \nveces, alrededor de la medina \nsurgían los arrabales. Los zocos  \nera el centro social, al igual que \nlos baños (parecidos a las termas \nromanas), y el principal lugar de \nreunión era la mezquita. \n \n \n \n"
+        }
+      ],
+      "review_status": "원문 대조; 독립 현대 역사감수 미완료",
+      "held_or_excluded": "교재의 유형화이며 특정 도시의 실측 지도나 보편적 사회 법칙이 아님."
+    },
+    {
+      "card_id": "9a9b44bd-ae78-5f66-a2fb-d76c510d87ec",
+      "kind": "author_narrative_paraphrase",
+      "source_file": "../../spain/ministry-2016-noncommercial-research/source-es.pdf",
+      "source_sha256": "52F69A10D2AD5C679B922A39B185065438B1211554ABEF0FA3C134010AB251AB",
+      "pdf_page": 36,
+      "extraction_file": "../../spain/ministry-2016-noncommercial-research/source-pages.json",
+      "extraction_sha256": "67E3D968E4F84FAAD127771B241721894F5C4658AAEB59430FBF60BC7E155785",
+      "coordinate_system": "Python Unicode code-point offsets within this pdf_page text",
+      "source_ranges": [
+        {
+          "start_char": 183,
+          "end_char_exclusive": 1016,
+          "text": "2. LOS REYES CATÓLICOS [1474-1514] \n(Isabel I de Castilla y Fernando II de Aragón) \n \n El casamiento de Isabel de \nCastilla con Fernando de Aragón \nunió el destino de los dos reinos, ya \nque a finales del siglo XV, tras la \nmuerte Enrique IV (1474), hermano \nde Isabel, ésta se proclamó reina de \nCastilla. Pasaron a la historia como \nlos Reyes Católicos y juntos \ncomenzaron una serie de reformas  \nque establecieron las bases de la \nmonarquía moderna en la \nPenínsula. A continuación, vamos a \nestudiarlas: \n \n1. Organización política \n El matrimonio de Isabel y Fernando no consiguió la unidad de \nEspaña, sino que los dos reinos eran autónomos, respet ándose las leyes e \ninstituciones de ambos. Los reyes y su corte vivieron en Castilla (en Aragón \nhabía un virrey) y la política estaba dirigida por consejeros castellanos. \n \n "
+        }
+      ],
+      "review_status": "원문 대조; 독립 현대 역사감수 미완료",
+      "held_or_excluded": "원문 장 제목1474–1514 범위를 확정 연표로 채택하지 않음."
+    },
+    {
+      "card_id": "6358e08a-794f-5473-9dd2-0d89b1b6a52f",
+      "kind": "author_narrative_paraphrase",
+      "source_file": "../../spain/ministry-2016-noncommercial-research/source-es.pdf",
+      "source_sha256": "52F69A10D2AD5C679B922A39B185065438B1211554ABEF0FA3C134010AB251AB",
+      "pdf_page": 39,
+      "extraction_file": "../../spain/ministry-2016-noncommercial-research/source-pages.json",
+      "extraction_sha256": "67E3D968E4F84FAAD127771B241721894F5C4658AAEB59430FBF60BC7E155785",
+      "coordinate_system": "Python Unicode code-point offsets within this pdf_page text",
+      "source_ranges": [
+        {
+          "start_char": 1765,
+          "end_char_exclusive": 2736,
+          "text": "5. ECONOMÍA Y SOCIEDAD \n En cuanto a la economía, con los Reyes Católicos, en Aragón \ncreció el comercio centrado en la artesanía; y en Castilla la ganadería \nsiguió siendo importante y, por tanto, el comercio de la lana, fuente de riqueza durante todo el periodo, \nasí como la llegada masiva de oro y plata de América, tras su descubrimiento. Todas las riquezas y las \nfuertes subidas de impuestos (siglo XVI), fueron destinadas a mantener las luchas externas, llevando a \nlos reinos a un empobrecimiento gradual, que desencadenó en una gran quiebra económica (1594) de \nla monarquía, al final del reinado de Felipe II, debido a las pérdidas causadas por los diversos \nenfrentamientos.  \n En cuanto a la sociedad, se mantuvo la estructura s ocial estamental, pero en las ciudades se \ndesarrolló una burguesía que se enriqueció, principalmente, con el comercio de la lana. Sin embargo, \ndurante el siglo XVI se fue empobreciendo gradualmente, especialmente en Castilla. \n"
+        }
+      ],
+      "review_status": "원문 대조; 독립 현대 역사감수 미완료",
+      "held_or_excluded": "원문1594 파산 연도·모든 부가 전쟁에 쓰였다는 단정 보류. 식민 지배 당사자 관점 추가 필요."
+    },
+    {
+      "card_id": "bf28ea5a-390f-5b47-9847-c873f3e2a751",
+      "kind": "author_narrative_paraphrase",
+      "source_file": "../../spain/ministry-2016-noncommercial-research/source-es.pdf",
+      "source_sha256": "52F69A10D2AD5C679B922A39B185065438B1211554ABEF0FA3C134010AB251AB",
+      "pdf_page": 49,
+      "extraction_file": "../../spain/ministry-2016-noncommercial-research/source-pages.json",
+      "extraction_sha256": "67E3D968E4F84FAAD127771B241721894F5C4658AAEB59430FBF60BC7E155785",
+      "coordinate_system": "Python Unicode code-point offsets within this pdf_page text",
+      "source_ranges": [
+        {
+          "start_char": 1047,
+          "end_char_exclusive": 2032,
+          "text": "4. EL REINADO DE FELIPE V (1700-1746) \n Al poco de su llegada al trono, tuvo que enfrentarse a la Guerra de Sucesión (1701- 1714) entre \nsus partidarios y los del archiduque Carlos de Austria, con repercusiones externas e internas: \n1. Gran Bretaña, Holanda, Portugal y Austria, temiendo una unión entre Francia y España, apoyaron al \narchiduque Carlos. Sin embargo, cuando Carlos fue proclamado emperador de Alemania (1711), \nGran Bretaña y Holanda dejaron de apoyarlo para evitar la ruptura del equilibrio europeo, acordaron \nla paz con Francia y firmaron el Tratado de Utrecht  (1713), que puso fin a la guerra, perdiendo \nEspaña sus territorios europeos y reconociendo a Felipe V como rey de España.  \n2. En España, el conflicto se convirtió en guerra civil debido a que el archiduque Carlos fue apoyado \npor la corona de Aragón, por miedo a perder sus fueros; y Felipe V fue apoyado por Castilla. Las \ntropas felipistas acabaron con el conflicto al conquistar Barcelona (1714). \n "
+        }
+      ],
+      "review_status": "원문 대조; 독립 현대 역사감수 미완료",
+      "held_or_excluded": "1713 조약과1714 바르셀로나 구분. 각 지역 주민 전체가 단일하게 행동했다고 일반화하지 않음."
+    },
+    {
+      "card_id": "53c9a820-f70b-529c-9c16-325818b93734",
+      "kind": "author_narrative_paraphrase",
+      "source_file": "../../spain/ministry-2016-noncommercial-research/source-es.pdf",
+      "source_sha256": "52F69A10D2AD5C679B922A39B185065438B1211554ABEF0FA3C134010AB251AB",
+      "pdf_page": 50,
+      "extraction_file": "../../spain/ministry-2016-noncommercial-research/source-pages.json",
+      "extraction_sha256": "67E3D968E4F84FAAD127771B241721894F5C4658AAEB59430FBF60BC7E155785",
+      "coordinate_system": "Python Unicode code-point offsets within this pdf_page text",
+      "source_ranges": [
+        {
+          "start_char": 1029,
+          "end_char_exclusive": 1520,
+          "text": "que buscaba cambios profundos en la política y en la \neconomía para modernizar la situación del país. En esta línea, \npropuso varias reformas económicas, agrarias y educacionales, \nque causaron grandes revueltas entre todos los sectores de la \nsociedad. Alguna de estas revueltas fue muy conocida, como la \ndel Motín de Esquilache; y también alguna de las reformas, \ncomo la desamortización o la expulsión de los jesuitas; éstas \núltimas para reforzar el poder real frente a la iglesia. \n \n "
+        }
+      ],
+      "review_status": "원문 대조; 독립 현대 역사감수 미완료",
+      "held_or_excluded": "개별 개혁 시점·인과관계는 현대 연구 대조 전 보류."
+    },
+    {
+      "card_id": "4aaede48-3bde-519e-96e4-2919d838349f",
+      "kind": "author_narrative_paraphrase",
+      "source_file": "../../spain/ministry-2016-noncommercial-research/source-es.pdf",
+      "source_sha256": "52F69A10D2AD5C679B922A39B185065438B1211554ABEF0FA3C134010AB251AB",
+      "pdf_page": 64,
+      "extraction_file": "../../spain/ministry-2016-noncommercial-research/source-pages.json",
+      "extraction_sha256": "67E3D968E4F84FAAD127771B241721894F5C4658AAEB59430FBF60BC7E155785",
+      "coordinate_system": "Python Unicode code-point offsets within this pdf_page text",
+      "source_ranges": [
+        {
+          "start_char": 1300,
+          "end_char_exclusive": 1744,
+          "text": "En este mismo año se \nconvocaron las Cortes en Cádiz (libre del dominio francés), en las \nque los liberales se imp usieron (frente a los absolutistas  y \nreformistas), acabando con el Antiguo Régimen, con la monarquía \nabsoluta y dando lugar a la primera constitución \nespañola: la Constitución de 1812 , que \nestableció la defensa de la sober anía nacional, \nla separación de poderes y el no reconocimiento \nde las abdicaciones de Bayona. \n \n "
+        }
+      ],
+      "review_status": "원문 대조; 독립 현대 역사감수 미완료",
+      "held_or_excluded": "실제 헌법 조항·시행·참정권 범위는 별도 원전 검수 필요."
+    },
+    {
+      "card_id": "5d8c4255-92df-55c9-934a-4ae331794970",
+      "kind": "author_narrative_paraphrase",
+      "source_file": "../../spain/ministry-2016-noncommercial-research/source-es.pdf",
+      "source_sha256": "52F69A10D2AD5C679B922A39B185065438B1211554ABEF0FA3C134010AB251AB",
+      "pdf_page": 66,
+      "extraction_file": "../../spain/ministry-2016-noncommercial-research/source-pages.json",
+      "extraction_sha256": "67E3D968E4F84FAAD127771B241721894F5C4658AAEB59430FBF60BC7E155785",
+      "coordinate_system": "Python Unicode code-point offsets within this pdf_page text",
+      "source_ranges": [
+        {
+          "start_char": 227,
+          "end_char_exclusive": 776,
+          "text": "5. EL SEXENIO DEMOCRÁTICO (1868-1874) \n1. La Revolución de 1868, “La Gloriosa”.  Triunfó en todo el país \nprovocando el exilio de Isabel II y la formación de un Gobierno \nprovisional, dirigido por los generales Prim  y Serrano, que debía \ndecidir la futura forma de estado. \n Esta revolución dio paso al primer gobierno democrático de la Historia española. De las primeras \nelecciones por sufragio universal masculino directo sale el parlamen to que elaboró la Constitución \nde 1869, de carácter monárquico, por lo que tuvieron que buscar un rey. \n "
+        }
+      ],
+      "review_status": "원문 대조; 독립 현대 역사감수 미완료",
+      "held_or_excluded": "최초 민주정부라는 평가와 같은 쪽의 쿠바 전쟁 시작 연도는 확정 사실로 채택하지 않음."
+    },
+    {
+      "card_id": "01653c15-0938-5b24-836a-785c875aaba1",
+      "kind": "author_narrative_paraphrase",
+      "source_file": "../../spain/ministry-2016-noncommercial-research/source-es.pdf",
+      "source_sha256": "52F69A10D2AD5C679B922A39B185065438B1211554ABEF0FA3C134010AB251AB",
+      "pdf_page": 88,
+      "extraction_file": "../../spain/ministry-2016-noncommercial-research/source-pages.json",
+      "extraction_sha256": "67E3D968E4F84FAAD127771B241721894F5C4658AAEB59430FBF60BC7E155785",
+      "coordinate_system": "Python Unicode code-point offsets within this pdf_page text",
+      "source_ranges": [
+        {
+          "start_char": 700,
+          "end_char_exclusive": 1176,
+          "text": "Además de la nueva Constitución, se llevaron a cabo varias \nreformas important es en varios ámbitos: en el educativo, se creó un \nprograma muy ambicioso  de construcción de escuelas y puestos de \nmaestros, se apartó  a la Iglesia de la educación y se permitió la \nenseñanza mixta; en el religioso, se introdujo el divorcio  y el matrimonio \ncivil, y se suprimió la religión como materia obligatoria en la educación; lo \nque provocó la oposición de la Iglesia, principalmente; "
+        }
+      ],
+      "review_status": "원문 대조; 독립 현대 역사감수 미완료",
+      "held_or_excluded": "개혁의 법적 범위·실제 시행 정도는 전문 감수 대기."
+    },
+    {
+      "card_id": "f9c2ba69-e956-5d9b-903e-4576262c7f88",
+      "kind": "author_narrative_paraphrase",
+      "source_file": "../../spain/ministry-2016-noncommercial-research/source-es.pdf",
+      "source_sha256": "52F69A10D2AD5C679B922A39B185065438B1211554ABEF0FA3C134010AB251AB",
+      "pdf_page": 91,
+      "extraction_file": "../../spain/ministry-2016-noncommercial-research/source-pages.json",
+      "extraction_sha256": "67E3D968E4F84FAAD127771B241721894F5C4658AAEB59430FBF60BC7E155785",
+      "coordinate_system": "Python Unicode code-point offsets within this pdf_page text",
+      "source_ranges": [
+        {
+          "start_char": 942,
+          "end_char_exclusive": 1591,
+          "text": "c. Consecuencias de la guerra \n La situación de España  después de tres años de \nconflicto era desastrosa. El número de muertos ascendía a \nmedio millón (muchos de ellos población civil) por los \nbombardeos de la Legió   n Cóndor (Guernica, Badajoz…). \nLa represión fue muy dura en ambos bandos durante la \nguerra y, terminado el conflicto, se mantuvo igual con los \nrepublicanos. Muchos eligieron el exilio. \n El país quedó empobrecido. Se arrasaron \nciudades, campos de cultivo, vías de comunicación, \narchivos, industrias... La economía del país quedó \nestancada y tardó décadas en recuperar el nivel de antes \nde la guerra. \n \n \n \n \n \n \n \n \n \n \n"
+        }
+      ],
+      "review_status": "원문 대조; 독립 현대 역사감수 미완료",
+      "held_or_excluded": "원문50만 사망 및 콘도르군단·바다호스 연결 보류. 피해의 종류와 규모 독립 검수 필요."
+    },
+    {
+      "card_id": "84695976-7b47-59f2-9f3e-153265047887",
+      "kind": "author_narrative_paraphrase",
+      "source_file": "../../spain/ministry-2016-noncommercial-research/source-es.pdf",
+      "source_sha256": "52F69A10D2AD5C679B922A39B185065438B1211554ABEF0FA3C134010AB251AB",
+      "pdf_page": 106,
+      "extraction_file": "../../spain/ministry-2016-noncommercial-research/source-pages.json",
+      "extraction_sha256": "67E3D968E4F84FAAD127771B241721894F5C4658AAEB59430FBF60BC7E155785",
+      "coordinate_system": "Python Unicode code-point offsets within this pdf_page text",
+      "source_ranges": [
+        {
+          "start_char": 1,
+          "end_char_exclusive": 602,
+          "text": "Durante la Guerra Civil, se \nhabía ido estableciendo en España \nun régimen autoritario, cuyos \npoderes recaían en el militar \nFrancisco Franco (de ahí que se \nconozca como Franquismo), \nconocido también como “el Caudillo” \no “el Generalísimo”. Este régimen \ndictatorial se mantuvo en España \nhasta 1975. \n \nINSTAURACIÓN Y ORGANIZACIÓN DEL RÉGIMEN \n Cuando terminó la Guerra \nCivil (1939), hubo una fuerte \nrepresión ( ejecuciones, exilios y \nencarcelamientos) con tra las \nfuerzas derrotadas y cualquier \noposición al régimen, impidiendo una organización en contra del \nnuevo sistema de gobierno. \n \n "
+        }
+      ],
+      "review_status": "원문 대조; 독립 현대 역사감수 미완료",
+      "held_or_excluded": "제도별 존속 기간과 희생 규모를 이 요약만으로 확정하지 않음."
+    },
+    {
+      "card_id": "e31a143f-264a-529a-882f-9bda65fa159b",
+      "kind": "author_narrative_paraphrase",
+      "source_file": "../../spain/ministry-2016-noncommercial-research/source-es.pdf",
+      "source_sha256": "52F69A10D2AD5C679B922A39B185065438B1211554ABEF0FA3C134010AB251AB",
+      "pdf_page": 108,
+      "extraction_file": "../../spain/ministry-2016-noncommercial-research/source-pages.json",
+      "extraction_sha256": "67E3D968E4F84FAAD127771B241721894F5C4658AAEB59430FBF60BC7E155785",
+      "coordinate_system": "Python Unicode code-point offsets within this pdf_page text",
+      "source_ranges": [
+        {
+          "start_char": 2,
+          "end_char_exclusive": 523,
+          "text": "3. Desarrollo económico y modernización (1959-1969) \n Para liberalizar la \neconomía, Franco eligió \nministros que formaban \nparte d el Opus Dei y que \ntenían una buena \nformación en economía y \nderecho (conocidos \ncomo tecnócratas). Se \ncreó, además, un Plan \nde Estabilización (1959) \nque recortó el gasto \npúblico, congeló los \nsalarios, eliminó controles comerciales e industriales y \nfavoreció las inversiones extranjeras. Además, se llevó \na cabo una reforma fiscal, que no consiguió eliminar la \npobreza existente. "
+        }
+      ],
+      "review_status": "원문 대조; 독립 현대 역사감수 미완료",
+      "held_or_excluded": "경제 성과를 독재 정당화에 사용하지 않음. 후속 개발계획 연대·통계·효과는 보류."
+    },
+    {
+      "card_id": "8d544ebc-22a1-57e3-bb3c-e1c0e590a851",
+      "kind": "author_narrative_paraphrase",
+      "source_file": "../../spain/ministry-2016-noncommercial-research/source-es.pdf",
+      "source_sha256": "52F69A10D2AD5C679B922A39B185065438B1211554ABEF0FA3C134010AB251AB",
+      "pdf_page": 122,
+      "extraction_file": "../../spain/ministry-2016-noncommercial-research/source-pages.json",
+      "extraction_sha256": "67E3D968E4F84FAAD127771B241721894F5C4658AAEB59430FBF60BC7E155785",
+      "coordinate_system": "Python Unicode code-point offsets within this pdf_page text",
+      "source_ranges": [
+        {
+          "start_char": 1683,
+          "end_char_exclusive": 2200,
+          "text": "se constituyeron las Cortes, con representantes políticos de distintas \nideologías, en una política denominada de consenso y que dio lugar a la Constitución de 1978 . Ésta \nestableció la monarquía parlamentaria como forma política  y que la soberanía recaía en el pueblo. \nSentó las bases para la creación de autonomías, que fueron conformándose, inicialmente con Cataluña \ny el País Vasco, por sus previos  estatutos de autonomía, y con algunas otras regiones, posteriormente, \ncomo Galicia,  Aragón, Valencia, etc. "
+        }
+      ],
+      "review_status": "원문 대조; 독립 현대 역사감수 미완료",
+      "held_or_excluded": "사형 폐지의 예외 등 법적 세부와 현행 법률 판단은 제외."
+    },
+    {
+      "card_id": "61d41d7d-249d-5016-b3f1-3e11ce3f8f10",
+      "kind": "author_narrative_paraphrase",
+      "source_file": "../../spain/ministry-2016-noncommercial-research/source-es.pdf",
+      "source_sha256": "52F69A10D2AD5C679B922A39B185065438B1211554ABEF0FA3C134010AB251AB",
+      "pdf_page": 123,
+      "extraction_file": "../../spain/ministry-2016-noncommercial-research/source-pages.json",
+      "extraction_sha256": "67E3D968E4F84FAAD127771B241721894F5C4658AAEB59430FBF60BC7E155785",
+      "coordinate_system": "Python Unicode code-point offsets within this pdf_page text",
+      "source_ranges": [
+        {
+          "start_char": 1,
+          "end_char_exclusive": 411,
+          "text": "Por estas \nmismas fechas, la \nsituación económica \nera pésima y el \nvicepresidente Enrique \nFuentes Quintana  \npromovió la firma de \nlos Pactos de la \nMoncloa (octubre, \n1977) entre los distintos partidos políticos para \nmejorar la situación económica y social del país, \nobligando a una reforma fiscal, a la creación de \nplazas escolares  públicas y a la extensión de la \nSeguridad Social, entre otras. \n \n \n "
+        }
+      ],
+      "review_status": "원문 대조; 독립 현대 역사감수 미완료",
+      "held_or_excluded": "당사자 범위와 세부 이행은 원 협약 및 현대 연구 검수 대기."
+    },
+    {
+      "card_id": "93717f2c-0c60-5c62-9825-ef6a9c03ed3d",
+      "kind": "author_narrative_paraphrase",
+      "source_file": "../../spain/ministry-2016-noncommercial-research/source-es.pdf",
+      "source_sha256": "52F69A10D2AD5C679B922A39B185065438B1211554ABEF0FA3C134010AB251AB",
+      "pdf_page": 125,
+      "extraction_file": "../../spain/ministry-2016-noncommercial-research/source-pages.json",
+      "extraction_sha256": "67E3D968E4F84FAAD127771B241721894F5C4658AAEB59430FBF60BC7E155785",
+      "coordinate_system": "Python Unicode code-point offsets within this pdf_page text",
+      "source_ranges": [
+        {
+          "start_char": 1383,
+          "end_char_exclusive": 1493,
+          "text": "De estas se \nprodujo un movimiento social conocido como 15M  (mayo, 2011), cuyo \ncentro se instauró en Madrid "
+        },
+        {
+          "start_char": 1531,
+          "end_char_exclusive": 1713,
+          "text": "debido a la indignación ante los \nrecortes sociales y las ayudas públicas a los bancos. Las acampadas  duraron casi un mes, cuando \nfinalmente se disolvieron sin cesar su actividad. "
+        }
+      ],
+      "review_status": "원문 대조; 독립 현대 역사감수 미완료",
+      "held_or_excluded": "15M의 성과와 ETA 종식을 연결하는 독해는 보류."
+    },
+    {
+      "card_id": "f5531d33-73ef-5579-b930-0c2764035b20",
+      "kind": "editorial_scope_and_rights_notice",
+      "source_file": "../../spain/ministry-2016-noncommercial-research/source-es.pdf",
+      "source_sha256": "52F69A10D2AD5C679B922A39B185065438B1211554ABEF0FA3C134010AB251AB",
+      "pdf_pages": [
+        2,
+        3,
+        125
+      ],
+      "source_ranges": [
+        {
+          "pdf_page": 2,
+          "text": "Licencia Creative Commons Atribución-NoComercial-CompartirIgual \n"
+        },
+        {
+          "pdf_page": 3,
+          "text": "Textos de los temas: Lara Torrego Otero \n"
+        }
+      ],
+      "review_status": "PDF2쪽 이미지의 BY NC ND와 추출 문구 BY-NC-SA 충돌 확인. 권리 미확정."
+    },
+    {
+      "card_id": "7637cea6-8a9b-5e4b-be7f-0dbb51e33e1a",
+      "kind": "editorial_scope_and_rights_notice",
+      "source_file": "../../spain/ministry-2016-noncommercial-research/source-es.pdf",
+      "source_sha256": "52F69A10D2AD5C679B922A39B185065438B1211554ABEF0FA3C134010AB251AB",
+      "pdf_pages": [
+        2,
+        3,
+        125
+      ],
+      "source_ranges": [
+        {
+          "pdf_page": 2,
+          "text": "Licencia Creative Commons Atribución-NoComercial-CompartirIgual \n"
+        },
+        {
+          "pdf_page": 3,
+          "text": "Textos de los temas: Lara Torrego Otero \n"
+        }
+      ],
+      "review_status": "PDF2쪽 이미지의 BY NC ND와 추출 문구 BY-NC-SA 충돌 확인. 권리 미확정."
+    }
+  ],
+  "rights_visual_evidence": "license-page2-review.png",
+  "independent_review_correction": "학교 카드의1931년 헌법 이후를 제2공화국 초기에로 정정: Además de는 시간 선후가 아님."
+}

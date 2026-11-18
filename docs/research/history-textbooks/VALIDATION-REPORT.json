@@ -1,0 +1,23 @@
+{
+  "checked_utc": "2026-11-13T10:59:20.9853717Z",
+  "original_html_files": 28,
+  "original_text_files": 28,
+  "original_hash_mismatches": [],
+  "chapter_drafts": 28,
+  "combined_chapter_markers": 28,
+  "combined_bytes": 3576606,
+  "markdown_files_checked": 334,
+  "utf8_or_replacement_issues": [],
+  "zero_byte_files": [],
+  "html_caption_occurrences": 385,
+  "captions_in_by_sa_combined": 384,
+  "caption_separately_by_nc": 1,
+  "recommended_work_entries": 709,
+  "unique_source_notes": 1421,
+  "worldbuilding_candidates": 20,
+  "expert_historical_review_complete": false,
+  "application_build_or_tests": "Not run: documentation-only changes",
+  "commit_or_push": "Not performed",
+  "independent_content_review": "Sample only: chapters 1, 13, 23, 28. Not a whole-book review.",
+  "relative_original_paths_missing": []
+}

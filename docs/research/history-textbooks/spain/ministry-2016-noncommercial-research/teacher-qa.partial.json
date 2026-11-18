@@ -1,0 +1,2209 @@
+{
+  "schema_version": 1,
+  "status": "author_text_first_pass_complete_with_holds",
+  "source_pdf_sha256": "52f69a10d2ad5c679b922a39b185065438b1211554abef0fa3c134010ab251ab",
+  "source_pdf_pages": 278,
+  "teacher_range": [
+    176,
+    278
+  ],
+  "existing_files_preserved": {
+    "00-didactic-guide.ko.draft.md": true,
+    "01-activities-author-prose.ko.draft.md": true,
+    "01-concepts-attributed.ko.draft.md": true,
+    "01-main-prose.ko.draft.md": true,
+    "02-activities-author-prose.ko.draft.md": true,
+    "02-concepts-attributed.ko.draft.md": true,
+    "02-main-prose.ko.draft.md": true,
+    "03-activities-author-prose.ko.draft.md": true,
+    "03-concepts-attributed.ko.draft.md": true,
+    "03-main-prose.ko.draft.md": true,
+    "04-activities-author-prose.ko.draft.md": true,
+    "04-concepts-attributed.ko.draft.md": true,
+    "04-main-prose.ko.draft.md": true,
+    "05-activities-author-prose.ko.draft.md": true,
+    "05-concepts-attributed.ko.draft.md": true,
+    "05-main-prose.ko.draft.md": true,
+    "06-activities-author-prose.ko.draft.md": true,
+    "06-concepts-attributed.ko.draft.md": true,
+    "06-main-prose.ko.draft.md": true,
+    "07-activities-author-prose.ko.draft.md": true,
+    "07-concepts-attributed.ko.draft.md": true,
+    "07-main-prose.ko.draft.md": true,
+    "08-activities-author-prose.ko.draft.md": true,
+    "08-concepts-attributed.ko.draft.md": true,
+    "08-main-prose.ko.draft.md": true,
+    "chronology-01.ko.draft.md": true,
+    "chronology-02.ko.draft.md": true,
+    "chronology-03.ko.draft.md": true,
+    "chronology-04.ko.draft.md": true,
+    "chronology-05.ko.draft.md": true,
+    "chronology-06.ko.draft.md": true,
+    "chronology-07.ko.draft.md": true,
+    "chronology-08.ko.draft.md": true,
+    "concepts-appendix-index.ko.md": true,
+    "concepts-qa.partial.json": true,
+    "concepts-translation-manifest.partial.json": true,
+    "eight-chapters-main-prose.ko.draft.md": true,
+    "README.concepts-progress.ko.md": true,
+    "README.partial-ko.md": true,
+    "rights-inventory.student.partial-ko.md": true,
+    "source-es.extracted.txt": true,
+    "source-es.pdf": true,
+    "source-manifest.json": true,
+    "source-pages.json": true,
+    "translation-manifest.partial.json": true,
+    "worldbuilding-3-candidates.derived-draft.md": true
+  },
+  "link_checks": [
+    {
+      "source": "teacher-00-frontmatter.ko.draft.md",
+      "target": "teacher-rights-inventory.ko.md",
+      "ok": true
+    },
+    {
+      "source": "teacher-01-guidance-answers.ko.draft.md",
+      "target": "teacher-rights-inventory.ko.md",
+      "ok": true
+    },
+    {
+      "source": "teacher-01-guidance-answers.ko.draft.md",
+      "target": "01-activities-author-prose.ko.draft.md#pdf-13쪽-활동",
+      "ok": true
+    },
+    {
+      "source": "teacher-01-guidance-answers.ko.draft.md",
+      "target": "01-activities-author-prose.ko.draft.md#pdf-14쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-01-guidance-answers.ko.draft.md",
+      "target": "01-activities-author-prose.ko.draft.md#pdf-14쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-01-guidance-answers.ko.draft.md",
+      "target": "01-activities-author-prose.ko.draft.md#pdf-15쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-01-guidance-answers.ko.draft.md",
+      "target": "01-main-prose.ko.draft.md#2-페니키아인들-los-fenicios",
+      "ok": true
+    },
+    {
+      "source": "teacher-01-guidance-answers.ko.draft.md",
+      "target": "01-main-prose.ko.draft.md#1-이베리아인들-los-íberos",
+      "ok": true
+    },
+    {
+      "source": "teacher-01-guidance-answers.ko.draft.md",
+      "target": "01-main-prose.ko.draft.md#5-켈트인들-los-celtas",
+      "ok": true
+    },
+    {
+      "source": "teacher-01-guidance-answers.ko.draft.md",
+      "target": "01-main-prose.ko.draft.md#4-카르타고인들-los-cartagineses",
+      "ok": true
+    },
+    {
+      "source": "teacher-01-guidance-answers.ko.draft.md",
+      "target": "01-main-prose.ko.draft.md#3-그리스인들-los-griegos",
+      "ok": true
+    },
+    {
+      "source": "teacher-01-guidance-answers.ko.draft.md",
+      "target": "01-activities-author-prose.ko.draft.md#pdf-17쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-01-guidance-answers.ko.draft.md",
+      "target": "01-activities-author-prose.ko.draft.md#pdf-18쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-01-guidance-answers.ko.draft.md",
+      "target": "01-activities-author-prose.ko.draft.md#pdf-18쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-01-guidance-answers.ko.draft.md",
+      "target": "01-activities-author-prose.ko.draft.md#pdf-20쪽-보충-활동",
+      "ok": true
+    },
+    {
+      "source": "teacher-02-guidance-answers.ko.draft.md",
+      "target": "teacher-rights-inventory.ko.md",
+      "ok": true
+    },
+    {
+      "source": "teacher-02-guidance-answers.ko.draft.md",
+      "target": "02-activities-author-prose.ko.draft.md#pdf-28쪽-활동",
+      "ok": true
+    },
+    {
+      "source": "teacher-02-guidance-answers.ko.draft.md",
+      "target": "02-activities-author-prose.ko.draft.md#pdf-29쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-02-guidance-answers.ko.draft.md",
+      "target": "02-activities-author-prose.ko.draft.md#pdf-30쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-02-guidance-answers.ko.draft.md",
+      "target": "02-activities-author-prose.ko.draft.md#pdf-30쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-02-guidance-answers.ko.draft.md",
+      "target": "02-activities-author-prose.ko.draft.md#pdf-31쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-02-guidance-answers.ko.draft.md",
+      "target": "02-activities-author-prose.ko.draft.md#pdf-31쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-03-guidance-answers.ko.draft.md",
+      "target": "teacher-rights-inventory.ko.md",
+      "ok": true
+    },
+    {
+      "source": "teacher-03-guidance-answers.ko.draft.md",
+      "target": "03-activities-author-prose.ko.draft.md#pdf-40쪽-활동",
+      "ok": true
+    },
+    {
+      "source": "teacher-03-guidance-answers.ko.draft.md",
+      "target": "03-main-prose.ko.draft.md#1-정치조직-organización-política",
+      "ok": true
+    },
+    {
+      "source": "teacher-03-guidance-answers.ko.draft.md",
+      "target": "03-main-prose.ko.draft.md#2-종교적-통일-unificación-religiosa",
+      "ok": true
+    },
+    {
+      "source": "teacher-03-guidance-answers.ko.draft.md",
+      "target": "03-main-prose.ko.draft.md#3-팽창과-혼인정책-expansión-y-política-matrimonial",
+      "ok": true
+    },
+    {
+      "source": "teacher-03-guidance-answers.ko.draft.md",
+      "target": "03-main-prose.ko.draft.md#4-왕위계승-15041517년-sucesión",
+      "ok": true
+    },
+    {
+      "source": "teacher-03-guidance-answers.ko.draft.md",
+      "target": "03-activities-author-prose.ko.draft.md#pdf-41쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-03-guidance-answers.ko.draft.md",
+      "target": "03-activities-author-prose.ko.draft.md#pdf-42쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-03-guidance-answers.ko.draft.md",
+      "target": "03-activities-author-prose.ko.draft.md#pdf-42쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-03-guidance-answers.ko.draft.md",
+      "target": "03-activities-author-prose.ko.draft.md#pdf-42쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-03-guidance-answers.ko.draft.md",
+      "target": "03-activities-author-prose.ko.draft.md#pdf-43쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-04-guidance-answers.ko.draft.md",
+      "target": "teacher-rights-inventory.ko.md",
+      "ok": true
+    },
+    {
+      "source": "teacher-04-guidance-answers.ko.draft.md",
+      "target": "04-main-prose.ko.draft.md",
+      "ok": true
+    },
+    {
+      "source": "teacher-04-guidance-answers.ko.draft.md",
+      "target": "04-activities-author-prose.ko.draft.md#pdf-52쪽-활동",
+      "ok": true
+    },
+    {
+      "source": "teacher-04-guidance-answers.ko.draft.md",
+      "target": "04-activities-author-prose.ko.draft.md#1의-이어지는-지시",
+      "ok": true
+    },
+    {
+      "source": "teacher-04-guidance-answers.ko.draft.md",
+      "target": "04-activities-author-prose.ko.draft.md#2",
+      "ok": true
+    },
+    {
+      "source": "teacher-04-guidance-answers.ko.draft.md",
+      "target": "04-activities-author-prose.ko.draft.md#3",
+      "ok": true
+    },
+    {
+      "source": "teacher-04-guidance-answers.ko.draft.md",
+      "target": "04-activities-author-prose.ko.draft.md#3",
+      "ok": true
+    },
+    {
+      "source": "teacher-04-guidance-answers.ko.draft.md",
+      "target": "04-activities-author-prose.ko.draft.md#pdf-5556쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-04-guidance-answers.ko.draft.md",
+      "target": "04-activities-author-prose.ko.draft.md#4",
+      "ok": true
+    },
+    {
+      "source": "teacher-04-guidance-answers.ko.draft.md",
+      "target": "04-activities-author-prose.ko.draft.md#5",
+      "ok": true
+    },
+    {
+      "source": "teacher-04-guidance-answers.ko.draft.md",
+      "target": "04-activities-author-prose.ko.draft.md#6",
+      "ok": true
+    },
+    {
+      "source": "teacher-04-guidance-answers.ko.draft.md",
+      "target": "04-activities-author-prose.ko.draft.md#보충-활동",
+      "ok": true
+    },
+    {
+      "source": "teacher-04-guidance-answers.ko.draft.md",
+      "target": "04-activities-author-prose.ko.draft.md#보충-활동",
+      "ok": true
+    },
+    {
+      "source": "teacher-04-guidance-answers.ko.draft.md",
+      "target": "04-activities-author-prose.ko.draft.md#보충-활동의-이어지는-질문",
+      "ok": true
+    },
+    {
+      "source": "teacher-04-guidance-answers.ko.draft.md",
+      "target": "04-activities-author-prose.ko.draft.md#보충-활동의-이어지는-질문",
+      "ok": true
+    },
+    {
+      "source": "teacher-04-guidance-answers.ko.draft.md",
+      "target": "04-activities-author-prose.ko.draft.md#보충-활동의-이어지는-질문",
+      "ok": true
+    },
+    {
+      "source": "teacher-05-guidance-answers.ko.draft.md",
+      "target": "teacher-rights-inventory.ko.md",
+      "ok": true
+    },
+    {
+      "source": "teacher-05-guidance-answers.ko.draft.md",
+      "target": "05-main-prose.ko.draft.md",
+      "ok": true
+    },
+    {
+      "source": "teacher-05-guidance-answers.ko.draft.md",
+      "target": "05-activities-author-prose.ko.draft.md#pdf-68쪽-활동",
+      "ok": true
+    },
+    {
+      "source": "teacher-05-guidance-answers.ko.draft.md",
+      "target": "05-activities-author-prose.ko.draft.md#pdf-69쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-05-guidance-answers.ko.draft.md",
+      "target": "05-activities-author-prose.ko.draft.md#pdf-70쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-05-guidance-answers.ko.draft.md",
+      "target": "05-activities-author-prose.ko.draft.md#pdf-71쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-05-guidance-answers.ko.draft.md",
+      "target": "05-activities-author-prose.ko.draft.md#pdf-72쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-05-guidance-answers.ko.draft.md",
+      "target": "05-activities-author-prose.ko.draft.md#pdf-73쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-05-guidance-answers.ko.draft.md",
+      "target": "05-activities-author-prose.ko.draft.md#pdf-74쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-05-guidance-answers.ko.draft.md",
+      "target": "05-activities-author-prose.ko.draft.md#pdf-75쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-05-guidance-answers.ko.draft.md",
+      "target": "05-activities-author-prose.ko.draft.md#pdf-76쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-05-guidance-answers.ko.draft.md",
+      "target": "05-activities-author-prose.ko.draft.md#pdf-77쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-05-guidance-answers.ko.draft.md",
+      "target": "05-activities-author-prose.ko.draft.md#pdf-77쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-05-guidance-answers.ko.draft.md",
+      "target": "05-activities-author-prose.ko.draft.md#pdf-78쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-05-guidance-answers.ko.draft.md",
+      "target": "05-activities-author-prose.ko.draft.md#pdf-79쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-05-guidance-answers.ko.draft.md",
+      "target": "05-activities-author-prose.ko.draft.md#pdf-80쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-05-guidance-answers.ko.draft.md",
+      "target": "05-activities-author-prose.ko.draft.md#pdf-81쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-05-guidance-answers.ko.draft.md",
+      "target": "05-activities-author-prose.ko.draft.md#pdf-81쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-05-guidance-answers.ko.draft.md",
+      "target": "05-activities-author-prose.ko.draft.md#pdf-82쪽-보충-활동-놀이",
+      "ok": true
+    },
+    {
+      "source": "teacher-06-guidance-answers.ko.draft.md",
+      "target": "teacher-rights-inventory.ko.md",
+      "ok": true
+    },
+    {
+      "source": "teacher-06-guidance-answers.ko.draft.md",
+      "target": "06-main-prose.ko.draft.md",
+      "ok": true
+    },
+    {
+      "source": "teacher-06-guidance-answers.ko.draft.md",
+      "target": "06-activities-author-prose.ko.draft.md#pdf-92쪽-활동",
+      "ok": true
+    },
+    {
+      "source": "teacher-06-guidance-answers.ko.draft.md",
+      "target": "06-activities-author-prose.ko.draft.md#pdf-93쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-06-guidance-answers.ko.draft.md",
+      "target": "06-activities-author-prose.ko.draft.md#pdf-95쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-06-guidance-answers.ko.draft.md",
+      "target": "06-activities-author-prose.ko.draft.md#pdf-95쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-06-guidance-answers.ko.draft.md",
+      "target": "06-activities-author-prose.ko.draft.md#pdf-96쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-06-guidance-answers.ko.draft.md",
+      "target": "06-activities-author-prose.ko.draft.md#pdf-97쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-06-guidance-answers.ko.draft.md",
+      "target": "06-activities-author-prose.ko.draft.md#pdf-98쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-06-guidance-answers.ko.draft.md",
+      "target": "06-activities-author-prose.ko.draft.md#pdf-99쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-06-guidance-answers.ko.draft.md",
+      "target": "06-activities-author-prose.ko.draft.md#pdf-100쪽-보충-활동",
+      "ok": true
+    },
+    {
+      "source": "teacher-06-guidance-answers.ko.draft.md",
+      "target": "06-activities-author-prose.ko.draft.md#pdf-100쪽-보충-활동",
+      "ok": true
+    },
+    {
+      "source": "teacher-06-guidance-answers.ko.draft.md",
+      "target": "06-activities-author-prose.ko.draft.md#pdf-101쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-07-guidance-answers.ko.draft.md",
+      "target": "teacher-rights-inventory.ko.md",
+      "ok": true
+    },
+    {
+      "source": "teacher-07-guidance-answers.ko.draft.md",
+      "target": "07-main-prose.ko.draft.md",
+      "ok": true
+    },
+    {
+      "source": "teacher-07-guidance-answers.ko.draft.md",
+      "target": "07-activities-author-prose.ko.draft.md#pdf-110쪽-활동",
+      "ok": true
+    },
+    {
+      "source": "teacher-07-guidance-answers.ko.draft.md",
+      "target": "07-activities-author-prose.ko.draft.md#pdf-110쪽-활동",
+      "ok": true
+    },
+    {
+      "source": "teacher-07-guidance-answers.ko.draft.md",
+      "target": "07-activities-author-prose.ko.draft.md#pdf-111쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-07-guidance-answers.ko.draft.md",
+      "target": "07-activities-author-prose.ko.draft.md#pdf-112쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-07-guidance-answers.ko.draft.md",
+      "target": "07-activities-author-prose.ko.draft.md#pdf-113쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-07-guidance-answers.ko.draft.md",
+      "target": "07-activities-author-prose.ko.draft.md#pdf-113쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-07-guidance-answers.ko.draft.md",
+      "target": "07-activities-author-prose.ko.draft.md#pdf-114쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-07-guidance-answers.ko.draft.md",
+      "target": "07-activities-author-prose.ko.draft.md#pdf-114쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-07-guidance-answers.ko.draft.md",
+      "target": "07-activities-author-prose.ko.draft.md#pdf-116쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-07-guidance-answers.ko.draft.md",
+      "target": "07-activities-author-prose.ko.draft.md#pdf-116쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-08-guidance-answers.ko.draft.md",
+      "target": "teacher-rights-inventory.ko.md",
+      "ok": true
+    },
+    {
+      "source": "teacher-08-guidance-answers.ko.draft.md",
+      "target": "08-main-prose.ko.draft.md",
+      "ok": true
+    },
+    {
+      "source": "teacher-08-guidance-answers.ko.draft.md",
+      "target": "08-activities-author-prose.ko.draft.md#pdf-126쪽-활동",
+      "ok": true
+    },
+    {
+      "source": "teacher-08-guidance-answers.ko.draft.md",
+      "target": "08-activities-author-prose.ko.draft.md#pdf-127쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-08-guidance-answers.ko.draft.md",
+      "target": "08-activities-author-prose.ko.draft.md#pdf-129쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-08-guidance-answers.ko.draft.md",
+      "target": "08-activities-author-prose.ko.draft.md#pdf-131쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-08-guidance-answers.ko.draft.md",
+      "target": "08-activities-author-prose.ko.draft.md#pdf-132쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-08-guidance-answers.ko.draft.md",
+      "target": "08-activities-author-prose.ko.draft.md#pdf-132쪽",
+      "ok": true
+    },
+    {
+      "source": "teacher-rights-inventory.ko.md",
+      "target": "README.concepts-progress.ko.md",
+      "ok": true
+    },
+    {
+      "source": "README.teacher-progress.ko.md",
+      "target": "teacher-rights-inventory.ko.md",
+      "ok": true
+    },
+    {
+      "source": "README.teacher-progress.ko.md",
+      "target": "teacher-00-frontmatter.ko.draft.md",
+      "ok": true
+    },
+    {
+      "source": "README.teacher-progress.ko.md",
+      "target": "teacher-01-guidance-answers.ko.draft.md",
+      "ok": true
+    },
+    {
+      "source": "README.teacher-progress.ko.md",
+      "target": "teacher-02-guidance-answers.ko.draft.md",
+      "ok": true
+    },
+    {
+      "source": "README.teacher-progress.ko.md",
+      "target": "teacher-03-guidance-answers.ko.draft.md",
+      "ok": true
+    },
+    {
+      "source": "README.teacher-progress.ko.md",
+      "target": "teacher-04-guidance-answers.ko.draft.md",
+      "ok": true
+    },
+    {
+      "source": "README.teacher-progress.ko.md",
+      "target": "teacher-05-guidance-answers.ko.draft.md",
+      "ok": true
+    },
+    {
+      "source": "README.teacher-progress.ko.md",
+      "target": "teacher-06-guidance-answers.ko.draft.md",
+      "ok": true
+    },
+    {
+      "source": "README.teacher-progress.ko.md",
+      "target": "teacher-07-guidance-answers.ko.draft.md",
+      "ok": true
+    },
+    {
+      "source": "README.teacher-progress.ko.md",
+      "target": "teacher-08-guidance-answers.ko.draft.md",
+      "ok": true
+    },
+    {
+      "source": "README.teacher-progress.ko.md",
+      "target": "teacher-page-coverage.partial.json",
+      "ok": true
+    },
+    {
+      "source": "README.teacher-progress.ko.md",
+      "target": "teacher-qa.partial.json",
+      "ok": true
+    },
+    {
+      "source": "README.teacher-progress.ko.md",
+      "target": "teacher-translation-manifest.partial.json",
+      "ok": true
+    }
+  ],
+  "visual_review": {
+    "full_resolution_pages": [
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      214,
+      215,
+      216,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      228,
+      230,
+      231,
+      233,
+      234,
+      237,
+      238,
+      240,
+      242,
+      243,
+      244,
+      245,
+      247,
+      248,
+      249,
+      250,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      262,
+      263,
+      265,
+      266,
+      267,
+      268,
+      270,
+      271,
+      272,
+      273,
+      274,
+      275,
+      276,
+      277
+    ],
+    "overview_pages": [
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      265,
+      266,
+      267,
+      268,
+      269,
+      270,
+      271,
+      272,
+      273,
+      274,
+      275,
+      276,
+      277,
+      278
+    ],
+    "not_claimed": "전체 103쪽의 문장·권리 전문 검수는 미완료",
+    "scope": "전체 미리보기와 추출문으로 103쪽의 구성·권리 경계 확인. full_resolution_pages는 개별 렌더 대조를 한 쪽이며 모든 쪽의 전문 감수를 뜻하지 않음."
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "pages": [
+        180,
+        192
+      ],
+      "draft": "teacher-01-guidance-answers.ko.draft.md",
+      "status": "author_guidance_answers_done_with_holds",
+      "duplicate_student_prose_blocks": 5,
+      "prehistoric_answer_column_items": [
+        8,
+        7,
+        8
+      ],
+      "people_table_dimensions": [
+        6,
+        5
+      ],
+      "people_table_x_count": 4,
+      "map_answers": 9,
+      "chronology_answers": 6,
+      "annex_blank_diagram_nodes": 7,
+      "annex_truth_answers": [
+        "V",
+        "F",
+        "F",
+        "F",
+        "F"
+      ],
+      "grammar_answers": 4,
+      "wordsearch_dimensions": [
+        11,
+        11
+      ],
+      "wordsearch_answer_coordinates": {
+        "CALZADA": [
+          [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              6
+            ],
+            [
+              7,
+              7
+            ]
+          ]
+        ],
+        "BASILICA": [
+          [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              6,
+              5
+            ],
+            [
+              7,
+              6
+            ],
+            [
+              8,
+              7
+            ],
+            [
+              9,
+              8
+            ]
+          ]
+        ],
+        "CURIA": [
+          [
+            [
+              5,
+              1
+            ],
+            [
+              5,
+              2
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              5,
+              5
+            ]
+          ]
+        ],
+        "ACUEDUCTO": [
+          [
+            [
+              11,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              3,
+              1
+            ]
+          ]
+        ],
+        "FORO": [
+          [
+            [
+              10,
+              6
+            ],
+            [
+              10,
+              5
+            ],
+            [
+              10,
+              4
+            ],
+            [
+              10,
+              3
+            ]
+          ]
+        ],
+        "MURALLA": [
+          [
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              5
+            ],
+            [
+              7,
+              5
+            ],
+            [
+              8,
+              5
+            ]
+          ]
+        ],
+        "TERMA": [
+          [
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              7,
+              7
+            ]
+          ]
+        ],
+        "TEATRO": [
+          [
+            [
+              6,
+              10
+            ],
+            [
+              5,
+              9
+            ],
+            [
+              4,
+              8
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              1,
+              5
+            ]
+          ],
+          [
+            [
+              6,
+              11
+            ],
+            [
+              7,
+              11
+            ],
+            [
+              8,
+              11
+            ],
+            [
+              9,
+              11
+            ],
+            [
+              10,
+              11
+            ],
+            [
+              11,
+              11
+            ]
+          ]
+        ],
+        "TABERNAE": [
+          [
+            [
+              2,
+              9
+            ],
+            [
+              3,
+              9
+            ],
+            [
+              4,
+              9
+            ],
+            [
+              5,
+              9
+            ],
+            [
+              6,
+              9
+            ],
+            [
+              7,
+              9
+            ],
+            [
+              8,
+              9
+            ],
+            [
+              9,
+              9
+            ]
+          ]
+        ],
+        "ANFITEATRO": [
+          [
+            [
+              2,
+              11
+            ],
+            [
+              3,
+              11
+            ],
+            [
+              4,
+              11
+            ],
+            [
+              5,
+              11
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              7,
+              11
+            ],
+            [
+              8,
+              11
+            ],
+            [
+              9,
+              11
+            ],
+            [
+              10,
+              11
+            ],
+            [
+              11,
+              11
+            ]
+          ]
+        ]
+      },
+      "photo_captions": 4,
+      "held_definitions": {
+        "count": 10,
+        "question_page": 188,
+        "answer_page": 191
+      },
+      "issues": [
+        "보기 bronce / 정답 cobre",
+        "학생용 16쪽 켈트 연대와 교사용 183쪽 연대 열 차이",
+        "184쪽 기원전 3세기 / 문제 197년",
+        "185쪽 476년 시작 표현"
+      ],
+      "wordsearch_note": "TEATRO는 ANFITEATRO 안 경로를 포함하여 2회 발견. 유일한 경로라고 주장하지 않음.",
+      "draft_characters": 11549,
+      "utf8_replacement_characters": 0
+    },
+    {
+      "chapter": 2,
+      "pages": [
+        193,
+        200
+      ],
+      "draft": "teacher-02-guidance-answers.ko.draft.md",
+      "status": "author_text_done",
+      "timeline_answers": 13,
+      "map_items": 7,
+      "social_diagram_labels": 3,
+      "social_questions": 4,
+      "estate_diagram_labels": 3,
+      "estate_questions": 9,
+      "date_matches": 6,
+      "annex_wordbank": 9,
+      "annex_blanks": 9,
+      "annex_questions": [
+        5,
+        1,
+        5,
+        3
+      ],
+      "issues": [
+        "학생용 A-C-B / 교사용 A-B-C",
+        "봉건제 11/12세기와 12/13세기",
+        "십일조의 수령자 설명",
+        "동쪽의 갈리시아",
+        "칼리프국 붕괴 당사자 서술"
+      ],
+      "draft_characters": 7031,
+      "utf8_replacement_characters": 0
+    },
+    {
+      "chapter": 3,
+      "pages": [
+        201,
+        212
+      ],
+      "draft": "teacher-03-guidance-answers.ko.draft.md",
+      "status": "author_guidance_answers_done_with_holds",
+      "truth_answers": [
+        "F",
+        "F",
+        "F",
+        "V",
+        "V",
+        "F",
+        "F"
+      ],
+      "duplicate_body_quotes": 6,
+      "gap_answers": 10,
+      "painting_paragraphs": {
+        "instruction": 1,
+        "analysis": 7
+      },
+      "annex_names": 6,
+      "annex_grammar_frames": 3,
+      "annex_blanks": 6,
+      "grandparent_answer_groups": 4,
+      "color_legend_items": 5,
+      "continent_lists": 5,
+      "holds": [
+        "208/211 표어·즉석 풀이",
+        "212 표어 해설 1문단",
+        "외부 지도·그림"
+      ],
+      "draft_characters": 10591,
+      "utf8_replacement_characters": 0
+    },
+    {
+      "chapter": 4,
+      "pages": [
+        213,
+        225
+      ],
+      "draft": "teacher-04-guidance-answers.ko.draft.md",
+      "status": "author_guidance_answers_done_with_holds",
+      "king_table_dimensions": [
+        7,
+        6
+      ],
+      "ordinal_sequence": [
+        3,
+        1,
+        5,
+        2,
+        6,
+        4,
+        7
+      ],
+      "wordbank": 17,
+      "truth_answers": [
+        "F",
+        "F",
+        "F",
+        "V",
+        "F"
+      ],
+      "genealogy_question_groups": 3,
+      "painting_questions": 5,
+      "duplicate_person_names": 14,
+      "ottoman_list_items": 24,
+      "holds": [
+        "219 계몽전제정 표어와 해설답",
+        "외부 계보도2·회화1·지도1"
+      ],
+      "issues": [
+        "조부모 두 명 답",
+        "원문 Mueres/Motón/hendogamia",
+        "Gracia 오기 가능성·헝가리 중복",
+        "부르봉 두 번째 왕 답의 루이스1세 누락"
+      ],
+      "draft_characters": 10179,
+      "utf8_replacement_characters": 0
+    },
+    {
+      "chapter": 5,
+      "pages": [
+        226,
+        250
+      ],
+      "draft": "teacher-05-guidance-answers.ko.draft.md",
+      "status": "author_guidance_answers_done_with_holds",
+      "table_dimensions": [
+        5,
+        5
+      ],
+      "prediction_examples": 4,
+      "country_answers": 19,
+      "date_groups": 12,
+      "viceroyalty_answers": 4,
+      "prim_answers": 4,
+      "treasure_places": 20,
+      "annex_image_answer_dimensions": [
+        6,
+        5
+      ],
+      "timeline_wordbank": 16,
+      "timeline_boxes": 8,
+      "timeline_blanks": 7,
+      "holds": [
+        "227 Wikipedia 각색",
+        "229/241/246 Barja 기사 및 정답",
+        "230 헌법 직접 정의 1번",
+        "231 연설·각색 및 문법 예문 1·2",
+        "238 La Razón 발췌",
+        "244/249 Ayén 요약 이미지",
+        "외부 이미지 전부"
+      ],
+      "issues": [
+        "1814–1839 보기/1814–1833 답",
+        "1810–1898 보기 중복",
+        "20번 장소 속 16번",
+        "아야쿠초 날짜·국가 대응",
+        "카노바스 장군 호칭·이사벨2세 왕정복고",
+        "원문 국가·독립 연도와 법률 설명 감수 필요"
+      ],
+      "draft_characters": 13754,
+      "utf8_replacement_characters": 0
+    },
+    {
+      "chapter": 6,
+      "pages": [
+        251,
+        263
+      ],
+      "draft": "teacher-06-guidance-answers.ko.draft.md",
+      "status": "author_guidance_answers_done_with_holds",
+      "period_image_answers": [
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          4
+        ]
+      ],
+      "constitution_keywords": 7,
+      "suffrage_answers": 5,
+      "context_gap_answers": 8,
+      "map_answers": 9,
+      "puzzle_counts": {
+        "students": 35,
+        "characters": 7,
+        "copies": 5
+      },
+      "podcast_steps": 8,
+      "poems": 4,
+      "annex_table_answer_dimensions": [
+        4,
+        2
+      ],
+      "annex_table_blanks": 6,
+      "listenings": 3,
+      "battle_answers": 2,
+      "holds": [
+        "1931 헌법 직접 조문",
+        "의회 연설 원문",
+        "외부 사전 정의",
+        "우의화 내부 표어 및 재인용",
+        "260/263 가사·빈칸 정답",
+        "261 Wikipedia 소개",
+        "지도·그림·시·음원"
+      ],
+      "issues": [
+        "지도1/2와 출처 파일명 역대응",
+        "학생용 지도 질문은 두 진영/교사용은 한 진영",
+        "참정권 국가·연도·현재 표현은2016 원문",
+        "퍼즐의 홀수 인원과 짝 구성"
+      ],
+      "draft_characters": 9416,
+      "utf8_replacement_characters": 0
+    },
+    {
+      "chapter": 7,
+      "pages": [
+        264,
+        268
+      ],
+      "draft": "teacher-07-guidance-answers.ko.draft.md",
+      "status": "author_text_done_images_excluded",
+      "classroom_labels": 5,
+      "concept_matches": 5,
+      "period_image_answers": [
+        [
+          2,
+          4
+        ],
+        [
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          1
+        ]
+      ],
+      "period_concept_counts": [
+        4,
+        4,
+        4,
+        5
+      ],
+      "wordsearch_dimensions": [
+        15,
+        12
+      ],
+      "wordsearch_answers": 10,
+      "context_gap_answers": 10,
+      "event_matches": 8,
+      "truth_answers": [
+        "V",
+        "F",
+        "V",
+        "F",
+        "V"
+      ],
+      "prose_answers": 3,
+      "holds": [
+        "외부 사진·기호",
+        "기존 영화/TV 설명3건 보류 미해제"
+      ],
+      "issues": [
+        "SEAT 2경로 중 수평 경로가 음영 답",
+        "NACIONAL/CATOLICISMO 및 OPUS/DEI 분할",
+        "학생용 유엔1959연도는 수정하지 않음"
+      ],
+      "wordsearch_student_grid_identical": true,
+      "wordsearch_all_straight_paths": {
+        "AUTARQUIA": [
+          [
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              7,
+              3
+            ],
+            [
+              8,
+              3
+            ],
+            [
+              9,
+              3
+            ],
+            [
+              10,
+              3
+            ],
+            [
+              11,
+              3
+            ]
+          ]
+        ],
+        "NACIONAL": [
+          [
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              3
+            ],
+            [
+              11,
+              4
+            ],
+            [
+              11,
+              5
+            ],
+            [
+              11,
+              6
+            ],
+            [
+              11,
+              7
+            ],
+            [
+              11,
+              8
+            ],
+            [
+              11,
+              9
+            ]
+          ]
+        ],
+        "CATOLICISMO": [
+          [
+            [
+              12,
+              2
+            ],
+            [
+              12,
+              3
+            ],
+            [
+              12,
+              4
+            ],
+            [
+              12,
+              5
+            ],
+            [
+              12,
+              6
+            ],
+            [
+              12,
+              7
+            ],
+            [
+              12,
+              8
+            ],
+            [
+              12,
+              9
+            ],
+            [
+              12,
+              10
+            ],
+            [
+              12,
+              11
+            ],
+            [
+              12,
+              12
+            ]
+          ]
+        ],
+        "FRANCO": [
+          [
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              5,
+              2
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              7,
+              2
+            ]
+          ]
+        ],
+        "GENERALISIMO": [
+          [
+            [
+              2,
+              11
+            ],
+            [
+              3,
+              11
+            ],
+            [
+              4,
+              11
+            ],
+            [
+              5,
+              11
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              7,
+              11
+            ],
+            [
+              8,
+              11
+            ],
+            [
+              9,
+              11
+            ],
+            [
+              10,
+              11
+            ],
+            [
+              11,
+              11
+            ],
+            [
+              12,
+              11
+            ],
+            [
+              13,
+              11
+            ]
+          ]
+        ],
+        "FALANGE": [
+          [
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              6
+            ],
+            [
+              7,
+              7
+            ],
+            [
+              8,
+              8
+            ]
+          ]
+        ],
+        "ONU": [
+          [
+            [
+              14,
+              1
+            ],
+            [
+              14,
+              2
+            ],
+            [
+              14,
+              3
+            ]
+          ]
+        ],
+        "TURISMO": [
+          [
+            [
+              9,
+              2
+            ],
+            [
+              9,
+              3
+            ],
+            [
+              9,
+              4
+            ],
+            [
+              9,
+              5
+            ],
+            [
+              9,
+              6
+            ],
+            [
+              9,
+              7
+            ],
+            [
+              9,
+              8
+            ]
+          ]
+        ],
+        "SEAT": [
+          [
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              8
+            ],
+            [
+              5,
+              9
+            ]
+          ],
+          [
+            [
+              10,
+              7
+            ],
+            [
+              10,
+              6
+            ],
+            [
+              10,
+              5
+            ],
+            [
+              10,
+              4
+            ]
+          ]
+        ],
+        "DESARROLLISMO": [
+          [
+            [
+              2,
+              10
+            ],
+            [
+              3,
+              10
+            ],
+            [
+              4,
+              10
+            ],
+            [
+              5,
+              10
+            ],
+            [
+              6,
+              10
+            ],
+            [
+              7,
+              10
+            ],
+            [
+              8,
+              10
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              10,
+              10
+            ],
+            [
+              11,
+              10
+            ],
+            [
+              12,
+              10
+            ],
+            [
+              13,
+              10
+            ],
+            [
+              14,
+              10
+            ]
+          ]
+        ],
+        "OPUS": [
+          [
+            [
+              12,
+              5
+            ],
+            [
+              13,
+              6
+            ],
+            [
+              14,
+              7
+            ],
+            [
+              15,
+              8
+            ]
+          ]
+        ],
+        "DEI": [
+          [
+            [
+              13,
+              5
+            ],
+            [
+              14,
+              6
+            ],
+            [
+              15,
+              7
+            ]
+          ]
+        ]
+      },
+      "draft_characters": 5454,
+      "utf8_replacement_characters": 0
+    },
+    {
+      "chapter": 8,
+      "pages": [
+        269,
+        277
+      ],
+      "draft": "teacher-08-guidance-answers.ko.draft.md",
+      "status": "author_guidance_answers_done_with_holds",
+      "truth_answers": [
+        "V",
+        "V",
+        "F",
+        "V",
+        "F"
+      ],
+      "image_answers": 8,
+      "context_gap_answers": 7,
+      "listenings": 3,
+      "trains": 4,
+      "country_list_counts": [
+        12,
+        8,
+        8,
+        3
+      ],
+      "rights_questions": 7,
+      "video_count_statement": 11,
+      "video_list_entries": 9,
+      "video_answer_rows": 10,
+      "video_answer_numbers": [
+        1,
+        6,
+        7,
+        3,
+        5,
+        8,
+        4,
+        10,
+        11,
+        2
+      ],
+      "government_event_numbers": [
+        [
+          1,
+          5,
+          7
+        ],
+        [
+          2,
+          3,
+          6,
+          9,
+          12
+        ],
+        [
+          4,
+          7,
+          8,
+          11
+        ]
+      ],
+      "party_steps": 6,
+      "party_group_size": 4,
+      "policy_items": 10,
+      "holds": [
+        "1978 헌법 직접 인용",
+        "테헤로 직접 발언",
+        "Jueves 가사·정답·재인용 해설",
+        "외부 사진·지도·영상"
+      ],
+      "issues": [
+        "FelipeVI/8/2016 원문답",
+        "영상 목록9/설명11/표10 불일치",
+        "영상표 번호9 없음",
+        "정부사건 학생용10/11이 교사용11/12",
+        "2016 법·정당 설명을 현행 사실로 제시하지 않음"
+      ],
+      "draft_characters": 7873,
+      "utf8_replacement_characters": 0
+    }
+  ],
+  "remaining_chapters": [],
+  "rights": "비상업 연구 전용. 교사용 독립 고지 없음. 결합본 2·3쪽 및 교사용 178쪽 귀속 근거. 외부 자료 개별 미확인.",
+  "not_done": [
+    "권리 보류·제외된 외부자료 및 재인용의 전문 번역",
+    "역사·법률·언어 전문 감수",
+    "외부자료 개별권리·원전 검증",
+    "영상·음원·이미지 재현"
+  ],
+  "source_pdf_bytes": 14018454,
+  "remaining_chapters_meaning": "기본 저자 문자 처리 전인 장 없음. 외부 자료·재인용·불확실 출처는 아래 보류 및 각 초안에 남아 있음.",
+  "original_file_baseline": {
+    "00-didactic-guide.ko.draft.md": {
+      "sha256": "eee994d5abc4809960c56f2d2f74132ffec1fd4356fb62f4ab07be97a254f7d2",
+      "bytes": 8306
+    },
+    "01-activities-author-prose.ko.draft.md": {
+      "sha256": "def2cdda5e2765f105aae4cff7a38c44af85efc6d38fda5fbe849420f7e12e0b",
+      "bytes": 16400
+    },
+    "01-concepts-attributed.ko.draft.md": {
+      "sha256": "22d4ac8691761631369155989099ac4111ed209b39241b49fa6b5661baa3e16e",
+      "bytes": 5432
+    },
+    "01-main-prose.ko.draft.md": {
+      "sha256": "996197a9d9d127dd5a5ae4c04e90dcc00728caf0f8b9d9df2c65842a4c50b58a",
+      "bytes": 14206
+    },
+    "02-activities-author-prose.ko.draft.md": {
+      "sha256": "b46be37949f9657915eb11e286d021b1c3dafa525a1ef5e0cfdf729b47967b21",
+      "bytes": 8590
+    },
+    "02-concepts-attributed.ko.draft.md": {
+      "sha256": "cc9b4735d8932e58d4bd363ef31d7d496c4c306615e1bde5586ea119b6ce346b",
+      "bytes": 9084
+    },
+    "02-main-prose.ko.draft.md": {
+      "sha256": "b92759334d24d7a4d3efc62671205514e9cfd7569c3fe69f9d8ff0d26f2faf22",
+      "bytes": 15100
+    },
+    "03-activities-author-prose.ko.draft.md": {
+      "sha256": "6957abb8c0375fbe3c63feba4e884163089c2b4ada86c52949f6e2906ac6d29e",
+      "bytes": 12281
+    },
+    "03-concepts-attributed.ko.draft.md": {
+      "sha256": "d4933ebdd0e35cf5cc8511ceab63ef23bb54fa5a871c19e3cf6798982d131350",
+      "bytes": 9288
+    },
+    "03-main-prose.ko.draft.md": {
+      "sha256": "55d9bc0e6e4ea05fcd99116abc01116ce2d8f027c3c1ca606fb434d9b8bd8978",
+      "bytes": 15326
+    },
+    "04-activities-author-prose.ko.draft.md": {
+      "sha256": "020c73c89d75ad251fc10672db536f6a66338636633e3d8998de4d7a5addebfe",
+      "bytes": 12628
+    },
+    "04-concepts-attributed.ko.draft.md": {
+      "sha256": "8bbf2e9d2a104a8b1d73032d048fb49252842ffbad03e965aef5578e362b774c",
+      "bytes": 11039
+    },
+    "04-main-prose.ko.draft.md": {
+      "sha256": "e71e0e2ec2a6531d6489fa2d4f4ff5ee7c393d381c6eefa96ed15d59f9ba76c5",
+      "bytes": 14337
+    },
+    "05-activities-author-prose.ko.draft.md": {
+      "sha256": "0609c816ba1cd2cea1215d3d9c1059b7c087e2d432b1a1720205337a396247c5",
+      "bytes": 20347
+    },
+    "05-concepts-attributed.ko.draft.md": {
+      "sha256": "f5de0402b8f2ce4239af09a268c14be011745d069ee82c5a264bf71ba7442ad4",
+      "bytes": 13404
+    },
+    "05-main-prose.ko.draft.md": {
+      "sha256": "26dbb867638e4ce677c7fcbee41d602857c125254a55adee1ba56b0b75750eab",
+      "bytes": 16690
+    },
+    "06-activities-author-prose.ko.draft.md": {
+      "sha256": "d459d7f50d5fa27b8cf2204c3a64df00cd3d4d721bbd64f4f5bd67842bb366cc",
+      "bytes": 15188
+    },
+    "06-concepts-attributed.ko.draft.md": {
+      "sha256": "c689437694ec9b9aee04859732d9b2f2b76e8c07db25d377b7cd27ed41f4def9",
+      "bytes": 8111
+    },
+    "06-main-prose.ko.draft.md": {
+      "sha256": "00a38c7d82050a63865733dd6276161c69aa48fa8a6a29bf543aa51d274583c1",
+      "bytes": 12934
+    },
+    "07-activities-author-prose.ko.draft.md": {
+      "sha256": "330011ad48f8734504d46fd12c5ce090d1c78e17de1c3f316f12a431ea0ad7a2",
+      "bytes": 13510
+    },
+    "07-concepts-attributed.ko.draft.md": {
+      "sha256": "0db9c531d9d478903f99c510c6df2c4b5a3ed4eb0a8e9e37e4c0e607164b503d",
+      "bytes": 7197
+    },
+    "07-main-prose.ko.draft.md": {
+      "sha256": "500109f993786d7aedb30cf493596487cc51d2d990552677aa77e1148c7e1c16",
+      "bytes": 12900
+    },
+    "08-activities-author-prose.ko.draft.md": {
+      "sha256": "efad3c1dc272dfd3197ad24323de5670e08d1a42db73e58a13352beb0628beba",
+      "bytes": 14936
+    },
+    "08-concepts-attributed.ko.draft.md": {
+      "sha256": "1e19a766c108afe0b32033db042c465d973769bdddc66c933086f05c88249203",
+      "bytes": 8419
+    },
+    "08-main-prose.ko.draft.md": {
+      "sha256": "0b326d293f014b0586c7f7fc79295fd08149ea7805fcc804dc660e32f74ff404",
+      "bytes": 13223
+    },
+    "chronology-01.ko.draft.md": {
+      "sha256": "db9ded79c99e76fea601ad25159a672f576cf57d8fcddc4bcee8e21a2722b9df",
+      "bytes": 5356
+    },
+    "chronology-02.ko.draft.md": {
+      "sha256": "71d77673fa0884c862f9cd09fd9c49c5cc4d8fc52cac972a6ced0dc9517a12c1",
+      "bytes": 4904
+    },
+    "chronology-03.ko.draft.md": {
+      "sha256": "333db35ad8b8cb3917cc14bb1361d40943e78cf58cef647e83a2705ea262d355",
+      "bytes": 4259
+    },
+    "chronology-04.ko.draft.md": {
+      "sha256": "0437580652b8405fe8f807dc81757899c0b97ee837990175e867107bb261448a",
+      "bytes": 6015
+    },
+    "chronology-05.ko.draft.md": {
+      "sha256": "2cb0eb5e8da8c8427fb7df66ab33a94ec4f4fee3affc3236ba3b6867dcb54509",
+      "bytes": 5750
+    },
+    "chronology-06.ko.draft.md": {
+      "sha256": "4ac00ebcac710c62ceeeabdbaa7cdcf6634be79c7c95340968b256b0ecb24248",
+      "bytes": 3977
+    },
+    "chronology-07.ko.draft.md": {
+      "sha256": "aacbdc7cfff8cacdde7ce6823d5bfe1a8039735a58f69a146e7be7ed77ec8e30",
+      "bytes": 5254
+    },
+    "chronology-08.ko.draft.md": {
+      "sha256": "0da6b27f70cfcf207ec128692d7d3373d422c290aa555ffa5594f64594746dd6",
+      "bytes": 5656
+    },
+    "concepts-appendix-index.ko.md": {
+      "sha256": "15b9e8b30ede81c243fbda26b3e1f79cfe77ac5bc296880280077d798648fe45",
+      "bytes": 34705
+    },
+    "concepts-qa.partial.json": {
+      "sha256": "5748fadb0f1cb804a3de7aef19d368c6a98750ea87970b8d5304a4e2bf8f658f",
+      "bytes": 185001
+    },
+    "concepts-translation-manifest.partial.json": {
+      "sha256": "8a24388be73adc371f98368958ef2a8c2c3b2e8a9ff0a34669325811e98b6924",
+      "bytes": 6089
+    },
+    "eight-chapters-main-prose.ko.draft.md": {
+      "sha256": "ee3545e7121ee15637a2d8b363913a31712ccca414939f0dad89b5de39613e1f",
+      "bytes": 116801
+    },
+    "README.concepts-progress.ko.md": {
+      "sha256": "08f4af4cdac6a31e0a53c499376d886ed5782935ef9dcbb444e685ad597b6865",
+      "bytes": 9397
+    },
+    "README.partial-ko.md": {
+      "sha256": "7decb9d2a6e732c58632fcac2210437d3d16cbe897e1a6b88dd6b1b5c8cc031c",
+      "bytes": 5285
+    },
+    "rights-inventory.student.partial-ko.md": {
+      "sha256": "daa7c2dda725f34bfbbc7977f4a3e0dd7d962f6fa76b7d60e530aae2e9bb8d34",
+      "bytes": 23253
+    },
+    "source-es.extracted.txt": {
+      "sha256": "cde4b62a652359a6a9a3af2f9f20e0afb568eba7164d2f46c524a408fbd637a3",
+      "bytes": 528080
+    },
+    "source-es.pdf": {
+      "sha256": "52f69a10d2ad5c679b922a39b185065438b1211554abef0fa3c134010ab251ab",
+      "bytes": 14018454
+    },
+    "source-manifest.json": {
+      "sha256": "59b07bc58fe15468d80d65907f45fd69e2a37b0b3d7fe4f29ef9ac63e24908ba",
+      "bytes": 943
+    },
+    "source-pages.json": {
+      "sha256": "67e3d968e4f84faad127771b241721894f5c4658aaeb59430fbf60bc7e155785",
+      "bytes": 534485
+    },
+    "translation-manifest.partial.json": {
+      "sha256": "77f4577806dfe7252f30763d12734fc343be4b9b8ac0104f7b188ddd451ad4a9",
+      "bytes": 19414
+    },
+    "worldbuilding-3-candidates.derived-draft.md": {
+      "sha256": "cbfe05f439a63173fef03e3ea131141cbd1f9d2e659109a51fe7025c9326bbf8",
+      "bytes": 4320
+    }
+  },
+  "page_coverage_file": "teacher-page-coverage.partial.json",
+  "page_coverage_count": 103,
+  "prohibited_actions_not_performed": [
+    "git 조회 재시도",
+    "커밋",
+    "푸시",
+    "상용 앱 통합",
+    "앱·DB 변경"
+  ],
+  "all_local_links_pass": true,
+  "translation_policy": "새 저자 귀속 문자는 전문 초안. 기존 학생용 중복은 정확한 링크. 외부자료·재인용은 보류 표시. 전문 교열 전이며 책 전체 완역 아님."
+}

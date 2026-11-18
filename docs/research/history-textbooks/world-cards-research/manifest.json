@@ -1,0 +1,243 @@
+{
+  "checked_date": "2026-11-13",
+  "branch": "ref: refs/heads/feat/history-templates",
+  "worlds": [
+    {
+      "country": "usa",
+      "world_file": "usa.world.json",
+      "world_id": "caa0b0e9-0305-566e-82ee-650f43aa464e",
+      "card_count": 23,
+      "status": "research_draft_not_production",
+      "world_sha256": "BB572384C1D881E8CABC28BA962E3859FEF9948AD113C874F13081AF55188E3A"
+    },
+    {
+      "country": "england",
+      "world_file": "england.world.json",
+      "world_id": "c1af4125-5423-5633-a5da-822b4753df94",
+      "card_count": 21,
+      "status": "research_draft_not_production",
+      "world_sha256": "88C7D98F65DCD1C3838825663BC427839BC0996B6D47066B1228878626BCC52A"
+    },
+    {
+      "country": "france",
+      "world_file": "france.world.json",
+      "world_id": "67907b53-fdd0-5771-8d78-0f317a0f71b9",
+      "card_count": 20,
+      "status": "research_draft_not_production",
+      "world_sha256": "73856F6207622827B486719E5829F1DC0174A5DD6C601EB8D9ABC3B66CC30D52"
+    },
+    {
+      "country": "italy",
+      "world_file": "italy.world.json",
+      "world_id": "936b9d62-a1de-59a2-b8e0-1d52327464de",
+      "card_count": 24,
+      "status": "research_draft_not_production",
+      "world_sha256": "37001D8BC75533B4936C02029A59BD50D4083A6FEACA011A101A144A5D45283B"
+    },
+    {
+      "country": "japan",
+      "world_file": "japan.world.json",
+      "world_id": "8c3a276f-dda5-5b5d-89da-55221ee3d710",
+      "card_count": 24,
+      "status": "research_draft_not_production",
+      "world_sha256": "930E99D4FF7C1B1DDDE3507517121EB64E19F7A3D2918A83BFDD5AF1108BB978"
+    },
+    {
+      "country": "korea",
+      "world_file": "korea.world.json",
+      "world_id": "b08b14fa-dc75-5e3b-8067-148fb6346c72",
+      "card_count": 24,
+      "status": "research_draft_not_production",
+      "world_sha256": "E3FD4EF953465AF86977C74C551604C4C94498145C217B17EE21A6F1B73A8096"
+    },
+    {
+      "country": "china",
+      "world_file": "china.world.json",
+      "world_id": "d3c3b3bc-1ee5-5361-82bd-d2679a258a02",
+      "card_count": 22,
+      "status": "research_draft_not_production",
+      "world_sha256": "7C2C2AA59E6E6E470F0EBF7751E453562C1D1345DEF89C1AB1DF4A289DAAF73E"
+    },
+    {
+      "country": "spain",
+      "world_file": "noncommercial-spain/spain.world.json",
+      "world_id": "168810ee-cd89-5a0a-aac7-fbfb52eb7c63",
+      "card_count": 19,
+      "status": "rights_hold",
+      "world_sha256": "FF1D805E06CA5F4954466C0C871E7AF9E0E1FA4A7481D4B868931BFF9E26993C"
+    }
+  ],
+  "research_worlds_excluding_rights_hold": 7,
+  "research_cards_excluding_rights_hold": 158,
+  "rights_hold_worlds": 1,
+  "rights_hold_cards": 19,
+  "protected_existing_files": 941,
+  "protected_changes": 0,
+  "source_excerpt_recheck_count_seven_worlds": 226,
+  "independent_sample_cards_seven_worlds": 14,
+  "spain_independently_reviewed_substantive_cards": 17,
+  "service_applied": false,
+  "committed": false,
+  "pushed": false,
+  "files": [
+    {
+      "file": "china.evidence.json",
+      "bytes": 57714,
+      "sha256": "CBEB0FC8153241D38FFACE94C23F0CFFF250FE10366DFB69F24AD5EC1BB054C4"
+    },
+    {
+      "file": "china.world.json",
+      "bytes": 17979,
+      "sha256": "7C2C2AA59E6E6E470F0EBF7751E453562C1D1345DEF89C1AB1DF4A289DAAF73E"
+    },
+    {
+      "file": "china.world.ko.md",
+      "bytes": 23510,
+      "sha256": "E5AC33715D53DA6BC9E6F314FF2A9C9458CD754A2D7910162903798898DEBBDD"
+    },
+    {
+      "file": "england.evidence.json",
+      "bytes": 78338,
+      "sha256": "8433D87C7D91691D95CB4520F1F52864D924735DFFED0CCCCAD88C122419A566"
+    },
+    {
+      "file": "england.world.json",
+      "bytes": 22778,
+      "sha256": "88C7D98F65DCD1C3838825663BC427839BC0996B6D47066B1228878626BCC52A"
+    },
+    {
+      "file": "england.world.ko.md",
+      "bytes": 26444,
+      "sha256": "537B1C899722577DAC0CFB9F94654365AC65FD4BE1548C6E9ED2C196D9111914"
+    },
+    {
+      "file": "france.evidence.json",
+      "bytes": 61363,
+      "sha256": "6C9AE1B2A222DE11ADD27D8E779A5BA13A229311C427EF7DA68AA4C397A52C0B"
+    },
+    {
+      "file": "france.world.json",
+      "bytes": 19452,
+      "sha256": "73856F6207622827B486719E5829F1DC0174A5DD6C601EB8D9ABC3B66CC30D52"
+    },
+    {
+      "file": "france.world.ko.md",
+      "bytes": 21400,
+      "sha256": "2EF50E93E489BECE7E7172F63D91BF3ADAA056FACB2EC47D57D5733B26805502"
+    },
+    {
+      "file": "INDEPENDENT-REVIEW.ko.md",
+      "bytes": 2335,
+      "sha256": "E19F15C4CA4D3F75F44919A79F8A3F7D554043EA9A0701399AA1E4BDB6CEA016"
+    },
+    {
+      "file": "italy.evidence.json",
+      "bytes": 101299,
+      "sha256": "8FF2BEB0EE14B8740F875A7DBC012C62665E374936BDC6B2EDE771763F43B404"
+    },
+    {
+      "file": "italy.world.json",
+      "bytes": 27074,
+      "sha256": "37001D8BC75533B4936C02029A59BD50D4083A6FEACA011A101A144A5D45283B"
+    },
+    {
+      "file": "italy.world.ko.md",
+      "bytes": 30583,
+      "sha256": "AC6FB21E4751ED513D64CFDAE9B8E017B2F6EB759DCA7B6AC30692978A6277BA"
+    },
+    {
+      "file": "japan.evidence.json",
+      "bytes": 125354,
+      "sha256": "1A217AB1883AAAFC03F58F5AC388F26F8745661F90BCA43A572BBC06758C43B0"
+    },
+    {
+      "file": "japan.world.json",
+      "bytes": 35505,
+      "sha256": "930E99D4FF7C1B1DDDE3507517121EB64E19F7A3D2918A83BFDD5AF1108BB978"
+    },
+    {
+      "file": "japan.world.ko.md",
+      "bytes": 34720,
+      "sha256": "C9156F9FB2852666E38FAE1ACEAA219AD4440E49E2A7A7C70FCAFA0F55EC93B1"
+    },
+    {
+      "file": "korea.evidence.json",
+      "bytes": 145920,
+      "sha256": "8C1005DCAE00878D22ECF345E23CA822ACD269D3AE7CFE69D1BA3FACDFC93CBC"
+    },
+    {
+      "file": "korea.world.json",
+      "bytes": 35001,
+      "sha256": "E3FD4EF953465AF86977C74C551604C4C94498145C217B17EE21A6F1B73A8096"
+    },
+    {
+      "file": "korea.world.ko.md",
+      "bytes": 40077,
+      "sha256": "925BE715E67E08E058D1240EF7938ADD3F2DFA946D766DC5513CF8CDF1E3A51F"
+    },
+    {
+      "file": "noncommercial-spain/license-page2-review.png",
+      "bytes": 164739,
+      "sha256": "00CAD1C096AAFFE1A888905E48C5F3D071BA71DB8B009A097CD84AF8B60AA7C8"
+    },
+    {
+      "file": "noncommercial-spain/RIGHTS-HOLD.ko.md",
+      "bytes": 1471,
+      "sha256": "32063346D9742A7B34A879F46BFE010ED9674CD3956025D4DF7A4DD3B5A2536F"
+    },
+    {
+      "file": "noncommercial-spain/spain.evidence.json",
+      "bytes": 29231,
+      "sha256": "9D91B9383FC1FC03FB911FBC026AAD8C9539B2C062403C91EC57F4B500A56A7E"
+    },
+    {
+      "file": "noncommercial-spain/spain.world.json",
+      "bytes": 21062,
+      "sha256": "FF1D805E06CA5F4954466C0C871E7AF9E0E1FA4A7481D4B868931BFF9E26993C"
+    },
+    {
+      "file": "noncommercial-spain/spain.world.ko.md",
+      "bytes": 18912,
+      "sha256": "D39BB820400A3DE82501615B265B6BB5C65F68A3CF87A3A524D7C501C7FF112E"
+    },
+    {
+      "file": "protected-inputs.before.json",
+      "bytes": 210013,
+      "sha256": "61BC3C61A117DA505C91918DD39E6CA53508345683BD66FB8E1788E7C0E81024"
+    },
+    {
+      "file": "README.ko.md",
+      "bytes": 5874,
+      "sha256": "41BC847D62B77CA50D1C9B9F1A80B368D3D2370B6598B4C16ACEEC5549B28743"
+    },
+    {
+      "file": "usa.evidence.json",
+      "bytes": 75282,
+      "sha256": "A4243517C4903C89263C6977C0C74E7A362EEA1E7160D06355C1EDE263B262FC"
+    },
+    {
+      "file": "usa.world.json",
+      "bytes": 18178,
+      "sha256": "BB572384C1D881E8CABC28BA962E3859FEF9948AD113C874F13081AF55188E3A"
+    },
+    {
+      "file": "usa.world.ko.md",
+      "bytes": 31088,
+      "sha256": "1C94009DCBCD95DD79BA83715C1AFF3E59E573A343D8DDFE2E24458A8760307D"
+    },
+    {
+      "file": "VALIDATION.ko.md",
+      "bytes": 2887,
+      "sha256": "7019B47967AAFF26B098491D55CF1018359E181D83D0F10E3DA7D97E24219397"
+    }
+  ],
+  "additional_new_notice": {
+    "file": "docs/research/history-textbooks/spain/ministry-2016-noncommercial-research/RIGHTS-HOLD-2026-11-13.ko.md",
+    "sha256": "D925DA54785BE8E461E5B0099D04156A15CDAB2211386ED3EB7D246355CAED34"
+  },
+  "limitations": [
+    "No whole-card modern historical verification",
+    "No production readiness or global rights guarantee",
+    "Spain PDF page2 has BY-NC-ND badge versus BY-NC-SA caption; adaptations and use on hold"
+  ]
+}

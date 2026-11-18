@@ -1,0 +1,210 @@
+{
+  "status": "Partial, attributed-author Korean research drafts. Not complete book translation; professional review and external rights clearance incomplete.",
+  "source_file": "source-es.pdf",
+  "source_bytes": 14018454,
+  "source_pdf_pages": 278,
+  "source_sha256": "52f69a10d2ad5c679b922a39b185065438b1211554abef0fa3c134010ab251ab",
+  "source_license": "Creative Commons Atribución-NoComercial-CompartirIgual; version unspecified",
+  "commercial_app_database_integration": false,
+  "authorship_basis": "Named concept authors in PDF 3; distinction from general linguistic vocabulary in PDF 5-6; item-level evidence notes. Editorial attribution, not legal proof of independent authorship.",
+  "concepts": {
+    "source_page_count": 17,
+    "entries": 203,
+    "full": 190,
+    "partial": 1,
+    "held": 12,
+    "files": [
+      {
+        "file": "01-concepts-attributed.ko.draft.md",
+        "bytes": 5432,
+        "lines": 79,
+        "sha256": "22d4ac8691761631369155989099ac4111ed209b39241b49fa6b5661baa3e16e",
+        "chapter": 1,
+        "source_pdf_pages": [
+          21
+        ],
+        "source_entries": 14,
+        "full_entries": 14,
+        "partial_entries": 0,
+        "held_entries": 0
+      },
+      {
+        "file": "02-concepts-attributed.ko.draft.md",
+        "bytes": 9084,
+        "lines": 150,
+        "sha256": "cc9b4735d8932e58d4bd363ef31d7d496c4c306615e1bde5586ea119b6ce346b",
+        "chapter": 2,
+        "source_pdf_pages": [
+          32,
+          33
+        ],
+        "source_entries": 31,
+        "full_entries": 31,
+        "partial_entries": 0,
+        "held_entries": 0
+      },
+      {
+        "file": "03-concepts-attributed.ko.draft.md",
+        "bytes": 9288,
+        "lines": 134,
+        "sha256": "d4933ebdd0e35cf5cc8511ceab63ef23bb54fa5a871c19e3cf6798982d131350",
+        "chapter": 3,
+        "source_pdf_pages": [
+          44,
+          45
+        ],
+        "source_entries": 27,
+        "full_entries": 26,
+        "partial_entries": 0,
+        "held_entries": 1
+      },
+      {
+        "file": "04-concepts-attributed.ko.draft.md",
+        "bytes": 11039,
+        "lines": 147,
+        "sha256": "8bbf2e9d2a104a8b1d73032d048fb49252842ffbad03e965aef5578e362b774c",
+        "chapter": 4,
+        "source_pdf_pages": [
+          59,
+          60,
+          61
+        ],
+        "source_entries": 29,
+        "full_entries": 27,
+        "partial_entries": 1,
+        "held_entries": 1
+      },
+      {
+        "file": "05-concepts-attributed.ko.draft.md",
+        "bytes": 13404,
+        "lines": 164,
+        "sha256": "f5de0402b8f2ce4239af09a268c14be011745d069ee82c5a264bf71ba7442ad4",
+        "chapter": 5,
+        "source_pdf_pages": [
+          83,
+          84,
+          85
+        ],
+        "source_entries": 33,
+        "full_entries": 23,
+        "partial_entries": 0,
+        "held_entries": 10
+      },
+      {
+        "file": "06-concepts-attributed.ko.draft.md",
+        "bytes": 8111,
+        "lines": 126,
+        "sha256": "c689437694ec9b9aee04859732d9b2f2b76e8c07db25d377b7cd27ed41f4def9",
+        "chapter": 6,
+        "source_pdf_pages": [
+          102,
+          103
+        ],
+        "source_entries": 25,
+        "full_entries": 25,
+        "partial_entries": 0,
+        "held_entries": 0
+      },
+      {
+        "file": "07-concepts-attributed.ko.draft.md",
+        "bytes": 7197,
+        "lines": 110,
+        "sha256": "0db9c531d9d478903f99c510c6df2c4b5a3ed4eb0a8e9e37e4c0e607164b503d",
+        "chapter": 7,
+        "source_pdf_pages": [
+          118,
+          119
+        ],
+        "source_entries": 21,
+        "full_entries": 21,
+        "partial_entries": 0,
+        "held_entries": 0
+      },
+      {
+        "file": "08-concepts-attributed.ko.draft.md",
+        "bytes": 8419,
+        "lines": 118,
+        "sha256": "1e19a766c108afe0b32033db042c465d973769bdddc66c933086f05c88249203",
+        "chapter": 8,
+        "source_pdf_pages": [
+          137,
+          138
+        ],
+        "source_entries": 23,
+        "full_entries": 23,
+        "partial_entries": 0,
+        "held_entries": 0
+      }
+    ]
+  },
+  "didactic_guide": {
+    "file": "00-didactic-guide.ko.draft.md",
+    "bytes": 8306,
+    "lines": 68,
+    "sha256": "eee994d5abc4809960c56f2d2f74132ffec1fd4356fb62f4ab07be97a254f7d2",
+    "source_pdf_pages": [
+      5,
+      6
+    ],
+    "icon_labels": 13,
+    "icon_graphics_omitted": 13
+  },
+  "appendix": {
+    "file": "concepts-appendix-index.ko.md",
+    "bytes": 34373,
+    "lines": 214,
+    "sha256": "d5f2e65ea59c8632a014050d902ba599043697e7dc973401624fb71f23ce1f54",
+    "source_pdf_pages": [
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166
+    ],
+    "entries": 203,
+    "same_normalized_definitions": 203,
+    "new_unique_definitions": 0,
+    "double_counted_as_new_translation": false
+  },
+  "qa": {
+    "file": "concepts-qa.partial.json",
+    "bytes": 185001,
+    "lines": 5756,
+    "sha256": "5748fadb0f1cb804a3de7aef19d368c6a98750ea87970b8d5304a4e2bf8f658f"
+  },
+  "progress_and_rights_supplement": {
+    "file": "README.concepts-progress.ko.md",
+    "bytes": 9144,
+    "lines": 67,
+    "sha256": "19b2d74667f349e86134a86435dc8931618a09dfb45c12159afbf1f5c9523c5f"
+  },
+  "existing_manifest_preserved": "translation-manifest.partial.json",
+  "existing_registered_files_unchanged": 26,
+  "source_main_prose_events_end": 2011,
+  "concept_entries_also_include": [
+    2015,
+    2016
+  ],
+  "teacher_material_range_untouched": [
+    176,
+    278
+  ],
+  "next_steps": [
+    "Review 12 held definitions and one quoted motto against historical source versions and rights.",
+    "Item-level provenance work for general-language vocabulary; no blanket reuse of dictionary definitions.",
+    "Translate other author-attributed front/back matter or teacher prose only after separating third-party materials and without silently broadening to all answer keys.",
+    "Professional Spanish-Korean and historical review."
+  ],
+  "committed": false,
+  "pushed": false
+}

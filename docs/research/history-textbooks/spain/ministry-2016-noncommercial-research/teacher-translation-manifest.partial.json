@@ -1,0 +1,297 @@
+{
+  "status": "partial_author_text_first_pass_complete_with_holds",
+  "source_file": "source-es.pdf",
+  "source_sha256": "52f69a10d2ad5c679b922a39b185065438b1211554abef0fa3c134010ab251ab",
+  "source_bytes": 14018454,
+  "source_pdf_pages": 278,
+  "teacher_pdf_range": [
+    176,
+    278
+  ],
+  "teacher_pages_reviewed_for_structure": 103,
+  "individually_render_reviewed_pages": 85,
+  "completed_teacher_chapters": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "completion_scope": "확인 가능한 저자 새 문자 번역/중복 연결/보류 표시의 1차 처리. 보류 포함 완역 아님.",
+  "untranslated_teacher_chapters": [],
+  "rights_holds_remain": true,
+  "historical_legal_language_final_review_done": false,
+  "existing_file_count": 46,
+  "existing_files_unchanged": true,
+  "existing_file_baseline": {
+    "00-didactic-guide.ko.draft.md": {
+      "sha256": "eee994d5abc4809960c56f2d2f74132ffec1fd4356fb62f4ab07be97a254f7d2",
+      "bytes": 8306
+    },
+    "01-activities-author-prose.ko.draft.md": {
+      "sha256": "def2cdda5e2765f105aae4cff7a38c44af85efc6d38fda5fbe849420f7e12e0b",
+      "bytes": 16400
+    },
+    "01-concepts-attributed.ko.draft.md": {
+      "sha256": "22d4ac8691761631369155989099ac4111ed209b39241b49fa6b5661baa3e16e",
+      "bytes": 5432
+    },
+    "01-main-prose.ko.draft.md": {
+      "sha256": "996197a9d9d127dd5a5ae4c04e90dcc00728caf0f8b9d9df2c65842a4c50b58a",
+      "bytes": 14206
+    },
+    "02-activities-author-prose.ko.draft.md": {
+      "sha256": "b46be37949f9657915eb11e286d021b1c3dafa525a1ef5e0cfdf729b47967b21",
+      "bytes": 8590
+    },
+    "02-concepts-attributed.ko.draft.md": {
+      "sha256": "cc9b4735d8932e58d4bd363ef31d7d496c4c306615e1bde5586ea119b6ce346b",
+      "bytes": 9084
+    },
+    "02-main-prose.ko.draft.md": {
+      "sha256": "b92759334d24d7a4d3efc62671205514e9cfd7569c3fe69f9d8ff0d26f2faf22",
+      "bytes": 15100
+    },
+    "03-activities-author-prose.ko.draft.md": {
+      "sha256": "6957abb8c0375fbe3c63feba4e884163089c2b4ada86c52949f6e2906ac6d29e",
+      "bytes": 12281
+    },
+    "03-concepts-attributed.ko.draft.md": {
+      "sha256": "d4933ebdd0e35cf5cc8511ceab63ef23bb54fa5a871c19e3cf6798982d131350",
+      "bytes": 9288
+    },
+    "03-main-prose.ko.draft.md": {
+      "sha256": "55d9bc0e6e4ea05fcd99116abc01116ce2d8f027c3c1ca606fb434d9b8bd8978",
+      "bytes": 15326
+    },
+    "04-activities-author-prose.ko.draft.md": {
+      "sha256": "020c73c89d75ad251fc10672db536f6a66338636633e3d8998de4d7a5addebfe",
+      "bytes": 12628
+    },
+    "04-concepts-attributed.ko.draft.md": {
+      "sha256": "8bbf2e9d2a104a8b1d73032d048fb49252842ffbad03e965aef5578e362b774c",
+      "bytes": 11039
+    },
+    "04-main-prose.ko.draft.md": {
+      "sha256": "e71e0e2ec2a6531d6489fa2d4f4ff5ee7c393d381c6eefa96ed15d59f9ba76c5",
+      "bytes": 14337
+    },
+    "05-activities-author-prose.ko.draft.md": {
+      "sha256": "0609c816ba1cd2cea1215d3d9c1059b7c087e2d432b1a1720205337a396247c5",
+      "bytes": 20347
+    },
+    "05-concepts-attributed.ko.draft.md": {
+      "sha256": "f5de0402b8f2ce4239af09a268c14be011745d069ee82c5a264bf71ba7442ad4",
+      "bytes": 13404
+    },
+    "05-main-prose.ko.draft.md": {
+      "sha256": "26dbb867638e4ce677c7fcbee41d602857c125254a55adee1ba56b0b75750eab",
+      "bytes": 16690
+    },
+    "06-activities-author-prose.ko.draft.md": {
+      "sha256": "d459d7f50d5fa27b8cf2204c3a64df00cd3d4d721bbd64f4f5bd67842bb366cc",
+      "bytes": 15188
+    },
+    "06-concepts-attributed.ko.draft.md": {
+      "sha256": "c689437694ec9b9aee04859732d9b2f2b76e8c07db25d377b7cd27ed41f4def9",
+      "bytes": 8111
+    },
+    "06-main-prose.ko.draft.md": {
+      "sha256": "00a38c7d82050a63865733dd6276161c69aa48fa8a6a29bf543aa51d274583c1",
+      "bytes": 12934
+    },
+    "07-activities-author-prose.ko.draft.md": {
+      "sha256": "330011ad48f8734504d46fd12c5ce090d1c78e17de1c3f316f12a431ea0ad7a2",
+      "bytes": 13510
+    },
+    "07-concepts-attributed.ko.draft.md": {
+      "sha256": "0db9c531d9d478903f99c510c6df2c4b5a3ed4eb0a8e9e37e4c0e607164b503d",
+      "bytes": 7197
+    },
+    "07-main-prose.ko.draft.md": {
+      "sha256": "500109f993786d7aedb30cf493596487cc51d2d990552677aa77e1148c7e1c16",
+      "bytes": 12900
+    },
+    "08-activities-author-prose.ko.draft.md": {
+      "sha256": "efad3c1dc272dfd3197ad24323de5670e08d1a42db73e58a13352beb0628beba",
+      "bytes": 14936
+    },
+    "08-concepts-attributed.ko.draft.md": {
+      "sha256": "1e19a766c108afe0b32033db042c465d973769bdddc66c933086f05c88249203",
+      "bytes": 8419
+    },
+    "08-main-prose.ko.draft.md": {
+      "sha256": "0b326d293f014b0586c7f7fc79295fd08149ea7805fcc804dc660e32f74ff404",
+      "bytes": 13223
+    },
+    "chronology-01.ko.draft.md": {
+      "sha256": "db9ded79c99e76fea601ad25159a672f576cf57d8fcddc4bcee8e21a2722b9df",
+      "bytes": 5356
+    },
+    "chronology-02.ko.draft.md": {
+      "sha256": "71d77673fa0884c862f9cd09fd9c49c5cc4d8fc52cac972a6ced0dc9517a12c1",
+      "bytes": 4904
+    },
+    "chronology-03.ko.draft.md": {
+      "sha256": "333db35ad8b8cb3917cc14bb1361d40943e78cf58cef647e83a2705ea262d355",
+      "bytes": 4259
+    },
+    "chronology-04.ko.draft.md": {
+      "sha256": "0437580652b8405fe8f807dc81757899c0b97ee837990175e867107bb261448a",
+      "bytes": 6015
+    },
+    "chronology-05.ko.draft.md": {
+      "sha256": "2cb0eb5e8da8c8427fb7df66ab33a94ec4f4fee3affc3236ba3b6867dcb54509",
+      "bytes": 5750
+    },
+    "chronology-06.ko.draft.md": {
+      "sha256": "4ac00ebcac710c62ceeeabdbaa7cdcf6634be79c7c95340968b256b0ecb24248",
+      "bytes": 3977
+    },
+    "chronology-07.ko.draft.md": {
+      "sha256": "aacbdc7cfff8cacdde7ce6823d5bfe1a8039735a58f69a146e7be7ed77ec8e30",
+      "bytes": 5254
+    },
+    "chronology-08.ko.draft.md": {
+      "sha256": "0da6b27f70cfcf207ec128692d7d3373d422c290aa555ffa5594f64594746dd6",
+      "bytes": 5656
+    },
+    "concepts-appendix-index.ko.md": {
+      "sha256": "15b9e8b30ede81c243fbda26b3e1f79cfe77ac5bc296880280077d798648fe45",
+      "bytes": 34705
+    },
+    "concepts-qa.partial.json": {
+      "sha256": "5748fadb0f1cb804a3de7aef19d368c6a98750ea87970b8d5304a4e2bf8f658f",
+      "bytes": 185001
+    },
+    "concepts-translation-manifest.partial.json": {
+      "sha256": "8a24388be73adc371f98368958ef2a8c2c3b2e8a9ff0a34669325811e98b6924",
+      "bytes": 6089
+    },
+    "eight-chapters-main-prose.ko.draft.md": {
+      "sha256": "ee3545e7121ee15637a2d8b363913a31712ccca414939f0dad89b5de39613e1f",
+      "bytes": 116801
+    },
+    "README.concepts-progress.ko.md": {
+      "sha256": "08f4af4cdac6a31e0a53c499376d886ed5782935ef9dcbb444e685ad597b6865",
+      "bytes": 9397
+    },
+    "README.partial-ko.md": {
+      "sha256": "7decb9d2a6e732c58632fcac2210437d3d16cbe897e1a6b88dd6b1b5c8cc031c",
+      "bytes": 5285
+    },
+    "rights-inventory.student.partial-ko.md": {
+      "sha256": "daa7c2dda725f34bfbbc7977f4a3e0dd7d962f6fa76b7d60e530aae2e9bb8d34",
+      "bytes": 23253
+    },
+    "source-es.extracted.txt": {
+      "sha256": "cde4b62a652359a6a9a3af2f9f20e0afb568eba7164d2f46c524a408fbd637a3",
+      "bytes": 528080
+    },
+    "source-es.pdf": {
+      "sha256": "52f69a10d2ad5c679b922a39b185065438b1211554abef0fa3c134010ab251ab",
+      "bytes": 14018454
+    },
+    "source-manifest.json": {
+      "sha256": "59b07bc58fe15468d80d65907f45fd69e2a37b0b3d7fe4f29ef9ac63e24908ba",
+      "bytes": 943
+    },
+    "source-pages.json": {
+      "sha256": "67e3d968e4f84faad127771b241721894f5c4658aaeb59430fbf60bc7e155785",
+      "bytes": 534485
+    },
+    "translation-manifest.partial.json": {
+      "sha256": "77f4577806dfe7252f30763d12734fc343be4b9b8ac0104f7b188ddd451ad4a9",
+      "bytes": 19414
+    },
+    "worldbuilding-3-candidates.derived-draft.md": {
+      "sha256": "cbfe05f439a63173fef03e3ea131141cbd1f9d2e659109a51fe7025c9326bbf8",
+      "bytes": 4320
+    }
+  },
+  "all_local_links_pass": true,
+  "local_link_count": 115,
+  "files": [
+    {
+      "file": "teacher-00-frontmatter.ko.draft.md",
+      "sha256": "9f1aae1451b917b21812b96c186f81b31eb9bc0448ffd4fec27feb34265c5ee1",
+      "bytes": 2753,
+      "lines": 74
+    },
+    {
+      "file": "teacher-01-guidance-answers.ko.draft.md",
+      "sha256": "9be9982f305f284caefce4e5b84a1be85fdc97399cfb971ba0b7251e419454d4",
+      "bytes": 23417,
+      "lines": 297
+    },
+    {
+      "file": "teacher-02-guidance-answers.ko.draft.md",
+      "sha256": "ae800c0873fc3af40eefe76ca18c3b847a855a9131310d0bf033e7d31a385a61",
+      "bytes": 14603,
+      "lines": 221
+    },
+    {
+      "file": "teacher-03-guidance-answers.ko.draft.md",
+      "sha256": "6aad1e306db5976dee3ff3553192a8649e46eea0152e63558d9dbbbd39215e4e",
+      "bytes": 22694,
+      "lines": 288
+    },
+    {
+      "file": "teacher-04-guidance-answers.ko.draft.md",
+      "sha256": "1ca80899f2997587bf80f8f3222bb8b1a3bcdd86837dab01a4da57d076c40bb3",
+      "bytes": 21015,
+      "lines": 232
+    },
+    {
+      "file": "teacher-05-guidance-answers.ko.draft.md",
+      "sha256": "98f06e8a33e1c7afdeb05a48b9dd31eea025c2a40f4a00a7e9e1152039449028",
+      "bytes": 24975,
+      "lines": 384
+    },
+    {
+      "file": "teacher-06-guidance-answers.ko.draft.md",
+      "sha256": "7e096dcca14bf21c1f15d6a34af0ea2b32179b2a8fbf814c7fa7e78e619ac062",
+      "bytes": 18497,
+      "lines": 271
+    },
+    {
+      "file": "teacher-07-guidance-answers.ko.draft.md",
+      "sha256": "4d9cead67eb2005d25c0d155d8de09d58749fbf44656a54c028c6c012b4654b3",
+      "bytes": 9805,
+      "lines": 161
+    },
+    {
+      "file": "teacher-08-guidance-answers.ko.draft.md",
+      "sha256": "715c8e7f5e92f7eb656d572ab89614a0136aa06a54bf06ded1abd2ad04916c65",
+      "bytes": 15202,
+      "lines": 210
+    },
+    {
+      "file": "teacher-rights-inventory.ko.md",
+      "sha256": "1b6e9faf495c5a1272689426bdccb3ad48860bc1641bb64be20d4bc03f736bbc",
+      "bytes": 11728,
+      "lines": 85
+    },
+    {
+      "file": "teacher-page-coverage.partial.json",
+      "sha256": "d685226d44a6dd9b7304dfc45b55b58743430e700ddfcf5b5ec8925997c4a783",
+      "bytes": 40486,
+      "lines": 1041
+    },
+    {
+      "file": "teacher-qa.partial.json",
+      "sha256": "cab346deda05218d3f85f7b9228d37cb84fe079578e3fa89e2af697c05fb1eac",
+      "bytes": 54283,
+      "lines": 2209
+    },
+    {
+      "file": "README.teacher-progress.ko.md",
+      "sha256": "f12b10f8f63ccb82c5bcf16d2bcf2fa1c15146668ae338142a82589591bd4fe7",
+      "bytes": 5926,
+      "lines": 42
+    }
+  ]
+}

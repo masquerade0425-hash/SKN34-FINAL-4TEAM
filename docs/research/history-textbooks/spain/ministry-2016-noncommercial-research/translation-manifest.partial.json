@@ -1,0 +1,629 @@
+{
+  "status": "Eight narrative chapters, eight comparative chronologies, and author-written activity instruction/question drafts for all eight chapters; not a complete translation of the 278-page textbook",
+  "combined": {
+    "file": "eight-chapters-main-prose.ko.draft.md",
+    "sha256": "EE3545E7121EE15637A2D8B363913A31712CCCA414939F0DAD89B5DE39613E1F",
+    "bytes": 116801
+  },
+  "source_narrative_pages": 32,
+  "chapters": [
+    {
+      "file": "01-main-prose.ko.draft.md",
+      "sha256": "996197A9D9D127DD5A5AE4C04E90DCC00728CAF0F8B9D9DF2C65842A4C50B58A",
+      "bytes": 14206
+    },
+    {
+      "file": "02-main-prose.ko.draft.md",
+      "sha256": "B92759334D24D7A4D3EFC62671205514E9CFD7569C3FE69F9D8FF0D26F2FAF22",
+      "bytes": 15100
+    },
+    {
+      "file": "03-main-prose.ko.draft.md",
+      "sha256": "55D9BC0E6E4EA05FCD99116ABC01116CE2D8F027C3C1CA606FB434D9B8BD8978",
+      "bytes": 15326
+    },
+    {
+      "file": "04-main-prose.ko.draft.md",
+      "sha256": "E71E0E2EC2A6531D6489FA2D4F4FF5EE7C393D381C6EEFA96ED15D59F9BA76C5",
+      "bytes": 14337
+    },
+    {
+      "file": "05-main-prose.ko.draft.md",
+      "sha256": "26DBB867638E4CE677C7FCBEE41D602857C125254A55ADEE1BA56B0B75750EAB",
+      "bytes": 16690
+    },
+    {
+      "file": "06-main-prose.ko.draft.md",
+      "sha256": "00A38C7D82050A63865733DD6276161C69AA48FA8A6A29BF543AA51D274583C1",
+      "bytes": 12934
+    },
+    {
+      "file": "07-main-prose.ko.draft.md",
+      "sha256": "500109F993786D7AEDB30CF493596487CC51D2D990552677AA77E1148C7E1C16",
+      "bytes": 12900
+    },
+    {
+      "file": "08-main-prose.ko.draft.md",
+      "sha256": "0B326D293F014B0586C7F7FC79295FD08149EA7805FCC804DC660E32F74FF404",
+      "bytes": 13223
+    }
+  ],
+  "chronologies": {
+    "status": "Draft translations; source dates preserved; historical review incomplete",
+    "source_pdf_pages": [
+      8,
+      23,
+      35,
+      47,
+      63,
+      87,
+      105,
+      121
+    ],
+    "total_rows": 147,
+    "total_bytes": 41171,
+    "blank_region_cells": 222,
+    "blank_year_cells": 1,
+    "validation": "All eight PDF tables visually checked; source PDF coordinate-based nonempty/empty regional cell comparison found zero mismatches. The all-empty 1935 event row and undated Dayton row are preserved.",
+    "files": [
+      {
+        "chapter": 1,
+        "file": "chronology-01.ko.draft.md",
+        "source_pdf_page": 8,
+        "rows": 21,
+        "blank_year_cells": 0,
+        "blank_region_cells": 29,
+        "author": "Lluís Vicent Alemany Giner",
+        "sha256": "DB9DED79C99E76FEA601AD25159A672F576CF57D8FCDDC4BCEE8E21A2722B9DF",
+        "bytes": 5356
+      },
+      {
+        "chapter": 2,
+        "file": "chronology-02.ko.draft.md",
+        "source_pdf_page": 23,
+        "rows": 8,
+        "blank_year_cells": 0,
+        "blank_region_cells": 5,
+        "author": "Lluís Vicent Alemany Giner",
+        "sha256": "71D77673FA0884C862F9CD09FD9C49C5CC4D8FC52CAC972A6CED0DC9517A12C1",
+        "bytes": 4904
+      },
+      {
+        "chapter": 3,
+        "file": "chronology-03.ko.draft.md",
+        "source_pdf_page": 35,
+        "rows": 15,
+        "blank_year_cells": 0,
+        "blank_region_cells": 26,
+        "author": "Lorena Álvarez Delgado",
+        "sha256": "333DB35AD8B8CB3917CC14BB1361D40943E78CF58CEF647E83A2705EA262D355",
+        "bytes": 4259
+      },
+      {
+        "chapter": 4,
+        "file": "chronology-04.ko.draft.md",
+        "source_pdf_page": 47,
+        "rows": 23,
+        "blank_year_cells": 0,
+        "blank_region_cells": 34,
+        "author": "Lorena Álvarez Delgado",
+        "sha256": "0437580652B8405FE8F807DC81757899C0B97EE837990175E867107BB261448A",
+        "bytes": 6015
+      },
+      {
+        "chapter": 5,
+        "file": "chronology-05.ko.draft.md",
+        "source_pdf_page": 63,
+        "rows": 32,
+        "blank_year_cells": 0,
+        "blank_region_cells": 51,
+        "author": "Joaquín Pascual López",
+        "sha256": "2CB0EB5E8DA8C8427FB7DF66AB33A94EC4F4FEE3AFFC3236BA3B6867DCB54509",
+        "bytes": 5750
+      },
+      {
+        "chapter": 6,
+        "file": "chronology-06.ko.draft.md",
+        "source_pdf_page": 87,
+        "rows": 9,
+        "blank_year_cells": 0,
+        "blank_region_cells": 14,
+        "author": "Joaquín Pascual López",
+        "sha256": "4AC00EBCAC710C62CEEEABDBAA7CDCF6634BE79C7C95340968B256B0ECB24248",
+        "bytes": 3977
+      },
+      {
+        "chapter": 7,
+        "file": "chronology-07.ko.draft.md",
+        "source_pdf_page": 105,
+        "rows": 17,
+        "blank_year_cells": 0,
+        "blank_region_cells": 28,
+        "author": "Joaquín Pascual López",
+        "sha256": "AACBDC7CFFF8CACDDE7CE6823D5BFE1A8039735A58F69A146E7BE7ED77EC8E30",
+        "bytes": 5254
+      },
+      {
+        "chapter": 8,
+        "file": "chronology-08.ko.draft.md",
+        "source_pdf_page": 121,
+        "rows": 22,
+        "blank_year_cells": 1,
+        "blank_region_cells": 35,
+        "author": "Joaquín Pascual López",
+        "sha256": "0DA6B27F70CFCF207EC128692D7D3373D422C290AA555FFA5594F64594746DD6",
+        "bytes": 5656
+      }
+    ]
+  },
+  "activities": {
+    "status": "Partial author-written instruction/question drafts for chapters 1-8; external materials and specifically listed uncertain content omitted; professional review incomplete",
+    "files": [
+      {
+        "chapter": 1,
+        "file": "01-activities-author-prose.ko.draft.md",
+        "sha256": "DEF2CDDA5E2765F105AAE4CFF7A38C44AF85EFC6D38FDA5FBE849420F7E12E0B",
+        "bytes": 16400,
+        "lines": 251,
+        "source_pdf_pages": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "author": "Yolanda Ruiz Pino",
+        "editor": "Yolanda Ruiz Pino",
+        "source_section_identifiers": [
+          "1",
+          "1.1",
+          "1.2",
+          "2",
+          "3",
+          "4",
+          "5",
+          "5.1",
+          "5.2",
+          "Actividad complementaria"
+        ],
+        "source_wordbank_items": 21,
+        "source_description_prompts": 18,
+        "source_support_expressions": 8,
+        "preroman_table_rows": 6,
+        "preroman_table_people_columns": 5,
+        "preroman_table_prefilled_cells": 4,
+        "preroman_table_blank_cells": 26,
+        "validation": "Source text read; PDF layout and table cells visually checked. Repeated question 3 and original dates preserved; no new answer keys.",
+        "omitted": [
+          "External images and their embedded text on PDF 13,14,15,17,19",
+          "Separately distributed reading texts mentioned by activity 3",
+          "Activity icons",
+          "Historical concepts on PDF 21"
+        ]
+      },
+      {
+        "chapter": 2,
+        "file": "02-activities-author-prose.ko.draft.md",
+        "sha256": "B46BE37949F9657915EB11E286D021B1C3DAFA525A1EF5E0CFDF729B47967B21",
+        "bytes": 8590,
+        "lines": 140,
+        "source_pdf_pages": [
+          28,
+          29,
+          30,
+          31
+        ],
+        "author": "Lluís Vicent Alemany Giner",
+        "editor": "Yolanda Ruiz Pino",
+        "source_section_identifiers": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "Actividad complementaria"
+        ],
+        "timeline_prompt_items": 13,
+        "map_prompt_items": 7,
+        "social_group_questions": 4,
+        "estate_questions": 9,
+        "matching_events": 6,
+        "matching_dates": 6,
+        "diagram_branch_labels": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "A",
+            "C",
+            "B"
+          ]
+        ],
+        "diagram_blank_answer_cells": 6,
+        "validation": "All four source PDF pages visually checked; original A-C-B branch order, dates, blanks and unmatched lists preserved. No answer keys added.",
+        "omitted": [
+          "External map on PDF 29",
+          "Activity icons",
+          "Historical concepts on PDF 32-33"
+        ]
+      },
+      {
+        "chapter": 3,
+        "file": "03-activities-author-prose.ko.draft.md",
+        "sha256": "6957ABB8C0375FBE3C63FEBA4E884163089C2B4ADA86C52949F6E2906AC6D29E",
+        "bytes": 12281,
+        "lines": 158,
+        "source_pdf_pages": [
+          40,
+          41,
+          42,
+          43
+        ],
+        "author": "Lorena Álvarez Delgado",
+        "editor": "Yolanda Ruiz Pino",
+        "source_section_identifiers": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "Actividad complementaria"
+        ],
+        "true_false_items": 7,
+        "puzzle_blank_answers": 3,
+        "territory_language_blank_fields": 5,
+        "cloze_blanks": 10,
+        "total_structured_blank_answers": 25,
+        "image_observation_questions": 9,
+        "complementary_activity_steps": 5,
+        "validation": "All four source PDF pages visually checked; unanswered true-false statements and ten cloze blanks preserved. Unspecified final Empire wording not completed or given an extra blank.",
+        "omitted": [
+          "Two external maps and embedded text on PDF 41",
+          "External artwork on PDF 43",
+          "Activity icons and puzzle shapes",
+          "Historical concepts on PDF 44-45"
+        ]
+      },
+      {
+        "chapter": 4,
+        "file": "04-activities-author-prose.ko.draft.md",
+        "sha256": "020C73C89D75AD251FC10672DB536F6A66338636633E3D8998DE4D7A5ADDEBFE",
+        "bytes": 12628,
+        "lines": 172,
+        "source_pdf_pages": [
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58
+        ],
+        "author": "Lorena Álvarez Delgado",
+        "source_section_identifiers": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "Actividad complementaria"
+        ],
+        "king_table_rows": 7,
+        "king_table_columns": 6,
+        "king_table_prefilled_cells": 14,
+        "king_table_blank_cells": 28,
+        "event_wordbank_items": 17,
+        "true_false_items": 5,
+        "portrait_name_items": 14,
+        "validation": "Original seven-row king order, sample entries and 28 blank cells preserved; events and true-false items not solved.",
+        "omitted": [
+          "External diagram on PDF 54",
+          "External genealogy diagrams and embedded text on PDF 55-56",
+          "External painting on PDF 58",
+          "Icons and historical concepts on PDF 59-61"
+        ],
+        "editor": "Yolanda Ruiz Pino"
+      },
+      {
+        "chapter": 5,
+        "file": "05-activities-author-prose.ko.draft.md",
+        "sha256": "0609C816BA1CD2CEA1215D3D9C1059B7C087E2D432B1A1720205337A396247C5",
+        "bytes": 20347,
+        "lines": 358,
+        "source_pdf_pages": [
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82
+        ],
+        "author": "María Isabel Leal Moreno",
+        "source_section_identifiers": [
+          "1",
+          "2",
+          "3",
+          "3.1",
+          "3.2",
+          "4",
+          "5",
+          "6",
+          "6.1",
+          "6.2",
+          "Actividad complementaria"
+        ],
+        "background_table_rows": 5,
+        "background_table_columns": 5,
+        "background_table_prefilled_cells": 8,
+        "background_table_blank_cells": 17,
+        "country_list_items": 19,
+        "country_list_prefilled_items": 3,
+        "country_list_blank_items": 16,
+        "date_number_table_rows": 12,
+        "date_number_table_prefilled_rows": 3,
+        "date_number_table_blank_cells": 18,
+        "external_cloze_wordbank_items": 13,
+        "validation": "Three worksheet tables visually checked; empty row retained. Original five-prediction instruction versus four writing stems preserved. Fictional author examples separated from externally cited excerpts.",
+        "omitted": [
+          "External press-history adaptation on PDF 68",
+          "External invasion-article adaptation and its cloze text on PDF 71",
+          "Riego historical excerpt and adapted explanation on PDF 73",
+          "External La Razon excerpt on PDF 81",
+          "External maps/images, image-embedded text, and linked materials",
+          "Icons and historical concepts on PDF 83-85"
+        ],
+        "editor": "Yolanda Ruiz Pino"
+      },
+      {
+        "chapter": 6,
+        "file": "06-activities-author-prose.ko.draft.md",
+        "sha256": "D459D7F50D5FA27B8CF2204C3A64DF00CD3D4D721BBD64F4F5BD67842BB366CC",
+        "bytes": 15188,
+        "lines": 281,
+        "source_pdf_pages": [
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101
+        ],
+        "author": "Sonia Luque Martín",
+        "source_section_identifiers": [
+          "1",
+          "2",
+          "2.1",
+          "2.2",
+          "3",
+          "3.1",
+          "4",
+          "4.1",
+          "5",
+          "Actividad complementaria"
+        ],
+        "constitution_answer_fields": 7,
+        "dictionary_terms": 9,
+        "dictionary_blank_definition_cells": 18,
+        "cloze_sentences": 6,
+        "cloze_blanks": 8,
+        "emotion_expression_items": 12,
+        "map_questions": 9,
+        "puzzle_steps": 9,
+        "podcast_steps": 8,
+        "validation": "Blank definitions not filled from dictionaries; eight cloze blanks retained. Puzzle and poem prompts preserved without adding teacher materials or literary works.",
+        "omitted": [
+          "1931 Constitution excerpts on PDF 93",
+          "Parliamentary speeches and portraits on PDF 94",
+          "External images and maps on PDF 92,97-98",
+          "Dictionary definitions, separately supplied puzzle/story, poems and audio",
+          "Icons and historical concepts on PDF 102-103"
+        ],
+        "editor": "Yolanda Ruiz Pino"
+      },
+      {
+        "chapter": 7,
+        "file": "07-activities-author-prose.ko.draft.md",
+        "sha256": "330011AD48F8734504D46FD12C5CE090D1C78E17DE1C3F316F12A431EA0AD7A2",
+        "bytes": 13510,
+        "lines": 249,
+        "source_pdf_pages": [
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117
+        ],
+        "author": "Patricia Lucas Alonso",
+        "source_section_identifiers": [
+          "1",
+          "1.1",
+          "1.2",
+          "1.3",
+          "2",
+          "2.1",
+          "3",
+          "3.1",
+          "4",
+          "4.1",
+          "5",
+          "5.1",
+          "Actividad complementaria"
+        ],
+        "classification_wordbank_items": 17,
+        "classification_table_prefilled_cells": 1,
+        "classification_table_blank_cells": 3,
+        "wordsearch_rows": 15,
+        "wordsearch_columns": 12,
+        "wordsearch_characters": 180,
+        "wordsearch_blank_answers": 10,
+        "cloze_blanks": 10,
+        "matching_events": 8,
+        "matching_periods": 4,
+        "timeline_text_blanks": 4,
+        "true_false_items": 5,
+        "validation": "Wordsearch grid and timeline visually checked; all 180 grid characters retained with no solution marks. Missing image clues at positions 4 and 9 not invented.",
+        "omitted": [
+          "External images/illustrations on PDF 110-115",
+          "Film/TV stills, audiovisual works and three synopses pending authorship check on PDF 117",
+          "Icons and historical concepts on PDF 118-119"
+        ],
+        "editor": "Yolanda Ruiz Pino"
+      },
+      {
+        "chapter": 8,
+        "file": "08-activities-author-prose.ko.draft.md",
+        "sha256": "EFAD3C1DC272DFD3197AD24323DE5670E08D1A42DB73E58A13352BEB0628BEBA",
+        "bytes": 14936,
+        "lines": 272,
+        "source_pdf_pages": [
+          126,
+          127,
+          128,
+          129,
+          130,
+          131,
+          132,
+          133,
+          134,
+          135,
+          136
+        ],
+        "author": "Sonia Luque Martín",
+        "source_section_identifiers": [
+          "1",
+          "1.1",
+          "2",
+          "2.1",
+          "2.2",
+          "3",
+          "3.1",
+          "4",
+          "4.1",
+          "5",
+          "5.1",
+          "5.2",
+          "Actividad complementaria"
+        ],
+        "true_false_items": 5,
+        "image_wordbank_items": 8,
+        "image_answer_blanks": 8,
+        "cloze_blanks": 7,
+        "preterite_conjugation_rows": 6,
+        "preterite_conjugation_columns": 2,
+        "song_followup_questions": 3,
+        "map_questions": 5,
+        "video_table_rows": 9,
+        "video_table_blank_cells": 18,
+        "matching_events": 11,
+        "matching_government_periods": 3,
+        "timeline_printed_years": 4,
+        "timeline_unprinted_boundary_years": 2,
+        "complementary_activity_steps": 6,
+        "validation": "Seven cloze blanks, 18 video-table blanks and two unprinted timeline boundary years preserved. No song lyrics, legal answers, policies or voting answers supplied.",
+        "omitted": [
+          "1978 Constitution excerpts on PDF 126",
+          "External photos on PDF 127-128",
+          "Short historical utterance quoted on PDF 129",
+          "Entire Jueves lyrics/cloze and audio on PDF 130",
+          "External map and legend on PDF 131",
+          "Unavailable videos, political portraits/logos on PDF 133",
+          "Eight quoted advertising/political slogans on PDF 135",
+          "Icons and historical concepts on PDF 137-138"
+        ],
+        "editor": "Yolanda Ruiz Pino"
+      }
+    ],
+    "total_bytes": 113880,
+    "source_activity_page_ranges": [
+      [
+        13,
+        20
+      ],
+      [
+        28,
+        31
+      ],
+      [
+        40,
+        43
+      ],
+      [
+        52,
+        58
+      ],
+      [
+        68,
+        82
+      ],
+      [
+        92,
+        101
+      ],
+      [
+        110,
+        117
+      ],
+      [
+        126,
+        136
+      ]
+    ],
+    "source_page_scope_count": 67,
+    "scope_note": "67 pages is the source activity section scope, not 67 fully translated pages. Images, external excerpts/lyrics, dictionary definitions and specifically noted content remain omitted.",
+    "chapters_without_author_direction_draft": [],
+    "total_lines": 1881
+  },
+  "rights_inventory": {
+    "file": "rights-inventory.student.partial-ko.md",
+    "sha256": "DAA7C2DDA725F34BFBBC7977F4A3E0DD7D962F6FA76B7D60E530AAE2E9BB8D34",
+    "bytes": 23253,
+    "lines": 169,
+    "source_pdf_page_range": [
+      1,
+      175
+    ],
+    "activity_pages_total": 67,
+    "activity_pages_chapter_1_in_partial_translation": 8,
+    "chapter_historical_concept_pages": 17,
+    "license": "Creative Commons Atribucion-NoComercial-CompartirIgual; version unspecified in PDF",
+    "external_rights_verification": "Not independently verified; item-level source material excluded pending review",
+    "teacher_material_pdf_page_range_out_of_scope": [
+      176,
+      278
+    ],
+    "activity_chapters_partially_translated": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "activity_source_page_scope_count": 67,
+    "activity_scope_note": "All eight chapters have partial author-direction drafts; 67 source pages are not fully translated. See per-file omissions."
+  }
+}

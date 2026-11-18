@@ -1,0 +1,131 @@
+{
+  "checked_utc": "2026-11-13T16:38:31.129450+00:00",
+  "author": "Christopher Brooks, Ph.D.",
+  "title": "Western Civilization: A Concise History - Volume 3",
+  "version": "3.0",
+  "title_page_last_updated": "May, 2024",
+  "introduction_signature_date": "June 2024",
+  "licensor": "Portland Community College",
+  "license": "CC BY-NC-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "author_page_advertised_scope": "1800 CE–2017 CE",
+  "actual_scope_note": "Modern European and world history. Chapter 15 says approximately 2020; selective updates explicitly cover 2021, 2022, and 2023. Not a country-by-country history complete through 2024.",
+  "full_translation_started": false,
+  "germany_work_on_hold": true,
+  "files": [
+    {
+      "file": "source-volume3-pcc-v3.txt",
+      "url": "https://docs.google.com/document/d/1fZ_OmJ_iZAxCsVUjgv3YXZSXtwBExzcpngCrC0y9rZ8/export?format=txt",
+      "http_status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "download_response_bytes_when_measured": 697934,
+      "stored_bytes": 697934,
+      "sha256": "330aba65386afc845043d3903781ee7084e5085ee59c3b309135959f836bafeb",
+      "note": "Public Google Docs TXT export; HTTP content decoded as UTF-8 and written as UTF-8. All text preserved; no factual correction."
+    },
+    {
+      "file": "source-volume3-pcc-v3.docx",
+      "url": "https://docs.google.com/document/d/1fZ_OmJ_iZAxCsVUjgv3YXZSXtwBExzcpngCrC0y9rZ8/export?format=docx",
+      "http_status": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "download_response_bytes_when_measured": 13199356,
+      "stored_bytes": 13199356,
+      "sha256": "380700efc6c9222115d8369de0dbfd10d37f49bc98ea552526e60deaf77a3d96",
+      "note": "Original binary public export; contains third-party media, including fair-use-only notices. Research archive, not a blanket-cleared redistribution asset."
+    },
+    {
+      "file": "source-author-page.html",
+      "url": "https://www.pcc.edu/staff/christopher-brooks3/",
+      "http_status": 200,
+      "content_type": "text/html",
+      "download_response_bytes_when_measured": null,
+      "stored_bytes": 19551,
+      "sha256": "ab31ddfddd4ae697bb129900eea69981cc349b57e149e3930e1ab88cc0ce90d7",
+      "note": "Official author and version page snapshot."
+    },
+    {
+      "file": "license-cc-by-nc-sa-4.0.txt",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.txt",
+      "http_status": 200,
+      "content_type": "text/plain",
+      "download_response_bytes_when_measured": null,
+      "stored_bytes": 20850,
+      "sha256": "e66c269d4819aaab34b49ef5220c4ddab6756f21bb5180761a4eb8561f2b7bbd",
+      "note": "License legal text from Creative Commons."
+    }
+  ],
+  "validation": {
+    "chapter_count": 15,
+    "docx_zip_integrity": "all members passed CRC checks",
+    "docx_embedded_media_count": 88,
+    "text_line_count": 1728,
+    "text_character_count_without_utf8_bom": 694735,
+    "whitespace_token_count": 110213,
+    "image_citation_entries": 83,
+    "link_entries": 85,
+    "ai_term_matches": [],
+    "chapter_headings": [
+      {
+        "line": 108,
+        "heading": "Chapter 1: Napoleon"
+      },
+      {
+        "line": 174,
+        "heading": "Chapter 2: The Industrial Revolution"
+      },
+      {
+        "line": 267,
+        "heading": "Chapter 3: Political Ideologies and Movements"
+      },
+      {
+        "line": 390,
+        "heading": "Chapter 4: The Politics of the Nineteenth Century"
+      },
+      {
+        "line": 518,
+        "heading": "Chapter 5: Culture, Science, and Pseudo-Science"
+      },
+      {
+        "line": 650,
+        "heading": "Chapter 6: Imperialism"
+      },
+      {
+        "line": 793,
+        "heading": "Chapter 7: World War I"
+      },
+      {
+        "line": 905,
+        "heading": "Chapter 8: The Early Twentieth Century"
+      },
+      {
+        "line": 1027,
+        "heading": "Chapter 9: Fascism"
+      },
+      {
+        "line": 1140,
+        "heading": "Chapter 10: World War II"
+      },
+      {
+        "line": 1252,
+        "heading": "Chapter 11: The Holocaust"
+      },
+      {
+        "line": 1333,
+        "heading": "Chapter 12: The Soviet Union and the Cold War"
+      },
+      {
+        "line": 1428,
+        "heading": "Chapter 13: Postwar Conflict"
+      },
+      {
+        "line": 1530,
+        "heading": "Chapter 14: Postwar Society"
+      },
+      {
+        "line": 1627,
+        "heading": "Chapter 15: Toward the Present"
+      }
+    ],
+    "text_character_count_lf_normalized_without_bom": 693008
+  }
+}

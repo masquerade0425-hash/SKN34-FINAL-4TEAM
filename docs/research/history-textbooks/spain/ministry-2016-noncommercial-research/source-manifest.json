@@ -1,0 +1,29 @@
+{
+  "pdf_pages": 278,
+  "extracted_characters": 498178,
+  "official_catalog": "https://www.educacionfpydeportes.gob.es/rumania/ca/publicaciones-materiales/publicaciones.html",
+  "edition": "2016-11-28",
+  "nipo": "030-16-656-0",
+  "empty_text_pages": [
+    278
+  ],
+  "source_url": "https://drive.google.com/file/d/1EyuFPSn00z8w9k2jAcc2ekCevIG9-Bce/view",
+  "files": [
+    {
+      "bytes": 528080,
+      "sha256": "CDE4B62A652359A6A9A3AF2F9F20E0AFB568EBA7164D2F46C524A408FBD637A3",
+      "file": "source-es.extracted.txt"
+    },
+    {
+      "bytes": 14018454,
+      "sha256": "52F69A10D2AD5C679B922A39B185065438B1211554ABEF0FA3C134010AB251AB",
+      "file": "source-es.pdf"
+    },
+    {
+      "bytes": 534485,
+      "sha256": "67E3D968E4F84FAAD127771B241721894F5C4658AAEB59430FBF60BC7E155785",
+      "file": "source-pages.json"
+    }
+  ],
+  "rights": "CC Attribution-NonCommercial-ShareAlike; version not printed"
+}

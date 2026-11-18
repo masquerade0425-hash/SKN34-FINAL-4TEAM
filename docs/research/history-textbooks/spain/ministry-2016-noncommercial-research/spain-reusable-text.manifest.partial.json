@@ -1,0 +1,2097 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-11-13T16:17:15.895010+00:00",
+  "status": "partial_noncommercial_research_text_integrated_without_changing_existing_files",
+  "source": {
+    "file": "source-es.pdf",
+    "bytes": 14018454,
+    "sha256": "52f69a10d2ad5c679b922a39b185065438b1211554abef0fa3c134010ab251ab",
+    "pdf_pages": 278,
+    "edition": "2016-11-28",
+    "nipo": "030-16-656-0",
+    "official_catalog": "https://www.educacionfpydeportes.gob.es/rumania/ca/publicaciones-materiales/publicaciones.html",
+    "source_url": "https://drive.google.com/file/d/1EyuFPSn00z8w9k2jAcc2ekCevIG9-Bce/view"
+  },
+  "rights": {
+    "license_name": "Creative Commons Atribución-NoComercial-CompartirIgual (CC BY-NC-SA)",
+    "license_version": null,
+    "license_version_printed": false,
+    "use_scope": "비상업·출처표시·동일조건 연구 한정",
+    "ownership_or_commercial_reuse_guaranteed": false,
+    "whole_book_translation": false,
+    "professional_history_law_translation_review_complete": false,
+    "held_content_remains_excluded": true
+  },
+  "combined": {
+    "file": "spain-reusable-text.ko.partial.md",
+    "bytes": 564985,
+    "sha256": "2b44af841d6ece0ff097d44311ad06bc1fd3c36c4dc3997db6987f8dceec4805",
+    "lines": 7073,
+    "components": 36,
+    "original_component_bytes": 539798,
+    "new_wrapper_bytes": 25187
+  },
+  "components": [
+    {
+      "order": 1,
+      "file": "00-didactic-guide.ko.draft.md",
+      "kind": "didactic_guide",
+      "label": "교수학습 안내",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "selection_basis": "안내 문자 전문 초안. 아이콘 그림은 기존 제외 유지.",
+      "bytes": 8306,
+      "sha256": "eee994d5abc4809960c56f2d2f74132ffec1fd4356fb62f4ab07be97a254f7d2",
+      "start_byte_inclusive": 11182,
+      "end_byte_exclusive": 19488,
+      "lines": 68,
+      "slice_sha256": "eee994d5abc4809960c56f2d2f74132ffec1fd4356fb62f4ab07be97a254f7d2",
+      "exact_byte_slice_match": true,
+      "whole_file_byte_occurrences": 1,
+      "whole_file_text_occurrences": 1
+    },
+    {
+      "order": 2,
+      "file": "eight-chapters-main-prose.ko.draft.md",
+      "kind": "main_prose_combined",
+      "label": "학생용 주요 서술 본문 8장",
+      "source_pdf_pages": [
+        9,
+        10,
+        11,
+        12,
+        24,
+        25,
+        26,
+        27,
+        36,
+        37,
+        38,
+        39,
+        48,
+        49,
+        50,
+        51,
+        64,
+        65,
+        66,
+        67,
+        88,
+        89,
+        90,
+        91,
+        106,
+        107,
+        108,
+        109,
+        122,
+        123,
+        124,
+        125
+      ],
+      "selection_basis": "기존 8장 합본 1회. 개별 본문 8개를 다시 붙이지 않는다.",
+      "bytes": 116801,
+      "sha256": "ee3545e7121ee15637a2d8b363913a31712ccca414939f0dad89b5de39613e1f",
+      "start_byte_inclusive": 19902,
+      "end_byte_exclusive": 136703,
+      "lines": 787,
+      "slice_sha256": "ee3545e7121ee15637a2d8b363913a31712ccca414939f0dad89b5de39613e1f",
+      "exact_byte_slice_match": true,
+      "whole_file_byte_occurrences": 1,
+      "whole_file_text_occurrences": 1
+    },
+    {
+      "order": 3,
+      "file": "chronology-01.ko.draft.md",
+      "kind": "chronology",
+      "label": "제1장 비교연표",
+      "source_pdf_pages": [
+        8
+      ],
+      "selection_basis": "별도 연표 통합본 없음. 8개 장별 파일을 각각 1회 포함.",
+      "bytes": 5356,
+      "sha256": "db9ded79c99e76fea601ad25159a672f576cf57d8fcddc4bcee8e21a2722b9df",
+      "start_byte_inclusive": 137074,
+      "end_byte_exclusive": 142430,
+      "lines": 45,
+      "slice_sha256": "db9ded79c99e76fea601ad25159a672f576cf57d8fcddc4bcee8e21a2722b9df",
+      "exact_byte_slice_match": true,
+      "whole_file_byte_occurrences": 1,
+      "whole_file_text_occurrences": 1
+    },
+    {
+      "order": 4,
+      "file": "chronology-02.ko.draft.md",
+      "kind": "chronology",
+      "label": "제2장 비교연표",
+      "source_pdf_pages": [
+        23
+      ],
+      "selection_basis": "별도 연표 통합본 없음. 8개 장별 파일을 각각 1회 포함.",
+      "bytes": 4904,
+      "sha256": "71d77673fa0884c862f9cd09fd9c49c5cc4d8fc52cac972a6ced0dc9517a12c1",
+      "start_byte_inclusive": 142789,
+      "end_byte_exclusive": 147693,
+      "lines": 31,
+      "slice_sha256": "71d77673fa0884c862f9cd09fd9c49c5cc4d8fc52cac972a6ced0dc9517a12c1",
+      "exact_byte_slice_match": true,
+      "whole_file_byte_occurrences": 1,
+      "whole_file_text_occurrences": 1
+    },
+    {
+      "order": 5,
+      "file": "chronology-03.ko.draft.md",
+      "kind": "chronology",
+      "label": "제3장 비교연표",
+      "source_pdf_pages": [
+        35
+      ],
+      "selection_basis": "별도 연표 통합본 없음. 8개 장별 파일을 각각 1회 포함.",
+      "bytes": 4259,
+      "sha256": "333db35ad8b8cb3917cc14bb1361d40943e78cf58cef647e83a2705ea262d355",
+      "start_byte_inclusive": 148052,
+      "end_byte_exclusive": 152311,
+      "lines": 38,
+      "slice_sha256": "333db35ad8b8cb3917cc14bb1361d40943e78cf58cef647e83a2705ea262d355",
+      "exact_byte_slice_match": true,
+      "whole_file_byte_occurrences": 1,
+      "whole_file_text_occurrences": 1
+    },
+    {
+      "order": 6,
+      "file": "chronology-04.ko.draft.md",
+      "kind": "chronology",
+      "label": "제4장 비교연표",
+      "source_pdf_pages": [
+        47
+      ],
+      "selection_basis": "별도 연표 통합본 없음. 8개 장별 파일을 각각 1회 포함.",
+      "bytes": 6015,
+      "sha256": "0437580652b8405fe8f807dc81757899c0b97ee837990175e867107bb261448a",
+      "start_byte_inclusive": 152670,
+      "end_byte_exclusive": 158685,
+      "lines": 48,
+      "slice_sha256": "0437580652b8405fe8f807dc81757899c0b97ee837990175e867107bb261448a",
+      "exact_byte_slice_match": true,
+      "whole_file_byte_occurrences": 1,
+      "whole_file_text_occurrences": 1
+    },
+    {
+      "order": 7,
+      "file": "chronology-05.ko.draft.md",
+      "kind": "chronology",
+      "label": "제5장 비교연표",
+      "source_pdf_pages": [
+        63
+      ],
+      "selection_basis": "별도 연표 통합본 없음. 8개 장별 파일을 각각 1회 포함.",
+      "bytes": 5750,
+      "sha256": "2cb0eb5e8da8c8427fb7df66ab33a94ec4f4fee3affc3236ba3b6867dcb54509",
+      "start_byte_inclusive": 159044,
+      "end_byte_exclusive": 164794,
+      "lines": 56,
+      "slice_sha256": "2cb0eb5e8da8c8427fb7df66ab33a94ec4f4fee3affc3236ba3b6867dcb54509",
+      "exact_byte_slice_match": true,
+      "whole_file_byte_occurrences": 1,
+      "whole_file_text_occurrences": 1
+    },
+    {
+      "order": 8,
+      "file": "chronology-06.ko.draft.md",
+      "kind": "chronology",
+      "label": "제6장 비교연표",
+      "source_pdf_pages": [
+        87
+      ],
+      "selection_basis": "별도 연표 통합본 없음. 8개 장별 파일을 각각 1회 포함.",
+      "bytes": 3977,
+      "sha256": "4ac00ebcac710c62ceeeabdbaa7cdcf6634be79c7c95340968b256b0ecb24248",
+      "start_byte_inclusive": 165153,
+      "end_byte_exclusive": 169130,
+      "lines": 33,
+      "slice_sha256": "4ac00ebcac710c62ceeeabdbaa7cdcf6634be79c7c95340968b256b0ecb24248",
+      "exact_byte_slice_match": true,
+      "whole_file_byte_occurrences": 1,
+      "whole_file_text_occurrences": 1
+    },
+    {
+      "order": 9,
+      "file": "chronology-07.ko.draft.md",
+      "kind": "chronology",
+      "label": "제7장 비교연표",
+      "source_pdf_pages": [
+        105
+      ],
+      "selection_basis": "별도 연표 통합본 없음. 8개 장별 파일을 각각 1회 포함.",
+      "bytes": 5254,
+      "sha256": "aacbdc7cfff8cacdde7ce6823d5bfe1a8039735a58f69a146e7be7ed77ec8e30",
+      "start_byte_inclusive": 169489,
+      "end_byte_exclusive": 174743,
+      "lines": 41,
+      "slice_sha256": "aacbdc7cfff8cacdde7ce6823d5bfe1a8039735a58f69a146e7be7ed77ec8e30",
+      "exact_byte_slice_match": true,
+      "whole_file_byte_occurrences": 1,
+      "whole_file_text_occurrences": 1
+    },
+    {
+      "order": 10,
+      "file": "chronology-08.ko.draft.md",
+      "kind": "chronology",
+      "label": "제8장 비교연표",
+      "source_pdf_pages": [
+        121
+      ],
+      "selection_basis": "별도 연표 통합본 없음. 8개 장별 파일을 각각 1회 포함.",
+      "bytes": 5656,
+      "sha256": "0da6b27f70cfcf207ec128692d7d3373d422c290aa555ffa5594f64594746dd6",
+      "start_byte_inclusive": 175102,
+      "end_byte_exclusive": 180758,
+      "lines": 48,
+      "slice_sha256": "0da6b27f70cfcf207ec128692d7d3373d422c290aa555ffa5594f64594746dd6",
+      "exact_byte_slice_match": true,
+      "whole_file_byte_occurrences": 1,
+      "whole_file_text_occurrences": 1
+    },
+    {
+      "order": 11,
+      "file": "01-activities-author-prose.ko.draft.md",
+      "kind": "student_activities",
+      "label": "제1장 학생 활동",
+      "source_pdf_pages": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "selection_basis": "저자 지시·질문·보기·표 문자 부분. 외부 자료 및 기존 제외 유지.",
+      "bytes": 16400,
+      "sha256": "def2cdda5e2765f105aae4cff7a38c44af85efc6d38fda5fbe849420f7e12e0b",
+      "start_byte_inclusive": 181157,
+      "end_byte_exclusive": 197557,
+      "lines": 251,
+      "slice_sha256": "def2cdda5e2765f105aae4cff7a38c44af85efc6d38fda5fbe849420f7e12e0b",
+      "exact_byte_slice_match": true,
+      "whole_file_byte_occurrences": 1,
+      "whole_file_text_occurrences": 1
+    },
+    {
+      "order": 12,
+      "file": "02-activities-author-prose.ko.draft.md",
+      "kind": "student_activities",
+      "label": "제2장 학생 활동",
+      "source_pdf_pages": [
+        28,
+        29,
+        30,
+        31
+      ],
+      "selection_basis": "저자 지시·질문·보기·표 문자 부분. 외부 자료 및 기존 제외 유지.",
+      "bytes": 8590,
+      "sha256": "b46be37949f9657915eb11e286d021b1c3dafa525a1ef5e0cfdf729b47967b21",
+      "start_byte_inclusive": 197969,
+      "end_byte_exclusive": 206559,
+      "lines": 140,
+      "slice_sha256": "b46be37949f9657915eb11e286d021b1c3dafa525a1ef5e0cfdf729b47967b21",
+      "exact_byte_slice_match": true,
+      "whole_file_byte_occurrences": 1,
+      "whole_file_text_occurrences": 1
+    },
+    {
+      "order": 13,
+      "file": "03-activities-author-prose.ko.draft.md",
+      "kind": "student_activities",
+      "label": "제3장 학생 활동",
+      "source_pdf_pages": [
+        40,
+        41,
+        42,
+        43
+      ],
+      "selection_basis": "저자 지시·질문·보기·표 문자 부분. 외부 자료 및 기존 제외 유지.",
+      "bytes": 12281,
+      "sha256": "6957abb8c0375fbe3c63feba4e884163089c2b4ada86c52949f6e2906ac6d29e",
+      "start_byte_inclusive": 206971,
+      "end_byte_exclusive": 219252,
+      "lines": 158,
+      "slice_sha256": "6957abb8c0375fbe3c63feba4e884163089c2b4ada86c52949f6e2906ac6d29e",
+      "exact_byte_slice_match": true,
+      "whole_file_byte_occurrences": 1,
+      "whole_file_text_occurrences": 1
+    },
+    {
+      "order": 14,
+      "file": "04-activities-author-prose.ko.draft.md",
+      "kind": "student_activities",
+      "label": "제4장 학생 활동",
+      "source_pdf_pages": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58
+      ],
+      "selection_basis": "저자 지시·질문·보기·표 문자 부분. 외부 자료 및 기존 제외 유지.",
+      "bytes": 12628,
+      "sha256": "020c73c89d75ad251fc10672db536f6a66338636633e3d8998de4d7a5addebfe",
+      "start_byte_inclusive": 219664,
+      "end_byte_exclusive": 232292,
+      "lines": 172,
+      "slice_sha256": "020c73c89d75ad251fc10672db536f6a66338636633e3d8998de4d7a5addebfe",
+      "exact_byte_slice_match": true,
+      "whole_file_byte_occurrences": 1,
+      "whole_file_text_occurrences": 1
+    },
+    {
+      "order": 15,
+      "file": "05-activities-author-prose.ko.draft.md",
+      "kind": "student_activities",
+      "label": "제5장 학생 활동",
+      "source_pdf_pages": [
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82
+      ],
+      "selection_basis": "저자 지시·질문·보기·표 문자 부분. 외부 자료 및 기존 제외 유지.",
+      "bytes": 20347,
+      "sha256": "0609c816ba1cd2cea1215d3d9c1059b7c087e2d432b1a1720205337a396247c5",
+      "start_byte_inclusive": 232704,
+      "end_byte_exclusive": 253051,
+      "lines": 358,
+      "slice_sha256": "0609c816ba1cd2cea1215d3d9c1059b7c087e2d432b1a1720205337a396247c5",
+      "exact_byte_slice_match": true,
+      "whole_file_byte_occurrences": 1,
+      "whole_file_text_occurrences": 1
+    },
+    {
+      "order": 16,
+      "file": "06-activities-author-prose.ko.draft.md",
+      "kind": "student_activities",
+      "label": "제6장 학생 활동",
+      "source_pdf_pages": [
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101
+      ],
+      "selection_basis": "저자 지시·질문·보기·표 문자 부분. 외부 자료 및 기존 제외 유지.",
+      "bytes": 15188,
+      "sha256": "d459d7f50d5fa27b8cf2204c3a64df00cd3d4d721bbd64f4f5bd67842bb366cc",
+      "start_byte_inclusive": 253463,
+      "end_byte_exclusive": 268651,
+      "lines": 281,
+      "slice_sha256": "d459d7f50d5fa27b8cf2204c3a64df00cd3d4d721bbd64f4f5bd67842bb366cc",
+      "exact_byte_slice_match": true,
+      "whole_file_byte_occurrences": 1,
+      "whole_file_text_occurrences": 1
+    },
+    {
+      "order": 17,
+      "file": "07-activities-author-prose.ko.draft.md",
+      "kind": "student_activities",
+      "label": "제7장 학생 활동",
+      "source_pdf_pages": [
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117
+      ],
+      "selection_basis": "저자 지시·질문·보기·표 문자 부분. 외부 자료 및 기존 제외 유지.",
+      "bytes": 13510,
+      "sha256": "330011ad48f8734504d46fd12c5ce090d1c78e17de1c3f316f12a431ea0ad7a2",
+      "start_byte_inclusive": 269063,
+      "end_byte_exclusive": 282573,
+      "lines": 249,
+      "slice_sha256": "330011ad48f8734504d46fd12c5ce090d1c78e17de1c3f316f12a431ea0ad7a2",
+      "exact_byte_slice_match": true,
+      "whole_file_byte_occurrences": 1,
+      "whole_file_text_occurrences": 1
+    },
+    {
+      "order": 18,
+      "file": "08-activities-author-prose.ko.draft.md",
+      "kind": "student_activities",
+      "label": "제8장 학생 활동",
+      "source_pdf_pages": [
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136
+      ],
+      "selection_basis": "저자 지시·질문·보기·표 문자 부분. 외부 자료 및 기존 제외 유지.",
+      "bytes": 14936,
+      "sha256": "efad3c1dc272dfd3197ad24323de5670e08d1a42db73e58a13352beb0628beba",
+      "start_byte_inclusive": 282985,
+      "end_byte_exclusive": 297921,
+      "lines": 272,
+      "slice_sha256": "efad3c1dc272dfd3197ad24323de5670e08d1a42db73e58a13352beb0628beba",
+      "exact_byte_slice_match": true,
+      "whole_file_byte_occurrences": 1,
+      "whole_file_text_occurrences": 1
+    },
+    {
+      "order": 19,
+      "file": "01-concepts-attributed.ko.draft.md",
+      "kind": "historical_concepts",
+      "label": "제1장 역사 개념",
+      "source_pdf_pages": [
+        21
+      ],
+      "selection_basis": "집필자 귀속 정의와 부분·보류 표시 전체를 보존. 보류를 완료로 세지 않음.",
+      "bytes": 5432,
+      "sha256": "22d4ac8691761631369155989099ac4111ed209b39241b49fa6b5661baa3e16e",
+      "start_byte_inclusive": 298321,
+      "end_byte_exclusive": 303753,
+      "lines": 79,
+      "slice_sha256": "22d4ac8691761631369155989099ac4111ed209b39241b49fa6b5661baa3e16e",
+      "exact_byte_slice_match": true,
+      "whole_file_byte_occurrences": 1,
+      "whole_file_text_occurrences": 1
+    },
+    {
+      "order": 20,
+      "file": "02-concepts-attributed.ko.draft.md",
+      "kind": "historical_concepts",
+      "label": "제2장 역사 개념",
+      "source_pdf_pages": [
+        32,
+        33
+      ],
+      "selection_basis": "집필자 귀속 정의와 부분·보류 표시 전체를 보존. 보류를 완료로 세지 않음.",
+      "bytes": 9084,
+      "sha256": "cc9b4735d8932e58d4bd363ef31d7d496c4c306615e1bde5586ea119b6ce346b",
+      "start_byte_inclusive": 304149,
+      "end_byte_exclusive": 313233,
+      "lines": 150,
+      "slice_sha256": "cc9b4735d8932e58d4bd363ef31d7d496c4c306615e1bde5586ea119b6ce346b",
+      "exact_byte_slice_match": true,
+      "whole_file_byte_occurrences": 1,
+      "whole_file_text_occurrences": 1
+    },
+    {
+      "order": 21,
+      "file": "03-concepts-attributed.ko.draft.md",
+      "kind": "historical_concepts",
+      "label": "제3장 역사 개념",
+      "source_pdf_pages": [
+        44,
+        45
+      ],
+      "selection_basis": "집필자 귀속 정의와 부분·보류 표시 전체를 보존. 보류를 완료로 세지 않음.",
+      "bytes": 9288,
+      "sha256": "d4933ebdd0e35cf5cc8511ceab63ef23bb54fa5a871c19e3cf6798982d131350",
+      "start_byte_inclusive": 313629,
+      "end_byte_exclusive": 322917,
+      "lines": 134,
+      "slice_sha256": "d4933ebdd0e35cf5cc8511ceab63ef23bb54fa5a871c19e3cf6798982d131350",
+      "exact_byte_slice_match": true,
+      "whole_file_byte_occurrences": 1,
+      "whole_file_text_occurrences": 1
+    },
+    {
+      "order": 22,
+      "file": "04-concepts-attributed.ko.draft.md",
+      "kind": "historical_concepts",
+      "label": "제4장 역사 개념",
+      "source_pdf_pages": [
+        59,
+        60,
+        61
+      ],
+      "selection_basis": "집필자 귀속 정의와 부분·보류 표시 전체를 보존. 보류를 완료로 세지 않음.",
+      "bytes": 11039,
+      "sha256": "8bbf2e9d2a104a8b1d73032d048fb49252842ffbad03e965aef5578e362b774c",
+      "start_byte_inclusive": 323313,
+      "end_byte_exclusive": 334352,
+      "lines": 147,
+      "slice_sha256": "8bbf2e9d2a104a8b1d73032d048fb49252842ffbad03e965aef5578e362b774c",
+      "exact_byte_slice_match": true,
+      "whole_file_byte_occurrences": 1,
+      "whole_file_text_occurrences": 1
+    },
+    {
+      "order": 23,
+      "file": "05-concepts-attributed.ko.draft.md",
+      "kind": "historical_concepts",
+      "label": "제5장 역사 개념",
+      "source_pdf_pages": [
+        83,
+        84,
+        85
+      ],
+      "selection_basis": "집필자 귀속 정의와 부분·보류 표시 전체를 보존. 보류를 완료로 세지 않음.",
+      "bytes": 13404,
+      "sha256": "f5de0402b8f2ce4239af09a268c14be011745d069ee82c5a264bf71ba7442ad4",
+      "start_byte_inclusive": 334748,
+      "end_byte_exclusive": 348152,
+      "lines": 164,
+      "slice_sha256": "f5de0402b8f2ce4239af09a268c14be011745d069ee82c5a264bf71ba7442ad4",
+      "exact_byte_slice_match": true,
+      "whole_file_byte_occurrences": 1,
+      "whole_file_text_occurrences": 1
+    },
+    {
+      "order": 24,
+      "file": "06-concepts-attributed.ko.draft.md",
+      "kind": "historical_concepts",
+      "label": "제6장 역사 개념",
+      "source_pdf_pages": [
+        102,
+        103
+      ],
+      "selection_basis": "집필자 귀속 정의와 부분·보류 표시 전체를 보존. 보류를 완료로 세지 않음.",
+      "bytes": 8111,
+      "sha256": "c689437694ec9b9aee04859732d9b2f2b76e8c07db25d377b7cd27ed41f4def9",
+      "start_byte_inclusive": 348548,
+      "end_byte_exclusive": 356659,
+      "lines": 126,
+      "slice_sha256": "c689437694ec9b9aee04859732d9b2f2b76e8c07db25d377b7cd27ed41f4def9",
+      "exact_byte_slice_match": true,
+      "whole_file_byte_occurrences": 1,
+      "whole_file_text_occurrences": 1
+    },
+    {
+      "order": 25,
+      "file": "07-concepts-attributed.ko.draft.md",
+      "kind": "historical_concepts",
+      "label": "제7장 역사 개념",
+      "source_pdf_pages": [
+        118,
+        119
+      ],
+      "selection_basis": "집필자 귀속 정의와 부분·보류 표시 전체를 보존. 보류를 완료로 세지 않음.",
+      "bytes": 7197,
+      "sha256": "0db9c531d9d478903f99c510c6df2c4b5a3ed4eb0a8e9e37e4c0e607164b503d",
+      "start_byte_inclusive": 357055,
+      "end_byte_exclusive": 364252,
+      "lines": 110,
+      "slice_sha256": "0db9c531d9d478903f99c510c6df2c4b5a3ed4eb0a8e9e37e4c0e607164b503d",
+      "exact_byte_slice_match": true,
+      "whole_file_byte_occurrences": 1,
+      "whole_file_text_occurrences": 1
+    },
+    {
+      "order": 26,
+      "file": "08-concepts-attributed.ko.draft.md",
+      "kind": "historical_concepts",
+      "label": "제8장 역사 개념",
+      "source_pdf_pages": [
+        137,
+        138
+      ],
+      "selection_basis": "집필자 귀속 정의와 부분·보류 표시 전체를 보존. 보류를 완료로 세지 않음.",
+      "bytes": 8419,
+      "sha256": "1e19a766c108afe0b32033db042c465d973769bdddc66c933086f05c88249203",
+      "start_byte_inclusive": 364648,
+      "end_byte_exclusive": 373067,
+      "lines": 118,
+      "slice_sha256": "1e19a766c108afe0b32033db042c465d973769bdddc66c933086f05c88249203",
+      "exact_byte_slice_match": true,
+      "whole_file_byte_occurrences": 1,
+      "whole_file_text_occurrences": 1
+    },
+    {
+      "order": 27,
+      "file": "concepts-appendix-index.ko.md",
+      "kind": "appendix_cross_reference_index",
+      "label": "역사 개념 부록 대응 색인",
+      "source_pdf_pages": [
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166
+      ],
+      "selection_basis": "정의 전문 없이 장별 번역으로 연결하는 기존 색인만 1회 포함. 신규 정의 0개.",
+      "bytes": 34705,
+      "sha256": "15b9e8b30ede81c243fbda26b3e1f79cfe77ac5bc296880280077d798648fe45",
+      "start_byte_inclusive": 373461,
+      "end_byte_exclusive": 408166,
+      "lines": 215,
+      "slice_sha256": "15b9e8b30ede81c243fbda26b3e1f79cfe77ac5bc296880280077d798648fe45",
+      "exact_byte_slice_match": true,
+      "whole_file_byte_occurrences": 1,
+      "whole_file_text_occurrences": 1
+    },
+    {
+      "order": 28,
+      "file": "teacher-00-frontmatter.ko.draft.md",
+      "kind": "teacher_frontmatter",
+      "label": "교사용 앞부분 문자",
+      "source_pdf_pages": [
+        176,
+        177,
+        178,
+        179,
+        278
+      ],
+      "selection_basis": "표지·저자·목차 문자 및 빈 쪽·뒤표지 경계 기록. 이미지·QR 제외.",
+      "bytes": 2753,
+      "sha256": "9f1aae1451b917b21812b96c186f81b31eb9bc0448ffd4fec27feb34265c5ee1",
+      "start_byte_inclusive": 408562,
+      "end_byte_exclusive": 411315,
+      "lines": 74,
+      "slice_sha256": "9f1aae1451b917b21812b96c186f81b31eb9bc0448ffd4fec27feb34265c5ee1",
+      "exact_byte_slice_match": true,
+      "whole_file_byte_occurrences": 1,
+      "whole_file_text_occurrences": 1
+    },
+    {
+      "order": 29,
+      "file": "teacher-01-guidance-answers.ko.draft.md",
+      "kind": "teacher_guidance_answers",
+      "label": "제1장 교사 안내·답안",
+      "source_pdf_pages": [
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192
+      ],
+      "selection_basis": "저자 새 문자 1차 초안, 정확한 학생용 중복 링크, 보류 표시 유지. 해당 쪽 전체 완역 아님.",
+      "bytes": 23417,
+      "sha256": "9be9982f305f284caefce4e5b84a1be85fdc97399cfb971ba0b7251e419454d4",
+      "start_byte_inclusive": 411734,
+      "end_byte_exclusive": 435151,
+      "lines": 297,
+      "slice_sha256": "9be9982f305f284caefce4e5b84a1be85fdc97399cfb971ba0b7251e419454d4",
+      "exact_byte_slice_match": true,
+      "whole_file_byte_occurrences": 1,
+      "whole_file_text_occurrences": 1
+    },
+    {
+      "order": 30,
+      "file": "teacher-02-guidance-answers.ko.draft.md",
+      "kind": "teacher_guidance_answers",
+      "label": "제2장 교사 안내·답안",
+      "source_pdf_pages": [
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200
+      ],
+      "selection_basis": "저자 새 문자 1차 초안, 정확한 학생용 중복 링크, 보류 표시 유지. 해당 쪽 전체 완역 아님.",
+      "bytes": 14603,
+      "sha256": "ae800c0873fc3af40eefe76ca18c3b847a855a9131310d0bf033e7d31a385a61",
+      "start_byte_inclusive": 435575,
+      "end_byte_exclusive": 450178,
+      "lines": 221,
+      "slice_sha256": "ae800c0873fc3af40eefe76ca18c3b847a855a9131310d0bf033e7d31a385a61",
+      "exact_byte_slice_match": true,
+      "whole_file_byte_occurrences": 1,
+      "whole_file_text_occurrences": 1
+    },
+    {
+      "order": 31,
+      "file": "teacher-03-guidance-answers.ko.draft.md",
+      "kind": "teacher_guidance_answers",
+      "label": "제3장 교사 안내·답안",
+      "source_pdf_pages": [
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212
+      ],
+      "selection_basis": "저자 새 문자 1차 초안, 정확한 학생용 중복 링크, 보류 표시 유지. 해당 쪽 전체 완역 아님.",
+      "bytes": 22694,
+      "sha256": "6aad1e306db5976dee3ff3553192a8649e46eea0152e63558d9dbbbd39215e4e",
+      "start_byte_inclusive": 450602,
+      "end_byte_exclusive": 473296,
+      "lines": 288,
+      "slice_sha256": "6aad1e306db5976dee3ff3553192a8649e46eea0152e63558d9dbbbd39215e4e",
+      "exact_byte_slice_match": true,
+      "whole_file_byte_occurrences": 1,
+      "whole_file_text_occurrences": 1
+    },
+    {
+      "order": 32,
+      "file": "teacher-04-guidance-answers.ko.draft.md",
+      "kind": "teacher_guidance_answers",
+      "label": "제4장 교사 안내·답안",
+      "source_pdf_pages": [
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225
+      ],
+      "selection_basis": "저자 새 문자 1차 초안, 정확한 학생용 중복 링크, 보류 표시 유지. 해당 쪽 전체 완역 아님.",
+      "bytes": 21015,
+      "sha256": "1ca80899f2997587bf80f8f3222bb8b1a3bcdd86837dab01a4da57d076c40bb3",
+      "start_byte_inclusive": 473720,
+      "end_byte_exclusive": 494735,
+      "lines": 232,
+      "slice_sha256": "1ca80899f2997587bf80f8f3222bb8b1a3bcdd86837dab01a4da57d076c40bb3",
+      "exact_byte_slice_match": true,
+      "whole_file_byte_occurrences": 1,
+      "whole_file_text_occurrences": 1
+    },
+    {
+      "order": 33,
+      "file": "teacher-05-guidance-answers.ko.draft.md",
+      "kind": "teacher_guidance_answers",
+      "label": "제5장 교사 안내·답안",
+      "source_pdf_pages": [
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250
+      ],
+      "selection_basis": "저자 새 문자 1차 초안, 정확한 학생용 중복 링크, 보류 표시 유지. 해당 쪽 전체 완역 아님.",
+      "bytes": 24975,
+      "sha256": "98f06e8a33e1c7afdeb05a48b9dd31eea025c2a40f4a00a7e9e1152039449028",
+      "start_byte_inclusive": 495159,
+      "end_byte_exclusive": 520134,
+      "lines": 384,
+      "slice_sha256": "98f06e8a33e1c7afdeb05a48b9dd31eea025c2a40f4a00a7e9e1152039449028",
+      "exact_byte_slice_match": true,
+      "whole_file_byte_occurrences": 1,
+      "whole_file_text_occurrences": 1
+    },
+    {
+      "order": 34,
+      "file": "teacher-06-guidance-answers.ko.draft.md",
+      "kind": "teacher_guidance_answers",
+      "label": "제6장 교사 안내·답안",
+      "source_pdf_pages": [
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263
+      ],
+      "selection_basis": "저자 새 문자 1차 초안, 정확한 학생용 중복 링크, 보류 표시 유지. 해당 쪽 전체 완역 아님.",
+      "bytes": 18497,
+      "sha256": "7e096dcca14bf21c1f15d6a34af0ea2b32179b2a8fbf814c7fa7e78e619ac062",
+      "start_byte_inclusive": 520558,
+      "end_byte_exclusive": 539055,
+      "lines": 271,
+      "slice_sha256": "7e096dcca14bf21c1f15d6a34af0ea2b32179b2a8fbf814c7fa7e78e619ac062",
+      "exact_byte_slice_match": true,
+      "whole_file_byte_occurrences": 1,
+      "whole_file_text_occurrences": 1
+    },
+    {
+      "order": 35,
+      "file": "teacher-07-guidance-answers.ko.draft.md",
+      "kind": "teacher_guidance_answers",
+      "label": "제7장 교사 안내·답안",
+      "source_pdf_pages": [
+        264,
+        265,
+        266,
+        267,
+        268
+      ],
+      "selection_basis": "저자 새 문자 1차 초안, 정확한 학생용 중복 링크, 보류 표시 유지. 해당 쪽 전체 완역 아님.",
+      "bytes": 9805,
+      "sha256": "4d9cead67eb2005d25c0d155d8de09d58749fbf44656a54c028c6c012b4654b3",
+      "start_byte_inclusive": 539479,
+      "end_byte_exclusive": 549284,
+      "lines": 161,
+      "slice_sha256": "4d9cead67eb2005d25c0d155d8de09d58749fbf44656a54c028c6c012b4654b3",
+      "exact_byte_slice_match": true,
+      "whole_file_byte_occurrences": 1,
+      "whole_file_text_occurrences": 1
+    },
+    {
+      "order": 36,
+      "file": "teacher-08-guidance-answers.ko.draft.md",
+      "kind": "teacher_guidance_answers",
+      "label": "제8장 교사 안내·답안",
+      "source_pdf_pages": [
+        269,
+        270,
+        271,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277
+      ],
+      "selection_basis": "저자 새 문자 1차 초안, 정확한 학생용 중복 링크, 보류 표시 유지. 해당 쪽 전체 완역 아님.",
+      "bytes": 15202,
+      "sha256": "715c8e7f5e92f7eb656d572ab89614a0136aa06a54bf06ded1abd2ad04916c65",
+      "start_byte_inclusive": 549708,
+      "end_byte_exclusive": 564910,
+      "lines": 210,
+      "slice_sha256": "715c8e7f5e92f7eb656d572ab89614a0136aa06a54bf06ded1abd2ad04916c65",
+      "exact_byte_slice_match": true,
+      "whole_file_byte_occurrences": 1,
+      "whole_file_text_occurrences": 1
+    }
+  ],
+  "byte_offset_convention": "0-based start inclusive / end exclusive in combined bytes; original bytes, line endings, notices, credits and holds preserved.",
+  "deduplication": {
+    "selected_files": [
+      "00-didactic-guide.ko.draft.md",
+      "eight-chapters-main-prose.ko.draft.md",
+      "chronology-01.ko.draft.md",
+      "chronology-02.ko.draft.md",
+      "chronology-03.ko.draft.md",
+      "chronology-04.ko.draft.md",
+      "chronology-05.ko.draft.md",
+      "chronology-06.ko.draft.md",
+      "chronology-07.ko.draft.md",
+      "chronology-08.ko.draft.md",
+      "01-activities-author-prose.ko.draft.md",
+      "02-activities-author-prose.ko.draft.md",
+      "03-activities-author-prose.ko.draft.md",
+      "04-activities-author-prose.ko.draft.md",
+      "05-activities-author-prose.ko.draft.md",
+      "06-activities-author-prose.ko.draft.md",
+      "07-activities-author-prose.ko.draft.md",
+      "08-activities-author-prose.ko.draft.md",
+      "01-concepts-attributed.ko.draft.md",
+      "02-concepts-attributed.ko.draft.md",
+      "03-concepts-attributed.ko.draft.md",
+      "04-concepts-attributed.ko.draft.md",
+      "05-concepts-attributed.ko.draft.md",
+      "06-concepts-attributed.ko.draft.md",
+      "07-concepts-attributed.ko.draft.md",
+      "08-concepts-attributed.ko.draft.md",
+      "concepts-appendix-index.ko.md",
+      "teacher-00-frontmatter.ko.draft.md",
+      "teacher-01-guidance-answers.ko.draft.md",
+      "teacher-02-guidance-answers.ko.draft.md",
+      "teacher-03-guidance-answers.ko.draft.md",
+      "teacher-04-guidance-answers.ko.draft.md",
+      "teacher-05-guidance-answers.ko.draft.md",
+      "teacher-06-guidance-answers.ko.draft.md",
+      "teacher-07-guidance-answers.ko.draft.md",
+      "teacher-08-guidance-answers.ko.draft.md"
+    ],
+    "excluded_top_level_files": [
+      {
+        "file": "01-main-prose.ko.draft.md",
+        "disposition": "nested_once_in_selected_combined",
+        "reason": "선택한 본문 합본에 전체 바이트가 이미 1회 있어 별도 구성으로 다시 붙이지 않음.",
+        "bytes": 14206,
+        "sha256": "996197a9d9d127dd5a5ae4c04e90dcc00728caf0f8b9d9df2c65842a4c50b58a"
+      },
+      {
+        "file": "02-main-prose.ko.draft.md",
+        "disposition": "nested_once_in_selected_combined",
+        "reason": "선택한 본문 합본에 전체 바이트가 이미 1회 있어 별도 구성으로 다시 붙이지 않음.",
+        "bytes": 15100,
+        "sha256": "b92759334d24d7a4d3efc62671205514e9cfd7569c3fe69f9d8ff0d26f2faf22"
+      },
+      {
+        "file": "03-main-prose.ko.draft.md",
+        "disposition": "nested_once_in_selected_combined",
+        "reason": "선택한 본문 합본에 전체 바이트가 이미 1회 있어 별도 구성으로 다시 붙이지 않음.",
+        "bytes": 15326,
+        "sha256": "55d9bc0e6e4ea05fcd99116abc01116ce2d8f027c3c1ca606fb434d9b8bd8978"
+      },
+      {
+        "file": "04-main-prose.ko.draft.md",
+        "disposition": "nested_once_in_selected_combined",
+        "reason": "선택한 본문 합본에 전체 바이트가 이미 1회 있어 별도 구성으로 다시 붙이지 않음.",
+        "bytes": 14337,
+        "sha256": "e71e0e2ec2a6531d6489fa2d4f4ff5ee7c393d381c6eefa96ed15d59f9ba76c5"
+      },
+      {
+        "file": "05-main-prose.ko.draft.md",
+        "disposition": "nested_once_in_selected_combined",
+        "reason": "선택한 본문 합본에 전체 바이트가 이미 1회 있어 별도 구성으로 다시 붙이지 않음.",
+        "bytes": 16690,
+        "sha256": "26dbb867638e4ce677c7fcbee41d602857c125254a55adee1ba56b0b75750eab"
+      },
+      {
+        "file": "06-main-prose.ko.draft.md",
+        "disposition": "nested_once_in_selected_combined",
+        "reason": "선택한 본문 합본에 전체 바이트가 이미 1회 있어 별도 구성으로 다시 붙이지 않음.",
+        "bytes": 12934,
+        "sha256": "00a38c7d82050a63865733dd6276161c69aa48fa8a6a29bf543aa51d274583c1"
+      },
+      {
+        "file": "07-main-prose.ko.draft.md",
+        "disposition": "nested_once_in_selected_combined",
+        "reason": "선택한 본문 합본에 전체 바이트가 이미 1회 있어 별도 구성으로 다시 붙이지 않음.",
+        "bytes": 12900,
+        "sha256": "500109f993786d7aedb30cf493596487cc51d2d990552677aa77e1148c7e1c16"
+      },
+      {
+        "file": "08-main-prose.ko.draft.md",
+        "disposition": "nested_once_in_selected_combined",
+        "reason": "선택한 본문 합본에 전체 바이트가 이미 1회 있어 별도 구성으로 다시 붙이지 않음.",
+        "bytes": 13223,
+        "sha256": "0b326d293f014b0586c7f7fc79295fd08149ea7805fcc804dc660e32f74ff404"
+      },
+      {
+        "file": "README.concepts-progress.ko.md",
+        "disposition": "administrative_companion",
+        "reason": "단계별 진행·권리·QA·manifest 또는 쪽별 범위 기록. 통합 번역 본문에 중복 수록하지 않고 부속으로 보존.",
+        "bytes": 9397,
+        "sha256": "08f4af4cdac6a31e0a53c499376d886ed5782935ef9dcbb444e685ad597b6865"
+      },
+      {
+        "file": "README.partial-ko.md",
+        "disposition": "administrative_companion",
+        "reason": "단계별 진행·권리·QA·manifest 또는 쪽별 범위 기록. 통합 번역 본문에 중복 수록하지 않고 부속으로 보존.",
+        "bytes": 5285,
+        "sha256": "7decb9d2a6e732c58632fcac2210437d3d16cbe897e1a6b88dd6b1b5c8cc031c"
+      },
+      {
+        "file": "README.teacher-progress.ko.md",
+        "disposition": "administrative_companion",
+        "reason": "단계별 진행·권리·QA·manifest 또는 쪽별 범위 기록. 통합 번역 본문에 중복 수록하지 않고 부속으로 보존.",
+        "bytes": 5926,
+        "sha256": "f12b10f8f63ccb82c5bcf16d2bcf2fa1c15146668ae338142a82589591bd4fe7"
+      },
+      {
+        "file": "concepts-qa.partial.json",
+        "disposition": "administrative_companion",
+        "reason": "단계별 진행·권리·QA·manifest 또는 쪽별 범위 기록. 통합 번역 본문에 중복 수록하지 않고 부속으로 보존.",
+        "bytes": 185001,
+        "sha256": "5748fadb0f1cb804a3de7aef19d368c6a98750ea87970b8d5304a4e2bf8f658f"
+      },
+      {
+        "file": "concepts-translation-manifest.partial.json",
+        "disposition": "administrative_companion",
+        "reason": "단계별 진행·권리·QA·manifest 또는 쪽별 범위 기록. 통합 번역 본문에 중복 수록하지 않고 부속으로 보존.",
+        "bytes": 6089,
+        "sha256": "8a24388be73adc371f98368958ef2a8c2c3b2e8a9ff0a34669325811e98b6924"
+      },
+      {
+        "file": "rights-inventory.student.partial-ko.md",
+        "disposition": "administrative_companion",
+        "reason": "단계별 진행·권리·QA·manifest 또는 쪽별 범위 기록. 통합 번역 본문에 중복 수록하지 않고 부속으로 보존.",
+        "bytes": 23253,
+        "sha256": "daa7c2dda725f34bfbbc7977f4a3e0dd7d962f6fa76b7d60e530aae2e9bb8d34"
+      },
+      {
+        "file": "source-es.extracted.txt",
+        "disposition": "source_companion",
+        "reason": "스페인어 원본·추출문·소스 메타데이터. 한국어 수록 구성과 분리하고 부속 원본으로 보존.",
+        "bytes": 528080,
+        "sha256": "cde4b62a652359a6a9a3af2f9f20e0afb568eba7164d2f46c524a408fbd637a3"
+      },
+      {
+        "file": "source-es.pdf",
+        "disposition": "source_companion",
+        "reason": "스페인어 원본·추출문·소스 메타데이터. 한국어 수록 구성과 분리하고 부속 원본으로 보존.",
+        "bytes": 14018454,
+        "sha256": "52f69a10d2ad5c679b922a39b185065438b1211554abef0fa3c134010ab251ab"
+      },
+      {
+        "file": "source-manifest.json",
+        "disposition": "source_companion",
+        "reason": "스페인어 원본·추출문·소스 메타데이터. 한국어 수록 구성과 분리하고 부속 원본으로 보존.",
+        "bytes": 943,
+        "sha256": "59b07bc58fe15468d80d65907f45fd69e2a37b0b3d7fe4f29ef9ac63e24908ba"
+      },
+      {
+        "file": "source-pages.json",
+        "disposition": "source_companion",
+        "reason": "스페인어 원본·추출문·소스 메타데이터. 한국어 수록 구성과 분리하고 부속 원본으로 보존.",
+        "bytes": 534485,
+        "sha256": "67e3d968e4f84faad127771b241721894f5c4658aaeb59430fbf60bc7e155785"
+      },
+      {
+        "file": "teacher-page-coverage.partial.json",
+        "disposition": "administrative_companion",
+        "reason": "단계별 진행·권리·QA·manifest 또는 쪽별 범위 기록. 통합 번역 본문에 중복 수록하지 않고 부속으로 보존.",
+        "bytes": 40486,
+        "sha256": "d685226d44a6dd9b7304dfc45b55b58743430e700ddfcf5b5ec8925997c4a783"
+      },
+      {
+        "file": "teacher-qa.partial.json",
+        "disposition": "administrative_companion",
+        "reason": "단계별 진행·권리·QA·manifest 또는 쪽별 범위 기록. 통합 번역 본문에 중복 수록하지 않고 부속으로 보존.",
+        "bytes": 54283,
+        "sha256": "cab346deda05218d3f85f7b9228d37cb84fe079578e3fa89e2af697c05fb1eac"
+      },
+      {
+        "file": "teacher-rights-inventory.ko.md",
+        "disposition": "administrative_companion",
+        "reason": "단계별 진행·권리·QA·manifest 또는 쪽별 범위 기록. 통합 번역 본문에 중복 수록하지 않고 부속으로 보존.",
+        "bytes": 11728,
+        "sha256": "1b6e9faf495c5a1272689426bdccb3ad48860bc1641bb64be20d4bc03f736bbc"
+      },
+      {
+        "file": "teacher-translation-manifest.partial.json",
+        "disposition": "administrative_companion",
+        "reason": "단계별 진행·권리·QA·manifest 또는 쪽별 범위 기록. 통합 번역 본문에 중복 수록하지 않고 부속으로 보존.",
+        "bytes": 10672,
+        "sha256": "18e6134f5a97d31f652af627de43d8f9fb88916fc5033be06fa8175c3a283d08"
+      },
+      {
+        "file": "translation-manifest.partial.json",
+        "disposition": "administrative_companion",
+        "reason": "단계별 진행·권리·QA·manifest 또는 쪽별 범위 기록. 통합 번역 본문에 중복 수록하지 않고 부속으로 보존.",
+        "bytes": 19414,
+        "sha256": "77f4577806dfe7252f30763d12734fc343be4b9b8ac0104f7b188ddd451ad4a9"
+      },
+      {
+        "file": "worldbuilding-3-candidates.derived-draft.md",
+        "disposition": "creative_derivative_not_textbook_translation",
+        "reason": "메타데이터가 인물·지명·사건·제도를 창작한 파생 세계관 후보라고 명시함. 교재 번역과 분리.",
+        "bytes": 4320,
+        "sha256": "cbfe05f439a63173fef03e3ea131141cbd1f9d2e659109a51fe7025c9326bbf8"
+      }
+    ],
+    "main_prose": "기존 합본 1회만 선택. 각 개별 장 파일 전체 바이트도 그 내부에서 정확히 1회.",
+    "nested_main_chapter_checks": [
+      {
+        "file": "01-main-prose.ko.draft.md",
+        "bytes": 14206,
+        "sha256": "996197a9d9d127dd5a5ae4c04e90dcc00728caf0f8b9d9df2c65842a4c50b58a",
+        "whole_file_occurrences_inside_selected_combined": 1,
+        "separately_appended": false,
+        "whole_file_occurrences_in_new_combined": 1
+      },
+      {
+        "file": "02-main-prose.ko.draft.md",
+        "bytes": 15100,
+        "sha256": "b92759334d24d7a4d3efc62671205514e9cfd7569c3fe69f9d8ff0d26f2faf22",
+        "whole_file_occurrences_inside_selected_combined": 1,
+        "separately_appended": false,
+        "whole_file_occurrences_in_new_combined": 1
+      },
+      {
+        "file": "03-main-prose.ko.draft.md",
+        "bytes": 15326,
+        "sha256": "55d9bc0e6e4ea05fcd99116abc01116ce2d8f027c3c1ca606fb434d9b8bd8978",
+        "whole_file_occurrences_inside_selected_combined": 1,
+        "separately_appended": false,
+        "whole_file_occurrences_in_new_combined": 1
+      },
+      {
+        "file": "04-main-prose.ko.draft.md",
+        "bytes": 14337,
+        "sha256": "e71e0e2ec2a6531d6489fa2d4f4ff5ee7c393d381c6eefa96ed15d59f9ba76c5",
+        "whole_file_occurrences_inside_selected_combined": 1,
+        "separately_appended": false,
+        "whole_file_occurrences_in_new_combined": 1
+      },
+      {
+        "file": "05-main-prose.ko.draft.md",
+        "bytes": 16690,
+        "sha256": "26dbb867638e4ce677c7fcbee41d602857c125254a55adee1ba56b0b75750eab",
+        "whole_file_occurrences_inside_selected_combined": 1,
+        "separately_appended": false,
+        "whole_file_occurrences_in_new_combined": 1
+      },
+      {
+        "file": "06-main-prose.ko.draft.md",
+        "bytes": 12934,
+        "sha256": "00a38c7d82050a63865733dd6276161c69aa48fa8a6a29bf543aa51d274583c1",
+        "whole_file_occurrences_inside_selected_combined": 1,
+        "separately_appended": false,
+        "whole_file_occurrences_in_new_combined": 1
+      },
+      {
+        "file": "07-main-prose.ko.draft.md",
+        "bytes": 12900,
+        "sha256": "500109f993786d7aedb30cf493596487cc51d2d990552677aa77e1148c7e1c16",
+        "whole_file_occurrences_inside_selected_combined": 1,
+        "separately_appended": false,
+        "whole_file_occurrences_in_new_combined": 1
+      },
+      {
+        "file": "08-main-prose.ko.draft.md",
+        "bytes": 13223,
+        "sha256": "0b326d293f014b0586c7f7fc79295fd08149ea7805fcc804dc660e32f74ff404",
+        "whole_file_occurrences_inside_selected_combined": 1,
+        "separately_appended": false,
+        "whole_file_occurrences_in_new_combined": 1
+      }
+    ],
+    "chronology_candidates_at_top_level": [
+      "chronology-01.ko.draft.md",
+      "chronology-02.ko.draft.md",
+      "chronology-03.ko.draft.md",
+      "chronology-04.ko.draft.md",
+      "chronology-05.ko.draft.md",
+      "chronology-06.ko.draft.md",
+      "chronology-07.ko.draft.md",
+      "chronology-08.ko.draft.md"
+    ],
+    "chronology_decision": "별도 합본 없음. manifest의 8개 개별 파일을 각각 1회 선택.",
+    "appendix": {
+      "file": "concepts-appendix-index.ko.md",
+      "rows_checked_now": 203,
+      "only_cross_reference_index_included": true,
+      "new_definitions_included": 0,
+      "normalized_duplicate_definitions_from_prior_qa": 203,
+      "prior_comparison_source": "concepts-qa.partial.json",
+      "prior_comparison_not_rerun": true
+    },
+    "teacher_student_cross_reference_links_preserved_byte_for_byte": true,
+    "teacher_local_link_count": 101,
+    "teacher_local_links": [
+      {
+        "source": "teacher-00-frontmatter.ko.draft.md",
+        "target": "teacher-rights-inventory.ko.md",
+        "file_exists_or_generated": true,
+        "fragment": null,
+        "fragment_matches_static_heading_or_explicit_id": null,
+        "ok": true
+      },
+      {
+        "source": "teacher-01-guidance-answers.ko.draft.md",
+        "target": "teacher-rights-inventory.ko.md",
+        "file_exists_or_generated": true,
+        "fragment": null,
+        "fragment_matches_static_heading_or_explicit_id": null,
+        "ok": true
+      },
+      {
+        "source": "teacher-01-guidance-answers.ko.draft.md",
+        "target": "01-activities-author-prose.ko.draft.md#pdf-13쪽-활동",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-13쪽-활동",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-01-guidance-answers.ko.draft.md",
+        "target": "01-activities-author-prose.ko.draft.md#pdf-14쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-14쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-01-guidance-answers.ko.draft.md",
+        "target": "01-activities-author-prose.ko.draft.md#pdf-14쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-14쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-01-guidance-answers.ko.draft.md",
+        "target": "01-activities-author-prose.ko.draft.md#pdf-15쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-15쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-01-guidance-answers.ko.draft.md",
+        "target": "01-main-prose.ko.draft.md#2-페니키아인들-los-fenicios",
+        "file_exists_or_generated": true,
+        "fragment": "2-페니키아인들-los-fenicios",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-01-guidance-answers.ko.draft.md",
+        "target": "01-main-prose.ko.draft.md#1-이베리아인들-los-íberos",
+        "file_exists_or_generated": true,
+        "fragment": "1-이베리아인들-los-íberos",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-01-guidance-answers.ko.draft.md",
+        "target": "01-main-prose.ko.draft.md#5-켈트인들-los-celtas",
+        "file_exists_or_generated": true,
+        "fragment": "5-켈트인들-los-celtas",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-01-guidance-answers.ko.draft.md",
+        "target": "01-main-prose.ko.draft.md#4-카르타고인들-los-cartagineses",
+        "file_exists_or_generated": true,
+        "fragment": "4-카르타고인들-los-cartagineses",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-01-guidance-answers.ko.draft.md",
+        "target": "01-main-prose.ko.draft.md#3-그리스인들-los-griegos",
+        "file_exists_or_generated": true,
+        "fragment": "3-그리스인들-los-griegos",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-01-guidance-answers.ko.draft.md",
+        "target": "01-activities-author-prose.ko.draft.md#pdf-17쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-17쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-01-guidance-answers.ko.draft.md",
+        "target": "01-activities-author-prose.ko.draft.md#pdf-18쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-18쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-01-guidance-answers.ko.draft.md",
+        "target": "01-activities-author-prose.ko.draft.md#pdf-18쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-18쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-01-guidance-answers.ko.draft.md",
+        "target": "01-activities-author-prose.ko.draft.md#pdf-20쪽-보충-활동",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-20쪽-보충-활동",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-02-guidance-answers.ko.draft.md",
+        "target": "teacher-rights-inventory.ko.md",
+        "file_exists_or_generated": true,
+        "fragment": null,
+        "fragment_matches_static_heading_or_explicit_id": null,
+        "ok": true
+      },
+      {
+        "source": "teacher-02-guidance-answers.ko.draft.md",
+        "target": "02-activities-author-prose.ko.draft.md#pdf-28쪽-활동",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-28쪽-활동",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-02-guidance-answers.ko.draft.md",
+        "target": "02-activities-author-prose.ko.draft.md#pdf-29쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-29쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-02-guidance-answers.ko.draft.md",
+        "target": "02-activities-author-prose.ko.draft.md#pdf-30쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-30쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-02-guidance-answers.ko.draft.md",
+        "target": "02-activities-author-prose.ko.draft.md#pdf-30쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-30쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-02-guidance-answers.ko.draft.md",
+        "target": "02-activities-author-prose.ko.draft.md#pdf-31쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-31쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-02-guidance-answers.ko.draft.md",
+        "target": "02-activities-author-prose.ko.draft.md#pdf-31쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-31쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-03-guidance-answers.ko.draft.md",
+        "target": "teacher-rights-inventory.ko.md",
+        "file_exists_or_generated": true,
+        "fragment": null,
+        "fragment_matches_static_heading_or_explicit_id": null,
+        "ok": true
+      },
+      {
+        "source": "teacher-03-guidance-answers.ko.draft.md",
+        "target": "03-activities-author-prose.ko.draft.md#pdf-40쪽-활동",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-40쪽-활동",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-03-guidance-answers.ko.draft.md",
+        "target": "03-main-prose.ko.draft.md#1-정치조직-organización-política",
+        "file_exists_or_generated": true,
+        "fragment": "1-정치조직-organización-política",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-03-guidance-answers.ko.draft.md",
+        "target": "03-main-prose.ko.draft.md#2-종교적-통일-unificación-religiosa",
+        "file_exists_or_generated": true,
+        "fragment": "2-종교적-통일-unificación-religiosa",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-03-guidance-answers.ko.draft.md",
+        "target": "03-main-prose.ko.draft.md#3-팽창과-혼인정책-expansión-y-política-matrimonial",
+        "file_exists_or_generated": true,
+        "fragment": "3-팽창과-혼인정책-expansión-y-política-matrimonial",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-03-guidance-answers.ko.draft.md",
+        "target": "03-main-prose.ko.draft.md#4-왕위계승-15041517년-sucesión",
+        "file_exists_or_generated": true,
+        "fragment": "4-왕위계승-15041517년-sucesión",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-03-guidance-answers.ko.draft.md",
+        "target": "03-activities-author-prose.ko.draft.md#pdf-41쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-41쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-03-guidance-answers.ko.draft.md",
+        "target": "03-activities-author-prose.ko.draft.md#pdf-42쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-42쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-03-guidance-answers.ko.draft.md",
+        "target": "03-activities-author-prose.ko.draft.md#pdf-42쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-42쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-03-guidance-answers.ko.draft.md",
+        "target": "03-activities-author-prose.ko.draft.md#pdf-42쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-42쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-03-guidance-answers.ko.draft.md",
+        "target": "03-activities-author-prose.ko.draft.md#pdf-43쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-43쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-04-guidance-answers.ko.draft.md",
+        "target": "teacher-rights-inventory.ko.md",
+        "file_exists_or_generated": true,
+        "fragment": null,
+        "fragment_matches_static_heading_or_explicit_id": null,
+        "ok": true
+      },
+      {
+        "source": "teacher-04-guidance-answers.ko.draft.md",
+        "target": "04-main-prose.ko.draft.md",
+        "file_exists_or_generated": true,
+        "fragment": null,
+        "fragment_matches_static_heading_or_explicit_id": null,
+        "ok": true
+      },
+      {
+        "source": "teacher-04-guidance-answers.ko.draft.md",
+        "target": "04-activities-author-prose.ko.draft.md#pdf-52쪽-활동",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-52쪽-활동",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-04-guidance-answers.ko.draft.md",
+        "target": "04-activities-author-prose.ko.draft.md#1의-이어지는-지시",
+        "file_exists_or_generated": true,
+        "fragment": "1의-이어지는-지시",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-04-guidance-answers.ko.draft.md",
+        "target": "04-activities-author-prose.ko.draft.md#2",
+        "file_exists_or_generated": true,
+        "fragment": "2",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-04-guidance-answers.ko.draft.md",
+        "target": "04-activities-author-prose.ko.draft.md#3",
+        "file_exists_or_generated": true,
+        "fragment": "3",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-04-guidance-answers.ko.draft.md",
+        "target": "04-activities-author-prose.ko.draft.md#3",
+        "file_exists_or_generated": true,
+        "fragment": "3",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-04-guidance-answers.ko.draft.md",
+        "target": "04-activities-author-prose.ko.draft.md#pdf-5556쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-5556쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-04-guidance-answers.ko.draft.md",
+        "target": "04-activities-author-prose.ko.draft.md#4",
+        "file_exists_or_generated": true,
+        "fragment": "4",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-04-guidance-answers.ko.draft.md",
+        "target": "04-activities-author-prose.ko.draft.md#5",
+        "file_exists_or_generated": true,
+        "fragment": "5",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-04-guidance-answers.ko.draft.md",
+        "target": "04-activities-author-prose.ko.draft.md#6",
+        "file_exists_or_generated": true,
+        "fragment": "6",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-04-guidance-answers.ko.draft.md",
+        "target": "04-activities-author-prose.ko.draft.md#보충-활동",
+        "file_exists_or_generated": true,
+        "fragment": "보충-활동",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-04-guidance-answers.ko.draft.md",
+        "target": "04-activities-author-prose.ko.draft.md#보충-활동",
+        "file_exists_or_generated": true,
+        "fragment": "보충-활동",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-04-guidance-answers.ko.draft.md",
+        "target": "04-activities-author-prose.ko.draft.md#보충-활동의-이어지는-질문",
+        "file_exists_or_generated": true,
+        "fragment": "보충-활동의-이어지는-질문",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-04-guidance-answers.ko.draft.md",
+        "target": "04-activities-author-prose.ko.draft.md#보충-활동의-이어지는-질문",
+        "file_exists_or_generated": true,
+        "fragment": "보충-활동의-이어지는-질문",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-04-guidance-answers.ko.draft.md",
+        "target": "04-activities-author-prose.ko.draft.md#보충-활동의-이어지는-질문",
+        "file_exists_or_generated": true,
+        "fragment": "보충-활동의-이어지는-질문",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-05-guidance-answers.ko.draft.md",
+        "target": "teacher-rights-inventory.ko.md",
+        "file_exists_or_generated": true,
+        "fragment": null,
+        "fragment_matches_static_heading_or_explicit_id": null,
+        "ok": true
+      },
+      {
+        "source": "teacher-05-guidance-answers.ko.draft.md",
+        "target": "05-main-prose.ko.draft.md",
+        "file_exists_or_generated": true,
+        "fragment": null,
+        "fragment_matches_static_heading_or_explicit_id": null,
+        "ok": true
+      },
+      {
+        "source": "teacher-05-guidance-answers.ko.draft.md",
+        "target": "05-activities-author-prose.ko.draft.md#pdf-68쪽-활동",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-68쪽-활동",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-05-guidance-answers.ko.draft.md",
+        "target": "05-activities-author-prose.ko.draft.md#pdf-69쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-69쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-05-guidance-answers.ko.draft.md",
+        "target": "05-activities-author-prose.ko.draft.md#pdf-70쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-70쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-05-guidance-answers.ko.draft.md",
+        "target": "05-activities-author-prose.ko.draft.md#pdf-71쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-71쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-05-guidance-answers.ko.draft.md",
+        "target": "05-activities-author-prose.ko.draft.md#pdf-72쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-72쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-05-guidance-answers.ko.draft.md",
+        "target": "05-activities-author-prose.ko.draft.md#pdf-73쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-73쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-05-guidance-answers.ko.draft.md",
+        "target": "05-activities-author-prose.ko.draft.md#pdf-74쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-74쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-05-guidance-answers.ko.draft.md",
+        "target": "05-activities-author-prose.ko.draft.md#pdf-75쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-75쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-05-guidance-answers.ko.draft.md",
+        "target": "05-activities-author-prose.ko.draft.md#pdf-76쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-76쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-05-guidance-answers.ko.draft.md",
+        "target": "05-activities-author-prose.ko.draft.md#pdf-77쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-77쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-05-guidance-answers.ko.draft.md",
+        "target": "05-activities-author-prose.ko.draft.md#pdf-77쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-77쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-05-guidance-answers.ko.draft.md",
+        "target": "05-activities-author-prose.ko.draft.md#pdf-78쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-78쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-05-guidance-answers.ko.draft.md",
+        "target": "05-activities-author-prose.ko.draft.md#pdf-79쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-79쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-05-guidance-answers.ko.draft.md",
+        "target": "05-activities-author-prose.ko.draft.md#pdf-80쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-80쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-05-guidance-answers.ko.draft.md",
+        "target": "05-activities-author-prose.ko.draft.md#pdf-81쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-81쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-05-guidance-answers.ko.draft.md",
+        "target": "05-activities-author-prose.ko.draft.md#pdf-81쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-81쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-05-guidance-answers.ko.draft.md",
+        "target": "05-activities-author-prose.ko.draft.md#pdf-82쪽-보충-활동-놀이",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-82쪽-보충-활동-놀이",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-06-guidance-answers.ko.draft.md",
+        "target": "teacher-rights-inventory.ko.md",
+        "file_exists_or_generated": true,
+        "fragment": null,
+        "fragment_matches_static_heading_or_explicit_id": null,
+        "ok": true
+      },
+      {
+        "source": "teacher-06-guidance-answers.ko.draft.md",
+        "target": "06-main-prose.ko.draft.md",
+        "file_exists_or_generated": true,
+        "fragment": null,
+        "fragment_matches_static_heading_or_explicit_id": null,
+        "ok": true
+      },
+      {
+        "source": "teacher-06-guidance-answers.ko.draft.md",
+        "target": "06-activities-author-prose.ko.draft.md#pdf-92쪽-활동",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-92쪽-활동",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-06-guidance-answers.ko.draft.md",
+        "target": "06-activities-author-prose.ko.draft.md#pdf-93쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-93쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-06-guidance-answers.ko.draft.md",
+        "target": "06-activities-author-prose.ko.draft.md#pdf-95쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-95쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-06-guidance-answers.ko.draft.md",
+        "target": "06-activities-author-prose.ko.draft.md#pdf-95쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-95쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-06-guidance-answers.ko.draft.md",
+        "target": "06-activities-author-prose.ko.draft.md#pdf-96쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-96쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-06-guidance-answers.ko.draft.md",
+        "target": "06-activities-author-prose.ko.draft.md#pdf-97쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-97쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-06-guidance-answers.ko.draft.md",
+        "target": "06-activities-author-prose.ko.draft.md#pdf-98쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-98쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-06-guidance-answers.ko.draft.md",
+        "target": "06-activities-author-prose.ko.draft.md#pdf-99쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-99쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-06-guidance-answers.ko.draft.md",
+        "target": "06-activities-author-prose.ko.draft.md#pdf-100쪽-보충-활동",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-100쪽-보충-활동",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-06-guidance-answers.ko.draft.md",
+        "target": "06-activities-author-prose.ko.draft.md#pdf-100쪽-보충-활동",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-100쪽-보충-활동",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-06-guidance-answers.ko.draft.md",
+        "target": "06-activities-author-prose.ko.draft.md#pdf-101쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-101쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-07-guidance-answers.ko.draft.md",
+        "target": "teacher-rights-inventory.ko.md",
+        "file_exists_or_generated": true,
+        "fragment": null,
+        "fragment_matches_static_heading_or_explicit_id": null,
+        "ok": true
+      },
+      {
+        "source": "teacher-07-guidance-answers.ko.draft.md",
+        "target": "07-main-prose.ko.draft.md",
+        "file_exists_or_generated": true,
+        "fragment": null,
+        "fragment_matches_static_heading_or_explicit_id": null,
+        "ok": true
+      },
+      {
+        "source": "teacher-07-guidance-answers.ko.draft.md",
+        "target": "07-activities-author-prose.ko.draft.md#pdf-110쪽-활동",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-110쪽-활동",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-07-guidance-answers.ko.draft.md",
+        "target": "07-activities-author-prose.ko.draft.md#pdf-110쪽-활동",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-110쪽-활동",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-07-guidance-answers.ko.draft.md",
+        "target": "07-activities-author-prose.ko.draft.md#pdf-111쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-111쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-07-guidance-answers.ko.draft.md",
+        "target": "07-activities-author-prose.ko.draft.md#pdf-112쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-112쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-07-guidance-answers.ko.draft.md",
+        "target": "07-activities-author-prose.ko.draft.md#pdf-113쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-113쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-07-guidance-answers.ko.draft.md",
+        "target": "07-activities-author-prose.ko.draft.md#pdf-113쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-113쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-07-guidance-answers.ko.draft.md",
+        "target": "07-activities-author-prose.ko.draft.md#pdf-114쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-114쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-07-guidance-answers.ko.draft.md",
+        "target": "07-activities-author-prose.ko.draft.md#pdf-114쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-114쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-07-guidance-answers.ko.draft.md",
+        "target": "07-activities-author-prose.ko.draft.md#pdf-116쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-116쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-07-guidance-answers.ko.draft.md",
+        "target": "07-activities-author-prose.ko.draft.md#pdf-116쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-116쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-08-guidance-answers.ko.draft.md",
+        "target": "teacher-rights-inventory.ko.md",
+        "file_exists_or_generated": true,
+        "fragment": null,
+        "fragment_matches_static_heading_or_explicit_id": null,
+        "ok": true
+      },
+      {
+        "source": "teacher-08-guidance-answers.ko.draft.md",
+        "target": "08-main-prose.ko.draft.md",
+        "file_exists_or_generated": true,
+        "fragment": null,
+        "fragment_matches_static_heading_or_explicit_id": null,
+        "ok": true
+      },
+      {
+        "source": "teacher-08-guidance-answers.ko.draft.md",
+        "target": "08-activities-author-prose.ko.draft.md#pdf-126쪽-활동",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-126쪽-활동",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-08-guidance-answers.ko.draft.md",
+        "target": "08-activities-author-prose.ko.draft.md#pdf-127쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-127쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-08-guidance-answers.ko.draft.md",
+        "target": "08-activities-author-prose.ko.draft.md#pdf-129쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-129쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-08-guidance-answers.ko.draft.md",
+        "target": "08-activities-author-prose.ko.draft.md#pdf-131쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-131쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-08-guidance-answers.ko.draft.md",
+        "target": "08-activities-author-prose.ko.draft.md#pdf-132쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-132쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      },
+      {
+        "source": "teacher-08-guidance-answers.ko.draft.md",
+        "target": "08-activities-author-prose.ko.draft.md#pdf-132쪽",
+        "file_exists_or_generated": true,
+        "fragment": "pdf-132쪽",
+        "fragment_matches_static_heading_or_explicit_id": true,
+        "ok": true
+      }
+    ],
+    "semantic_repetition_note": "원본 구성 안의 반복 표현·크레딧은 원바이트 보존 대상이다. 모든 문장 의미의 유일성을 검사했다는 뜻은 아니다.",
+    "ayen_separate_textbook_included": false,
+    "worldbuilding_candidate_metadata_read_and_excluded": true
+  },
+  "coverage": {
+    "main_prose_chapters": 8,
+    "main_prose_source_pages": 32,
+    "main_prose_event_endpoint": 2011,
+    "concepts_and_teacher_also_include_years": [
+      2015,
+      2016
+    ],
+    "chronology_files": 8,
+    "chronology_rows": 147,
+    "activities_chapters": 8,
+    "activity_source_scope_pages_not_full_translation": 67,
+    "concept_entries": 203,
+    "concept_full_definition_drafts": 190,
+    "concept_partial_definition_drafts": 1,
+    "held_concept_definitions": 12,
+    "appendix_new_unique_definitions": 0,
+    "teacher_author_text_chapters_first_pass": 8,
+    "teacher_structure_scope_pages": 103,
+    "teacher_individually_render_compared_pages_in_prior_work": 85
+  },
+  "preservation": {
+    "existing_top_level_files_unchanged": 60,
+    "existing_tmp_files_unchanged": 137,
+    "existing_total_files_unchanged": 197,
+    "full_before_after_hash_record": "spain-reusable-text.qa.partial.json"
+  },
+  "checks": {
+    "component_slices_match": true,
+    "each_full_original_component_byte_and_text_string_occurs_once": true,
+    "local_links_static_check_passed": true,
+    "local_link_occurrences": 437,
+    "details": "spain-reusable-text.qa.partial.json"
+  },
+  "files": [
+    {
+      "file": "spain-reusable-text.ko.partial.md",
+      "bytes": 564985,
+      "sha256": "2b44af841d6ece0ff097d44311ad06bc1fd3c36c4dc3997db6987f8dceec4805"
+    },
+    {
+      "file": "README.reusable-text-progress.ko.md",
+      "bytes": 6146,
+      "sha256": "f67fadde40f0db0e8a11edbd2825c9d39f41728ef61ddc7f0ba82a59a486090b"
+    },
+    {
+      "file": "spain-reusable-text.qa.partial.json",
+      "bytes": 288880,
+      "sha256": "419f7cf89c0142b5b7359df3e6600f205c00ca7297de8ac262bf2078cbc8c331"
+    }
+  ],
+  "manifest_self_hash": "Not embedded to avoid recursive checksum; final verification reports separately.",
+  "committed": false,
+  "pushed": false,
+  "git_queried": false,
+  "app_or_database_changed": false
+}

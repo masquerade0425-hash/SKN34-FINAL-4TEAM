@@ -1,0 +1,536 @@
+{
+  "schema_version": 5,
+  "status": "Research drafts only; historical review and final Korean editing incomplete",
+  "scope": "Chapters I-VII have Korean draft coverage. Chapters II-VII include unresolved source-image masking or loss and marked conjecture; chapter V also includes one explicitly unreadable subject. Chapters VIII-XI remain untranslated. Coverage is draft progress, not finalized translation.",
+  "source_pdf_sha256": "807409168C96A3FB1794C3D2B3DFC8125F91CA2BED6EDB80594842A730C8F644",
+  "source_text_sha256": "DEE6107BC3ADBF9CE0E37CBEC29D98BE64B7E0D9066A4DA2B12E2B9F62A85B73",
+  "chapters": {
+    "1": {
+      "combined": {
+        "sha256": "454147EC6E55685E67F78EE836E53300E15AA4B83B7AC819DF1DA189463D82BA",
+        "file": "01-main-prose.ko.draft.md",
+        "bytes": 44708
+      },
+      "status": "Draft translation; expert historical review incomplete",
+      "source_pdf_sha256": "807409168C96A3FB1794C3D2B3DFC8125F91CA2BED6EDB80594842A730C8F644",
+      "pdf_pages": "18-33",
+      "printed_pages": "1-16",
+      "parts": [
+        {
+          "sha256": "28444EF13AD0139B86FD80C39F96542376F5DC9AD14340B394AE5E47017068CD",
+          "file": "01-section-01.ko.partial.md",
+          "bytes": 8100
+        },
+        {
+          "sha256": "559A0CC62D6B5C01BD728B418BB18B0BFD1A34EF07773A2C6C18EF9C2C1696FC",
+          "file": "01-sections-02-05.ko.partial.md",
+          "bytes": 7850
+        },
+        {
+          "sha256": "0ADBFEB5384E7D2431F6254D7C92782367E26B234917A3F96E588F9445E13954",
+          "file": "01-sections-06-08.ko.partial.md",
+          "bytes": 11842
+        },
+        {
+          "sha256": "7EFBFA761DC85FBA749BD1245DB9E9FD54F7A60BBFDFC84FD3B85A79CCE91599",
+          "file": "01-sections-09-12.ko.partial.md",
+          "bytes": 16112
+        }
+      ],
+      "scope": "Chapter I, all 12 numbered sections and outline; 1 of 11 chapters",
+      "source_text_sha256": "DEE6107BC3ADBF9CE0E37CBEC29D98BE64B7E0D9066A4DA2B12E2B9F62A85B73"
+    },
+    "2": {
+      "chapter": 2,
+      "title": "The Emperor and the Pope",
+      "status": "All 14 sections covered by an image-compared Korean draft; source-image loss and conjectural passages remain. Not a verified transcription or final complete translation.",
+      "scope": "Chapter heading, outline, and all 14 numbered sections",
+      "draft": {
+        "file": "02-main-prose.ko.draft.md",
+        "bytes": 47009,
+        "sha256": "DE9BE5D0DC52E7C27E7066981E48A921D9C99922DA26D3CB8F495DF2B64BAA3A"
+      },
+      "qa": {
+        "file": "02-qa.ko.md",
+        "bytes": 7467,
+        "sha256": "25488B9E3343CA9822D54D5FB0B0E2B1F9109639D9E684497932A194BFBCB147"
+      },
+      "pdf_pages": "33-52",
+      "printed_pages": "16-35",
+      "boundary_page_checked": 53,
+      "rendered_and_visually_compared_pdf_pages": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "uncertain_printed_pages": [
+        24,
+        26,
+        30,
+        32,
+        34
+      ],
+      "uncertainty_marker_count": 12,
+      "source_images_directory": "tmp/chapter02",
+      "historical_review_complete": false,
+      "alternate_scan_collation_complete": false
+    },
+    "3": {
+      "chapter": 3,
+      "title": "The Emperor and the Cities",
+      "status": "All 15 sections covered by an image-compared Korean draft; source-image loss and conjectural passages remain. Not a verified transcription or final complete translation.",
+      "scope": "Chapter heading, outline, and all 15 numbered sections",
+      "draft": {
+        "file": "03-main-prose.ko.draft.md",
+        "bytes": 41592,
+        "sha256": "B8E441F17CF2FC8D0C32E3959D5C77374C09317B8E6297BAD2BEDCFFFF50CB58"
+      },
+      "qa": {
+        "file": "03-qa.ko.md",
+        "bytes": 13828,
+        "sha256": "D585F92C279880FBF2E43A84C98B3B894E784C4356CDDB72DEF0409A88E5C2EE"
+      },
+      "pdf_pages": "53-69",
+      "printed_pages": "36-52",
+      "boundary_pages_checked": [
+        52,
+        70
+      ],
+      "rendered_and_visually_compared_pdf_pages": [
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69
+      ],
+      "uncertain_printed_pages": [
+        43,
+        52
+      ],
+      "uncertainty_marker_count": 8,
+      "uncertainty_count_excludes_intro_example": true,
+      "source_images_directory": "tmp/chapter03",
+      "historical_review_complete": false,
+      "alternate_scan_collation_complete": false,
+      "final_korean_edit_complete": false
+    },
+    "4": {
+      "chapter": 4,
+      "title": "The Greatness of the Guelfs",
+      "status": "All 12 sections covered by an image-compared Korean draft; source-image loss and marked conjecture remain. Not a verified transcription or final complete translation.",
+      "scope": "Chapter heading, outline, and all 12 numbered sections",
+      "draft": {
+        "file": "04-main-prose.ko.draft.md",
+        "bytes": 40320,
+        "sha256": "E918D219DC46B66AB177F8D8586079DDEE580E71AAFE39BBBEB7F267D81E6648"
+      },
+      "qa": {
+        "file": "04-qa.ko.md",
+        "bytes": 11351,
+        "sha256": "A0459300A78CD275933F89083F2C1DE7C26F93960F6A536E1BF443B458393966"
+      },
+      "pdf_pages": "70-87",
+      "printed_pages": "53-70",
+      "shared_chapter_boundary": {
+        "pdf_page": 87,
+        "printed_page": 70,
+        "note": "Chapter IV ends at the top; Chapter V starts at its mid-page heading."
+      },
+      "boundary_pages_checked": [
+        87,
+        88
+      ],
+      "rendered_and_visually_compared_pdf_pages": [
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87
+      ],
+      "uncertain_printed_pages": [
+        64
+      ],
+      "uncertainty_marker_count": 1,
+      "unreadable_marker_count": 0,
+      "uncertainty_count_excludes_intro_example": true,
+      "source_images_directory": "tmp/chapter04",
+      "historical_review_complete": false,
+      "alternate_scan_collation_complete": false,
+      "final_korean_edit_complete": false
+    },
+    "5": {
+      "chapter": 5,
+      "title": "The Ghibelin Lords",
+      "status": "All 15 sections covered by an image-compared Korean draft; source-image loss and marked conjecture remain. One unidentified subject remains explicitly unreadable. Not a verified transcription or final complete translation.",
+      "scope": "Chapter heading, outline, and all 15 numbered sections",
+      "draft": {
+        "file": "05-main-prose.ko.draft.md",
+        "bytes": 48742,
+        "sha256": "976E0A3AE55036D7713049192EC7BC1AA292F83E2C0293FC0716D5321A925A79"
+      },
+      "qa": {
+        "file": "05-qa.ko.md",
+        "bytes": 17706,
+        "sha256": "8CC1917660E0926FF636BEFA161D5A4B4EB3A1328151709975879157D6315168"
+      },
+      "pdf_pages": "87-107",
+      "printed_pages": "70-90",
+      "shared_chapter_boundary": {
+        "pdf_page": 87,
+        "printed_page": 70,
+        "note": "Chapter IV ends at the top; Chapter V starts at its mid-page heading."
+      },
+      "boundary_pages_checked": [
+        87,
+        108,
+        109
+      ],
+      "rendered_and_visually_compared_pdf_pages": [
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107
+      ],
+      "uncertain_printed_pages": [
+        70,
+        72,
+        74,
+        79,
+        80,
+        83,
+        85,
+        86
+      ],
+      "uncertainty_marker_count": 17,
+      "unreadable_marker_count": 1,
+      "uncertainty_count_excludes_intro_example": true,
+      "source_images_directory": "tmp/chapter05",
+      "historical_review_complete": false,
+      "alternate_scan_collation_complete": false,
+      "final_korean_edit_complete": false
+    },
+    "6": {
+      "chapter": 6,
+      "title": "The Great States",
+      "status": "All 15 sections covered by an image-compared Korean draft; minor source-image masking and 3 marked conjectural passages remain. Not a verified transcription or final complete translation.",
+      "scope": "Chapter heading, outline, and all 15 numbered sections",
+      "draft": {
+        "file": "06-main-prose.ko.draft.md",
+        "bytes": 56047,
+        "sha256": "4FB515C6260F9DAA98EDBED07F7BFB48B36C4B27DE46F268C59AF464F73CA011"
+      },
+      "qa": {
+        "file": "06-qa.ko.md",
+        "bytes": 13441,
+        "sha256": "7582D9546D5E323CD3414FC7E52B0EDD708953AF1499726D66E40BCD1BA5FA88"
+      },
+      "pdf_pages": "108-132",
+      "printed_pages": "91-115",
+      "boundary_pages_checked": [
+        133
+      ],
+      "rendered_and_visually_compared_pdf_pages": [
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132
+      ],
+      "uncertain_printed_pages": [
+        92,
+        108,
+        114
+      ],
+      "uncertainty_marker_count": 3,
+      "unreadable_marker_count": 0,
+      "uncertainty_count_excludes_intro_example": true,
+      "source_images_directory": "tmp/chapter06",
+      "separate_figures_captions_footnotes_observed": 0,
+      "historical_review_complete": false,
+      "alternate_scan_collation_complete": false,
+      "final_korean_edit_complete": false,
+      "internally_reconstructed_heading": {
+        "section": 10,
+        "printed_page": 104,
+        "corroborated_by_printed_pages": [
+          91,
+          105
+        ],
+        "note": "Partly masked section heading reconstructed from same-chapter outline and next-page running heading; not counted as a body conjecture."
+      }
+    },
+    "7": {
+      "chapter": 7,
+      "title": "Italy Invaded",
+      "status": "All 17 sections covered by an image-compared Korean draft; minor source-image masking and 6 marked conjectural passages remain. Not a verified transcription or final complete translation.",
+      "scope": "Chapter heading, outline, and all 17 numbered sections",
+      "draft": {
+        "file": "07-main-prose.ko.draft.md",
+        "bytes": 62578,
+        "sha256": "D41447F954AF247FCEFC612731FBBF584DA624FF45017FC406FF2CB39F795BB7"
+      },
+      "qa": {
+        "file": "07-qa.ko.md",
+        "bytes": 17475,
+        "sha256": "BC0E57334877E814E08F93DB746693C37E0636F3E66DC6A9B0AC2DCFF253CD57"
+      },
+      "pdf_pages": "133-161",
+      "printed_pages": "116-144",
+      "boundary_pages_checked": [
+        132,
+        162
+      ],
+      "rendered_and_visually_compared_pdf_pages": [
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161
+      ],
+      "uncertain_printed_pages": [
+        116,
+        118,
+        120,
+        124,
+        134,
+        136
+      ],
+      "uncertainty_marker_count": 6,
+      "unreadable_marker_count": 0,
+      "uncertainty_count_excludes_intro_example": true,
+      "source_images_directory": "tmp/chapter07",
+      "separate_figures_captions_footnotes_observed": 0,
+      "historical_review_complete": false,
+      "alternate_scan_collation_complete": false,
+      "final_korean_edit_complete": false
+    }
+  },
+  "validation": {
+    "source_hashes_unchanged": true,
+    "chapter_01_combined_hash_unchanged": true,
+    "chapter_02_numbered_sections": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "chapter_02_utf8_replacement_characters": 0,
+    "no_application_or_database_integration": true,
+    "no_commit_or_push": true,
+    "chapter_02_draft_and_qa_hashes_unchanged": true,
+    "chapter_03_numbered_sections": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "chapter_03_utf8_replacement_characters": 0,
+    "chapter_03_qa_utf8_replacement_characters": 0,
+    "chapter_04_numbered_sections": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "chapter_04_utf8_replacement_characters": 0,
+    "chapter_04_qa_utf8_replacement_characters": 0,
+    "chapter_05_numbered_sections": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "chapter_05_utf8_replacement_characters": 0,
+    "chapter_05_qa_utf8_replacement_characters": 0,
+    "chapter_03_draft_and_qa_hashes_unchanged": true,
+    "chapter_06_numbered_sections": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "chapter_06_utf8_replacement_characters": 0,
+    "chapter_06_qa_utf8_replacement_characters": 0,
+    "chapter_06_dates_and_key_quantities_checked": true,
+    "chapter_07_numbered_sections": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "chapter_07_utf8_replacement_characters": 0,
+    "chapter_07_qa_utf8_replacement_characters": 0,
+    "chapter_07_dates_and_key_quantities_checked": true,
+    "chapter_01_to_05_records_and_files_unchanged": true,
+    "chapter_06_07_separate_captions_and_notes_checked": true
+  },
+  "completed_chapter_draft_count": 7,
+  "total_narrative_chapters": 11
+}

@@ -1,0 +1,1828 @@
+{
+  "snapshot_utc": "2026-11-13T10:59:20.3870005Z",
+  "purpose": "Saved Korean draft integrity inventory, not historical accuracy certification",
+  "exclusions": [
+    "image files",
+    "image alt text",
+    "cells in image tables",
+    "full text of externally linked primary sources"
+  ],
+  "combined_draft": {
+    "file": "american-yawp-28-chapters.ko.draft.md",
+    "bytes": 3576606,
+    "sha256": "C1C7BCB77A43168A3A0AD4647A59170BCBE7F391128BD300DB250C10362DBB41"
+  },
+  "chapters": [
+    {
+      "chapter": "01",
+      "source": "https://www.americanyawp.com/textbook/01-american-origins",
+      "status": "draft: sections I-IX prose, 15 captions, 25 recommended works and 80 notes translated/annotated; canonical bibliography preserved; image alt text and expert QA pending",
+      "integrated_draft": {
+        "file": "01-american-origins.ko.draft.md",
+        "bytes": 119088,
+        "sha256": "997A3A2CBF9782445D3D079180913143237B5840F2CE1E9B0B9628652790C31B"
+      },
+      "translation_files": [
+        {
+          "file": "translation-ko/01-figures.captions-ko.md",
+          "bytes": 5593,
+          "sha256": "C4EA8470F5578A4B9AA40E3CCDB439890D8D2EBCE7DAA15AE222D92B37F8C4C5"
+        },
+        {
+          "file": "translation-ko/01-I-introduction.partial.md",
+          "bytes": 3828,
+          "sha256": "7FCB856B08538463C670AF96444E994E8082A8D137ADE0E6224528FA8AA71FDE"
+        },
+        {
+          "file": "translation-ko/01-II-first-americans.partial.md",
+          "bytes": 5287,
+          "sha256": "7E014B0017DC97806C2C97D8E445DE7864D71044E32B9508914445E9F5896F8F"
+        },
+        {
+          "file": "translation-ko/01-III-beginnings-and-arrivals.partial.md",
+          "bytes": 10569,
+          "sha256": "1B0972837DABA52041BE8C6303894501F33DA6FF5B28ECDF3AD0CF7230393262"
+        },
+        {
+          "file": "translation-ko/01-IV-continent-wide-changes.partial.md",
+          "bytes": 10299,
+          "sha256": "35D2082FE1C6D923093F91AF5B888822C4D8B344A817D037C7B14F02C7879D09"
+        },
+        {
+          "file": "translation-ko/01-IX-references-ko.md",
+          "bytes": 38322,
+          "sha256": "4185B57A48030BDE4AA2725713C10947A8D16F55BC31C49435E90978DC3DE773"
+        },
+        {
+          "file": "translation-ko/01-V-political-change.partial.md",
+          "bytes": 18591,
+          "sha256": "405EA3B0D93713C33A4D516B814116529C2FCF2C7047B5A950B90717A4B9EBE2"
+        },
+        {
+          "file": "translation-ko/01-VI-continuities.partial.md",
+          "bytes": 18638,
+          "sha256": "93771798FE1E65A9AE40056BB7D6BF1169A8543C4903CDF3C1BF47BC881E29B9"
+        },
+        {
+          "file": "translation-ko/01-VII-VIII-conclusion-primary-sources.partial.md",
+          "bytes": 5281,
+          "sha256": "E2B1F5BEACD907FEE11290066944E0F4C2FCBB0C481C1A9363CC2478F820917B"
+        }
+      ]
+    },
+    {
+      "chapter": "02",
+      "source": "https://www.americanyawp.com/textbook/02-making-an-atlantic-world",
+      "status": "draft: sections I-X prose, 20 captions, 25 recommended works and 46 notes translated/annotated; canonical bibliography preserved; image alt text and expert QA pending",
+      "integrated_draft": {
+        "file": "02-making-an-atlantic-world.ko.draft.md",
+        "bytes": 137368,
+        "sha256": "B009D909A988E933E74C707F7B18FDED13CF2B0712A6BF58CC668B4DFDD45EF4"
+      },
+      "translation_files": [
+        {
+          "file": "translation-ko/02-figures.captions-ko.md",
+          "bytes": 7290,
+          "sha256": "F8516D66895032BB31639F66923DD05B8C45838DB478A85AD110A2C6D6B3C26C"
+        },
+        {
+          "file": "translation-ko/02-I-introduction.partial.md",
+          "bytes": 3927,
+          "sha256": "AA124D87D6D53715F56949A93D48651DD94694717AA7E3E98A32EF60C1656B11"
+        },
+        {
+          "file": "translation-ko/02-II-europe-enters-atlantic.partial.md",
+          "bytes": 13789,
+          "sha256": "6CDFADE75A3CE48F9355DDC5FA054AF83A0DC1B9DAF1EDAC62B8DB13A0D4727E"
+        },
+        {
+          "file": "translation-ko/02-III-africa-to-1500.partial.md",
+          "bytes": 8382,
+          "sha256": "C44E0CA29A5F845812876E67DA70AB7E9D44F654D48210B69C7190DF3BCDF2F4"
+        },
+        {
+          "file": "translation-ko/02-IV-origins-slave-trade.partial.md",
+          "bytes": 8740,
+          "sha256": "E9777EF97B71BBA6C094C3F8F43AF5F0CFDCBDFBE5EF147FE056B3AD4152ABE4"
+        },
+        {
+          "file": "translation-ko/02-V-spanish-exploration-conquests.partial.md",
+          "bytes": 16141,
+          "sha256": "815786FF24C1BC2EB3F3AB57C054CB100B4D9F111ACD653C790E28DD33E4E6FE"
+        },
+        {
+          "file": "translation-ko/02-VI-spanish-america.partial.md",
+          "bytes": 18129,
+          "sha256": "8E14815168FE1102F6A38C40AD175FD7D2FE5DF1E532A9DC5E3BFD0FAB1A4B59"
+        },
+        {
+          "file": "translation-ko/02-VII-spanish-north-america.partial.md",
+          "bytes": 27662,
+          "sha256": "9FEB0139F0E073084591AA1DEF22C9C883315756E4E3B22EC888B91ECA63B48E"
+        },
+        {
+          "file": "translation-ko/02-VIII-IX-conclusion-primary-sources.partial.md",
+          "bytes": 6951,
+          "sha256": "F22CA4EF4297BE26CFA1EA6AE5B71A67FCB6CEC9413EBE42AC4C015745A25A07"
+        },
+        {
+          "file": "translation-ko/02-X-references-ko.md",
+          "bytes": 23714,
+          "sha256": "118DF5891A3DCC997584DBF7F4907E8561F113F0519A4EE7952DE005E07AF44C"
+        }
+      ]
+    },
+    {
+      "chapter": "03",
+      "source": "https://www.americanyawp.com/textbook/03-colliding-cultures",
+      "status": "draft: sections I-IX prose, captions, 25 recommended works and 62 notes translated/annotated; figure 3.4 CC BY-NC separately stored; expert QA pending",
+      "integrated_draft": {
+        "file": "03-colliding-cultures.ko.draft.md",
+        "bytes": 144459,
+        "sha256": "F11D65879BFEC13FEF208ADAE7465BAC696624AB4900E6D08C9AE207B22DA527"
+      },
+      "translation_files": [
+        {
+          "file": "translation-ko/03-figure-3-4.CC-BY-NC-4.0.md",
+          "bytes": 1602,
+          "sha256": "4F9658016E64B1837B76128704553132D09D474DB846930D5236CA516A7B7471"
+        },
+        {
+          "file": "translation-ko/03-figures.captions-ko.md",
+          "bytes": 6130,
+          "sha256": "2AE4FDE580A99D4ED9FF454717D363EF7EE085A8AF1C6C304601753F602F4081"
+        },
+        {
+          "file": "translation-ko/03-I-introduction.partial.md",
+          "bytes": 2980,
+          "sha256": "270F0334BA914E7B38E741E8699728BD5773635A399BFF06E147845B104AC8E0"
+        },
+        {
+          "file": "translation-ko/03-II-new-worlds-native-and-atlantic.partial.md",
+          "bytes": 9364,
+          "sha256": "30269CB1E1CCC80D64775FD02001870659EC1D1E5A7A9B13D6578C7E6BE60B2B"
+        },
+        {
+          "file": "translation-ko/03-III-challenging-spain.partial.md",
+          "bytes": 36631,
+          "sha256": "A92DB14BE2429DFA4C94CAF0A862E0D19299A5577A46959F1E837F28763DF844"
+        },
+        {
+          "file": "translation-ko/03-IV-english-colonization.partial.md",
+          "bytes": 9517,
+          "sha256": "C9D9CEF42088C8EE80287D6012D47F14F41F1BC7EA9A4771767130FEFD549931"
+        },
+        {
+          "file": "translation-ko/03-IX-references-ko.md",
+          "bytes": 29196,
+          "sha256": "08CD328045A2535D86EFD62F654199DAE469ED3419E6807DCA4BB3427695887F"
+        },
+        {
+          "file": "translation-ko/03-V-jamestown.partial.md",
+          "bytes": 22017,
+          "sha256": "D64E8B1E3F3DD607C34BE98AD0EDAAFCBE492A353ACE738530EA976322D1A508"
+        },
+        {
+          "file": "translation-ko/03-VI-new-england.partial.md",
+          "bytes": 17425,
+          "sha256": "8751439C7964176923E54CF314F61A13E6FFAE9ABBC5115744C0EBA6E334AF93"
+        },
+        {
+          "file": "translation-ko/03-VII-VIII-conclusion-primary-sources.partial.md",
+          "bytes": 8654,
+          "sha256": "049FECD224C9E8F6147B214FCB3289A5AF42996B4F060ADE8DD0BD697EE74645"
+        }
+      ]
+    },
+    {
+      "chapter": "04",
+      "source": "https://www.americanyawp.com/textbook/04-british-north-america",
+      "status": "draft: sections I-VIII prose, 10 captions, 25 recommended works and 24 notes translated/annotated; canonical bibliography preserved; expert QA pending",
+      "integrated_draft": {
+        "file": "04-british-north-america.ko.draft.md",
+        "bytes": 101660,
+        "sha256": "E7F916B5CA4014ADD1E0191A400B6D704FF8D94E51BE8A2790DFCE024F13AC95"
+      },
+      "translation_files": [
+        {
+          "file": "translation-ko/04-figures.captions-ko.md",
+          "bytes": 6780,
+          "sha256": "4D5799CC2D1AD1689B6882F3DC80CF446B8DBCC1E7E60F7D4DF3483DADD6182C"
+        },
+        {
+          "file": "translation-ko/04-I-introduction.partial.md",
+          "bytes": 3020,
+          "sha256": "64669103BB99E8358F75D82C28B786C5326D374298E649496529E153997FD940"
+        },
+        {
+          "file": "translation-ko/04-II-slavery-making-race.partial.md",
+          "bytes": 17131,
+          "sha256": "CCB95B907F0CE78A0F743F4CD93791BF489EDCDF3483FABD45980258BC001441"
+        },
+        {
+          "file": "translation-ko/04-III-turmoil-britain.partial.md",
+          "bytes": 9061,
+          "sha256": "E8234D1183DD35355B3343F4934ED8FFDA342384D53837A78C983C77B451FF5C"
+        },
+        {
+          "file": "translation-ko/04-IV-new-colonies.partial.md",
+          "bytes": 11968,
+          "sha256": "1D27C45509758B36A3391CB143019EF9E614C61650532BCC35DBA97665FA574D"
+        },
+        {
+          "file": "translation-ko/04-V-riot-rebellion-revolt.partial.md",
+          "bytes": 25096,
+          "sha256": "B26923234DAB2EFD408543BB918DD5C9FCF1C18DD9CE14FEC02A7B58A2575F06"
+        },
+        {
+          "file": "translation-ko/04-VI-VII-conclusion-primary-sources.partial.md",
+          "bytes": 7923,
+          "sha256": "4082910053918BF3A77AF0775C90C232EE7FC87AE7FEDB106711437A76467D39"
+        },
+        {
+          "file": "translation-ko/04-VIII-references-ko.md",
+          "bytes": 18447,
+          "sha256": "905F5E6BA2F0BCB7D97884FD8DB771EE3DEE69719A05C8E92123D22EBFC6D07E"
+        }
+      ]
+    },
+    {
+      "chapter": "05",
+      "source": "https://www.americanyawp.com/textbook/05-colonial-society",
+      "status": "draft: sections I-X prose, 13 captions, 25 recommended works and 58 notes translated/annotated; canonical bibliography preserved; expert QA pending",
+      "integrated_draft": {
+        "file": "05-colonial-society.ko.draft.md",
+        "bytes": 134156,
+        "sha256": "F7CD5F62A01FEDE9A2E427FCFE13BE269E362891FA6F6741310F3196B99F2AC5"
+      },
+      "translation_files": [
+        {
+          "file": "translation-ko/05-figures.captions-ko.md",
+          "bytes": 5396,
+          "sha256": "7FD29152F0AC29C3C293D1D4D4D763AB0902A16CA3560980705BBBEA289E0367"
+        },
+        {
+          "file": "translation-ko/05-I-introduction.partial.md",
+          "bytes": 2449,
+          "sha256": "A818EFB67E2CD508CCCF54AA254148BC6CA4F2981DFC7BFABCD99737AB0DD65F"
+        },
+        {
+          "file": "translation-ko/05-II-consumption-trade-british-atlantic.partial.md",
+          "bytes": 17010,
+          "sha256": "01482835FD9D85CA304932EEF624802FB6659025711BFF14D23E5EE932334587"
+        },
+        {
+          "file": "translation-ko/05-III-slavery-antislavery-atlantic-exchange.partial.md",
+          "bytes": 14840,
+          "sha256": "BEAA18FC03C4A8347CBAFEEB7691780AE22051751AD338C1327D21714387CC40"
+        },
+        {
+          "file": "translation-ko/05-IV-political-religious-freedoms.partial.md",
+          "bytes": 23761,
+          "sha256": "95CC4FD67BA4A756E45F89235F42F38389F2F2EEA06D83424D167ADEBC9F4F6D"
+        },
+        {
+          "file": "translation-ko/05-V-indigenous-nations-respond.partial.md",
+          "bytes": 7149,
+          "sha256": "83F74AE840BB1223893FA2CFA8A78223F5510626BA345797CA60B063C2310FD0"
+        },
+        {
+          "file": "translation-ko/05-VI-seven-years-war.partial.md",
+          "bytes": 8560,
+          "sha256": "B95D3CEFEC3D5F4724D5217C9D6E6657BF8AB2391B01E04BDFAFD2403434F615"
+        },
+        {
+          "file": "translation-ko/05-VII-pontiacs-war.partial.md",
+          "bytes": 10701,
+          "sha256": "9393E8AFDED3D9CBC33E1726C6CA9D9DBD8A63C3941B879A0539D4F0D4F10AD2"
+        },
+        {
+          "file": "translation-ko/05-VIII-IX-conclusion-primary-sources.partial.md",
+          "bytes": 8364,
+          "sha256": "383E6DD226BC3AA1CCDC8432D704652531314680610CD5C9A79D180CBFB87BED"
+        },
+        {
+          "file": "translation-ko/05-X-references-ko.md",
+          "bytes": 33436,
+          "sha256": "31C591DC1D1698CF4751088EC139BE0D8C4A114BAE0AE168F090AF040AA8DC9B"
+        }
+      ]
+    },
+    {
+      "chapter": "06",
+      "source": "https://www.americanyawp.com/textbook/06-the-american-revolution",
+      "status": "draft: sections I-IX prose, 17 captions, 25 recommended works and 57 notes translated/annotated; canonical bibliography preserved; expert QA pending",
+      "integrated_draft": {
+        "file": "06-the-american-revolution.ko.draft.md",
+        "bytes": 137822,
+        "sha256": "1E1ED57B38EB018DB5F6DE131DEB430C6919245DD0CE219C36BC76805C3C3858"
+      },
+      "translation_files": [
+        {
+          "file": "translation-ko/06-figures.captions-ko.md",
+          "bytes": 9728,
+          "sha256": "59AA4A23EDBD52F2BCBA3849970DAB2EC37F9CA1F43D53A951B45FE31A1E5475"
+        },
+        {
+          "file": "translation-ko/06-I-introduction.partial.md",
+          "bytes": 3585,
+          "sha256": "693AE1F83679F0D2AA55096847EE2A352BA7FB7A4FA950322732FE176BABBC9F"
+        },
+        {
+          "file": "translation-ko/06-II-origins-american-revolution.partial.md",
+          "bytes": 9797,
+          "sha256": "58912E548A1AEE06691699CB634D942FE48FED4A928F027B5815FC3A9BB4E483"
+        },
+        {
+          "file": "translation-ko/06-III-causes-american-revolution.partial.md",
+          "bytes": 19682,
+          "sha256": "E2C1BE63F19ECE8B5999D5522005641B60A38E8AAB39784E0EC297B3514A0BDE"
+        },
+        {
+          "file": "translation-ko/06-IV-independence.partial.md",
+          "bytes": 23386,
+          "sha256": "BCFCDF436B8BC653D9890288B545C04DC0E2A9FA30ACC93398BB4F45504A1A86"
+        },
+        {
+          "file": "translation-ko/06-IX-references-ko.md",
+          "bytes": 37345,
+          "sha256": "0E89A5997211B2ECF51B50077AFDE5F864534D8474A4A30E5FA266C545765BAD"
+        },
+        {
+          "file": "translation-ko/06-V-war-for-independence.partial.md",
+          "bytes": 11556,
+          "sha256": "BAF9789E61A7259A8AD6D0787BB424861EA4EF68F15A9300600458D6D0399B86"
+        },
+        {
+          "file": "translation-ko/06-VI-consequences-revolution.partial.md",
+          "bytes": 10858,
+          "sha256": "84C9DC7FE82D82C2AAAC911742953E55B118E2344EA195A074DF994F6C4A317F"
+        },
+        {
+          "file": "translation-ko/06-VII-VIII-conclusion-primary-sources.partial.md",
+          "bytes": 9538,
+          "sha256": "A2EE19ED8F72C1D0D75A7D5C69C24384B81344D6A09E349FB389279AC4CCCFEB"
+        }
+      ]
+    },
+    {
+      "chapter": "07",
+      "source": "https://www.americanyawp.com/textbook/07-a-new-nation",
+      "status": "draft: sections I-XIV prose, 12 captions, 25 recommended works and 46 notes translated/annotated; canonical bibliography preserved; expert QA pending",
+      "integrated_draft": {
+        "file": "07-a-new-nation.ko.draft.md",
+        "bytes": 124796,
+        "sha256": "D434C396B36C53C6A37AC1A29C127C59098CDB8AEE63E2C06F5BFD23AED7EAF5"
+      },
+      "translation_files": [
+        {
+          "file": "translation-ko/07-figures.captions-ko.md",
+          "bytes": 6667,
+          "sha256": "E8F4F271A70E7654E77ED29165C2B2A5283F8A95055925B88D4DF799D02C8501"
+        },
+        {
+          "file": "translation-ko/07-I-introduction.partial.md",
+          "bytes": 3087,
+          "sha256": "0D2D2DBEDDFEC7279DE1D9BD8635E194176C358C501C1051B76978A6161DADAE"
+        },
+        {
+          "file": "translation-ko/07-II-shays-rebellion.partial.md",
+          "bytes": 4290,
+          "sha256": "C66508BCDD018E27D5B21BC0D14917A8F8CE5E503B6E50AAABE219CF497463D2"
+        },
+        {
+          "file": "translation-ko/07-III-constitutional-convention.partial.md",
+          "bytes": 8060,
+          "sha256": "759A411E3EC8863348B001496D7E55022947BAA19DFCB85A4A48920910C1B780"
+        },
+        {
+          "file": "translation-ko/07-IV-ratifying-constitution.partial.md",
+          "bytes": 4903,
+          "sha256": "CF472DA251E7D120545407209E9107F4E9A1A8DD268F77919ECA95E1B3A890A2"
+        },
+        {
+          "file": "translation-ko/07-IX-slavery-regionalism-expansion.partial.md",
+          "bytes": 6980,
+          "sha256": "185B2DBD1ADC4E3F8E2FF3ABA5E3A23DA9F51C159C5D77CF7CFBDD989C2594FB"
+        },
+        {
+          "file": "translation-ko/07-V-rights-compromises.partial.md",
+          "bytes": 6379,
+          "sha256": "9B071B8BC5FB60AC77E7632E808549B63D4F8A32E6E330DB738E644AC44345CA"
+        },
+        {
+          "file": "translation-ko/07-VI-hamilton-financial-system.partial.md",
+          "bytes": 8097,
+          "sha256": "59500303C5C2111511A669E0CA4374F9C3D4811E8570EDCD1D6D838CC7C07429"
+        },
+        {
+          "file": "translation-ko/07-VII-whiskey-rebellion-jay-treaty.partial.md",
+          "bytes": 7492,
+          "sha256": "6F53099B3AD13E4C6EE215881EC81A1C4C0AF48A33CF37A8C1030D0DE122CF36"
+        },
+        {
+          "file": "translation-ko/07-VIII-french-revolution-liberty.partial.md",
+          "bytes": 12820,
+          "sha256": "15A175975B36F7B192F793E97249C355633CDDE36711EDD42EDCE0146A58BC50"
+        },
+        {
+          "file": "translation-ko/07-X-religious-freedom.partial.md",
+          "bytes": 7448,
+          "sha256": "8DE1F12A58D484EF10947807CA161732C73D4815EC5AABA7CE6FE5ABA0F0D38A"
+        },
+        {
+          "file": "translation-ko/07-XI-election-1800.partial.md",
+          "bytes": 7472,
+          "sha256": "144A06EFED759212745DDD71E29A905CCFD2E38B25788342F7AB3409DC0E7A6C"
+        },
+        {
+          "file": "translation-ko/07-XII-XIII-conclusion-primary-sources.partial.md",
+          "bytes": 8341,
+          "sha256": "4BD01EADCE8D2D4B7EE5B1A9545A6187BD412FA040804CA292ACC4602F5DFA4B"
+        },
+        {
+          "file": "translation-ko/07-XIV-references-ko.md",
+          "bytes": 29903,
+          "sha256": "85D8CDD5E1A21617C95DEAB1A501F3385909F99E120828EE3354913A0CF45F21"
+        }
+      ]
+    },
+    {
+      "chapter": "08",
+      "source": "https://www.americanyawp.com/textbook/08-the-early-republic",
+      "status": "draft: all existing I-VII and XIII-XIV prose, 12 captions, 25 recommended works and 41 notes translated/annotated; original numbering jump retained; expert QA pending",
+      "integrated_draft": {
+        "file": "08-the-early-republic.ko.draft.md",
+        "bytes": 119418,
+        "sha256": "8CED4A5E4D2ACFB7E0834ECFE603C180B607D8B9E2DF8BDE2A9C3F534711F66C"
+      },
+      "translation_files": [
+        {
+          "file": "translation-ko/08-figures.captions-ko.md",
+          "bytes": 6518,
+          "sha256": "1C2BF0DDF76F68D8C2508A8FF438A0AD98370A95B3E33DAE7ED7B8DF35619A01"
+        },
+        {
+          "file": "translation-ko/08-I-introduction.partial.md",
+          "bytes": 2045,
+          "sha256": "3E38F5567234DE0167D2A2513F864F03B6EE86A8DCBEC4EB4CA2CE7AA9AA851E"
+        },
+        {
+          "file": "translation-ko/08-II-free-enslaved-black-americans-challenge-slavery.partial.md",
+          "bytes": 13070,
+          "sha256": "50536DED2F14E318BB87632F34AC426360E70907828A73499E7D790D18009FFF"
+        },
+        {
+          "file": "translation-ko/08-III-jeffersonian-republicanism.partial.md",
+          "bytes": 10584,
+          "sha256": "FE784606A5B20AB827631F01F08E6C21EBC3E047DEF0E806445E6C581402E2E0"
+        },
+        {
+          "file": "translation-ko/08-IV-jefferson-president.partial.md",
+          "bytes": 13340,
+          "sha256": "71BAEBD628C460AB833641EDD0F3DF55EC68D1F55E71FCFAB16A4A82BEDCC02F"
+        },
+        {
+          "file": "translation-ko/08-V-native-power-united-states.partial.md",
+          "bytes": 14405,
+          "sha256": "A76E0A39CEC5E993F583D8F6A57E327BAD0876545C2F1A23373F1D877F0BC948"
+        },
+        {
+          "file": "translation-ko/08-VI-war-1812.partial.md",
+          "bytes": 22399,
+          "sha256": "A94F2EB1FE1C090AD6498ECBF2048EB3463B9A2774232C9B1D3B50C5508AFC0C"
+        },
+        {
+          "file": "translation-ko/08-VII-XIII-conclusion-primary-sources.partial.md",
+          "bytes": 8509,
+          "sha256": "2F641EDD201BD82665E1FD8C24EA8EA5F0C6F5448C5894A4B7870F04DA058457"
+        },
+        {
+          "file": "translation-ko/08-XIV-references-ko.md",
+          "bytes": 26029,
+          "sha256": "41604B7ABE0474A21B00951D370FAFFDB3A6D423E23C8BD987FBCB6D69D5CE2B"
+        }
+      ]
+    },
+    {
+      "chapter": "09",
+      "source": "https://www.americanyawp.com/textbook/09-getting-forward",
+      "status": "draft: I-V prose, VI Primary Sources, VII Conclusion and VII Reference Material, 14 caption occurrences (13 unique), 25 recommended works and 48 notes translated/annotated; expert QA pending",
+      "integrated_draft": {
+        "file": "09-getting-forward.ko.draft.md",
+        "bytes": 120871,
+        "sha256": "7899C691B73BD4F6700F552B7F08CB98D9A32E78EDED5C696B0B86C4298687E7"
+      },
+      "translation_files": [
+        {
+          "file": "translation-ko/09-figures.captions-ko.md",
+          "bytes": 4790,
+          "sha256": "3EE30568CD006F58A2A5AB72F756EA7A55B5F975DC09CE6DDF22DC32DF4DFC94"
+        },
+        {
+          "file": "translation-ko/09-I-introduction.partial.md",
+          "bytes": 4143,
+          "sha256": "8A530490FD54D2B9BDC3D06E96922E6A27BEFAEAF129DBC7F7F4C396D0981976"
+        },
+        {
+          "file": "translation-ko/09-II-market-revolution.partial.md",
+          "bytes": 20962,
+          "sha256": "93DE6DE88681077E6444052AA0AB74707CD7925D78FF778CB08C12DA61514CF8"
+        },
+        {
+          "file": "translation-ko/09-III-politics-jacksonian-america.partial.md",
+          "bytes": 21872,
+          "sha256": "4AE984F99E74CBF68869493FBE7635180B993A23F74980576CA244967AD3E7F7"
+        },
+        {
+          "file": "translation-ko/09-IV-second-great-awakening.partial.md",
+          "bytes": 9941,
+          "sha256": "78D7C77B5BCAEE4F18D6037A0B41E9336EB9C2940B0BCA8890D2440319128962"
+        },
+        {
+          "file": "translation-ko/09-V-south-west-limits-democracy.partial.md",
+          "bytes": 17849,
+          "sha256": "A341E580BD9BE0A9566D0E08C81360DD3799DB0F99710CB4FFE93BE1DF1E0386"
+        },
+        {
+          "file": "translation-ko/09-VI-VII-primary-sources-conclusion.partial.md",
+          "bytes": 9016,
+          "sha256": "0365C0DABC2A897874AE19245AF94006B6E12E9106CBB79D9FB26C8562FE3CF9"
+        },
+        {
+          "file": "translation-ko/09-VII-references-ko.md",
+          "bytes": 29889,
+          "sha256": "B24AB58CD72D54944390840E61CCE6C4D3E505457A4C786103E2D2C7C4B68B46"
+        }
+      ]
+    },
+    {
+      "chapter": "10",
+      "source": "https://www.americanyawp.com/textbook/10-american-democracy",
+      "status": "draft: all I-XIV prose, 14 captions, 25 recommended works and 63 notes saved and combined; expert QA pending",
+      "integrated_draft": {
+        "file": "10-american-democracy.ko.draft.md",
+        "bytes": 136141,
+        "sha256": "9FCC625AF8DCF147D0AC4D96A2182233A66C967B79A952B8F8A36DEC644C7794"
+      },
+      "translation_files": [
+        {
+          "file": "translation-ko/10-figures.captions-ko.md",
+          "bytes": 6747,
+          "sha256": "B2D4688F946C469464F92CC5F3D6ABADD0388FA7069F294D50BB2A2A4D86AEBB"
+        },
+        {
+          "file": "translation-ko/10-I-introduction.partial.md",
+          "bytes": 3154,
+          "sha256": "25C816D92EE5BB411202AD4F800F2B8B73013D994D63523E6E8C8C1B29A5762E"
+        },
+        {
+          "file": "translation-ko/10-II-jackson-chaotic-cabinet.partial.md",
+          "bytes": 9285,
+          "sha256": "6BD3927B136DE17EF65590D184B84829300BD245A5C87F9636101021CC2D1D8A"
+        },
+        {
+          "file": "translation-ko/10-III-nullification-bank-war.partial.md",
+          "bytes": 6946,
+          "sha256": "8F3D45DBB44850AE796E09CE398A74D495A4DAB3242A5065FE075A0EF8DB6F1F"
+        },
+        {
+          "file": "translation-ko/10-IV-second-party-system.partial.md",
+          "bytes": 9864,
+          "sha256": "64D7CABF9FC1A84CED04BD6FE3BAB68AB55EE78FDED7608F8E2DFA2F2EFB4569"
+        },
+        {
+          "file": "translation-ko/10-IX-texas-mexico-united-states.partial.md",
+          "bytes": 4980,
+          "sha256": "6B4ECE5D63E6E6092E06F946FA637427E637A63433779DA11E9CF6610AAD35DE"
+        },
+        {
+          "file": "translation-ko/10-V-panic-1837.partial.md",
+          "bytes": 4217,
+          "sha256": "1E57FABFB6D11596ACD2B852C1DF7E9DB8380016F59D0E7DBF0D692885098F1D"
+        },
+        {
+          "file": "translation-ko/10-VI-indigenous-dispossession.partial.md",
+          "bytes": 15260,
+          "sha256": "949A396C4F87B8DABDDD0C582A21A36BA7C35E0C23A8071DA2B94DFE04018600"
+        },
+        {
+          "file": "translation-ko/10-VII-cotton-belt.partial.md",
+          "bytes": 11219,
+          "sha256": "2E1D5CD9EEE709EFE1342C6D8CC8D1105B46F4C3BAC3B54FAF4D2AB5E1EF515F"
+        },
+        {
+          "file": "translation-ko/10-VIII-urbanizing-south.partial.md",
+          "bytes": 4461,
+          "sha256": "7B1D109A9B650C439CFCC0379DAC7D9F645905E22545C4CBE3F6FB98DE5441E7"
+        },
+        {
+          "file": "translation-ko/10-X-age-reform.partial.md",
+          "bytes": 4597,
+          "sha256": "0A02430932C50BAF98F4B2F831B7F26DC2ABF3705524BE403C5487F3F02BA961"
+        },
+        {
+          "file": "translation-ko/10-XI-antislavery-abolition.partial.md",
+          "bytes": 9949,
+          "sha256": "E050831415257FB20A92FC4FC0542F48C34067C78DE0BA48A3559AE4D9782CB3"
+        },
+        {
+          "file": "translation-ko/10-XII-XIII-conclusion-primary-sources.partial.md",
+          "bytes": 7922,
+          "sha256": "2FD86A49B9ABBEE4A2E9696C06974689DEFEAC37A5FE7088C2EA2DE4CAC211A8"
+        },
+        {
+          "file": "translation-ko/10-XIV-references-ko.md",
+          "bytes": 34864,
+          "sha256": "8B111F701B7A5BD2BC2C157F3EC5AF09B2B797D2BD4907F1EBBBE9F3CA9E31F4"
+        }
+      ]
+    },
+    {
+      "chapter": "11",
+      "source": "https://www.americanyawp.com/textbook/11-growth-and-conflict",
+      "status": "draft: I-XII prose, 14 captions, 25 recommended works and 42 notes saved and combined; expert QA pending",
+      "integrated_draft": {
+        "file": "11-growth-and-conflict.ko.draft.md",
+        "bytes": 140300,
+        "sha256": "38379DB77295C9271AE93438C94293D5B511BE62C6B0BB5E79D05C9103D91F83"
+      },
+      "translation_files": [
+        {
+          "file": "translation-ko/11-figures.captions-ko.md",
+          "bytes": 6510,
+          "sha256": "C7342335906826A43E1B4258F1FA0C9FD329CE01FA14FC44DDA0C93093F12C95"
+        },
+        {
+          "file": "translation-ko/11-I-introduction.partial.md",
+          "bytes": 3005,
+          "sha256": "736606BCC2965EB568A276E404C21A200B50BD903F825709B4E4655D3C5632F6"
+        },
+        {
+          "file": "translation-ko/11-II-connecting-cities-goods-growing-nation.partial.md",
+          "bytes": 9900,
+          "sha256": "AF4E7992680310582E4444C6C6FDC9A52999317357920E50742F325ED80A6D5F"
+        },
+        {
+          "file": "translation-ko/11-III-industry-society.partial.md",
+          "bytes": 9885,
+          "sha256": "0EF8FFFB8B0F0DE2FC9C23876E3DCF8974E91519568937CA673344A499DDCADB"
+        },
+        {
+          "file": "translation-ko/11-IV-new-faiths.partial.md",
+          "bytes": 11854,
+          "sha256": "6E5E85C7A76DBBB3D247415E2C54D9B3AB920E68B4BA893ACCD0CF5726485BCC"
+        },
+        {
+          "file": "translation-ko/11-IX-us-mexican-war.partial.md",
+          "bytes": 10816,
+          "sha256": "BDCCD43D3E03012779DC4AE99B7123F4111D5BB2E8A1400755FB4C6A63CD9C93"
+        },
+        {
+          "file": "translation-ko/11-V-fighting-sin.partial.md",
+          "bytes": 18056,
+          "sha256": "42F7CCAD9315789FE5FD930650A2E6E58536F99A99101558B011AC56F3CBEF52"
+        },
+        {
+          "file": "translation-ko/11-VI-western-expansion.partial.md",
+          "bytes": 12932,
+          "sha256": "02EA8DD8EE33D10522D69672D8B080D68A03E431E76A62E4B7DA23A6CCF7EB85"
+        },
+        {
+          "file": "translation-ko/11-VII-indigenous-settler-pressures.partial.md",
+          "bytes": 6753,
+          "sha256": "5FD03CA91788D76BE0F6EF0E0EF32A35E1461E80E5376FC64C3CFC1733D1FF52"
+        },
+        {
+          "file": "translation-ko/11-VIII-expansion-politics-slavery.partial.md",
+          "bytes": 12278,
+          "sha256": "42F5FA351A4B6C747A0C653FCEC6BD7698F2FC2AE67DE0E6064410777FFE465F"
+        },
+        {
+          "file": "translation-ko/11-X-XI-conclusion-primary-sources.partial.md",
+          "bytes": 9255,
+          "sha256": "7621ABFEDEFFDB10BA28BBE11C7154BC0BD759C6627D45B12017438FBFEB050A"
+        },
+        {
+          "file": "translation-ko/11-XII-references-ko.md",
+          "bytes": 26575,
+          "sha256": "742449F532D8D8191879EC4C74DF54D8C0F514890C946CC7F8AF9B1EDAF6F8BC"
+        }
+      ]
+    },
+    {
+      "chapter": "12",
+      "source": "https://www.americanyawp.com/textbook/12-the-national-crisis",
+      "status": "draft: I-VIII prose, 13 captions, 25 recommended works and 38 notes saved and combined; expert QA pending",
+      "integrated_draft": {
+        "file": "12-the-national-crisis.ko.draft.md",
+        "bytes": 117818,
+        "sha256": "BE7C392A98A4132E0B9238F678E18614419CDB9D21EC6F96AF0C8446E899A91D"
+      },
+      "translation_files": [
+        {
+          "file": "translation-ko/12-figures.captions-ko.md",
+          "bytes": 6951,
+          "sha256": "341754A4AD75D2163AF3821BE0D5384E3299F2CCC40CF4C6659AAB4FB659E5FC"
+        },
+        {
+          "file": "translation-ko/12-I-introduction.partial.md",
+          "bytes": 4955,
+          "sha256": "56C0BABC9FE0FA3C12D578FFCCAA0BB329CCED492A45470ABA3AFFFE6C034ABE"
+        },
+        {
+          "file": "translation-ko/12-II-gold-rush.partial.md",
+          "bytes": 11807,
+          "sha256": "EEACC142E1F0FBDE1C2042FB14C3030E4FEFA858363348EBF4F4D75147DD8595"
+        },
+        {
+          "file": "translation-ko/12-III-cotton-is-king.partial.md",
+          "bytes": 11205,
+          "sha256": "02FF16F03E6ABDA599D0E5C3894AAE624F604011ADF52C45E223D4A976C4162C"
+        },
+        {
+          "file": "translation-ko/12-IV-free-soil-labor-men.partial.md",
+          "bytes": 27991,
+          "sha256": "F8A5D5F25F2EC53261C44DCA6A005E1C7992DF160F4F897E82F4FB0EE2246C9D"
+        },
+        {
+          "file": "translation-ko/12-V-sectional-national-crisis.partial.md",
+          "bytes": 18145,
+          "sha256": "E303D932611218B5E8ADF08BF5A45B7839FE7C9F9E304247E127F19B54E96603"
+        },
+        {
+          "file": "translation-ko/12-VI-VII-conclusion-primary-sources.partial.md",
+          "bytes": 8386,
+          "sha256": "7358C925B3AA64E0197A1A37F240F7F3EECE6618196A7512DE0D38F9D3C8D88E"
+        },
+        {
+          "file": "translation-ko/12-VIII-references-ko.md",
+          "bytes": 26392,
+          "sha256": "720E9A71B82549A5D6B23A23F3B99AC7D81B56F7CED23AAE352A9683D0832023"
+        }
+      ]
+    },
+    {
+      "chapter": "13",
+      "source": "https://www.americanyawp.com/textbook/13-the-civil-war",
+      "status": "draft: I-VII prose, 19 captions, 25 recommended works and 61 notes saved and combined; duplicate note 60 marker retained; expert QA pending",
+      "integrated_draft": {
+        "file": "13-the-civil-war.ko.draft.md",
+        "bytes": 130469,
+        "sha256": "7383CFA5C3D0D415EFA221F162FB56000911F3865D99337F4CDEFC642DCCA647"
+      },
+      "translation_files": [
+        {
+          "file": "translation-ko/13-figures.captions-ko.md",
+          "bytes": 9193,
+          "sha256": "7776115300674B32E79474E353444C6F7AF10F3AEBEDACFC15DD642BB6AF9E18"
+        },
+        {
+          "file": "translation-ko/13-I-introduction.partial.md",
+          "bytes": 2292,
+          "sha256": "8C4B3F0E6E5B317B1218F26191332026E99CA6757A2828B808B8B5C58A723A7D"
+        },
+        {
+          "file": "translation-ko/13-II-election-1860-secession.partial.md",
+          "bytes": 10598,
+          "sha256": "2F55D99CB64DA4D71BBF7E79F370410766671E461D5548D3EF986D9D75DFCCB3"
+        },
+        {
+          "file": "translation-ko/13-III-war-for-union-1861-1863.partial.md",
+          "bytes": 31542,
+          "sha256": "AE6BBA7B2418682300DF8F0FBE7E263C45BBBBA8E0F474A4AE854850333F6F86"
+        },
+        {
+          "file": "translation-ko/13-IV-war-emancipation.partial.md",
+          "bytes": 30525,
+          "sha256": "7214640B52F3CA2BF198D6CB1E52ADB55DDEBC3FAE488A072861A1B0180675E5"
+        },
+        {
+          "file": "translation-ko/13-V-VI-conclusion-primary-sources.partial.md",
+          "bytes": 7542,
+          "sha256": "009BCB807A133BA4012B67860DD0362713E8F96145CBDB77AC8E5BCF759A7D19"
+        },
+        {
+          "file": "translation-ko/13-VII-references-ko.md",
+          "bytes": 36838,
+          "sha256": "24F110C93C8A906A8B65AAAED39477209731B63D4BF2B760BA4B4A3B74ABE780"
+        }
+      ]
+    },
+    {
+      "chapter": "14",
+      "source": "https://www.americanyawp.com/textbook/14-reconstruction/",
+      "status": "draft: all prose, 16 captions, 25 recommended works and 42 notes saved and combined; duplicate VIII retained; image table cells excluded; expert QA pending",
+      "integrated_draft": {
+        "file": "14-reconstruction.ko.draft.md",
+        "bytes": 131175,
+        "sha256": "8238D0E44AA4D3182D3A1A866639B726CBFCC97124CA0E475EDFF9AFFB525E12"
+      },
+      "translation_files": [
+        {
+          "file": "translation-ko/14-figures.captions-ko.md",
+          "bytes": 10192,
+          "sha256": "880DF07A517EA88A2D3091A625F285F417D9D6E43853F9F306BE8B9BCEDC5D8D"
+        },
+        {
+          "file": "translation-ko/14-I-introduction.partial.md",
+          "bytes": 2929,
+          "sha256": "DBE0C19E27C25C833598752EAE8941DF5EE5DA0C78CA94272EAB27D1F33CF3E8"
+        },
+        {
+          "file": "translation-ko/14-II-politics-reconstruction.partial.md",
+          "bytes": 15363,
+          "sha256": "629C664471C6A37DCB7E7A794176AFB55103321EDB42A4AED70F0F4DD554385D"
+        },
+        {
+          "file": "translation-ko/14-III-meaning-black-freedom.partial.md",
+          "bytes": 12270,
+          "sha256": "79ADCB49C02B55EDD6B0E60E06F0AC7862BE0B1C4DCF3D8A0AD37336566B75CE"
+        },
+        {
+          "file": "translation-ko/14-IV-reconstruction-women.partial.md",
+          "bytes": 13356,
+          "sha256": "1DCE7B9662F2A9C1CB8E6B7EBF82FB08E3239C91D3F57505AAC846E57BAD671D"
+        },
+        {
+          "file": "translation-ko/14-V-racial-violence.partial.md",
+          "bytes": 12654,
+          "sha256": "7EAA9F2F09E1BBDC7CF487EE68C6434D4A07B39E3065DA98AB83AFA6E534D731"
+        },
+        {
+          "file": "translation-ko/14-VI-economic-development.partial.md",
+          "bytes": 10157,
+          "sha256": "3D7CE56B4305A26CAA2AADDABE1EB330EDDEECCAB014AC9678DFF8AADD3A309E"
+        },
+        {
+          "file": "translation-ko/14-VII-reconstruction-west.partial.md",
+          "bytes": 8772,
+          "sha256": "01E4B0875A2C5EE4315A47C3BEF51DE7A28E6393FFD855EF1F9A174B258EAF61"
+        },
+        {
+          "file": "translation-ko/14-VIII-end-reconstruction.partial.md",
+          "bytes": 7631,
+          "sha256": "9DBFDC3F9025FB850C19CBCE05E2CF87E42EE0E95CEFEA485C7BCA9158BF544C"
+        },
+        {
+          "file": "translation-ko/14-VIII-IX-conclusion-primary-sources.partial.md",
+          "bytes": 8961,
+          "sha256": "D3542B0FF1C25A0D7CD1FC49361A0363D33DF7860C584CD6A724270C4A9F69B5"
+        },
+        {
+          "file": "translation-ko/14-X-references-ko.md",
+          "bytes": 26424,
+          "sha256": "55FACDCE441CEF3FC24F7FAE1988E39359561481E7B44A3F566629AD369FD1FF"
+        }
+      ]
+    },
+    {
+      "chapter": "15",
+      "source": "https://www.americanyawp.com/textbook/15-capital-and-labor",
+      "status": "draft: I-IX prose, 14 captions, 25 recommended works and 40 notes saved and combined; expert QA pending",
+      "integrated_draft": {
+        "file": "15-capital-and-labor.ko.draft.md",
+        "bytes": 110414,
+        "sha256": "10361FD9A74091F88FA939E14DFDAD356999F02AAC61B91BB1D94CD12D65FF6F"
+      },
+      "translation_files": [
+        {
+          "file": "translation-ko/15-figures.captions-ko.md",
+          "bytes": 5070,
+          "sha256": "64E10BA915FD60B78DFEDAB69BA998003A1ED40E1EC95EC4817BBED080089057"
+        },
+        {
+          "file": "translation-ko/15-I-introduction.partial.md",
+          "bytes": 5402,
+          "sha256": "02FBD825E376B88F4C6296CDB4023C9C8D46F26609A7FEC08BFCAA96CC5A3AA4"
+        },
+        {
+          "file": "translation-ko/15-II-march-capital.partial.md",
+          "bytes": 18442,
+          "sha256": "1E985EC07E86A7BB43589C99F2AFD7A89C64F9118AAA0BDDEC870FAC87B37C34"
+        },
+        {
+          "file": "translation-ko/15-III-rise-inequality.partial.md",
+          "bytes": 8274,
+          "sha256": "03118B1E6F572359B18805B2E610CED15BE5B6D8620BA7588E9CE17AC0927528"
+        },
+        {
+          "file": "translation-ko/15-IV-labor-movement.partial.md",
+          "bytes": 10382,
+          "sha256": "86D5803178DBD0A869A9973A61749B596270F57526DFC75A765F892248F89043"
+        },
+        {
+          "file": "translation-ko/15-IX-references-ko.md",
+          "bytes": 22935,
+          "sha256": "9D87689870623CE541B534DFBB7BABC9BCF9DB97FA09A77DB9A39BB39BA52A51"
+        },
+        {
+          "file": "translation-ko/15-V-populist-movement.partial.md",
+          "bytes": 15446,
+          "sha256": "9C25E7B70B8A62B6D054486AB830DF78D8607D5779C583DBEA16479C147CB44B"
+        },
+        {
+          "file": "translation-ko/15-VI-bryan-politics-gold.partial.md",
+          "bytes": 9497,
+          "sha256": "13B183CD2662E1EB635DE298B4BBD31CB7ABA57D4D3EAA1DCA3F894047060F7A"
+        },
+        {
+          "file": "translation-ko/15-VII-american-radicalism.partial.md",
+          "bytes": 10452,
+          "sha256": "3B749262CCD6D67FC8ECF5BD640D139616AADEC220C3326B689E3278D7862346"
+        },
+        {
+          "file": "translation-ko/15-VIII-conclusion.partial.md",
+          "bytes": 2329,
+          "sha256": "C588FFA2BACC3EA67C1D28652B1C66CF8E4E4B6376A9C26538BE218DA3215259"
+        }
+      ]
+    },
+    {
+      "chapter": "16",
+      "source": "https://www.americanyawp.com/textbook/16-geographies-of-empire",
+      "status": "draft: I-XIII prose, 18 captions, 29 recommended works and 50 notes translated/annotated; canonical bibliography preserved; expert QA pending",
+      "integrated_draft": {
+        "file": "16-geographies-of-empire.ko.draft.md",
+        "bytes": 146007,
+        "sha256": "B406E4F916FA45CFC1EA06BAD357E130393DCA584EE6D05A6FCAB7619A771D3E"
+      },
+      "translation_files": [
+        {
+          "file": "translation-ko/16-figures.captions-ko.md",
+          "bytes": 9376,
+          "sha256": "41687D48FAB115AC1A8EDF585EB7E0837F07DABCC1679D3B27B594DD1273DB99"
+        },
+        {
+          "file": "translation-ko/16-I-introduction.partial.md",
+          "bytes": 2075,
+          "sha256": "7368596A400A94D0BD9CC107DA476D2EE6EC976C55F9529F651915D07D2E269A"
+        },
+        {
+          "file": "translation-ko/16-II-post-civil-war-westward-migration.partial.md",
+          "bytes": 5884,
+          "sha256": "69BD7DAA20CA2ABA981DBB2680BBA88DE59BF1117D2E46E5E48B3204DDDC6702"
+        },
+        {
+          "file": "translation-ko/16-III-indian-wars-federal-peace-policies.partial.md",
+          "bytes": 15344,
+          "sha256": "3F925046C92597B87A4AA8A41D6D9DE80ABFE89476AE93DC5F70C5EC3E575CF3"
+        },
+        {
+          "file": "translation-ko/16-IV-western-economic-expansion-railroads-cattle.partial.md",
+          "bytes": 10560,
+          "sha256": "36FFF18060C1923282EEA42BC0551CD32E4D9B8ACE6B016EE2773E9365FA725A"
+        },
+        {
+          "file": "translation-ko/16-IX-1898.partial.md",
+          "bytes": 13906,
+          "sha256": "40FE21C4A493148BC6EDBBE5C82550B9DAFE7E522BB8791F6108121C0C31C0E9"
+        },
+        {
+          "file": "translation-ko/16-V-allotment-resistance-native-west.partial.md",
+          "bytes": 9392,
+          "sha256": "C073A9483B38B933A54A5363198A85A8F1C522809F26E5C1ED3BEE92B06419FF"
+        },
+        {
+          "file": "translation-ko/16-VI-rodeos-wild-west-myth.partial.md",
+          "bytes": 11779,
+          "sha256": "2206D336BE037FCD890D2EAA7883B7758A4DC022E418E33D4BFE8835903CEE05"
+        },
+        {
+          "file": "translation-ko/16-VII-us-mexico-borderlands.partial.md",
+          "bytes": 5638,
+          "sha256": "64590976BF001458F26AC9F03C122229CBA1B6585CE099F45ED930E14B8F51CF"
+        },
+        {
+          "file": "translation-ko/16-VIII-foreign-interventions.partial.md",
+          "bytes": 9131,
+          "sha256": "BB121BBD6D099B6A67D8D63FB63FF195E75B854102B1D505A6912080E2602850"
+        },
+        {
+          "file": "translation-ko/16-X-roosevelt-imperialism.partial.md",
+          "bytes": 12512,
+          "sha256": "928BE0C6F6667B16F2D4708DC0238288292AECAAE92F8A64B2F8944A65FE6543"
+        },
+        {
+          "file": "translation-ko/16-XI-women-imperialism.partial.md",
+          "bytes": 7235,
+          "sha256": "E4469CEC26139FDDB3AF308A30046B1DB1ECF1C54FCE9AD7EF86CCF81567940F"
+        },
+        {
+          "file": "translation-ko/16-XII-conclusion.partial.md",
+          "bytes": 2657,
+          "sha256": "67B25A7FB81C572CFA8775DADB7A653A16759828D6C3D9923C2EBBF77582E818"
+        },
+        {
+          "file": "translation-ko/16-XIII-references-ko.md",
+          "bytes": 27699,
+          "sha256": "EA262F9E5DCC0242661062414B9316B660512862E412A14FC7A17EAEFB6FE061"
+        }
+      ]
+    },
+    {
+      "chapter": "17",
+      "source": "https://www.americanyawp.com/textbook/17-New-Lives",
+      "status": "draft: I-VII prose, 16 captions, 30 recommended works and 36 notes translated/annotated; canonical bibliography preserved; expert QA pending",
+      "integrated_draft": {
+        "file": "17-new-lives.ko.draft.md",
+        "bytes": 125782,
+        "sha256": "54790EE9A9DF31608C03C2470ADDE4F4689A4283391C5C3ADA226CECDECB8855"
+      },
+      "translation_files": [
+        {
+          "file": "translation-ko/17-figures.captions-ko.md",
+          "bytes": 5908,
+          "sha256": "FE9C7019AFC7FCB3749F3D41917D364A5667EF7FF0E56119997D4CDDFCD7E9C6"
+        },
+        {
+          "file": "translation-ko/17-I-introduction.partial.md",
+          "bytes": 3147,
+          "sha256": "5AE5AFF341ADC33410026A20260E855604EC55B7DA14249BBE4D66E50624165F"
+        },
+        {
+          "file": "translation-ko/17-II-nation-immigrants.partial.md",
+          "bytes": 21577,
+          "sha256": "EBF683D409EA58CDD9610A0F97FD042F844BB546B7BD1C01883277D20F8145B7"
+        },
+        {
+          "file": "translation-ko/17-III-urbanization.partial.md",
+          "bytes": 11100,
+          "sha256": "A12C994B719BE0D9C93D70914D803352E6A031067BF52F426D311C2EF4D30E46"
+        },
+        {
+          "file": "translation-ko/17-IV-black-life-new-south.partial.md",
+          "bytes": 27789,
+          "sha256": "492602076D9486D8C716862AA5EDD1BA4E7B4D851ED7037BEF6F06E6287DFAA0"
+        },
+        {
+          "file": "translation-ko/17-V-gender-religion-culture.partial.md",
+          "bytes": 22945,
+          "sha256": "6ADBEFCB11AD863FA636E2088597BA3357D8D9A54C87138991AAFA61F34C9599"
+        },
+        {
+          "file": "translation-ko/17-VI-conclusion.partial.md",
+          "bytes": 4286,
+          "sha256": "9853B43E333D37D5D830500B1CCC87FD3D3FFA6CBFE0ED89FB6EE37DC5F43315"
+        },
+        {
+          "file": "translation-ko/17-VII-references-ko.md",
+          "bytes": 26835,
+          "sha256": "70AAAA89743DD11328C60F4966E4D2F3556B5CF4C9ECD48709370E5396F689FC"
+        }
+      ]
+    },
+    {
+      "chapter": "18",
+      "source": "https://www.americanyawp.com/textbook/18-the-progressive-era",
+      "status": "draft: I-VIII prose, 11 captions, 25 recommended works and 49 notes translated/annotated; expert QA pending",
+      "integrated_draft": {
+        "file": "18-the-progressive-era.ko.draft.md",
+        "bytes": 118769,
+        "sha256": "726A77F46AB591C59097D7C4B693F17762D34A8A4BCD072F387551A4A35CAB6B"
+      },
+      "translation_files": [
+        {
+          "file": "translation-ko/18-figures.captions-ko.md",
+          "bytes": 4735,
+          "sha256": "DF1358B790363DAC7300F055A8D4843517FF8F8FB11ECCD827415145DEACC6A7"
+        },
+        {
+          "file": "translation-ko/18-I-introduction.partial.md",
+          "bytes": 3836,
+          "sha256": "53F9C0C9A2920AE626372F0C4E008BD8C68083292C7C35F76D7E0D4DC4A7DE2C"
+        },
+        {
+          "file": "translation-ko/18-II-mobilizing-reform.partial.md",
+          "bytes": 13667,
+          "sha256": "97391F531AA2E76D8CD95836E2E81ECBD42B1ECAB30A198A3A01ECB9F4031EB8"
+        },
+        {
+          "file": "translation-ko/18-III-womens-movements.partial.md",
+          "bytes": 18474,
+          "sha256": "49D20855D97C9884834537D0D633ED3DADB0FFA7CD4A49F0C46295B41A8CD7BB"
+        },
+        {
+          "file": "translation-ko/18-IV-targeting-trusts.partial.md",
+          "bytes": 13239,
+          "sha256": "0506306C18F7FF2955B21FB97D7E5655A84676E6D3C74DDCD8456B8633784E47"
+        },
+        {
+          "file": "translation-ko/18-V-progressive-environmentalism.partial.md",
+          "bytes": 9372,
+          "sha256": "F2EB2D4BBBE075E7397CA47A66EFB2BFC205C54E48FEE17ED23D348B940ED256"
+        },
+        {
+          "file": "translation-ko/18-VI-jim-crow-african-american-life.partial.md",
+          "bytes": 25479,
+          "sha256": "7A3805347FE096F6AA985CB9004C2CC3AC973F69FE3FC4642304A80EABDD29E3"
+        },
+        {
+          "file": "translation-ko/18-VII-conclusion.partial.md",
+          "bytes": 2249,
+          "sha256": "DF46AE122007B16D0899AA274B926DCC3DB060C34C955190B66AE4F6FFABB401"
+        },
+        {
+          "file": "translation-ko/18-VIII-references-ko.md",
+          "bytes": 25669,
+          "sha256": "CAC591F3EA2F08BFF57B9A5B52A49039FF3964F4441EF45C77FD1B16DFE57702"
+        }
+      ]
+    },
+    {
+      "chapter": "19",
+      "source": "https://www.americanyawp.com/textbook/19-world-war-i",
+      "status": "draft: I-XII prose, 10 captions, 25 recommended works and 37 unique notes (41 in-text citations) translated/annotated; expert QA pending",
+      "integrated_draft": {
+        "file": "19-world-war-i.ko.draft.md",
+        "bytes": 119292,
+        "sha256": "03C34DA02902906C23402A9DC638801CA9F35E2C539229CF607537C1E540B537"
+      },
+      "translation_files": [
+        {
+          "file": "translation-ko/19-figures.captions-ko.md",
+          "bytes": 4050,
+          "sha256": "1F45757FD62AD6A1000E280757F370D6E69D5CB8CCF440AA10B921BFCFD272BB"
+        },
+        {
+          "file": "translation-ko/19-I-introduction.partial.md",
+          "bytes": 2499,
+          "sha256": "31F217341763142B63AD4688C100D1E8C3499C159CB6DB18CEFAEAC71F637D73"
+        },
+        {
+          "file": "translation-ko/19-II-prelude-war.partial.md",
+          "bytes": 7782,
+          "sha256": "5DF9ED7DA16A1A3AFC984C295D65A4F35B25136FB6C8463F7A06F8AB35A12630"
+        },
+        {
+          "file": "translation-ko/19-III-us-mexico.partial.md",
+          "bytes": 8448,
+          "sha256": "29ECEF918E5ADBEBBF75A98297B4EBD62BEB1A5082FA5500F9F83A9514C89F9D"
+        },
+        {
+          "file": "translation-ko/19-IV-war-spreads-europe.partial.md",
+          "bytes": 4502,
+          "sha256": "60C3CC49E166D0C8C03B82F4E31A0F4F9CF410E6E47DBA4ED7FAE0C39592723B"
+        },
+        {
+          "file": "translation-ko/19-IX-fourteen-points-league-nations.partial.md",
+          "bytes": 7231,
+          "sha256": "DC8FA9CEB1B3F8607F883FBC0A742DCD7FDD41C9B5252E0DE9D46AF63944A574"
+        },
+        {
+          "file": "translation-ko/19-V-america-enters-war.partial.md",
+          "bytes": 17623,
+          "sha256": "D8121A9F85DF45B6E359C642BF0E26254F544A3CD9AB206598EE7E2B08AEEB51"
+        },
+        {
+          "file": "translation-ko/19-VI-homefront.partial.md",
+          "bytes": 7049,
+          "sha256": "51A350069C821B549F703583E7B0EB6FE357E799DDE86429C95DC2D9D3862F0D"
+        },
+        {
+          "file": "translation-ko/19-VII-before-armistice.partial.md",
+          "bytes": 4877,
+          "sha256": "B285E23B85068C14EE81B3BB97F0AEF53B774EEAAAA58D3C3C9AE91893EA771F"
+        },
+        {
+          "file": "translation-ko/19-VIII-war-influenza-pandemic.partial.md",
+          "bytes": 4193,
+          "sha256": "0F293EA1FD2B0A5129E4F06AA7B8CCB5A6F9F7EDCFAAEBE2D18A1BFAD9DA64D8"
+        },
+        {
+          "file": "translation-ko/19-X-aftermath-world-war-i.partial.md",
+          "bytes": 12752,
+          "sha256": "9D3AF9A9060520036EDC9CE3CC7223934E013F2BF320ADB206365228D1EC03B9"
+        },
+        {
+          "file": "translation-ko/19-XI-conclusion.partial.md",
+          "bytes": 2392,
+          "sha256": "4DBE99BA883CEA42F3A6B23D6BA6AC7ABB268F56D76E5CC4B435BDF63FA205BF"
+        },
+        {
+          "file": "translation-ko/19-XII-references-ko.md",
+          "bytes": 33446,
+          "sha256": "5011FD82DE7A6D514BCD8D99BD97790E36DFEC86C28B14C241E295A8ECD493A8"
+        }
+      ]
+    },
+    {
+      "chapter": "20",
+      "source": "https://www.americanyawp.com/textbook/20-the-new-era",
+      "status": "draft: I-XI prose, 12 captions, 25 recommended works and 48 unique notes translated/annotated; source issues flagged; expert QA pending",
+      "integrated_draft": {
+        "file": "20-the-new-era.ko.draft.md",
+        "bytes": 112143,
+        "sha256": "DD8FB01788131DBF9489AA19E5054F7EB8D57ADE3100324FB98C9C3E43162C0A"
+      },
+      "translation_files": [
+        {
+          "file": "translation-ko/20-figures.captions-ko.md",
+          "bytes": 6143,
+          "sha256": "72C0D4474681C8A822F2750FCF060C7F51D033B0B077E18D7442E94C9521EB40"
+        },
+        {
+          "file": "translation-ko/20-I-introduction.partial.md",
+          "bytes": 4130,
+          "sha256": "C88C2A070B0D6AC20F9C69679B8DF314C15AF9FD2C67C1D74790849CC9C61AAD"
+        },
+        {
+          "file": "translation-ko/20-II-republican-white-house-1921-1933.partial.md",
+          "bytes": 8336,
+          "sha256": "2C6956D835F76F44C2CCF0B86C14253E87E678DB3C62EE6847EB24EA1A9DAE52"
+        },
+        {
+          "file": "translation-ko/20-III-culture-consumption.partial.md",
+          "bytes": 5475,
+          "sha256": "BEE11901975183AEC01FF79F0CBDBDF030A5D0229E304097F66C5A60B156CFA3"
+        },
+        {
+          "file": "translation-ko/20-IV-culture-escape.partial.md",
+          "bytes": 13829,
+          "sha256": "70D55CB8E4F56A17A175BF269A5F279534EA3A3B22F229EA7707FB9AD7660437"
+        },
+        {
+          "file": "translation-ko/20-IX-rebirth-ku-klux-klan.partial.md",
+          "bytes": 7307,
+          "sha256": "417139EE0F1085B6A292F2F81056262974557DD538124B841862CA61697F3564"
+        },
+        {
+          "file": "translation-ko/20-V-new-woman.partial.md",
+          "bytes": 8508,
+          "sha256": "A6DC1D4DAADDC4675FD7163CAF1C820B747FB722F84A00A23FA346601B7A6D5F"
+        },
+        {
+          "file": "translation-ko/20-VI-new-negro.partial.md",
+          "bytes": 10481,
+          "sha256": "099EEDE4192CD13DB14A073D7B8E8A5EB85744B981D3EBAC0D6A38168EBA617B"
+        },
+        {
+          "file": "translation-ko/20-VII-culture-war.partial.md",
+          "bytes": 7806,
+          "sha256": "AE9BC57C33C4517B11E5A19F571DEAF2C882A7FCB7CF757B09233F6DFCAFFD27"
+        },
+        {
+          "file": "translation-ko/20-VIII-fundamentalist-christianity.partial.md",
+          "bytes": 10225,
+          "sha256": "B0BC47FD3E7F06A9ACC6F60DA248EED84F528C11CA40ABE599A974225F15C71B"
+        },
+        {
+          "file": "translation-ko/20-X-conclusion.partial.md",
+          "bytes": 2326,
+          "sha256": "9BF09731B2310A1AC70010F837DB63212EFC16790A0B3608741E2F83ED8DA0DA"
+        },
+        {
+          "file": "translation-ko/20-XI-references-ko.md",
+          "bytes": 25201,
+          "sha256": "B24AA168EE9E1A361116B6FF4C7147CA48DDC79D943F4566B7F63CD31E977338"
+        }
+      ]
+    },
+    {
+      "chapter": "21",
+      "source": "https://www.americanyawp.com/textbook/21-the-great-depression",
+      "status": "draft: I-XIV prose, 12 captions, 26 recommended works and 73 unique notes (74 citations) translated/annotated; expert QA pending",
+      "integrated_draft": {
+        "file": "21-the-great-depression.ko.draft.md",
+        "bytes": 156779,
+        "sha256": "E5412A7DC5400FA9832FE7D947ADE33E5CA4C65556639E353512E4098B189A8F"
+      },
+      "translation_files": [
+        {
+          "file": "translation-ko/21-figures.captions-ko.md",
+          "bytes": 4915,
+          "sha256": "5EF5CA855E4A115F40AA55A7178F52B6AA5697EDB31C2A059ADF517B4B1F8E33"
+        },
+        {
+          "file": "translation-ko/21-I-introduction.partial.md",
+          "bytes": 4752,
+          "sha256": "DD30C17FE8D0CCB04622A7565989ED454E747EF6DE972379B118421EBB7EEAB4"
+        },
+        {
+          "file": "translation-ko/21-II-origins-great-depression.partial.md",
+          "bytes": 9627,
+          "sha256": "33AF5C2CA6DA46D3C7F53ABBAEB4C64003F01C4B2817C7E5EB01FAC873986431"
+        },
+        {
+          "file": "translation-ko/21-III-hoover-politics-depression.partial.md",
+          "bytes": 6436,
+          "sha256": "38C96194A8BA4081EA9AA8422681BCA4CB3BDF9D70C80FE0A8570A4606201BCE"
+        },
+        {
+          "file": "translation-ko/21-IV-lived-experience-depression.partial.md",
+          "bytes": 8291,
+          "sha256": "FA528555F4F88AFD7777A7EAC71DA3F6709E0988DCE7402E635F1EAFDA2EFC81"
+        },
+        {
+          "file": "translation-ko/21-IX-voices-protest.partial.md",
+          "bytes": 7419,
+          "sha256": "6B52FB283617865151E6EDED0876F174755FFC0A788E3E7EB2F12C86F78A0508"
+        },
+        {
+          "file": "translation-ko/21-V-migration-depression.partial.md",
+          "bytes": 11623,
+          "sha256": "A4F2C00F3C44A3BEBEAE2E7A4F0C4A1208C03C582FE8CAC84D3C4F0DE2BCA519"
+        },
+        {
+          "file": "translation-ko/21-VI-bonus-army.partial.md",
+          "bytes": 4222,
+          "sha256": "1DF0E2F3A722010299B6E880F339723AE39F3D60F2A6E3638DB13F75F2F54B2C"
+        },
+        {
+          "file": "translation-ko/21-VII-first-new-deal.partial.md",
+          "bytes": 11746,
+          "sha256": "5758BC90ED646169727CD8A105AC04F4BFAE474A80AD59DDBB0C93E579843E00"
+        },
+        {
+          "file": "translation-ko/21-VIII-new-deal-south.partial.md",
+          "bytes": 8227,
+          "sha256": "64DBDE622FF936F6D91BB007C581092C5EC5630F9416B50215A13FAA7EFCAEB2"
+        },
+        {
+          "file": "translation-ko/21-X-second-new-deal.partial.md",
+          "bytes": 11438,
+          "sha256": "F12A4BDBD1487A95243DDEF90AF75E82A9B9EB25A05CDC678AF6FC705A746E26"
+        },
+        {
+          "file": "translation-ko/21-XI-equal-rights-new-deal.partial.md",
+          "bytes": 8659,
+          "sha256": "EA84FAD91436813E16EF7B7624CA55B041B1177E001E3A76631A134295CB2080"
+        },
+        {
+          "file": "translation-ko/21-XII-end-new-deal.partial.md",
+          "bytes": 6233,
+          "sha256": "E008C0283879A0C26C5CDC628ACAAFF3A39F89418EC7D0D568FFF6FC80111859"
+        },
+        {
+          "file": "translation-ko/21-XIII-new-deal-legacy.partial.md",
+          "bytes": 2792,
+          "sha256": "0B3F9D6E0565F207CDA9AB83C3278E955BA8E0CB915D4D1A46522B865BCA76DE"
+        },
+        {
+          "file": "translation-ko/21-XIV-references-ko.md",
+          "bytes": 47660,
+          "sha256": "5948587BED5EB5D2A2FDCFAB72AAB685EB2C9DE6FB53E1BD21BB6AE42CA21A81"
+        }
+      ]
+    },
+    {
+      "chapter": "22",
+      "source": "https://www.americanyawp.com/textbook/22-world-war-ii",
+      "status": "draft: I-XI prose, 14 captions, 25 recommended works and 42 notes translated/annotated; source issues and verified date correction separated; expert QA pending",
+      "integrated_draft": {
+        "file": "22-world-war-ii.ko.draft.md",
+        "bytes": 125895,
+        "sha256": "30EF30BA95818056BC9EAB15016314406FB7902B0A6F0B76EC92D2C93877019F"
+      },
+      "translation_files": [
+        {
+          "file": "translation-ko/22-figures.captions-ko.md",
+          "bytes": 6354,
+          "sha256": "DB370575923F24A9D97898D49CA042B2336E7D564E157BF405E3D021D0BE67AF"
+        },
+        {
+          "file": "translation-ko/22-I-introduction.partial.md",
+          "bytes": 2215,
+          "sha256": "1D5FD47D44F1975AABC6FC934DF84872D676E2CE30CD345313191084C2C5FC0B"
+        },
+        {
+          "file": "translation-ko/22-II-collapse-post-world-war-i-order.partial.md",
+          "bytes": 9885,
+          "sha256": "FFC56D22D6E89B18F57C83F60D931D2714C165A0D16F3ECD37821BA68630C875"
+        },
+        {
+          "file": "translation-ko/22-III-world-at-war.partial.md",
+          "bytes": 7604,
+          "sha256": "22A7495A5EE96A98F894DF0B4923C2F43121501BEE452908AE656CBBA1353DDB"
+        },
+        {
+          "file": "translation-ko/22-IV-loosening-american-neutrality.partial.md",
+          "bytes": 14273,
+          "sha256": "9AC74B959260E2AFCC273474B21E01A93BF5EC3AC5C9F66943579C1E8CE7FCEE"
+        },
+        {
+          "file": "translation-ko/22-IX-toward-postwar-world.partial.md",
+          "bytes": 9859,
+          "sha256": "D74DB831A293ADE33B68C1577496568533192233078E455C2A899367D756B0E0"
+        },
+        {
+          "file": "translation-ko/22-V-america-at-war.partial.md",
+          "bytes": 18012,
+          "sha256": "A51BD3021542B53575086B640456D2435D8A85B879F4A57B68691019FCA0A0D8"
+        },
+        {
+          "file": "translation-ko/22-VI-wartime-economy.partial.md",
+          "bytes": 6686,
+          "sha256": "2BD7E73D82DCD120F6EEA8D2CDB527EED569E0A5B95B76CDD9FFCF5D354B18C2"
+        },
+        {
+          "file": "translation-ko/22-VII-women-world-war-ii.partial.md",
+          "bytes": 6203,
+          "sha256": "9621D308FCB1FE8AE9EB0C145D4B9015A328613A980AE0B1583086F7F2963EF3"
+        },
+        {
+          "file": "translation-ko/22-VIII-race-world-war-ii.partial.md",
+          "bytes": 12618,
+          "sha256": "CF92633A49B3274D19F9077E9094604EE1558A915151B06461009E6F07F5CC15"
+        },
+        {
+          "file": "translation-ko/22-X-conclusion.partial.md",
+          "bytes": 1881,
+          "sha256": "5367943CF5D2BA123941CDD6A6B10D325CF1EDE4DB758F3F428169544983F239"
+        },
+        {
+          "file": "translation-ko/22-XI-references-ko.md",
+          "bytes": 27891,
+          "sha256": "C5E812957E7260EA2C04B248B1CC7980A2F52E498E041CEBA00D8BD592CDC881"
+        }
+      ]
+    },
+    {
+      "chapter": "23",
+      "source": "https://www.americanyawp.com/textbook/23-the-cold-war",
+      "status": "draft: existing I-V, VII-VIII prose, 11 captions, 25 recommended works and 47 notes translated/annotated; source has no VI; expert QA pending",
+      "integrated_draft": {
+        "file": "23-the-cold-war.ko.draft.md",
+        "bytes": 122692,
+        "sha256": "CE5DDC33690D16F828FA489F04CF010508735AD72AA72556F3760B38F57E4E67"
+      },
+      "translation_files": [
+        {
+          "file": "translation-ko/23-figures.captions-ko.md",
+          "bytes": 7131,
+          "sha256": "B98BB3A426FDFF1EF84BBD9263FB27B314A56B65990152BC583AEBFD4FC696A7"
+        },
+        {
+          "file": "translation-ko/23-I-introduction.partial.md",
+          "bytes": 4065,
+          "sha256": "CA2C4D47F8C1A56148EF1D4487670D62CB2DCF7A3AE8499FF090DFDD44AB8707"
+        },
+        {
+          "file": "translation-ko/23-II-political-economic-military.partial.md",
+          "bytes": 21297,
+          "sha256": "C7F4786FB47CF618A7BE4D0F7BF2FE89E62A84E5E0C52F3D3222BD4079E6CDC8"
+        },
+        {
+          "file": "translation-ko/23-III-arms-space-technology.partial.md",
+          "bytes": 9586,
+          "sha256": "54217D8084648DABFFD0492ECD42EF6D8176FE38D67D4F7E46C5146776E32994"
+        },
+        {
+          "file": "translation-ko/23-IV-red-scare-mccarthyism.partial.md",
+          "bytes": 25880,
+          "sha256": "7593DF65042AB6E4335BEE6D4B297E2A7D9D624A2760549D92DFE1EFDAF2CF5E"
+        },
+        {
+          "file": "translation-ko/23-V-decolonization-american-century.partial.md",
+          "bytes": 21077,
+          "sha256": "D806955C9A27D71C425D858E9E3E52CB0BA586AFE1B4A8DCEA505801C24DF048"
+        },
+        {
+          "file": "translation-ko/23-VII-conclusion.partial.md",
+          "bytes": 2730,
+          "sha256": "3E569DFD6078BB9993242175F136A80E6DD19BB1DF295B9ACFDE49BA52209DE6"
+        },
+        {
+          "file": "translation-ko/23-VIII-references-ko.md",
+          "bytes": 28899,
+          "sha256": "D8681F8430AB1960AF60EAFD5C0FB136EDEAA9086E79DE4F5229F63D923190F0"
+        }
+      ]
+    },
+    {
+      "chapter": "24",
+      "source": "https://www.americanyawp.com/textbook/24-the-affluent-society",
+      "status": "draft: I-VIII prose, 13 captions, 25 recommended works and 34 notes translated/annotated; expert QA pending",
+      "integrated_draft": {
+        "file": "24-the-affluent-society.ko.draft.md",
+        "bytes": 97320,
+        "sha256": "1196A84AF265397E3668418B3B69EDF007830D6DB60CEC0D5FE80FBCFD66320A"
+      },
+      "translation_files": [
+        {
+          "file": "translation-ko/24-figures.captions-ko.md",
+          "bytes": 5669,
+          "sha256": "7B2BE1ACB20AE521DE9A46EB2D8A318567E9EEAF0F6683F44D14149467CD62AE"
+        },
+        {
+          "file": "translation-ko/24-I-introduction.partial.md",
+          "bytes": 3875,
+          "sha256": "738B741A41EBED9D1A82C45EAF4757CF24E194F5DFB1EE890702C4A2D3BA86F1"
+        },
+        {
+          "file": "translation-ko/24-II-rise-suburbs.partial.md",
+          "bytes": 14531,
+          "sha256": "3C5E404088AAF153EAB24EA74050ED5F3D4A91EBF373B08A2A4E6AC235015E83"
+        },
+        {
+          "file": "translation-ko/24-III-race-education.partial.md",
+          "bytes": 10803,
+          "sha256": "87351D457F0925DCB89C3903CFEF5E648E9BF7E5225E6387B1FE0537D80B6518"
+        },
+        {
+          "file": "translation-ko/24-IV-civil-rights-affluent-society.partial.md",
+          "bytes": 12561,
+          "sha256": "F1CFBB59F27C08F6742D1F7095E0306CDB4A403C2427B7A306BC57634B3571AF"
+        },
+        {
+          "file": "translation-ko/24-V-gender-culture-affluent-society.partial.md",
+          "bytes": 12440,
+          "sha256": "6A522C7F19EA9F96458FEF39B7BC75E493DF1AD8B819B316D2F93B9853EC489F"
+        },
+        {
+          "file": "translation-ko/24-VI-politics-ideology-affluent-society.partial.md",
+          "bytes": 11784,
+          "sha256": "1B6BD43FE049F4DB56D34D645A6E4F8FE4646F02055605F9D3A2C972630914F0"
+        },
+        {
+          "file": "translation-ko/24-VII-conclusion.partial.md",
+          "bytes": 970,
+          "sha256": "9F7BF4489E93CFFF775487A1FAF043E3E4DB99CB82E98C077EBC3C52E31AB36A"
+        },
+        {
+          "file": "translation-ko/24-VIII-references-ko.md",
+          "bytes": 22593,
+          "sha256": "DE9A02AFEB375A02C9BAD508FBA6E5B84E3ADB92DF349CA5C5E1352C229CE85A"
+        }
+      ]
+    },
+    {
+      "chapter": "25",
+      "source": "https://www.americanyawp.com/textbook/25-the-sixties",
+      "status": "draft: I-VIII prose, 13 captions, 24 recommended works and 39 unique notes (40 citations) translated/annotated; expert QA pending",
+      "integrated_draft": {
+        "file": "25-the-sixties.ko.draft.md",
+        "bytes": 104370,
+        "sha256": "A8E6610229B6394F7F169CDD78DCD9AC32A8438805C2C42268556F0A9549D1EA"
+      },
+      "translation_files": [
+        {
+          "file": "translation-ko/25-figures.captions-ko.md",
+          "bytes": 5743,
+          "sha256": "4CCA17922A818100B7559C0D5B221E90741BEB8E777B688EBB2D8B84B04E79ED"
+        },
+        {
+          "file": "translation-ko/25-I-introduction.partial.md",
+          "bytes": 2884,
+          "sha256": "29AF9F3F9FB78519D8A5888F4A3E48EA82C130C925F56FC07ED60C2A97FA4B70"
+        },
+        {
+          "file": "translation-ko/25-II-civil-rights-accelerates.partial.md",
+          "bytes": 18956,
+          "sha256": "D5B647B0629BD36B967F07FD4DDDB2788B1B0BC0DC55AFF539D3613D325479A2"
+        },
+        {
+          "file": "translation-ko/25-III-great-society.partial.md",
+          "bytes": 11675,
+          "sha256": "88B278AE528E4A1C5288B6EEA7C67D2017E50D1992DD52E3C9D7CFFBC88D5BB0"
+        },
+        {
+          "file": "translation-ko/25-IV-origins-vietnam-war.partial.md",
+          "bytes": 7351,
+          "sha256": "3FB28D3FDAE083610337849CC92DF72C3F3794BB90DDE6100BD10B84539372D6"
+        },
+        {
+          "file": "translation-ko/25-V-culture-activism.partial.md",
+          "bytes": 7902,
+          "sha256": "E4DB336A5171E7A5DCBB318781D6F4000B476ADE1B12B13DD0E723B07B4B7875"
+        },
+        {
+          "file": "translation-ko/25-VI-beyond-civil-rights.partial.md",
+          "bytes": 20922,
+          "sha256": "C1B944F4F0698B8DFC1CBC668214096C13A687319CD189370339437A381536A9"
+        },
+        {
+          "file": "translation-ko/25-VII-conclusion.partial.md",
+          "bytes": 1349,
+          "sha256": "422646010F368A15F0377211BF87AE5CCD16FA86E5FADE4AE7EF7A6E8EBACB16"
+        },
+        {
+          "file": "translation-ko/25-VIII-references-ko.md",
+          "bytes": 25473,
+          "sha256": "3BC743EC483B40DD0283E0459F2D0CD40C711FD987A8642775725127A016F513"
+        }
+      ]
+    },
+    {
+      "chapter": "26",
+      "source": "https://www.americanyawp.com/textbook/26-the-unraveling",
+      "status": "draft: I-XI prose, 12 captions, 25 recommended works and 85 notes translated/annotated; expert QA pending",
+      "integrated_draft": {
+        "file": "26-the-unraveling.ko.draft.md",
+        "bytes": 141671,
+        "sha256": "6DEA1797B3D9ABB5573EB5AC24200B5A8972C4BFDC31799A3C69388ACF3E189B"
+      },
+      "translation_files": [
+        {
+          "file": "translation-ko/26-figures.captions-ko.md",
+          "bytes": 3387,
+          "sha256": "2BDD73336B4F053B0F8D2A2EC7FFF33CB33BCD056A819E0A83A614A005A5FFB6"
+        },
+        {
+          "file": "translation-ko/26-I-introduction.partial.md",
+          "bytes": 4285,
+          "sha256": "B736BC6FAE10EF4BC4D4B2DCCA3386C73A97E9E5263916DC3B206D59D0027676"
+        },
+        {
+          "file": "translation-ko/26-II-strain-vietnam.partial.md",
+          "bytes": 9048,
+          "sha256": "F2B7E4F1C68C51170C939AE951FF9B21F0F2359BCFDCDC126FAE784486B30142"
+        },
+        {
+          "file": "translation-ko/26-III-racial-social-cultural-anxieties.partial.md",
+          "bytes": 15335,
+          "sha256": "44180F66ABFD6512D8AFF6AF2B29C787FBACFB7D61B36828F155D313394B6459"
+        },
+        {
+          "file": "translation-ko/26-IV-crisis-1968.partial.md",
+          "bytes": 4538,
+          "sha256": "BFC7087DA6BDB9CFAA0208CC2FA3E95C8D68969329D8F986FEB5DC148DA0FC18"
+        },
+        {
+          "file": "translation-ko/26-IX-misery-index.partial.md",
+          "bytes": 16369,
+          "sha256": "2C3EE39D02D9B7E74267446E090806C0FBED1B5FBC3093A9528C1622FA8B7481"
+        },
+        {
+          "file": "translation-ko/26-V-rise-fall-richard-nixon.partial.md",
+          "bytes": 12155,
+          "sha256": "9AEBA338BCCBEC4E77FEE01CCFBE58C5D315574A0ACE0B6FE2F213B1FC49924A"
+        },
+        {
+          "file": "translation-ko/26-VI-deindustrialization-sunbelt.partial.md",
+          "bytes": 13416,
+          "sha256": "E209A34F74E2DA8E69D2D4C2ED166F169C69939C9D91E8948CB01392EBF574A9"
+        },
+        {
+          "file": "translation-ko/26-VII-environmental-movement.partial.md",
+          "bytes": 6511,
+          "sha256": "F8081B2FC1A0B696842F01385BC715DD08C2622D0491A1ABDC9138B287D95088"
+        },
+        {
+          "file": "translation-ko/26-VIII-love-sex-gender.partial.md",
+          "bytes": 16373,
+          "sha256": "17867590550A26556AA9E09C108316E4374FE3435045F7B7B8655A71FEE731BA"
+        },
+        {
+          "file": "translation-ko/26-X-conclusion.partial.md",
+          "bytes": 2215,
+          "sha256": "8EC6A965B931EA8EE2205F71B748F95F86066F0DD767845722CC68193AF5FD65"
+        },
+        {
+          "file": "translation-ko/26-XI-references-ko.md",
+          "bytes": 35726,
+          "sha256": "EC7744E0D73FB9EF8A7DCE30A148DCFBDA6008DE75AE5613EC829A980471FAD8"
+        }
+      ]
+    },
+    {
+      "chapter": "27",
+      "source": "https://www.americanyawp.com/textbook/27-the-triumph-of-the-right",
+      "status": "draft: I-XII prose, 13 captions, 25 recommended works and 90 unique notes (94 citations) translated/annotated; verified date corrections separated; expert QA pending",
+      "integrated_draft": {
+        "file": "27-the-triumph-of-the-right.ko.draft.md",
+        "bytes": 175385,
+        "sha256": "D6B3740F66B063E6F27B4F27435DD905C6A8CEDFC42A3AA47B972E32C70978DE"
+      },
+      "translation_files": [
+        {
+          "file": "translation-ko/27-figures.captions-ko.md",
+          "bytes": 6901,
+          "sha256": "AFD88EB804888F1B96A4D1C3361433E53165D9B5E17F7081F22A26D71689E494"
+        },
+        {
+          "file": "translation-ko/27-I-introduction.partial.md",
+          "bytes": 7100,
+          "sha256": "EEA9EEF6708E31853B0C299BE93A9B97C31FB611F917C20E3FD28C1D9C5DD83E"
+        },
+        {
+          "file": "translation-ko/27-II-conservative-ascendance.partial.md",
+          "bytes": 12205,
+          "sha256": "F3C142E5265B7364E0742F8230B14D336A5193D6C072426486166306968444E5"
+        },
+        {
+          "file": "translation-ko/27-III-election-1980.partial.md",
+          "bytes": 8155,
+          "sha256": "9A996C590C42314193770714264561EACD36F0C78803FB43860F9ACDA74EF2E5"
+        },
+        {
+          "file": "translation-ko/27-IV-new-right-power.partial.md",
+          "bytes": 8737,
+          "sha256": "DEC54D2435AA7CA8393D76E7A6867AAA4015977AB3202A3989F2FF065F35E176"
+        },
+        {
+          "file": "translation-ko/27-IX-new-right-abroad.partial.md",
+          "bytes": 13696,
+          "sha256": "31EE9A71966A9FF85FE5F1BA3DE0B03AA7F6FDBD2840DAB4291FA957F8F3EBFE"
+        },
+        {
+          "file": "translation-ko/27-V-morning-america.partial.md",
+          "bytes": 9546,
+          "sha256": "B30A1D0F298C504221CD4751775AEE5CF890E6E887732C7EFC484EA40B733A6F"
+        },
+        {
+          "file": "translation-ko/27-VI-race-reagan-america.partial.md",
+          "bytes": 13356,
+          "sha256": "F3267988187158081AD64CD5777A9FA25F413F1336D6D837A7C77A91598A0ED6"
+        },
+        {
+          "file": "translation-ko/27-VII-bad-good-times.partial.md",
+          "bytes": 5446,
+          "sha256": "7B6BB36A56FB680B13F4F17FA5AAFFDA8327C6FC92811F0C5770FE7E2F959F35"
+        },
+        {
+          "file": "translation-ko/27-VIII-culture-wars.partial.md",
+          "bytes": 19726,
+          "sha256": "F34EFCFE805704FBC25D12F3C51148F357A628D88294899256BDC0C39AF4A617"
+        },
+        {
+          "file": "translation-ko/27-X-toward-new-millennium.partial.md",
+          "bytes": 24888,
+          "sha256": "5CBED767E9D4EA7609EC412E68BF7BEF15936823E121EC92F1F673E770EA845C"
+        },
+        {
+          "file": "translation-ko/27-XI-conclusion.partial.md",
+          "bytes": 4635,
+          "sha256": "2E65710A104D77D596AF4FA9DB09F4A621568FABDF0E1BA04C1308BD2B001891"
+        },
+        {
+          "file": "translation-ko/27-XII-references-ko.md",
+          "bytes": 38353,
+          "sha256": "22D033037296DF2D2919286606934E3316C7B7D27120362100FDA1E738F8F0BE"
+        }
+      ]
+    },
+    {
+      "chapter": "28",
+      "source": "https://www.americanyawp.com/textbook/28-american-carnage",
+      "status": "draft: I-XI prose (74 paragraphs), 9 captions, 25 recommended works and 43 notes translated/annotated; verified corrections separated; expert QA pending",
+      "integrated_draft": {
+        "file": "28-american-carnage.ko.draft.md",
+        "bytes": 131473,
+        "sha256": "3F2C8458B4960DDC403E0E2533393E0247E92AFF2A8CD7EE53B0A3F656B96B74"
+      },
+      "translation_files": [
+        {
+          "file": "translation-ko/28-figures.captions-ko.md",
+          "bytes": 3323,
+          "sha256": "9B715A17BBE6410CACED5DA536DC8C6753BA35D98017D5A9277F9877822777B3"
+        },
+        {
+          "file": "translation-ko/28-I-introduction.partial.md",
+          "bytes": 4656,
+          "sha256": "E869BB59662149B520F998C1462417863C6CB4F7756C6B0FAE7D2E4796283E93"
+        },
+        {
+          "file": "translation-ko/28-II-september11-war-on-terror.partial.md",
+          "bytes": 11966,
+          "sha256": "5E1F53E6B2E3D469A186E4576D3EE4D4075A9261BA670D8E0734208514A8BF35"
+        },
+        {
+          "file": "translation-ko/28-III-end-bush-years.partial.md",
+          "bytes": 8922,
+          "sha256": "42222BA93620BF4338EAA95BA4418ADCB05BC00FAD559F363FFE1D745D8FBD9B"
+        },
+        {
+          "file": "translation-ko/28-IV-great-recession.partial.md",
+          "bytes": 6951,
+          "sha256": "ED07B5C81DC143CA1412F50A504944C726D2488C8DD85D07AAD44448580BFA00"
+        },
+        {
+          "file": "translation-ko/28-IX-new-horizons.partial.md",
+          "bytes": 22430,
+          "sha256": "5AB754174CFAD931965325750C2E1AB01E35CCECA66E7FDE21875F0FC2BF4A3B"
+        },
+        {
+          "file": "translation-ko/28-V-obama-years.partial.md",
+          "bytes": 8131,
+          "sha256": "EED316B1ADCD12E8B4A761EF43841262696EE06ACF4846CD07D3CB020930BACF"
+        },
+        {
+          "file": "translation-ko/28-VI-stagnation.partial.md",
+          "bytes": 7483,
+          "sha256": "D2D7E712BAC14EF4528AD8A180F73EFF9488575F27C133858161A26B90633FDF"
+        },
+        {
+          "file": "translation-ko/28-VII-american-carnage.partial.md",
+          "bytes": 12776,
+          "sha256": "269F6CD80CC01BC8CD13A78958E1AF766DF27AF85378CBEB9F9663B4A40F9C3F"
+        },
+        {
+          "file": "translation-ko/28-VIII-pandemic.partial.md",
+          "bytes": 7104,
+          "sha256": "03EA22774B7878C592D37CAF6A33F9C70FAA8BF39188B5459792E5BBC5708805"
+        },
+        {
+          "file": "translation-ko/28-X-conclusion.partial.md",
+          "bytes": 1471,
+          "sha256": "4ED4D467C1F1EA82A93DA0288571A3E015C4B07B7934F09DECE8851922ED8BAA"
+        },
+        {
+          "file": "translation-ko/28-XI-references-ko.md",
+          "bytes": 33539,
+          "sha256": "BC6B6A7C30A537853822E57F70D8E8D488032BE129C153ABB8759D6874E89D15"
+        }
+      ]
+    }
+  ]
+}

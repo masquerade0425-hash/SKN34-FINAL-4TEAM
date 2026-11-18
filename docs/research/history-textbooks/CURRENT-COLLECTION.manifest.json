@@ -1,0 +1,72 @@
+{
+  "checked_date": "2026-11-13",
+  "status": "Research drafts; limitations in each country record. Not final editorial or historical certification.",
+  "country_count": 8,
+  "world_candidates": 38,
+  "combined_files": [
+    {
+      "country": "미국",
+      "file": "usa/american-yawp-28-chapters.ko.draft.md",
+      "bytes": 3576606,
+      "sha256": "C1C7BCB77A43168A3A0AD4647A59170BCBE7F391128BD300DB250C10362DBB41",
+      "scope": "28장, 2026년 스냅샷의 서술은2025년까지. CC BY-SA4.0; 제3자 이미지·자료 조건 별도.",
+      "limitations": "표본1·13·23·28장 검수이며 전수 검수가 아니다."
+    },
+    {
+      "country": "프랑스",
+      "file": "france/eight-chapters.ko.draft.md",
+      "bytes": 243493,
+      "sha256": "E073BAB71E665B5BA6C8B682255FA7C4A74139A9F9B826B42FEC4402A904D10D",
+      "scope": "1882년 고전8장82절, 고대~1871년.",
+      "limitations": "현대사 공백·옛 관점. 출판 광고 제외."
+    },
+    {
+      "country": "영국",
+      "file": "england/oman-1904/england-44-chapters.ko.draft.md",
+      "bytes": 1986614,
+      "sha256": "68C5DBD3943F0E946C13B7613477194BC3063FB6E6C33C4CD5741FA12153A5D9",
+      "scope": "1904년판44장·서문2편, 고대~1902년.",
+      "limitations": "목차·지도목록·색인1208표제어는 별도 파일. 광고·실제 지도 영상 제외."
+    },
+    {
+      "country": "이탈리아",
+      "file": "italy/hunt/integrated-11-chapters.ko.collated-draft.md",
+      "bytes": 569169,
+      "sha256": "07224022BC78BC69902B0F0FA2F741A6D5302C250A4C9281B8EC26AF56993762",
+      "scope": "1883년판11장157절·연대표91행, 주로476~1870년과1874년 평가.",
+      "limitations": "목차·색인550항목 별도. 63개 손상 구간 복구가 역사 오류 교정을 뜻하지 않는다."
+    },
+    {
+      "country": "스페인",
+      "file": "spain/ministry-2016-noncommercial-research/spain-reusable-text.ko.partial.md",
+      "bytes": 564985,
+      "sha256": "2B44AF841D6ECE0FF097D44311AD06BC1FD3C36C4DC3997DB6987F8DCEEC4805",
+      "scope": "2016년 교육부 교재의 재사용 가능 범위 통합: 본문8장, 연대표147행, 활동·교사용 자작자료·개념.",
+      "limitations": "278쪽 전체 완역 아님. CC BY-NC-SA 버전 미기재, 외부 인용·사전 정의 등 보류. Ayén 자료 별도."
+    },
+    {
+      "country": "일본",
+      "file": "japan/japan-15-chapters-and-appendices.ko.draft.md",
+      "bytes": 652716,
+      "sha256": "84412F8C6246F8D2E5822FD18BD3C9CCE79F03F39CF0DC08A9C8AB900875579B",
+      "scope": "1896년판15장·서문·부록4개, 주로1889년까지와1890년 전망, 1891년 언급.",
+      "limitations": "표제·출판정보·목차36행은 별도 대조 초안. 현대사 공백. 원저 편향·오류 별도 QA; 실제 이미지·PG 안내 제외."
+    },
+    {
+      "country": "한국",
+      "file": "korea/hulbert-1905/korea-63-chapters.ko.draft.md",
+      "bytes": 2087690,
+      "sha256": "68A49F3AFC8F926383A3575F0DB21675F70FAEAF988D89CCB9607F7B8BB2E5E3",
+      "scope": "1905년판2권63장과 서문·서론, 고대~1904년.",
+      "limitations": "PG가 XI 오인쇄 장에 부여한 식별자 I-A를 포함한63개 내용 단위. 표제·목차·색인3144논리 항목 별도. 후대 편집자 추가자료 제외. 원판 이미지 직접 대조 및 전수 전문 감수 미완료."
+    },
+    {
+      "country": "중국",
+      "file": "china/china-complete-text.ko.draft.md",
+      "bytes": 1229649,
+      "sha256": "DEDF9346ADB8A9492F2723132B271D65D32F1B61C44B76DC06C6F9BF08A02A9E",
+      "scope": "번호22장과 후속자료2편·헌정/서문, 고대~1898년9월.",
+      "limitations": "원저 판쇄연도 미확정·현대사 공백. 제국주의 시대 관점을 현대 사실로 승인하지 않는다."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "sha256": "14F3CB8E56E61FDEED3592EB7FE6338F618E39AD6E93FF8B810770379FECF9E3",
+    "status": 200,
+    "file": "license-and-book-index.html",
+    "bytes": 225066,
+    "url": "https://www.profesorfrancisco.es/2022/09/libro-de-historia-de-espana-2-bachiller.html"
+  },
+  {
+    "sha256": "373A8BBCAB2B939F2750BE9D34107843FEEEDA5119EB79DDEAA2E8E265C396F1",
+    "status": 200,
+    "file": "01-raices-historicas.html",
+    "bytes": 171604,
+    "url": "https://www.profesorfrancisco.es/2018/12/raices-historicas-historia-de-espana.html"
+  }
+]

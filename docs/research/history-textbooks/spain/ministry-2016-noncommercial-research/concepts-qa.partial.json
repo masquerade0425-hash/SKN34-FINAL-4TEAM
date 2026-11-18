@@ -1,0 +1,5756 @@
+{
+  "scope": "Supplementary noncommercial research translation; not legal clearance or professional historical review",
+  "generated_at_utc": "2026-11-13T15:23:01.889449+00:00",
+  "method": "pypdf visitor_text coordinates; glossary labels x<210, definitions x>=210, 50<y<800. NFC, whitespace removal and lowercase only for duplicate comparison. No source words removed. Numeric test checks distinct source Arabic values are present, not semantic equivalence or multiplicity. Roman and spelled-out numerals manually checked in chapter notes.",
+  "source_concept_pages": [
+    21,
+    32,
+    33,
+    44,
+    45,
+    59,
+    60,
+    61,
+    83,
+    84,
+    85,
+    102,
+    103,
+    118,
+    119,
+    137,
+    138
+  ],
+  "all_17_concept_pages_visually_checked": true,
+  "didactic_pages_visually_checked": [
+    5,
+    6
+  ],
+  "appendix_visual_spot_checks": [
+    152,
+    154,
+    166
+  ],
+  "source_entries": 203,
+  "full_translations": 190,
+  "partial_translations": 1,
+  "held_definitions": 12,
+  "missing_numeric_value_cases": [],
+  "appendix_entries": 203,
+  "appendix_same_normalized_definitions": 203,
+  "appendix_nonduplicated_definitions": 0,
+  "entries": [
+    {
+      "chapter": 1,
+      "item": 1,
+      "source_pdf_page": 21,
+      "source_term": "anfiteatro (el)",
+      "korean_term": "원형경기장",
+      "status": "full",
+      "file": "01-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "10e001aac2a1ff0f8d0f2ce2f698441132309c24bfa202ef1dd505767fcb40c9"
+    },
+    {
+      "chapter": 1,
+      "item": 2,
+      "source_pdf_page": 21,
+      "source_term": "basílica (la)",
+      "korean_term": "바실리카",
+      "status": "full",
+      "file": "01-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "bc885100d414bf43dc07387df6fd6b14aba0bab407df7397270c51077bfd1348"
+    },
+    {
+      "chapter": 1,
+      "item": 3,
+      "source_pdf_page": 21,
+      "source_term": "calzada (la)",
+      "korean_term": "포장도로",
+      "status": "full",
+      "file": "01-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "b3bc9fc97fc244fa077f452c80e0eedf35f589f6a681ab500718068454d13c68"
+    },
+    {
+      "chapter": 1,
+      "item": 4,
+      "source_pdf_page": 21,
+      "source_term": "castro (el)",
+      "korean_term": "카스트로",
+      "status": "full",
+      "file": "01-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "dcefe40ddf45619982f0a7fde9a861b75822742987cf045f71d84dd5a59cb0c1"
+    },
+    {
+      "chapter": 1,
+      "item": 5,
+      "source_pdf_page": 21,
+      "source_term": "ciudad fortificada (la)",
+      "korean_term": "요새도시",
+      "status": "full",
+      "file": "01-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "1a77b5c3fb995da359b28043ea95c1e2121fbe12a8c7fbf7ea075cd391d55dbf"
+    },
+    {
+      "chapter": 1,
+      "item": 6,
+      "source_pdf_page": 21,
+      "source_term": "curia (la)",
+      "korean_term": "쿠리아",
+      "status": "full",
+      "file": "01-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "de00877fbf6a9e1b289e1e2c7df86d047f8bcf61f9934c83d3a02dc6ef078437"
+    },
+    {
+      "chapter": 1,
+      "item": 7,
+      "source_pdf_page": 21,
+      "source_term": "metrópolis (la)",
+      "korean_term": "모도시",
+      "status": "full",
+      "file": "01-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "cd6cc4a4dcff82b8ae6770275683173ff71ceeed812e7d81d38b450a09a8a81b"
+    },
+    {
+      "chapter": 1,
+      "item": 8,
+      "source_pdf_page": 21,
+      "source_term": "muralla (la)",
+      "korean_term": "성벽",
+      "status": "full",
+      "file": "01-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "74d5d7f89ff718b83fb166d95ef23cb3119227e4fa7a7acbe60c279038f983a2"
+    },
+    {
+      "chapter": 1,
+      "item": 9,
+      "source_pdf_page": 21,
+      "source_term": "plaza (la)/ foro (el)",
+      "korean_term": "광장·포룸",
+      "status": "full",
+      "file": "01-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "6dc9f35ed5740d6193b6287d0929458565359fa1c2b30a33443d46cd0a7d7d08"
+    },
+    {
+      "chapter": 1,
+      "item": 10,
+      "source_pdf_page": 21,
+      "source_term": "polis (la)",
+      "korean_term": "폴리스",
+      "status": "full",
+      "file": "01-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "3d048c99241d87abc43a0514af281d28623b7d5d2eb6be935c3ebfabcc67b2ff"
+    },
+    {
+      "chapter": 1,
+      "item": 11,
+      "source_pdf_page": 21,
+      "source_term": "politeísta",
+      "korean_term": "다신교의·다신교도",
+      "status": "full",
+      "file": "01-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "9514e40cd14dab04a5c2aff3611d03f345a70d51e44fc8a9e7fb9250f059f4e6"
+    },
+    {
+      "chapter": 1,
+      "item": 12,
+      "source_pdf_page": 21,
+      "source_term": "Prehistoria (la)",
+      "korean_term": "선사시대",
+      "status": "full",
+      "file": "01-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "f22ad458034a8dba85a495aad8290d708013eeb4ec600d63be9e25f6e89bedb9"
+    },
+    {
+      "chapter": 1,
+      "item": 13,
+      "source_pdf_page": 21,
+      "source_term": "romanización (la)",
+      "korean_term": "로마화",
+      "status": "full",
+      "file": "01-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "1ec2d80f9c51c46bfa6b1e32267f07cdc45df5c0d71b9c11d076a318c9b6bfa0"
+    },
+    {
+      "chapter": 1,
+      "item": 14,
+      "source_pdf_page": 21,
+      "source_term": "terma (la)",
+      "korean_term": "테르마·공중목욕시설",
+      "status": "full",
+      "file": "01-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "f364191b1175c84dafc773a27cac7d54f2ead9c9288a61835b2775899f6c22fc"
+    },
+    {
+      "chapter": 2,
+      "item": 1,
+      "source_pdf_page": 32,
+      "source_term": "abad (el)",
+      "korean_term": "수도원장",
+      "status": "full",
+      "file": "02-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "270a583c5591094c1c14a74dde6582e1f3c99344124a12132701e09c4a9546ba"
+    },
+    {
+      "chapter": 2,
+      "item": 2,
+      "source_pdf_page": 32,
+      "source_term": "alianza matrimonial (la)",
+      "korean_term": "혼인 동맹",
+      "status": "full",
+      "file": "02-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "4330b08649ffde211421a5c40e5c025ac22e40a003d4b4cc7a5fd48c595a252a"
+    },
+    {
+      "chapter": 2,
+      "item": 3,
+      "source_pdf_page": 32,
+      "source_term": "andalusí",
+      "korean_term": "알안달루스의",
+      "status": "full",
+      "file": "02-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "867c8dd8a8190bc6e06b7df500b606663cd0ff3b35f77c39f7fd4d1f568a6dcd"
+    },
+    {
+      "chapter": 2,
+      "item": 4,
+      "source_pdf_page": 32,
+      "source_term": "arrabal (el)",
+      "korean_term": "성 밖 구역",
+      "status": "full",
+      "file": "02-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "43f69b8114289d47304e8374f713b0298324631f30603aeeaa696be9a6f013ae"
+    },
+    {
+      "chapter": 2,
+      "item": 5,
+      "source_pdf_page": 32,
+      "source_term": "califa (el)",
+      "korean_term": "칼리프",
+      "status": "full",
+      "file": "02-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "85b390edfbed78465d102e520fc64375ff9d1af086b83678ff9aff0fe2ff439c"
+    },
+    {
+      "chapter": 2,
+      "item": 6,
+      "source_pdf_page": 32,
+      "source_term": "califato (el)",
+      "korean_term": "칼리프국",
+      "status": "full",
+      "file": "02-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "fcce3f0e9ce1e2d128df62c0912bb67edafb270a908a47fe4d913edeaac98471"
+    },
+    {
+      "chapter": 2,
+      "item": 7,
+      "source_pdf_page": 32,
+      "source_term": "carolingio/a",
+      "korean_term": "카롤루스 왕조의",
+      "status": "full",
+      "file": "02-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "07e1c193590b04f4f339f107886075dd95876410f0c970bcd6d922e2ba8102fc"
+    },
+    {
+      "chapter": 2,
+      "item": 8,
+      "source_pdf_page": 32,
+      "source_term": "clero (el)",
+      "korean_term": "성직자 집단",
+      "status": "full",
+      "file": "02-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "cbfc462d1ff3b46729fc87005f332a776a13c15586a3fc9c0747e7f08aeb0c9f"
+    },
+    {
+      "chapter": 2,
+      "item": 9,
+      "source_pdf_page": 32,
+      "source_term": "condado (el)",
+      "korean_term": "백작령",
+      "status": "full",
+      "file": "02-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "ce7df751893eac64e2f42f47a0d8d7b3bdc2e133e6b801a0607bda2ba821b564"
+    },
+    {
+      "chapter": 2,
+      "item": 10,
+      "source_pdf_page": 32,
+      "source_term": "consulado (el)",
+      "korean_term": "영사관",
+      "status": "full",
+      "file": "02-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "4061fdf5370187f55d59e75030cc6ddc53338391d12e65e6bc0c3a917697bcf7"
+    },
+    {
+      "chapter": 2,
+      "item": 11,
+      "source_pdf_page": 32,
+      "source_term": "diezmo (el)",
+      "korean_term": "십일조",
+      "status": "full",
+      "file": "02-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [
+        "1",
+        "10"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "0677e85db22c38e5649f7c0fb07e3c1275d88aab5768cc591312135721adc4ce"
+    },
+    {
+      "chapter": 2,
+      "item": 12,
+      "source_pdf_page": 32,
+      "source_term": "emir (el)",
+      "korean_term": "에미르",
+      "status": "full",
+      "file": "02-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "745b149e062cc3841cb9dc675e3ed455d33ae47406ec8a434e9e0a9b239d8627"
+    },
+    {
+      "chapter": 2,
+      "item": 13,
+      "source_pdf_page": 32,
+      "source_term": "emirato (el)",
+      "korean_term": "에미르국",
+      "status": "full",
+      "file": "02-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "2694c7dc3e26841a24a1d4855d8fbebad643c4c51a78d610dc49450ef64e5a58"
+    },
+    {
+      "chapter": 2,
+      "item": 14,
+      "source_pdf_page": 32,
+      "source_term": "feria (la)",
+      "korean_term": "정기시장",
+      "status": "full",
+      "file": "02-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "473ad1558c4836f998e543ecfaab33528db4e765b5718716da9b60ed826297a8"
+    },
+    {
+      "chapter": 2,
+      "item": 15,
+      "source_pdf_page": 32,
+      "source_term": "feudalismo (el)",
+      "korean_term": "봉건제",
+      "status": "full",
+      "file": "02-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "1af625a227e20fb7d6127fd56ff4b5554b8eba617c9f7daaf9f1a7053d02250c"
+    },
+    {
+      "chapter": 2,
+      "item": 16,
+      "source_pdf_page": 32,
+      "source_term": "hegemonía (la)",
+      "korean_term": "패권",
+      "status": "full",
+      "file": "02-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "0f68876e59a617444c8a9af3f80828fb756947735df60fdac79c4fbf3f8a01ed"
+    },
+    {
+      "chapter": 2,
+      "item": 17,
+      "source_pdf_page": 33,
+      "source_term": "Honrado Concejo de Mesta",
+      "korean_term": "명예로운 메스타 평의회",
+      "status": "full",
+      "file": "02-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [
+        "10"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "644f78562f5fb48c483fed0f3b79d38a038894f807a2d28bb57f9ad57d08d5a6"
+    },
+    {
+      "chapter": 2,
+      "item": 18,
+      "source_pdf_page": 33,
+      "source_term": "judería (la)",
+      "korean_term": "유대인 구역",
+      "status": "full",
+      "file": "02-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "f678e417bc6740c53f9f220b61abcbd4cf7c32564071f7c450ecf42630984f1b"
+    },
+    {
+      "chapter": 2,
+      "item": 19,
+      "source_pdf_page": 33,
+      "source_term": "Marca Hispánica",
+      "korean_term": "에스파냐 변경지대",
+      "status": "full",
+      "file": "02-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "ac2d93ec2ccefd0fe74258e92e6911a0fdcfdb55507633cfaa7cfa3b6ba659b5"
+    },
+    {
+      "chapter": 2,
+      "item": 20,
+      "source_pdf_page": 33,
+      "source_term": "mezquita (la)",
+      "korean_term": "모스크",
+      "status": "full",
+      "file": "02-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "70fc02f051f54e914d79587bed901572b35508ecaffb244c10efe02eacb6ce86"
+    },
+    {
+      "chapter": 2,
+      "item": 21,
+      "source_pdf_page": 33,
+      "source_term": "nazarí",
+      "korean_term": "나스르 왕조의",
+      "status": "full",
+      "file": "02-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "7bee814213c38bf38b726bc69730e846eb29cd4493997594068de2c312b0ec5d"
+    },
+    {
+      "chapter": 2,
+      "item": 22,
+      "source_pdf_page": 33,
+      "source_term": "nobleza (la)",
+      "korean_term": "귀족",
+      "status": "full",
+      "file": "02-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "24c89230be20cc4b777c6b3e6cecc33b8e98e67d68788492055fc3ce865598e6"
+    },
+    {
+      "chapter": 2,
+      "item": 23,
+      "source_pdf_page": 33,
+      "source_term": "obispo (el)",
+      "korean_term": "주교",
+      "status": "full",
+      "file": "02-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "1cfbdd4b4a19c67152bf743bdfa9901508c8b965c2e7db44e3cd462094583abe"
+    },
+    {
+      "chapter": 2,
+      "item": 24,
+      "source_pdf_page": 33,
+      "source_term": "política matrimonial",
+      "korean_term": "혼인 정책",
+      "status": "full",
+      "file": "02-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "8a8ca476886b5ddd154313b6baeb395ee7aa370a6da27c9592615971fb9a97a4"
+    },
+    {
+      "chapter": 2,
+      "item": 25,
+      "source_pdf_page": 33,
+      "source_term": "reino (el)",
+      "korean_term": "왕국",
+      "status": "full",
+      "file": "02-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "002f01a8f12df28e4f8c211204a7df972661ab6a1095d83babaa9f73c3d6dea4"
+    },
+    {
+      "chapter": 2,
+      "item": 26,
+      "source_pdf_page": 33,
+      "source_term": "sinagoga (la)",
+      "korean_term": "시나고그",
+      "status": "full",
+      "file": "02-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "9a83aa9e369551982ea7e487afb6609102178759ffeac3633564baa7ca8dd094"
+    },
+    {
+      "chapter": 2,
+      "item": 27,
+      "source_pdf_page": 33,
+      "source_term": "taifa (la)",
+      "korean_term": "타이파",
+      "status": "full",
+      "file": "02-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [
+        "39"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "240fb937d8a3f77bb2e2d463fc20a3128b96d61440a66f4ee8b0fd6d97b71a52"
+    },
+    {
+      "chapter": 2,
+      "item": 28,
+      "source_pdf_page": 33,
+      "source_term": "Unión Dinástica (la)",
+      "korean_term": "왕조 연합",
+      "status": "full",
+      "file": "02-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "8ba8e31072e1eaa7887e4e5abf45b360bb54b17ad66b89ed6167f7790accb130"
+    },
+    {
+      "chapter": 2,
+      "item": 29,
+      "source_pdf_page": 33,
+      "source_term": "vasallaje (el)",
+      "korean_term": "봉신 관계",
+      "status": "full",
+      "file": "02-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "39132f0d3d0fe7cb82c85e27b8183a005e5471853497e6aa03d47963c0cf96ea"
+    },
+    {
+      "chapter": 2,
+      "item": 30,
+      "source_pdf_page": 33,
+      "source_term": "vasallo (el)",
+      "korean_term": "봉신",
+      "status": "full",
+      "file": "02-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "e74c6a11389a3ce912b9eb448e9dc30b5a3f45e5a5f07d4006e26341c0545495"
+    },
+    {
+      "chapter": 2,
+      "item": 31,
+      "source_pdf_page": 33,
+      "source_term": "zoco (el)",
+      "korean_term": "수크",
+      "status": "full",
+      "file": "02-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "6aaa8b9f4cfbc6012056b2e517e3bb633b314d07e7144a6033d9e6b1e87d5fb5"
+    },
+    {
+      "chapter": 3,
+      "item": 1,
+      "source_pdf_page": 44,
+      "source_term": "absolutista",
+      "korean_term": "절대주의자·절대주의의",
+      "status": "full",
+      "file": "03-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "222641fb2995ff6fbabe162f945a1e494c1c23814fe0c69bd8a246ef25814928"
+    },
+    {
+      "chapter": 3,
+      "item": 2,
+      "source_pdf_page": 44,
+      "source_term": "alianzas matrimoniales (las)",
+      "korean_term": "혼인 동맹들",
+      "status": "full",
+      "file": "03-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "231c92443ff3ecded6ac796f00b72d489b8ebaf1e7bd923e6c2c1ebcdd4694e4"
+    },
+    {
+      "chapter": 3,
+      "item": 3,
+      "source_pdf_page": 44,
+      "source_term": "Armada Invencible (la)",
+      "korean_term": "무적함대",
+      "status": "full",
+      "file": "03-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1588"
+      ],
+      "korean_arabic_numeric_values": [
+        "2",
+        "1588"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "3b3ee7918eb5ab9bc536e8ac2f4845caa714e71360fbc03e03fbf18ef5b4a6d0"
+    },
+    {
+      "chapter": 3,
+      "item": 4,
+      "source_pdf_page": 44,
+      "source_term": "bandolerismo (el)",
+      "korean_term": "산적 행위",
+      "status": "full",
+      "file": "03-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "01dc908e56d00f71d8d1466737f7762e2f2a4d6136ad1e7beb59e2e46c53d6fa"
+    },
+    {
+      "chapter": 3,
+      "item": 5,
+      "source_pdf_page": 44,
+      "source_term": "Boabdil",
+      "korean_term": "보압딜",
+      "status": "full",
+      "file": "03-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1492"
+      ],
+      "korean_arabic_numeric_values": [
+        "1492"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "fa90aa8994916c0c7f643855d84b91aab161480822918f15a3497659784cf61a"
+    },
+    {
+      "chapter": 3,
+      "item": 6,
+      "source_pdf_page": 44,
+      "source_term": "Capitulaciones de Santa Fe",
+      "korean_term": "산타페 협약",
+      "status": "full",
+      "file": "03-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1492"
+      ],
+      "korean_arabic_numeric_values": [
+        "1492"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "600da587bed2782f2448b3972ae0c6a535fd730435bc4ec71bb40eaeb8bf37b7"
+    },
+    {
+      "chapter": 3,
+      "item": 7,
+      "source_pdf_page": 44,
+      "source_term": "Cardenal Cisneros",
+      "korean_term": "시스네로스 추기경",
+      "status": "full",
+      "file": "03-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [
+        "15",
+        "16"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "32c85a5dd9daa075b0a17985823cc2d0b0226b8c990ee1aa7695e4000e45f561"
+    },
+    {
+      "chapter": 3,
+      "item": 8,
+      "source_pdf_page": 44,
+      "source_term": "centralista",
+      "korean_term": "중앙집권적인",
+      "status": "full",
+      "file": "03-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "48774371aa6d6f3352e04193951ea4f7f83439d68591437904abb67017a5bc20"
+    },
+    {
+      "chapter": 3,
+      "item": 9,
+      "source_pdf_page": 44,
+      "source_term": "Concilio de Trento",
+      "korean_term": "트리엔트공의회",
+      "status": "full",
+      "file": "03-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1545",
+        "1552"
+      ],
+      "korean_arabic_numeric_values": [
+        "1545",
+        "1552"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "f356236234ebb0c139487c15d7a49f99317b46e85d5ab99ba82d5429ca2710b7"
+    },
+    {
+      "chapter": 3,
+      "item": 10,
+      "source_pdf_page": 44,
+      "source_term": "consejero (el)",
+      "korean_term": "고문·평의원",
+      "status": "full",
+      "file": "03-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "6d0e8a472fdbd1656337117375b72b58240db7b171044488fb70bf06590c6a33"
+    },
+    {
+      "chapter": 3,
+      "item": 11,
+      "source_pdf_page": 44,
+      "source_term": "Contrarreforma (la)",
+      "korean_term": "반종교개혁",
+      "status": "full",
+      "file": "03-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "f122a84218f819e711ef533dbc60ae093ff53fdee2ac19b60aba7a66390047bb"
+    },
+    {
+      "chapter": 3,
+      "item": 12,
+      "source_pdf_page": 44,
+      "source_term": "Corte (la)",
+      "korean_term": "궁정",
+      "status": "full",
+      "file": "03-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "dd3de0440076ee4ae5c9835264be3e653e9b0e5a192653def728ddf5f8efd204"
+    },
+    {
+      "chapter": 3,
+      "item": 13,
+      "source_pdf_page": 44,
+      "source_term": "evangelización (la)",
+      "korean_term": "복음 전파",
+      "status": "full",
+      "file": "03-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "ad5ac4c937018a3bf237901c8c047ac7fe30522a3121510274cb229426183a77"
+    },
+    {
+      "chapter": 3,
+      "item": 14,
+      "source_pdf_page": 44,
+      "source_term": "Germanías",
+      "korean_term": "헤르마니아스 반란",
+      "status": "full",
+      "file": "03-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1519",
+        "1523"
+      ],
+      "korean_arabic_numeric_values": [
+        "1",
+        "1519",
+        "1523"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "856a0a203499896edc784b37c31274446600ebe41e4a75ef2a387005f28dc648"
+    },
+    {
+      "chapter": 3,
+      "item": 15,
+      "source_pdf_page": 44,
+      "source_term": "Liga Santa (la)",
+      "korean_term": "신성동맹",
+      "status": "full",
+      "file": "03-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1571"
+      ],
+      "korean_arabic_numeric_values": [
+        "1571"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "4c2163ecc809d0514ada4c92a00b9870fdde49dac8aaffe1b16664b8c1e9ea70"
+    },
+    {
+      "chapter": 3,
+      "item": 16,
+      "source_pdf_page": 45,
+      "source_term": "luterano/a",
+      "korean_term": "루터파 신자·루터파의",
+      "status": "full",
+      "file": "03-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "c8ca8f1ca8f13cf6ea6b0401f5779d65abe21aa6f3c097fd103f45816631a2a2"
+    },
+    {
+      "chapter": 3,
+      "item": 17,
+      "source_pdf_page": 45,
+      "source_term": "monarquía autoritaria (la)",
+      "korean_term": "권위주의적 군주정",
+      "status": "full",
+      "file": "03-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "5faf28cd33eb4d4aa1cc51ba46ca4cda1e3da8bd4a50d790e104e166baf590db"
+    },
+    {
+      "chapter": 3,
+      "item": 18,
+      "source_pdf_page": 45,
+      "source_term": "monarquia (la)",
+      "korean_term": "군주정",
+      "status": "full",
+      "file": "03-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "d807b5ea3aa6ca2f2b1ae3c32341b4b40e7fdb1500bbe1e7797af641ccd1e237"
+    },
+    {
+      "chapter": 3,
+      "item": 19,
+      "source_pdf_page": 45,
+      "source_term": "morisco/a",
+      "korean_term": "모리스코",
+      "status": "full",
+      "file": "03-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "5dd38192f2fbb83832cdb86b7918b0d591467d7fcf8383b848bf999778aa48b1"
+    },
+    {
+      "chapter": 3,
+      "item": 20,
+      "source_pdf_page": 45,
+      "source_term": "patrimonio (el)",
+      "korean_term": "재산",
+      "status": "full",
+      "file": "03-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "6bd8c375b5d52a82dbc1083ce992908795dd63f0662915bc69b4748732184da7"
+    },
+    {
+      "chapter": 3,
+      "item": 21,
+      "source_pdf_page": 45,
+      "source_term": "protestante (la/el)",
+      "korean_term": "프로테스탄트의·프로테스탄트 신자",
+      "status": "full",
+      "file": "03-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [
+        "16"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "44ebeffa509cd0f87492c225d9fbe0a3424b5f0329c6ba9bfb1bee3775ceefb1"
+    },
+    {
+      "chapter": 3,
+      "item": 22,
+      "source_pdf_page": 45,
+      "source_term": "Reconquista (la)",
+      "korean_term": "레콩키스타",
+      "status": "full",
+      "file": "03-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "e9fbd1b2f5575ab710a2af315f28e6b76846a4b32771fc7190ce5da71ace06f2"
+    },
+    {
+      "chapter": 3,
+      "item": 23,
+      "source_pdf_page": 45,
+      "source_term": "regente (el)",
+      "korean_term": "섭정",
+      "status": "full",
+      "file": "03-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "118bd08b29c7e10582619c570b28aba569f773550c51ebf1de5d1bd50c069a8f"
+    },
+    {
+      "chapter": 3,
+      "item": 24,
+      "source_pdf_page": 45,
+      "source_term": "Revuelta de las Comunidades",
+      "korean_term": "코무네로스 반란",
+      "status": "full",
+      "file": "03-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1520",
+        "1522"
+      ],
+      "korean_arabic_numeric_values": [
+        "1",
+        "1520",
+        "1522"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "0104c39bb0e0dd2581a428df2183e2a26881e95ed102c0de59eb2b7b99715f82"
+    },
+    {
+      "chapter": 3,
+      "item": 25,
+      "source_pdf_page": 45,
+      "source_term": "Santa Hermandad",
+      "korean_term": "산타에르만다드",
+      "status": "full",
+      "file": "03-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1476",
+        "1835"
+      ],
+      "korean_arabic_numeric_values": [
+        "1476",
+        "1835"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "3ed850e7c49275a511fd41ff08ba9b31c8385b0c8b344745ad5e350ad6a0ce32"
+    },
+    {
+      "chapter": 3,
+      "item": 26,
+      "source_pdf_page": 45,
+      "source_term": "Tribunal de la Inquisición",
+      "korean_term": "종교재판소",
+      "status": "hold",
+      "file": "03-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": null,
+      "missing_source_numeric_values": null,
+      "source_definition_normalized_sha256": "540d5e9ec5669011681870945580ea19c40877c77c282575e89db50da266f327"
+    },
+    {
+      "chapter": 3,
+      "item": 27,
+      "source_pdf_page": 45,
+      "source_term": "virrey (el)",
+      "korean_term": "부왕",
+      "status": "full",
+      "file": "03-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "50554c6a70aacda4fdbd3e8cc6738584903e75f942b3ec4a5a4ae0b4d2308c97"
+    },
+    {
+      "chapter": 4,
+      "item": 1,
+      "source_pdf_page": 59,
+      "source_term": "archiduque (el)",
+      "korean_term": "대공",
+      "status": "full",
+      "file": "04-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "9e56bca15caaef561a7e0d77c4de2459dbe5b075070c0da9ebd76ba0b958678f"
+    },
+    {
+      "chapter": 4,
+      "item": 2,
+      "source_pdf_page": 59,
+      "source_term": "Austrias (los)",
+      "korean_term": "합스부르크 왕가의 군주들",
+      "status": "full",
+      "file": "04-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "987666087e8ef325a8c2a526c15f11c966a700bc5f85c6bacfb28d914d6128c2"
+    },
+    {
+      "chapter": 4,
+      "item": 3,
+      "source_pdf_page": 59,
+      "source_term": "Borbones (los)",
+      "korean_term": "부르봉 왕가의 군주들",
+      "status": "full",
+      "file": "04-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [
+        "2"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "22a6dfaa347a7d4fbbccad8c40947964e7c4b2ca5f4aaaea535470e4e3c69dc6"
+    },
+    {
+      "chapter": 4,
+      "item": 4,
+      "source_pdf_page": 59,
+      "source_term": "candidato",
+      "korean_term": "후보자",
+      "status": "full",
+      "file": "04-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "a707d7e25f7c3ac5d5a73a8da628236ab8ed61e00e47c66ad7c53ec9625c49e9"
+    },
+    {
+      "chapter": 4,
+      "item": 5,
+      "source_pdf_page": 59,
+      "source_term": "conspiración (la)",
+      "korean_term": "음모",
+      "status": "full",
+      "file": "04-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "b07e6bd19391aba9630b71591251639fd6838f4bffd0ff072eba77c3227bca82"
+    },
+    {
+      "chapter": 4,
+      "item": 6,
+      "source_pdf_page": 59,
+      "source_term": "Decretos de Nueva Planta",
+      "korean_term": "누에바플란타 칙령",
+      "status": "full",
+      "file": "04-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "8f657796f5922d18b09a0f119a2c2359d636f45ae9204e399377df0705b115e9"
+    },
+    {
+      "chapter": 4,
+      "item": 7,
+      "source_pdf_page": 59,
+      "source_term": "desamortización (la)",
+      "korean_term": "영구소유재산 매각",
+      "status": "full",
+      "file": "04-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "6da1058023a36bcd5ec6a4f0c10a60b537460f370a3421d0484aa490efa60001"
+    },
+    {
+      "chapter": 4,
+      "item": 8,
+      "source_pdf_page": 59,
+      "source_term": "Despotismo Ilustrado",
+      "korean_term": "계몽전제주의",
+      "status": "partial",
+      "file": "04-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": null,
+      "missing_source_numeric_values": null,
+      "source_definition_normalized_sha256": "65536ca0f3f6f00405a013157da083e1472edb03ad2d760f59508baad16fac77"
+    },
+    {
+      "chapter": 4,
+      "item": 9,
+      "source_pdf_page": 59,
+      "source_term": "duque (el)",
+      "korean_term": "공작",
+      "status": "full",
+      "file": "04-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "7d72b8e6b907af6215ff500e109ae89a93996a831a3d18d15ee8fe6a046e00f4"
+    },
+    {
+      "chapter": 4,
+      "item": 10,
+      "source_pdf_page": 59,
+      "source_term": "fuero (el)",
+      "korean_term": "푸에로·특권법",
+      "status": "hold",
+      "file": "04-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": null,
+      "missing_source_numeric_values": null,
+      "source_definition_normalized_sha256": "a8ca4a938b498c76ff688a85abbf1257d5f21909d00c1e4b2f863ba1a3a4b637"
+    },
+    {
+      "chapter": 4,
+      "item": 11,
+      "source_pdf_page": 59,
+      "source_term": "Guerra de la Independencia de los Estados Unidos",
+      "korean_term": "미국 독립전쟁",
+      "status": "full",
+      "file": "04-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1775",
+        "1783"
+      ],
+      "korean_arabic_numeric_values": [
+        "13",
+        "1775",
+        "1783"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "21b44a3ed663c26d860468762ce91ce11464ec674f4b14d1b75126f17c4a250d"
+    },
+    {
+      "chapter": 4,
+      "item": 12,
+      "source_pdf_page": 59,
+      "source_term": "Guerra de los Siete Años",
+      "korean_term": "7년전쟁",
+      "status": "full",
+      "file": "04-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1754",
+        "1756",
+        "1763"
+      ],
+      "korean_arabic_numeric_values": [
+        "7",
+        "1754",
+        "1756",
+        "1763"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "7cb43be36b8c54cd0e2d10759b3e7f09898b566173b63bb326ec6df4fa01d2c2"
+    },
+    {
+      "chapter": 4,
+      "item": 13,
+      "source_pdf_page": 59,
+      "source_term": "hacienda (la)",
+      "korean_term": "재산",
+      "status": "full",
+      "file": "04-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "85ee20fb7f635fb304b1a7a6ebfa8d1350aaa6ecf4353660053e05e00af7845a"
+    },
+    {
+      "chapter": 4,
+      "item": 14,
+      "source_pdf_page": 59,
+      "source_term": "Ilustración (la)",
+      "korean_term": "계몽주의",
+      "status": "full",
+      "file": "04-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "34a646176ca626ee70fc726e90473427aa61772b4686ca59ec97d74e75a85ddc"
+    },
+    {
+      "chapter": 4,
+      "item": 15,
+      "source_pdf_page": 59,
+      "source_term": "Imperio Otomano (el)",
+      "korean_term": "오스만 제국",
+      "status": "full",
+      "file": "04-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "cf5b3a3fb43008763d857a3d287916e784ba543513fbcade991d2443b77d2020"
+    },
+    {
+      "chapter": 4,
+      "item": 16,
+      "source_pdf_page": 60,
+      "source_term": "jesuíta (el/la)",
+      "korean_term": "예수회 회원",
+      "status": "full",
+      "file": "04-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1534",
+        "1787"
+      ],
+      "korean_arabic_numeric_values": [
+        "1534",
+        "1787"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "48457166554232cb562e270b1a672e0b39f7be5f96de80503c8c57f02e2aeca3"
+    },
+    {
+      "chapter": 4,
+      "item": 17,
+      "source_pdf_page": 60,
+      "source_term": "medida protecionista (la)",
+      "korean_term": "보호무역 조치",
+      "status": "full",
+      "file": "04-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "2ad57a79a263d8bbea0494b388b28ec3f663d7dd9413ce35b63d9535e8fdfafa"
+    },
+    {
+      "chapter": 4,
+      "item": 18,
+      "source_pdf_page": 60,
+      "source_term": "Motín de Esquilache (el)",
+      "korean_term": "에스킬라체 폭동",
+      "status": "full",
+      "file": "04-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1766"
+      ],
+      "korean_arabic_numeric_values": [
+        "3",
+        "1766"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "f36ba4042e5978f0993b1dfced95afb1de49fe2ca3dfe06877062904352c45a5"
+    },
+    {
+      "chapter": 4,
+      "item": 19,
+      "source_pdf_page": 60,
+      "source_term": "neutralidad (la)",
+      "korean_term": "중립성",
+      "status": "full",
+      "file": "04-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "95caae7f634cebc2840d681804f0c3b8d2b3f1af9d7d88af3f81f738b20e7563"
+    },
+    {
+      "chapter": 4,
+      "item": 20,
+      "source_pdf_page": 60,
+      "source_term": "Pacto de familia (el)",
+      "korean_term": "가문 협약",
+      "status": "full",
+      "file": "04-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1733",
+        "1761",
+        "1789"
+      ],
+      "korean_arabic_numeric_values": [
+        "1733",
+        "1761",
+        "1789"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "10bc32e3f2b9b3c3dc947968575b86db314d4a02ba94359d60c72d17d25fc278"
+    },
+    {
+      "chapter": 4,
+      "item": 21,
+      "source_pdf_page": 60,
+      "source_term": "Pax Hispánica (la)",
+      "korean_term": "팍스 히스파니카",
+      "status": "full",
+      "file": "04-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1598",
+        "1621"
+      ],
+      "korean_arabic_numeric_values": [
+        "1598",
+        "1621"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "fc2201267306dc3451b19af1aaf439bf2fd77a3f861a0138a4a87d663c5ef390"
+    },
+    {
+      "chapter": 4,
+      "item": 22,
+      "source_pdf_page": 60,
+      "source_term": "Revolución francesa (la)",
+      "korean_term": "프랑스혁명",
+      "status": "full",
+      "file": "04-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1789",
+        "1799"
+      ],
+      "korean_arabic_numeric_values": [
+        "1789",
+        "1799"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "b6e919f3117bbdb73c524665329d07589243170dc3ab84452be2a6992e1aca2f"
+    },
+    {
+      "chapter": 4,
+      "item": 23,
+      "source_pdf_page": 60,
+      "source_term": "Trafalgar (batalla de)",
+      "korean_term": "트라팔가르 해전",
+      "status": "full",
+      "file": "04-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1805"
+      ],
+      "korean_arabic_numeric_values": [
+        "1805"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "073af7e4027c0cd279374a1acdad06c8d6e0c76d3ccb735c1af8e1f016c56a06"
+    },
+    {
+      "chapter": 4,
+      "item": 24,
+      "source_pdf_page": 60,
+      "source_term": "transición (la)",
+      "korean_term": "이행기",
+      "status": "full",
+      "file": "04-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "9f1ec37830a7828703ff68db1c9c1441f9152f5bf830715233154c97cb26841f"
+    },
+    {
+      "chapter": 4,
+      "item": 25,
+      "source_pdf_page": 60,
+      "source_term": "Tratado de los Pirineos (el)",
+      "korean_term": "피레네조약",
+      "status": "full",
+      "file": "04-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1659"
+      ],
+      "korean_arabic_numeric_values": [
+        "30",
+        "1659"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "1184c70e6b4a75932a8b474cbbf53add445364e50a073b11f05461ad509fc1a3"
+    },
+    {
+      "chapter": 4,
+      "item": 26,
+      "source_pdf_page": 60,
+      "source_term": "Tratado de Utrecht (el)",
+      "korean_term": "위트레흐트조약",
+      "status": "full",
+      "file": "04-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "bbef8156b78b5b797c95e13cd621f755b4198205e40ef552c6956ba4240085be"
+    },
+    {
+      "chapter": 4,
+      "item": 27,
+      "source_pdf_page": 60,
+      "source_term": "tregua (la)",
+      "korean_term": "휴전",
+      "status": "full",
+      "file": "04-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "20e346567ab96de06e0ba69548bd7a78cc9d590d8fd5b2cc875a8b64ad6be813"
+    },
+    {
+      "chapter": 4,
+      "item": 28,
+      "source_pdf_page": 61,
+      "source_term": "Unión de armas (la)",
+      "korean_term": "무력연합",
+      "status": "full",
+      "file": "04-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "9fe1617113740a2c8aa921ab7aa9740efcbff80b80bad09fb593e2e3d5a0cd4c"
+    },
+    {
+      "chapter": 4,
+      "item": 29,
+      "source_pdf_page": 61,
+      "source_term": "valido (el)",
+      "korean_term": "총신",
+      "status": "full",
+      "file": "04-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [
+        "17"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "a3411ce89f4f35d9d0ce74f4aee03a1da9ff22b9c2c257f6db256d9f27e28d0c"
+    },
+    {
+      "chapter": 5,
+      "item": 1,
+      "source_pdf_page": 83,
+      "source_term": "absolutismo (el)",
+      "korean_term": "절대주의",
+      "status": "full",
+      "file": "05-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "97ddaebcea49ba4210d96517b6c08f827a7dccaed7db5cc229dd281c3580442b"
+    },
+    {
+      "chapter": 5,
+      "item": 2,
+      "source_pdf_page": 83,
+      "source_term": "Amadeo I de Saboya",
+      "korean_term": "사보이의 아마데오 1세",
+      "status": "full",
+      "file": "05-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1871",
+        "1873"
+      ],
+      "korean_arabic_numeric_values": [
+        "1",
+        "2",
+        "1871",
+        "1873"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "d4d41ab91a6efd76859f2017d2ce3639e351110836731ffb7c68875c30e5bebf"
+    },
+    {
+      "chapter": 5,
+      "item": 3,
+      "source_pdf_page": 83,
+      "source_term": "anarquismo (el)",
+      "korean_term": "아나키즘",
+      "status": "full",
+      "file": "05-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "e14a704cf80c8c451728918afff12f4dd725e17387fd1d4db59a8d0d0c90c926"
+    },
+    {
+      "chapter": 5,
+      "item": 4,
+      "source_pdf_page": 83,
+      "source_term": "Antiguo Régimen",
+      "korean_term": "구체제",
+      "status": "full",
+      "file": "05-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1789"
+      ],
+      "korean_arabic_numeric_values": [
+        "1789"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "1f728117204edf578f7c1bfba1910019e87720854c9d936da46aede4760826ea"
+    },
+    {
+      "chapter": 5,
+      "item": 5,
+      "source_pdf_page": 83,
+      "source_term": "Cánovas del Castillo",
+      "korean_term": "카노바스 델 카스티요",
+      "status": "hold",
+      "file": "05-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": null,
+      "missing_source_numeric_values": null,
+      "source_definition_normalized_sha256": "21512d5bd13863570d6f868d701e2a67205aaa71f5b87df70683a7223e8255d2"
+    },
+    {
+      "chapter": 5,
+      "item": 6,
+      "source_pdf_page": 83,
+      "source_term": "conservador/a",
+      "korean_term": "보수주의자·보수적인",
+      "status": "hold",
+      "file": "05-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": null,
+      "missing_source_numeric_values": null,
+      "source_definition_normalized_sha256": "433e7c8f3424577c646887bfe8cb1c15a9bcf2f634efe7e1fdd772308200976b"
+    },
+    {
+      "chapter": 5,
+      "item": 7,
+      "source_pdf_page": 83,
+      "source_term": "Constitución de 1812",
+      "korean_term": "1812년 헌법",
+      "status": "full",
+      "file": "05-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1812"
+      ],
+      "korean_arabic_numeric_values": [
+        "1812"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "49592fa868c6e6a3eaf7acfedcc12af75e9703d0cca1ad332fce462c68678d1b"
+    },
+    {
+      "chapter": 5,
+      "item": 8,
+      "source_pdf_page": 83,
+      "source_term": "Constitución de 1869",
+      "korean_term": "1869년 헌법",
+      "status": "full",
+      "file": "05-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1868",
+        "1869",
+        "1871"
+      ],
+      "korean_arabic_numeric_values": [
+        "1868",
+        "1869",
+        "1871"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "18ceb478e1851fe8d52fceb8f539c98c113b19edc92d38c073c9d79522708916"
+    },
+    {
+      "chapter": 5,
+      "item": 9,
+      "source_pdf_page": 83,
+      "source_term": "dictadura (la)",
+      "korean_term": "독재",
+      "status": "full",
+      "file": "05-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "5294ec70e694b3f2f55255eceb3df473553cf1e731c2f261a502e1f8d12c43e8"
+    },
+    {
+      "chapter": 5,
+      "item": 10,
+      "source_pdf_page": 83,
+      "source_term": "Espartero",
+      "korean_term": "에스파르테로",
+      "status": "full",
+      "file": "05-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [
+        "2"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "614c22d990f79173b60d175d42fdea0811dc39b92d0835fe83254407f701ad83"
+    },
+    {
+      "chapter": 5,
+      "item": 11,
+      "source_pdf_page": 83,
+      "source_term": "General Narváez",
+      "korean_term": "나르바에스 장군",
+      "status": "hold",
+      "file": "05-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1844",
+        "1868"
+      ],
+      "korean_arabic_numeric_values": null,
+      "missing_source_numeric_values": null,
+      "source_definition_normalized_sha256": "c17bb0a178a003c8dbab4525a55fa11dbbadb75849451f503b55f2bca75c674f"
+    },
+    {
+      "chapter": 5,
+      "item": 12,
+      "source_pdf_page": 83,
+      "source_term": "guerrilla (la)",
+      "korean_term": "게릴라",
+      "status": "full",
+      "file": "05-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "6cff2bffb6226bb7faece19a4a1be7a7a94356946baa83d81b747c8315ccc487"
+    },
+    {
+      "chapter": 5,
+      "item": 13,
+      "source_pdf_page": 83,
+      "source_term": "Ley sálica",
+      "korean_term": "살리카법",
+      "status": "full",
+      "file": "05-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "09ec48701159de776baa5fcb855db35a2a660f09905a082b10542bff0f81195d"
+    },
+    {
+      "chapter": 5,
+      "item": 14,
+      "source_pdf_page": 83,
+      "source_term": "L eyes desamortizadoras de Mendizábal",
+      "korean_term": "멘디사발의 영구소유재산 매각법",
+      "status": "full",
+      "file": "05-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "1f099976a38c75a9d4faf2b7932268009464f7083db815cd840f3a5c182ddb31"
+    },
+    {
+      "chapter": 5,
+      "item": 15,
+      "source_pdf_page": 84,
+      "source_term": "liberal",
+      "korean_term": "자유주의자",
+      "status": "full",
+      "file": "05-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "1a703156de3c758d2bfdffce76d703eadcdf3a20f16abc045a96681f4dfa4524"
+    },
+    {
+      "chapter": 5,
+      "item": 16,
+      "source_pdf_page": 84,
+      "source_term": "María Cristina de Austria",
+      "korean_term": "오스트리아의 마리아 크리스티나",
+      "status": "full",
+      "file": "05-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [
+        "12",
+        "13"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "d3fa5c437ac2c4470eee5f9d11aa97f16626018418b9e9363b467723cc2c00be"
+    },
+    {
+      "chapter": 5,
+      "item": 17,
+      "source_pdf_page": 84,
+      "source_term": "moderado/a",
+      "korean_term": "온건파의·온건파 인사",
+      "status": "full",
+      "file": "05-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [
+        "2"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "d8293a2f5e1bc38aa2f0c2b92666052b95bcdf3074e4ca5f2fca9365bb5c62b1"
+    },
+    {
+      "chapter": 5,
+      "item": 18,
+      "source_pdf_page": 84,
+      "source_term": "Movimiento cantonal",
+      "korean_term": "칸톤 운동",
+      "status": "full",
+      "file": "05-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "6b37c5fad0aad336e59e8baa9c3f555e3dbf157389564175e1c1d56ebd6e7f80"
+    },
+    {
+      "chapter": 5,
+      "item": 19,
+      "source_pdf_page": 84,
+      "source_term": "Movimiento regionalista",
+      "korean_term": "지역주의 운동",
+      "status": "hold",
+      "file": "05-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": null,
+      "missing_source_numeric_values": null,
+      "source_definition_normalized_sha256": "ad019a1b4a986d304852fb99f9a6eb7e06aeb1b2af1ca3270a718754dc23992a"
+    },
+    {
+      "chapter": 5,
+      "item": 20,
+      "source_pdf_page": 84,
+      "source_term": "progresista",
+      "korean_term": "진보주의자",
+      "status": "full",
+      "file": "05-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "5e8579bf621a24d1733710bf75a428a8bc645a26a4e35076bfcefa8a0125358f"
+    },
+    {
+      "chapter": 5,
+      "item": 21,
+      "source_pdf_page": 84,
+      "source_term": "pronunciamiento (el)",
+      "korean_term": "군사정변",
+      "status": "full",
+      "file": "05-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "4cc9aead955e75cc13fc0f0b94a74e7360e5d5f199c7b3fbe10d5d5990726133"
+    },
+    {
+      "chapter": 5,
+      "item": 22,
+      "source_pdf_page": 84,
+      "source_term": "Partido Socialista Obrero Español (PSOE)",
+      "korean_term": "에스파냐 사회노동당",
+      "status": "full",
+      "file": "05-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1879"
+      ],
+      "korean_arabic_numeric_values": [
+        "2",
+        "20",
+        "1879"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "fa25fe1db39d0645152a590f8dd5ec93e652e53f92b74ca408b357eaece9050e"
+    },
+    {
+      "chapter": 5,
+      "item": 23,
+      "source_pdf_page": 84,
+      "source_term": "reformista",
+      "korean_term": "개혁주의자",
+      "status": "full",
+      "file": "05-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "e201e8dbba1eb292ff9c62097e59cff18d712c44e244c487b4750560f7876e19"
+    },
+    {
+      "chapter": 5,
+      "item": 24,
+      "source_pdf_page": 84,
+      "source_term": "República (la)",
+      "korean_term": "공화국",
+      "status": "full",
+      "file": "05-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "008d54929462fedb926b7a7c9e095569e9d7f096283871c763f3393cc54aad92"
+    },
+    {
+      "chapter": 5,
+      "item": 25,
+      "source_pdf_page": 84,
+      "source_term": "Restauración",
+      "korean_term": "왕정복고",
+      "status": "full",
+      "file": "05-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1874",
+        "1931"
+      ],
+      "korean_arabic_numeric_values": [
+        "1",
+        "2",
+        "1874",
+        "1931"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "77152760141f03566a81ab9365b2fd658bece3975396061de6afb89ef534956b"
+    },
+    {
+      "chapter": 5,
+      "item": 26,
+      "source_pdf_page": 84,
+      "source_term": "Sagasta",
+      "korean_term": "사가스타",
+      "status": "hold",
+      "file": "05-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1870",
+        "1902"
+      ],
+      "korean_arabic_numeric_values": null,
+      "missing_source_numeric_values": null,
+      "source_definition_normalized_sha256": "2a58c6e6d6a1538bf460df64714893959b07da0214a87da24004f95769ea7db8"
+    },
+    {
+      "chapter": 5,
+      "item": 27,
+      "source_pdf_page": 84,
+      "source_term": "Santa Alianza",
+      "korean_term": "신성동맹",
+      "status": "hold",
+      "file": "05-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "26",
+        "1815"
+      ],
+      "korean_arabic_numeric_values": null,
+      "missing_source_numeric_values": null,
+      "source_definition_normalized_sha256": "5a46c2c5e6ea68c879e9c0bc9304dd364451f4709bd7febb82c9e29144240e5f"
+    },
+    {
+      "chapter": 5,
+      "item": 28,
+      "source_pdf_page": 85,
+      "source_term": "Serrano",
+      "korean_term": "세라노",
+      "status": "hold",
+      "file": "05-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": null,
+      "missing_source_numeric_values": null,
+      "source_definition_normalized_sha256": "9ffb2e87733bf5ae2f02ebd62c570e85c2c93c173f30c58d30163e2c637e2deb"
+    },
+    {
+      "chapter": 5,
+      "item": 29,
+      "source_pdf_page": 85,
+      "source_term": "soberanía nacional (la)",
+      "korean_term": "국민주권",
+      "status": "full",
+      "file": "05-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "9b8b2c032e6d527412e6ff1c75885273ded771b8a6611e37cd0c8d0fd01e2d14"
+    },
+    {
+      "chapter": 5,
+      "item": 30,
+      "source_pdf_page": 85,
+      "source_term": "Socialismo",
+      "korean_term": "사회주의",
+      "status": "hold",
+      "file": "05-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": null,
+      "missing_source_numeric_values": null,
+      "source_definition_normalized_sha256": "3ddb74ad0933f829c846384278354026c6b2852928e50e74c0245d45df4c8a0f"
+    },
+    {
+      "chapter": 5,
+      "item": 31,
+      "source_pdf_page": 85,
+      "source_term": "sufragio universal (el)",
+      "korean_term": "보통선거권",
+      "status": "full",
+      "file": "05-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "ab0f2f92dd3bd73263c2b10863208c60cd3917ee8e659fdf6d5da127d26aa666"
+    },
+    {
+      "chapter": 5,
+      "item": 32,
+      "source_pdf_page": 85,
+      "source_term": "Tratado de Fontainebleau",
+      "korean_term": "퐁텐블로조약",
+      "status": "hold",
+      "file": "05-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "27",
+        "1807"
+      ],
+      "korean_arabic_numeric_values": null,
+      "missing_source_numeric_values": null,
+      "source_definition_normalized_sha256": "e1b92d56b4d4c2b86ac056643e6d5ed9df87fe7d9a2ddbad6585c4010d2b8688"
+    },
+    {
+      "chapter": 5,
+      "item": 33,
+      "source_pdf_page": 85,
+      "source_term": "Unión Liberal",
+      "korean_term": "자유연합",
+      "status": "hold",
+      "file": "05-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1858"
+      ],
+      "korean_arabic_numeric_values": null,
+      "missing_source_numeric_values": null,
+      "source_definition_normalized_sha256": "5b2ec6864f4476c6db2356dfac246c4a2762821b711beb3bac2b3ae9872a1e0c"
+    },
+    {
+      "chapter": 6,
+      "item": 1,
+      "source_pdf_page": 102,
+      "source_term": "Alianza Obrera",
+      "korean_term": "노동자 동맹",
+      "status": "full",
+      "file": "06-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1933",
+        "1934"
+      ],
+      "korean_arabic_numeric_values": [
+        "1933",
+        "1934"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "2d17ba982b0bfc514f6768ffda1ecf046fc9498ea348e02b8e2c14a5df0553e4"
+    },
+    {
+      "chapter": 6,
+      "item": 2,
+      "source_pdf_page": 102,
+      "source_term": "Alzamiento Nacional",
+      "korean_term": "민족봉기",
+      "status": "full",
+      "file": "06-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "17",
+        "18",
+        "1936"
+      ],
+      "korean_arabic_numeric_values": [
+        "7",
+        "17",
+        "18",
+        "1936"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "ae89f0d09876a29f11435660fa8367fb1c139af717caefd772b3b6c9857a3cd8"
+    },
+    {
+      "chapter": 6,
+      "item": 3,
+      "source_pdf_page": 102,
+      "source_term": "batalla del Ebro (la)",
+      "korean_term": "에브로 전투",
+      "status": "full",
+      "file": "06-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1938"
+      ],
+      "korean_arabic_numeric_values": [
+        "7",
+        "11",
+        "1938"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "1ac0dcf23f2e566f13d332f5aa228aaf8b3a5b1a5a6e6f876604cf175381d4d9"
+    },
+    {
+      "chapter": 6,
+      "item": 4,
+      "source_pdf_page": 102,
+      "source_term": "Brigadas Internacionales",
+      "korean_term": "국제여단",
+      "status": "full",
+      "file": "06-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "912a3c88422e554c4db4c6832e59803705ee6cd76f3c2148978205526362db7c"
+    },
+    {
+      "chapter": 6,
+      "item": 5,
+      "source_pdf_page": 102,
+      "source_term": "CEDA (Coalición Española de Derechas Autónomas)",
+      "korean_term": "에스파냐 자치우익연합",
+      "status": "full",
+      "file": "06-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "4e53a02f8b8bf505d06f3a3cedc255caca9de50eb69696729cb8d134895bb124"
+    },
+    {
+      "chapter": 6,
+      "item": 6,
+      "source_pdf_page": 102,
+      "source_term": "CNT (Confederación Nacional del Trabajo)",
+      "korean_term": "전국노동연맹",
+      "status": "full",
+      "file": "06-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "9fd941b5b55a37ef0b9f822d42f8dee41efd8f105233d878d36a00ad32199834"
+    },
+    {
+      "chapter": 6,
+      "item": 7,
+      "source_pdf_page": 102,
+      "source_term": "Comité de No Intervención",
+      "korean_term": "불간섭위원회",
+      "status": "full",
+      "file": "06-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "d5b1292486d805908cdda91f2e5c2e531a312d8084283fb2b43f48453ff1e5db"
+    },
+    {
+      "chapter": 6,
+      "item": 8,
+      "source_pdf_page": 102,
+      "source_term": "Constitución de 1931",
+      "korean_term": "1931년 헌법",
+      "status": "full",
+      "file": "06-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1931"
+      ],
+      "korean_arabic_numeric_values": [
+        "6",
+        "1931"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "cb7e51a53579b888d424f5a95b74a4d35e659f2a0ef5decea2753f0e66bb85dc"
+    },
+    {
+      "chapter": 6,
+      "item": 9,
+      "source_pdf_page": 102,
+      "source_term": "Cortes constituyentes (las)",
+      "korean_term": "제헌의회",
+      "status": "full",
+      "file": "06-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "535ab4d53fdaddeb7d54df653b4e8765755295673a47db56cc7c73050df3604e"
+    },
+    {
+      "chapter": 6,
+      "item": 10,
+      "source_pdf_page": 102,
+      "source_term": "Estatuto de Autonomía",
+      "korean_term": "자치헌장",
+      "status": "full",
+      "file": "06-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "2a5147ca310bffeaff16e17bd54f323a6f69e4c23befc273b5071fd906728cc5"
+    },
+    {
+      "chapter": 6,
+      "item": 11,
+      "source_pdf_page": 102,
+      "source_term": "Falange",
+      "korean_term": "팔랑헤",
+      "status": "full",
+      "file": "06-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1933"
+      ],
+      "korean_arabic_numeric_values": [
+        "1933"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "139ceb54c64ecce3331dc4ad07b4d4ae700b721bb5f640f43ccb1ae3cbf21527"
+    },
+    {
+      "chapter": 6,
+      "item": 12,
+      "source_pdf_page": 102,
+      "source_term": "Franco, Francisco",
+      "korean_term": "프란시스코 프랑코",
+      "status": "full",
+      "file": "06-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1936",
+        "1975"
+      ],
+      "korean_arabic_numeric_values": [
+        "1936",
+        "1975"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "89fc9e35c234a6a541bee081c8d2273df1f2010aabf1e23663acaac6bb793eae"
+    },
+    {
+      "chapter": 6,
+      "item": 13,
+      "source_pdf_page": 102,
+      "source_term": "Frente Popular (el)",
+      "korean_term": "인민전선",
+      "status": "full",
+      "file": "06-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1936"
+      ],
+      "korean_arabic_numeric_values": [
+        "2",
+        "1936"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "f41353ddb0e9f8b981a2822dd5209c96bff0441386e25f48ea09d131a09db0f9"
+    },
+    {
+      "chapter": 6,
+      "item": 14,
+      "source_pdf_page": 102,
+      "source_term": "General Mola (el)",
+      "korean_term": "몰라 장군",
+      "status": "full",
+      "file": "06-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1936"
+      ],
+      "korean_arabic_numeric_values": [
+        "1936"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "6d2ecf8fb697fab77752dec0aa53c8dc6c37ed5b0acb93be2bc53e1b42c8da32"
+    },
+    {
+      "chapter": 6,
+      "item": 15,
+      "source_pdf_page": 102,
+      "source_term": "General Sanjurjo (el)",
+      "korean_term": "산후르호 장군",
+      "status": "full",
+      "file": "06-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1932",
+        "1936"
+      ],
+      "korean_arabic_numeric_values": [
+        "2",
+        "1932",
+        "1936"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "b42ee31629afc096808633e04513e61caa623be24ee50f59bd80896fcf4801f3"
+    },
+    {
+      "chapter": 6,
+      "item": 16,
+      "source_pdf_page": 102,
+      "source_term": "Hitler",
+      "korean_term": "히틀러",
+      "status": "full",
+      "file": "06-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1933",
+        "1945"
+      ],
+      "korean_arabic_numeric_values": [
+        "1933",
+        "1945"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "987b1248d04426727466a47c674068e0edec6a0e9ffe09856d2445107af2a4bf"
+    },
+    {
+      "chapter": 6,
+      "item": 17,
+      "source_pdf_page": 103,
+      "source_term": "Legión Cóndor (la)",
+      "korean_term": "콘도르 군단",
+      "status": "full",
+      "file": "06-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "edd563d12f14e0ec5c97f611c8e52547a5e7ae3da821b2cc4166aad4066e1195"
+    },
+    {
+      "chapter": 6,
+      "item": 18,
+      "source_pdf_page": 103,
+      "source_term": "Ley de Reforma Agraria (la)",
+      "korean_term": "농지개혁법",
+      "status": "full",
+      "file": "06-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1932"
+      ],
+      "korean_arabic_numeric_values": [
+        "1932"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "9e243f4fb12a1ef9a37ca6bfa498f2236f5a070d5720ed093de2473a068e0800"
+    },
+    {
+      "chapter": 6,
+      "item": 19,
+      "source_pdf_page": 103,
+      "source_term": "Manuel Azaña",
+      "korean_term": "마누엘 아사냐",
+      "status": "full",
+      "file": "06-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [
+        "2"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "00b81703468440c6ed814a614f087c445130d5ae2ba75b90fe6ce1ac361267c1"
+    },
+    {
+      "chapter": 6,
+      "item": 20,
+      "source_pdf_page": 103,
+      "source_term": "Mussolini",
+      "korean_term": "무솔리니",
+      "status": "full",
+      "file": "06-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1923",
+        "1945"
+      ],
+      "korean_arabic_numeric_values": [
+        "1923",
+        "1945"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "4893d0503be85e6ca29638c0e8881b255215252e9e65ac3e0928733728988791"
+    },
+    {
+      "chapter": 6,
+      "item": 21,
+      "source_pdf_page": 103,
+      "source_term": "Niceto Alcalá Zamora",
+      "korean_term": "니세토 알칼라사모라",
+      "status": "full",
+      "file": "06-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1931",
+        "1936"
+      ],
+      "korean_arabic_numeric_values": [
+        "1931",
+        "1936"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "a1621dcea0c630d114e68fc045d10cbe704e8f98140eca5960146058dbfdfc6f"
+    },
+    {
+      "chapter": 6,
+      "item": 22,
+      "source_pdf_page": 103,
+      "source_term": "Partido Radical (el)",
+      "korean_term": "급진당",
+      "status": "full",
+      "file": "06-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "595c2da2704ddd985ec4c1ed6006e8467100524146db15e4ff95c7d4d02ebddf"
+    },
+    {
+      "chapter": 6,
+      "item": 23,
+      "source_pdf_page": 103,
+      "source_term": "Stalin",
+      "korean_term": "스탈린",
+      "status": "full",
+      "file": "06-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1922",
+        "1953"
+      ],
+      "korean_arabic_numeric_values": [
+        "1922",
+        "1953"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "29411aabf466a2671ba58bc6d76d803e91a1e7e5c329b1047282400a0eb23d38"
+    },
+    {
+      "chapter": 6,
+      "item": 24,
+      "source_pdf_page": 103,
+      "source_term": "toma de Teruel (la)",
+      "korean_term": "테루엘 점령",
+      "status": "full",
+      "file": "06-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1937",
+        "1938"
+      ],
+      "korean_arabic_numeric_values": [
+        "2",
+        "12",
+        "1937",
+        "1938"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "2d2d93a888b647bdfdcb8d9b2006107a2a738b92e34e84656239b60086027a64"
+    },
+    {
+      "chapter": 6,
+      "item": 25,
+      "source_pdf_page": 103,
+      "source_term": "UGT (Unión General de Trabajadores)",
+      "korean_term": "노동자총연맹",
+      "status": "full",
+      "file": "06-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1888"
+      ],
+      "korean_arabic_numeric_values": [
+        "1888"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "e54fe278c996bba0f1618c9c57f3c330c7b6433273f5ea801e25796f0e31680c"
+    },
+    {
+      "chapter": 7,
+      "item": 1,
+      "source_pdf_page": 118,
+      "source_term": "baby boom (el)",
+      "korean_term": "베이비붐",
+      "status": "full",
+      "file": "07-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1950",
+        "1960"
+      ],
+      "korean_arabic_numeric_values": [
+        "1950",
+        "1960"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "c19853bc2e45bc5c371aeff95a2385c8a550fb08f9404860afd25ad2d439ab55"
+    },
+    {
+      "chapter": 7,
+      "item": 2,
+      "source_pdf_page": 118,
+      "source_term": "Arias Navarro, Carlos",
+      "korean_term": "카를로스 아리아스 나바로",
+      "status": "full",
+      "file": "07-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "5887340bb7fd809b1b06eca761a72cfc7831c1c764930fec29d8fe2bb44378f7"
+    },
+    {
+      "chapter": 7,
+      "item": 3,
+      "source_pdf_page": 118,
+      "source_term": "Carrero Blanco, Luís",
+      "korean_term": "루이스 카레로 블랑코",
+      "status": "full",
+      "file": "07-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1973"
+      ],
+      "korean_arabic_numeric_values": [
+        "1973"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "0bd39f06f38352c9b8fa0cd7f9c43ee1e17ca5252d064e5574c517a8535f2c5b"
+    },
+    {
+      "chapter": 7,
+      "item": 4,
+      "source_pdf_page": 118,
+      "source_term": "Comunismo",
+      "korean_term": "공산주의",
+      "status": "full",
+      "file": "07-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "10016389b9a595481cd418c781175b173fd512102116b9bb150a18b4d3c39f56"
+    },
+    {
+      "chapter": 7,
+      "item": 5,
+      "source_pdf_page": 118,
+      "source_term": "Concordato con la Santa Sede de 1953",
+      "korean_term": "1953년 교황청과의 정교협약",
+      "status": "full",
+      "file": "07-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1953"
+      ],
+      "korean_arabic_numeric_values": [
+        "1953"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "da091cf482e2850b90f9d9f586bc2e321d39be2753fde97be8c7f9d322bd9659"
+    },
+    {
+      "chapter": 7,
+      "item": 6,
+      "source_pdf_page": 118,
+      "source_term": "Contubernio de Múnich",
+      "korean_term": "뮌헨의 음모",
+      "status": "full",
+      "file": "07-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1962"
+      ],
+      "korean_arabic_numeric_values": [
+        "1962"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "6f788b9df2fefb3e908e97bc3c6596eb8eab3856e53540d96f530100153777be"
+    },
+    {
+      "chapter": 7,
+      "item": 7,
+      "source_pdf_page": 118,
+      "source_term": "División Azul",
+      "korean_term": "청색사단",
+      "status": "full",
+      "file": "07-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "50000"
+      ],
+      "korean_arabic_numeric_values": [
+        "50000"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "c91502cc2cb4264ac8dd6058bf7b8ed6cec641999301f5b64a22b478f143be3e"
+    },
+    {
+      "chapter": 7,
+      "item": 8,
+      "source_pdf_page": 118,
+      "source_term": "ETA",
+      "korean_term": "ETA",
+      "status": "full",
+      "file": "07-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1958",
+        "1973",
+        "2011"
+      ],
+      "korean_arabic_numeric_values": [
+        "1958",
+        "1973",
+        "2011"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "e8bd8620ddfe5de120f9f91ed2e4ee5082707696ddc9dde4bf7dc45582b961a9"
+    },
+    {
+      "chapter": 7,
+      "item": 9,
+      "source_pdf_page": 118,
+      "source_term": "Guerra Fría",
+      "korean_term": "냉전",
+      "status": "full",
+      "file": "07-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1947",
+        "1991"
+      ],
+      "korean_arabic_numeric_values": [
+        "2",
+        "1947",
+        "1991"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "f2275e13eb3f45125d2e9fc5853231309741f3937cc73dc8470603eef248d56f"
+    },
+    {
+      "chapter": 7,
+      "item": 10,
+      "source_pdf_page": 118,
+      "source_term": "Instituto Nacional de Industria",
+      "korean_term": "국립산업원",
+      "status": "full",
+      "file": "07-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "25193cb36f918154dc9bbcd85f105d4559107293fa6aad174aec976893f9d7f2"
+    },
+    {
+      "chapter": 7,
+      "item": 11,
+      "source_pdf_page": 118,
+      "source_term": "Junta Democrática",
+      "korean_term": "민주위원회",
+      "status": "full",
+      "file": "07-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1974"
+      ],
+      "korean_arabic_numeric_values": [
+        "1974"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "1fe20974ade03819aea5d3864452cba4a2bb4e817c6b75373920b3804c76f8bb"
+    },
+    {
+      "chapter": 7,
+      "item": 12,
+      "source_pdf_page": 118,
+      "source_term": "maquis",
+      "korean_term": "마키",
+      "status": "full",
+      "file": "07-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [
+        "2"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "c5da872cc451d6a98df30e089ceec4d1364c483d77558ad1b18214340cfc806a"
+    },
+    {
+      "chapter": 7,
+      "item": 13,
+      "source_pdf_page": 118,
+      "source_term": "Mayo Francés",
+      "korean_term": "프랑스 5월 항쟁",
+      "status": "full",
+      "file": "07-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [
+        "5"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "81aab940950ad4bf3f813808077f77052269e94e0683b6fbd04cefa4ee1b78a0"
+    },
+    {
+      "chapter": 7,
+      "item": 14,
+      "source_pdf_page": 118,
+      "source_term": "nacionalcatolicismo",
+      "korean_term": "국가가톨릭주의",
+      "status": "full",
+      "file": "07-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "44f3a15d6339f8044bb6fea93a9f8c6e4dd122213462384c25493d632638b4fe"
+    },
+    {
+      "chapter": 7,
+      "item": 15,
+      "source_pdf_page": 118,
+      "source_term": "Opus Dei",
+      "korean_term": "오푸스데이",
+      "status": "full",
+      "file": "07-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "6a7fb485003f3a1ae3bdedae4ff86b447e602c1a3689cdba8cc945ffba274398"
+    },
+    {
+      "chapter": 7,
+      "item": 16,
+      "source_pdf_page": 118,
+      "source_term": "Organización de Naciones Unidas (ONU)",
+      "korean_term": "국제연합",
+      "status": "full",
+      "file": "07-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1945"
+      ],
+      "korean_arabic_numeric_values": [
+        "1945"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "580c8b5dbcdb4c9e2997ddd69f97b06da9b5d673481a11de06d67cf2f4ffb468"
+    },
+    {
+      "chapter": 7,
+      "item": 17,
+      "source_pdf_page": 119,
+      "source_term": "PCE (Partido Comunista de España)",
+      "korean_term": "에스파냐 공산당",
+      "status": "full",
+      "file": "07-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1921"
+      ],
+      "korean_arabic_numeric_values": [
+        "1921"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "0a95d84d05045780560c259fa264aa47e6a190e933303bb0032f0547c84f0112"
+    },
+    {
+      "chapter": 7,
+      "item": 18,
+      "source_pdf_page": 119,
+      "source_term": "Planes de Desarrollo",
+      "korean_term": "개발계획",
+      "status": "full",
+      "file": "07-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1964",
+        "1975"
+      ],
+      "korean_arabic_numeric_values": [
+        "1964",
+        "1975"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "66347907b9480500f1e04012729a11de76816e50567fd6fdce05af6a47b95edf"
+    },
+    {
+      "chapter": 7,
+      "item": 19,
+      "source_pdf_page": 119,
+      "source_term": "Plataforma de Convergencia Democrática",
+      "korean_term": "민주수렴플랫폼",
+      "status": "full",
+      "file": "07-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1975"
+      ],
+      "korean_arabic_numeric_values": [
+        "1975"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "0d55c26fa13a9d96fc47bd4be322fae2ac446bd883b5d10fce7ce65437f3ba4d"
+    },
+    {
+      "chapter": 7,
+      "item": 20,
+      "source_pdf_page": 119,
+      "source_term": "Revolución de los Claveles",
+      "korean_term": "카네이션혁명",
+      "status": "full",
+      "file": "07-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1974"
+      ],
+      "korean_arabic_numeric_values": [
+        "1974"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "538bb34e5fcf41178d634af65bfb1a7ad0b82acba94f2f7e80a9ada22c88040e"
+    },
+    {
+      "chapter": 7,
+      "item": 21,
+      "source_pdf_page": 119,
+      "source_term": "Tecnócratas (los)",
+      "korean_term": "기술관료들",
+      "status": "full",
+      "file": "07-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1957"
+      ],
+      "korean_arabic_numeric_values": [
+        "1957"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "576982b680d70674b605e1f92f29f877d59127ef1fe2bb6e3dc4ef07a22a8476"
+    },
+    {
+      "chapter": 8,
+      "item": 1,
+      "source_pdf_page": 137,
+      "source_term": "Alianza Popular",
+      "korean_term": "국민동맹",
+      "status": "full",
+      "file": "08-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1976",
+        "1989"
+      ],
+      "korean_arabic_numeric_values": [
+        "1976",
+        "1989"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "efee58a591baeb1d8a0c9a17b51197667bfa4cec85c565ace74e7a1dac28afec"
+    },
+    {
+      "chapter": 8,
+      "item": 2,
+      "source_pdf_page": 137,
+      "source_term": "bipartidismo",
+      "korean_term": "양당제",
+      "status": "full",
+      "file": "08-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "05a2dafdaf2bff5f103f2bef62dfa525af4bd5e8d88fe85d60ef9d4e4c819907"
+    },
+    {
+      "chapter": 8,
+      "item": 3,
+      "source_pdf_page": 137,
+      "source_term": "Ciudadanos",
+      "korean_term": "시우다다노스",
+      "status": "full",
+      "file": "08-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "13",
+        "2006",
+        "2015"
+      ],
+      "korean_arabic_numeric_values": [
+        "13",
+        "2006",
+        "2015"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "e8b54667223b5009c11f248c7995e5939d5766c08296269c08092f57d2fbaa71"
+    },
+    {
+      "chapter": 8,
+      "item": 4,
+      "source_pdf_page": 137,
+      "source_term": "Comunidad Económica Europea (CEE)",
+      "korean_term": "유럽경제공동체",
+      "status": "full",
+      "file": "08-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1957"
+      ],
+      "korean_arabic_numeric_values": [
+        "1957"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "dc43293e42e0d45f5fea80fd82512c69594efdeca5dc5d6d75f0efbd5d0f1503"
+    },
+    {
+      "chapter": 8,
+      "item": 5,
+      "source_pdf_page": 137,
+      "source_term": "Constitución de 1978",
+      "korean_term": "1978년 헌법",
+      "status": "full",
+      "file": "08-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1978"
+      ],
+      "korean_arabic_numeric_values": [
+        "4",
+        "1978"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "dddd4c702a9a61247ebef850fd5b85cb055bf574c48b4f5f15362377089800c5"
+    },
+    {
+      "chapter": 8,
+      "item": 6,
+      "source_pdf_page": 137,
+      "source_term": "Felipe González",
+      "korean_term": "펠리페 곤살레스",
+      "status": "full",
+      "file": "08-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1974",
+        "1982",
+        "1996"
+      ],
+      "korean_arabic_numeric_values": [
+        "1974",
+        "1982",
+        "1996"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "9985c07543f207a115a25635fbb658065810668f3644d810631b03fbeae46b5f"
+    },
+    {
+      "chapter": 8,
+      "item": 7,
+      "source_pdf_page": 137,
+      "source_term": "GAL",
+      "korean_term": "GAL",
+      "status": "full",
+      "file": "08-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "1b6930020e7b6f5ba3c2e84775a8da5b4741370427285936ec8d837959b0433e"
+    },
+    {
+      "chapter": 8,
+      "item": 8,
+      "source_pdf_page": 137,
+      "source_term": "Guerra de Irak",
+      "korean_term": "이라크전쟁",
+      "status": "full",
+      "file": "08-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "2003",
+        "2011"
+      ],
+      "korean_arabic_numeric_values": [
+        "2003",
+        "2011"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "80aab1d3cbaa757e4c2743e7e9369779d22f8519a7b73e2b19d1e4108eb7f4e6"
+    },
+    {
+      "chapter": 8,
+      "item": 9,
+      "source_pdf_page": 137,
+      "source_term": "Guerra del Golfo",
+      "korean_term": "걸프전쟁",
+      "status": "full",
+      "file": "08-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1991"
+      ],
+      "korean_arabic_numeric_values": [
+        "1991"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "834fe0e3de121dd68a9ead16fde0cd7da79cf24c1559df6b1ce38184ed06f401"
+    },
+    {
+      "chapter": 8,
+      "item": 10,
+      "source_pdf_page": 137,
+      "source_term": "José María Aznar",
+      "korean_term": "호세 마리아 아스나르",
+      "status": "full",
+      "file": "08-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1990",
+        "1996",
+        "2004"
+      ],
+      "korean_arabic_numeric_values": [
+        "1990",
+        "1996",
+        "2004"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "7f7d86cbd1f9a277525c36d30cc0597c3942fe1832b2971a4aa6ff229292c17b"
+    },
+    {
+      "chapter": 8,
+      "item": 11,
+      "source_pdf_page": 137,
+      "source_term": "Leopoldo Calvo Sotelo",
+      "korean_term": "레오폴도 칼보소텔로",
+      "status": "full",
+      "file": "08-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1981"
+      ],
+      "korean_arabic_numeric_values": [
+        "1981"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "85ae36325ed6c0423414ca4e37730ee8ea58885ac46c4f32e0811eac953c776b"
+    },
+    {
+      "chapter": 8,
+      "item": 12,
+      "source_pdf_page": 137,
+      "source_term": "Ley de reforma política",
+      "korean_term": "정치개혁법",
+      "status": "full",
+      "file": "08-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1976"
+      ],
+      "korean_arabic_numeric_values": [
+        "1976"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "df389cfdeab194d7ab5ec472341848f599fa3e872513424290e3456d1b6dd620"
+    },
+    {
+      "chapter": 8,
+      "item": 13,
+      "source_pdf_page": 137,
+      "source_term": "Manuel Fraga",
+      "korean_term": "마누엘 프라가",
+      "status": "full",
+      "file": "08-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1990",
+        "2005"
+      ],
+      "korean_arabic_numeric_values": [
+        "2",
+        "1990",
+        "2005"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "55067c59001fa024861b0c8097d46f8e22b1574e5e3d57787c50e59907ff61e0"
+    },
+    {
+      "chapter": 8,
+      "item": 14,
+      "source_pdf_page": 137,
+      "source_term": "Mariano Rajoy",
+      "korean_term": "마리아노 라호이",
+      "status": "full",
+      "file": "08-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "2004",
+        "2011"
+      ],
+      "korean_arabic_numeric_values": [
+        "2004",
+        "2011"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "6fdc1c9ab6d18474fe5b4ad7e1bd3093410aad6b967c5cf1467582fd4545e07f"
+    },
+    {
+      "chapter": 8,
+      "item": 15,
+      "source_pdf_page": 137,
+      "source_term": "Organización del Tratado del Atlántico Norte (OTAN)",
+      "korean_term": "북대서양조약기구",
+      "status": "full",
+      "file": "08-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "0d2e518b1e94dfa7018f6c3ea775ff166bab3a2bde9465c9584bf13ac35bc596"
+    },
+    {
+      "chapter": 8,
+      "item": 16,
+      "source_pdf_page": 137,
+      "source_term": "Pactos de la Moncloa",
+      "korean_term": "몽클로아 협약",
+      "status": "full",
+      "file": "08-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1977"
+      ],
+      "korean_arabic_numeric_values": [
+        "1977"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "7acc101c412a7fd727baaf845bbf3a5ff72fb557cadfe7a818bd5b8768211be2"
+    },
+    {
+      "chapter": 8,
+      "item": 17,
+      "source_pdf_page": 138,
+      "source_term": "Partido Popular",
+      "korean_term": "국민당",
+      "status": "full",
+      "file": "08-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1989",
+        "1996",
+        "2004",
+        "2011"
+      ],
+      "korean_arabic_numeric_values": [
+        "1989",
+        "1996",
+        "2004",
+        "2011"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "37e9d44a9ef5495842351375baa2b5c1245c50827659e8ad1d196aa2c295472e"
+    },
+    {
+      "chapter": 8,
+      "item": 18,
+      "source_pdf_page": 138,
+      "source_term": "Podemos",
+      "korean_term": "포데모스",
+      "status": "full",
+      "file": "08-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "15",
+        "20",
+        "2014",
+        "2015",
+        "2016"
+      ],
+      "korean_arabic_numeric_values": [
+        "15",
+        "20",
+        "2014",
+        "2015",
+        "2016"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "4faf0986a9660647ed90f2377e1f28cb9f8cec38411d7b70ae362c28f7b84dd5"
+    },
+    {
+      "chapter": 8,
+      "item": 19,
+      "source_pdf_page": 138,
+      "source_term": "Repsol",
+      "korean_term": "렙솔",
+      "status": "full",
+      "file": "08-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1987",
+        "1989"
+      ],
+      "korean_arabic_numeric_values": [
+        "1987",
+        "1989"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "dd180279eaf71892dce04a13d34fc250fb9fbe369a58856c43eb57280da73ded"
+    },
+    {
+      "chapter": 8,
+      "item": 20,
+      "source_pdf_page": 138,
+      "source_term": "Seguridad Social",
+      "korean_term": "사회보장",
+      "status": "full",
+      "file": "08-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [],
+      "korean_arabic_numeric_values": [],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "03ff431ad69099a27f1a429283002bbab9adc235a389ff621e2bfe176d6c464b"
+    },
+    {
+      "chapter": 8,
+      "item": 21,
+      "source_pdf_page": 138,
+      "source_term": "Telefónica",
+      "korean_term": "텔레포니카",
+      "status": "full",
+      "file": "08-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1924",
+        "1995",
+        "1999"
+      ],
+      "korean_arabic_numeric_values": [
+        "1924",
+        "1995",
+        "1999"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "975c6d98cc2b78f9545b8d3183e0109feda40bb17b7788d582d4069991e47a3a"
+    },
+    {
+      "chapter": 8,
+      "item": 22,
+      "source_pdf_page": 138,
+      "source_term": "Unión de Centro Democrático (UCD)",
+      "korean_term": "민주중도연합",
+      "status": "full",
+      "file": "08-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "1977",
+        "1982"
+      ],
+      "korean_arabic_numeric_values": [
+        "1977",
+        "1982"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "f8072b34354672fa7416b86ff7d2bfed18ceff17d47cb28ee2f50606cdfd30d5"
+    },
+    {
+      "chapter": 8,
+      "item": 23,
+      "source_pdf_page": 138,
+      "source_term": "Zapatero, José Luís Rodríguez",
+      "korean_term": "호세 루이스 로드리게스 사파테로",
+      "status": "full",
+      "file": "08-concepts-attributed.ko.draft.md",
+      "source_arabic_numeric_values": [
+        "2000",
+        "2004",
+        "2011",
+        "2012"
+      ],
+      "korean_arabic_numeric_values": [
+        "2000",
+        "2004",
+        "2011",
+        "2012"
+      ],
+      "missing_source_numeric_values": [],
+      "source_definition_normalized_sha256": "8bf647d258c3947bf75bd1a4ee7dbabf643450b552142455584923c9d07806bd"
+    }
+  ],
+  "appendix_map": [
+    {
+      "appendix_pdf_page": 152,
+      "appendix_term": "abad (el)",
+      "chapter": 2,
+      "chapter_pdf_page": 32,
+      "item": 1,
+      "korean_term": "수도원장",
+      "status": "full",
+      "translation_file": "02-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 152,
+      "appendix_term": "absolutismo (el)",
+      "chapter": 5,
+      "chapter_pdf_page": 83,
+      "item": 1,
+      "korean_term": "절대주의",
+      "status": "full",
+      "translation_file": "05-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 152,
+      "appendix_term": "absolutista",
+      "chapter": 3,
+      "chapter_pdf_page": 44,
+      "item": 1,
+      "korean_term": "절대주의자·절대주의의",
+      "status": "full",
+      "translation_file": "03-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 152,
+      "appendix_term": "alianza matrimonial (la)",
+      "chapter": 2,
+      "chapter_pdf_page": 32,
+      "item": 2,
+      "korean_term": "혼인 동맹",
+      "status": "full",
+      "translation_file": "02-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 152,
+      "appendix_term": "Alianza Obrera",
+      "chapter": 6,
+      "chapter_pdf_page": 102,
+      "item": 1,
+      "korean_term": "노동자 동맹",
+      "status": "full",
+      "translation_file": "06-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 152,
+      "appendix_term": "Alianza Popular",
+      "chapter": 8,
+      "chapter_pdf_page": 137,
+      "item": 1,
+      "korean_term": "국민동맹",
+      "status": "full",
+      "translation_file": "08-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 152,
+      "appendix_term": "alianzas matrimoniales (las)",
+      "chapter": 3,
+      "chapter_pdf_page": 44,
+      "item": 2,
+      "korean_term": "혼인 동맹들",
+      "status": "full",
+      "translation_file": "03-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 152,
+      "appendix_term": "Alzamiento Nacional",
+      "chapter": 6,
+      "chapter_pdf_page": 102,
+      "item": 2,
+      "korean_term": "민족봉기",
+      "status": "full",
+      "translation_file": "06-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 152,
+      "appendix_term": "Amadeo I de Saboya",
+      "chapter": 5,
+      "chapter_pdf_page": 83,
+      "item": 2,
+      "korean_term": "사보이의 아마데오 1세",
+      "status": "full",
+      "translation_file": "05-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 152,
+      "appendix_term": "anarquismo (el)",
+      "chapter": 5,
+      "chapter_pdf_page": 83,
+      "item": 3,
+      "korean_term": "아나키즘",
+      "status": "full",
+      "translation_file": "05-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 152,
+      "appendix_term": "andalusí",
+      "chapter": 2,
+      "chapter_pdf_page": 32,
+      "item": 3,
+      "korean_term": "알안달루스의",
+      "status": "full",
+      "translation_file": "02-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 152,
+      "appendix_term": "anfiteatro (el)",
+      "chapter": 1,
+      "chapter_pdf_page": 21,
+      "item": 1,
+      "korean_term": "원형경기장",
+      "status": "full",
+      "translation_file": "01-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 152,
+      "appendix_term": "Antiguo Régimen",
+      "chapter": 5,
+      "chapter_pdf_page": 83,
+      "item": 4,
+      "korean_term": "구체제",
+      "status": "full",
+      "translation_file": "05-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 152,
+      "appendix_term": "archiduque (el)",
+      "chapter": 4,
+      "chapter_pdf_page": 59,
+      "item": 1,
+      "korean_term": "대공",
+      "status": "full",
+      "translation_file": "04-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 152,
+      "appendix_term": "Arias Navarro, Carlos",
+      "chapter": 7,
+      "chapter_pdf_page": 118,
+      "item": 2,
+      "korean_term": "카를로스 아리아스 나바로",
+      "status": "full",
+      "translation_file": "07-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 152,
+      "appendix_term": "Armada Invencible (la)",
+      "chapter": 3,
+      "chapter_pdf_page": 44,
+      "item": 3,
+      "korean_term": "무적함대",
+      "status": "full",
+      "translation_file": "03-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 152,
+      "appendix_term": "arrabal (el)",
+      "chapter": 2,
+      "chapter_pdf_page": 32,
+      "item": 4,
+      "korean_term": "성 밖 구역",
+      "status": "full",
+      "translation_file": "02-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 153,
+      "appendix_term": "Austrias (los)",
+      "chapter": 4,
+      "chapter_pdf_page": 59,
+      "item": 2,
+      "korean_term": "합스부르크 왕가의 군주들",
+      "status": "full",
+      "translation_file": "04-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 153,
+      "appendix_term": "baby boom (el)",
+      "chapter": 7,
+      "chapter_pdf_page": 118,
+      "item": 1,
+      "korean_term": "베이비붐",
+      "status": "full",
+      "translation_file": "07-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 153,
+      "appendix_term": "bandolerismo (el)",
+      "chapter": 3,
+      "chapter_pdf_page": 44,
+      "item": 4,
+      "korean_term": "산적 행위",
+      "status": "full",
+      "translation_file": "03-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 153,
+      "appendix_term": "basílica (la)",
+      "chapter": 1,
+      "chapter_pdf_page": 21,
+      "item": 2,
+      "korean_term": "바실리카",
+      "status": "full",
+      "translation_file": "01-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 153,
+      "appendix_term": "batalla del Ebro (la)",
+      "chapter": 6,
+      "chapter_pdf_page": 102,
+      "item": 3,
+      "korean_term": "에브로 전투",
+      "status": "full",
+      "translation_file": "06-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 153,
+      "appendix_term": "bipartidismo",
+      "chapter": 8,
+      "chapter_pdf_page": 137,
+      "item": 2,
+      "korean_term": "양당제",
+      "status": "full",
+      "translation_file": "08-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 153,
+      "appendix_term": "Boabdil",
+      "chapter": 3,
+      "chapter_pdf_page": 44,
+      "item": 5,
+      "korean_term": "보압딜",
+      "status": "full",
+      "translation_file": "03-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 153,
+      "appendix_term": "Borbones (los)",
+      "chapter": 4,
+      "chapter_pdf_page": 59,
+      "item": 3,
+      "korean_term": "부르봉 왕가의 군주들",
+      "status": "full",
+      "translation_file": "04-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 153,
+      "appendix_term": "Brigadas Internacionales",
+      "chapter": 6,
+      "chapter_pdf_page": 102,
+      "item": 4,
+      "korean_term": "국제여단",
+      "status": "full",
+      "translation_file": "06-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 153,
+      "appendix_term": "califa (el)",
+      "chapter": 2,
+      "chapter_pdf_page": 32,
+      "item": 5,
+      "korean_term": "칼리프",
+      "status": "full",
+      "translation_file": "02-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 153,
+      "appendix_term": "califato (el)",
+      "chapter": 2,
+      "chapter_pdf_page": 32,
+      "item": 6,
+      "korean_term": "칼리프국",
+      "status": "full",
+      "translation_file": "02-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 153,
+      "appendix_term": "calzada (la)",
+      "chapter": 1,
+      "chapter_pdf_page": 21,
+      "item": 3,
+      "korean_term": "포장도로",
+      "status": "full",
+      "translation_file": "01-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 153,
+      "appendix_term": "candidato",
+      "chapter": 4,
+      "chapter_pdf_page": 59,
+      "item": 4,
+      "korean_term": "후보자",
+      "status": "full",
+      "translation_file": "04-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 153,
+      "appendix_term": "Cánovas del Castillo",
+      "chapter": 5,
+      "chapter_pdf_page": 83,
+      "item": 5,
+      "korean_term": "카노바스 델 카스티요",
+      "status": "hold",
+      "translation_file": "05-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 153,
+      "appendix_term": "Capitulaciones de Santa Fe",
+      "chapter": 3,
+      "chapter_pdf_page": 44,
+      "item": 6,
+      "korean_term": "산타페 협약",
+      "status": "full",
+      "translation_file": "03-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 154,
+      "appendix_term": "Cardenal Cisneros",
+      "chapter": 3,
+      "chapter_pdf_page": 44,
+      "item": 7,
+      "korean_term": "시스네로스 추기경",
+      "status": "full",
+      "translation_file": "03-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 154,
+      "appendix_term": "carolingio/a",
+      "chapter": 2,
+      "chapter_pdf_page": 32,
+      "item": 7,
+      "korean_term": "카롤루스 왕조의",
+      "status": "full",
+      "translation_file": "02-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 154,
+      "appendix_term": "Carrero Blanco, Luís",
+      "chapter": 7,
+      "chapter_pdf_page": 118,
+      "item": 3,
+      "korean_term": "루이스 카레로 블랑코",
+      "status": "full",
+      "translation_file": "07-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 154,
+      "appendix_term": "castro (el)",
+      "chapter": 1,
+      "chapter_pdf_page": 21,
+      "item": 4,
+      "korean_term": "카스트로",
+      "status": "full",
+      "translation_file": "01-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 154,
+      "appendix_term": "CEDA (Coalición Española de Derechas Autónomas)",
+      "chapter": 6,
+      "chapter_pdf_page": 102,
+      "item": 5,
+      "korean_term": "에스파냐 자치우익연합",
+      "status": "full",
+      "translation_file": "06-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 154,
+      "appendix_term": "centralista",
+      "chapter": 3,
+      "chapter_pdf_page": 44,
+      "item": 8,
+      "korean_term": "중앙집권적인",
+      "status": "full",
+      "translation_file": "03-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 154,
+      "appendix_term": "ciudad fortificada (la)",
+      "chapter": 1,
+      "chapter_pdf_page": 21,
+      "item": 5,
+      "korean_term": "요새도시",
+      "status": "full",
+      "translation_file": "01-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 154,
+      "appendix_term": "Ciudadanos",
+      "chapter": 8,
+      "chapter_pdf_page": 137,
+      "item": 3,
+      "korean_term": "시우다다노스",
+      "status": "full",
+      "translation_file": "08-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 154,
+      "appendix_term": "clero (el)",
+      "chapter": 2,
+      "chapter_pdf_page": 32,
+      "item": 8,
+      "korean_term": "성직자 집단",
+      "status": "full",
+      "translation_file": "02-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 154,
+      "appendix_term": "CNT (Confederación Nacional del Trabajo)",
+      "chapter": 6,
+      "chapter_pdf_page": 102,
+      "item": 6,
+      "korean_term": "전국노동연맹",
+      "status": "full",
+      "translation_file": "06-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 154,
+      "appendix_term": "Comité de No Intervención",
+      "chapter": 6,
+      "chapter_pdf_page": 102,
+      "item": 7,
+      "korean_term": "불간섭위원회",
+      "status": "full",
+      "translation_file": "06-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 154,
+      "appendix_term": "Comunidad Económica Europea (CEE)",
+      "chapter": 8,
+      "chapter_pdf_page": 137,
+      "item": 4,
+      "korean_term": "유럽경제공동체",
+      "status": "full",
+      "translation_file": "08-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 154,
+      "appendix_term": "Comunismo (el)",
+      "chapter": 7,
+      "chapter_pdf_page": 118,
+      "item": 4,
+      "korean_term": "공산주의",
+      "status": "full",
+      "translation_file": "07-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": true
+    },
+    {
+      "appendix_pdf_page": 154,
+      "appendix_term": "Concilio de Trento",
+      "chapter": 3,
+      "chapter_pdf_page": 44,
+      "item": 9,
+      "korean_term": "트리엔트공의회",
+      "status": "full",
+      "translation_file": "03-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 155,
+      "appendix_term": "Concordato con la Santa Sede de 1953",
+      "chapter": 7,
+      "chapter_pdf_page": 118,
+      "item": 5,
+      "korean_term": "1953년 교황청과의 정교협약",
+      "status": "full",
+      "translation_file": "07-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 155,
+      "appendix_term": "condado (el)",
+      "chapter": 2,
+      "chapter_pdf_page": 32,
+      "item": 9,
+      "korean_term": "백작령",
+      "status": "full",
+      "translation_file": "02-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 155,
+      "appendix_term": "consejero (el)",
+      "chapter": 3,
+      "chapter_pdf_page": 44,
+      "item": 10,
+      "korean_term": "고문·평의원",
+      "status": "full",
+      "translation_file": "03-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 155,
+      "appendix_term": "conservador/a",
+      "chapter": 5,
+      "chapter_pdf_page": 83,
+      "item": 6,
+      "korean_term": "보수주의자·보수적인",
+      "status": "hold",
+      "translation_file": "05-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 155,
+      "appendix_term": "conspiración (la)",
+      "chapter": 4,
+      "chapter_pdf_page": 59,
+      "item": 5,
+      "korean_term": "음모",
+      "status": "full",
+      "translation_file": "04-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 155,
+      "appendix_term": "Constitución de 1812",
+      "chapter": 5,
+      "chapter_pdf_page": 83,
+      "item": 7,
+      "korean_term": "1812년 헌법",
+      "status": "full",
+      "translation_file": "05-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 155,
+      "appendix_term": "Constitución de 1869",
+      "chapter": 5,
+      "chapter_pdf_page": 83,
+      "item": 8,
+      "korean_term": "1869년 헌법",
+      "status": "full",
+      "translation_file": "05-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 155,
+      "appendix_term": "Constitución de 1931",
+      "chapter": 6,
+      "chapter_pdf_page": 102,
+      "item": 8,
+      "korean_term": "1931년 헌법",
+      "status": "full",
+      "translation_file": "06-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 155,
+      "appendix_term": "Constitución de 1978",
+      "chapter": 8,
+      "chapter_pdf_page": 137,
+      "item": 5,
+      "korean_term": "1978년 헌법",
+      "status": "full",
+      "translation_file": "08-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 155,
+      "appendix_term": "consulado (el)",
+      "chapter": 2,
+      "chapter_pdf_page": 32,
+      "item": 10,
+      "korean_term": "영사관",
+      "status": "full",
+      "translation_file": "02-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 155,
+      "appendix_term": "Contrarreforma (la)",
+      "chapter": 3,
+      "chapter_pdf_page": 44,
+      "item": 11,
+      "korean_term": "반종교개혁",
+      "status": "full",
+      "translation_file": "03-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 155,
+      "appendix_term": "Contubernio de Múnich",
+      "chapter": 7,
+      "chapter_pdf_page": 118,
+      "item": 6,
+      "korean_term": "뮌헨의 음모",
+      "status": "full",
+      "translation_file": "07-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 155,
+      "appendix_term": "Corte (la)",
+      "chapter": 3,
+      "chapter_pdf_page": 44,
+      "item": 12,
+      "korean_term": "궁정",
+      "status": "full",
+      "translation_file": "03-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 155,
+      "appendix_term": "Cortes constituyentes (las)",
+      "chapter": 6,
+      "chapter_pdf_page": 102,
+      "item": 9,
+      "korean_term": "제헌의회",
+      "status": "full",
+      "translation_file": "06-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 156,
+      "appendix_term": "curia (la)",
+      "chapter": 1,
+      "chapter_pdf_page": 21,
+      "item": 6,
+      "korean_term": "쿠리아",
+      "status": "full",
+      "translation_file": "01-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 156,
+      "appendix_term": "Decretos de Nueva Planta",
+      "chapter": 4,
+      "chapter_pdf_page": 59,
+      "item": 6,
+      "korean_term": "누에바플란타 칙령",
+      "status": "full",
+      "translation_file": "04-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 156,
+      "appendix_term": "desamortización (la)",
+      "chapter": 4,
+      "chapter_pdf_page": 59,
+      "item": 7,
+      "korean_term": "영구소유재산 매각",
+      "status": "full",
+      "translation_file": "04-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 156,
+      "appendix_term": "Despotismo Ilustrado",
+      "chapter": 4,
+      "chapter_pdf_page": 59,
+      "item": 8,
+      "korean_term": "계몽전제주의",
+      "status": "partial",
+      "translation_file": "04-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 156,
+      "appendix_term": "dictadura (la)",
+      "chapter": 5,
+      "chapter_pdf_page": 83,
+      "item": 9,
+      "korean_term": "독재",
+      "status": "full",
+      "translation_file": "05-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 156,
+      "appendix_term": "diezmo (el)",
+      "chapter": 2,
+      "chapter_pdf_page": 32,
+      "item": 11,
+      "korean_term": "십일조",
+      "status": "full",
+      "translation_file": "02-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 156,
+      "appendix_term": "División Azul",
+      "chapter": 7,
+      "chapter_pdf_page": 118,
+      "item": 7,
+      "korean_term": "청색사단",
+      "status": "full",
+      "translation_file": "07-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 156,
+      "appendix_term": "duque (el)",
+      "chapter": 4,
+      "chapter_pdf_page": 59,
+      "item": 9,
+      "korean_term": "공작",
+      "status": "full",
+      "translation_file": "04-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 156,
+      "appendix_term": "emir (el)",
+      "chapter": 2,
+      "chapter_pdf_page": 32,
+      "item": 12,
+      "korean_term": "에미르",
+      "status": "full",
+      "translation_file": "02-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 156,
+      "appendix_term": "emirato (el)",
+      "chapter": 2,
+      "chapter_pdf_page": 32,
+      "item": 13,
+      "korean_term": "에미르국",
+      "status": "full",
+      "translation_file": "02-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 156,
+      "appendix_term": "Espartero",
+      "chapter": 5,
+      "chapter_pdf_page": 83,
+      "item": 10,
+      "korean_term": "에스파르테로",
+      "status": "full",
+      "translation_file": "05-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 156,
+      "appendix_term": "Estatuto de Autonomía",
+      "chapter": 6,
+      "chapter_pdf_page": 102,
+      "item": 10,
+      "korean_term": "자치헌장",
+      "status": "full",
+      "translation_file": "06-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 156,
+      "appendix_term": "ETA",
+      "chapter": 7,
+      "chapter_pdf_page": 118,
+      "item": 8,
+      "korean_term": "ETA",
+      "status": "full",
+      "translation_file": "07-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 156,
+      "appendix_term": "evangelización (la)",
+      "chapter": 3,
+      "chapter_pdf_page": 44,
+      "item": 13,
+      "korean_term": "복음 전파",
+      "status": "full",
+      "translation_file": "03-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 157,
+      "appendix_term": "Falange",
+      "chapter": 6,
+      "chapter_pdf_page": 102,
+      "item": 11,
+      "korean_term": "팔랑헤",
+      "status": "full",
+      "translation_file": "06-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 157,
+      "appendix_term": "Felipe González",
+      "chapter": 8,
+      "chapter_pdf_page": 137,
+      "item": 6,
+      "korean_term": "펠리페 곤살레스",
+      "status": "full",
+      "translation_file": "08-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 157,
+      "appendix_term": "feria (la)",
+      "chapter": 2,
+      "chapter_pdf_page": 32,
+      "item": 14,
+      "korean_term": "정기시장",
+      "status": "full",
+      "translation_file": "02-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 157,
+      "appendix_term": "feudalismo (el)",
+      "chapter": 2,
+      "chapter_pdf_page": 32,
+      "item": 15,
+      "korean_term": "봉건제",
+      "status": "full",
+      "translation_file": "02-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 157,
+      "appendix_term": "Franco, Francisco",
+      "chapter": 6,
+      "chapter_pdf_page": 102,
+      "item": 12,
+      "korean_term": "프란시스코 프랑코",
+      "status": "full",
+      "translation_file": "06-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 157,
+      "appendix_term": "Frente Popular (el)",
+      "chapter": 6,
+      "chapter_pdf_page": 102,
+      "item": 13,
+      "korean_term": "인민전선",
+      "status": "full",
+      "translation_file": "06-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 157,
+      "appendix_term": "fuero (el)",
+      "chapter": 4,
+      "chapter_pdf_page": 59,
+      "item": 10,
+      "korean_term": "푸에로·특권법",
+      "status": "hold",
+      "translation_file": "04-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 157,
+      "appendix_term": "GAL",
+      "chapter": 8,
+      "chapter_pdf_page": 137,
+      "item": 7,
+      "korean_term": "GAL",
+      "status": "full",
+      "translation_file": "08-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 157,
+      "appendix_term": "General Mola (el)",
+      "chapter": 6,
+      "chapter_pdf_page": 102,
+      "item": 14,
+      "korean_term": "몰라 장군",
+      "status": "full",
+      "translation_file": "06-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 157,
+      "appendix_term": "General Narváez",
+      "chapter": 5,
+      "chapter_pdf_page": 83,
+      "item": 11,
+      "korean_term": "나르바에스 장군",
+      "status": "hold",
+      "translation_file": "05-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 157,
+      "appendix_term": "General Sanjurjo (el)",
+      "chapter": 6,
+      "chapter_pdf_page": 102,
+      "item": 15,
+      "korean_term": "산후르호 장군",
+      "status": "full",
+      "translation_file": "06-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 157,
+      "appendix_term": "Germanías",
+      "chapter": 3,
+      "chapter_pdf_page": 44,
+      "item": 14,
+      "korean_term": "헤르마니아스 반란",
+      "status": "full",
+      "translation_file": "03-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 157,
+      "appendix_term": "guerra de Irak",
+      "chapter": 8,
+      "chapter_pdf_page": 137,
+      "item": 8,
+      "korean_term": "이라크전쟁",
+      "status": "full",
+      "translation_file": "08-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": true
+    },
+    {
+      "appendix_pdf_page": 158,
+      "appendix_term": "Guerra de la Independencia de los Estados Unidos",
+      "chapter": 4,
+      "chapter_pdf_page": 59,
+      "item": 11,
+      "korean_term": "미국 독립전쟁",
+      "status": "full",
+      "translation_file": "04-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 158,
+      "appendix_term": "Guerra de los Siete Años",
+      "chapter": 4,
+      "chapter_pdf_page": 59,
+      "item": 12,
+      "korean_term": "7년전쟁",
+      "status": "full",
+      "translation_file": "04-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 158,
+      "appendix_term": "Guerra del Golfo",
+      "chapter": 8,
+      "chapter_pdf_page": 137,
+      "item": 9,
+      "korean_term": "걸프전쟁",
+      "status": "full",
+      "translation_file": "08-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 158,
+      "appendix_term": "Guerra Fría",
+      "chapter": 7,
+      "chapter_pdf_page": 118,
+      "item": 9,
+      "korean_term": "냉전",
+      "status": "full",
+      "translation_file": "07-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 158,
+      "appendix_term": "guerrilla (la)",
+      "chapter": 5,
+      "chapter_pdf_page": 83,
+      "item": 12,
+      "korean_term": "게릴라",
+      "status": "full",
+      "translation_file": "05-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 158,
+      "appendix_term": "hacienda (la)",
+      "chapter": 4,
+      "chapter_pdf_page": 59,
+      "item": 13,
+      "korean_term": "재산",
+      "status": "full",
+      "translation_file": "04-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 158,
+      "appendix_term": "hegemonía (la)",
+      "chapter": 2,
+      "chapter_pdf_page": 32,
+      "item": 16,
+      "korean_term": "패권",
+      "status": "full",
+      "translation_file": "02-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 158,
+      "appendix_term": "Hitler",
+      "chapter": 6,
+      "chapter_pdf_page": 102,
+      "item": 16,
+      "korean_term": "히틀러",
+      "status": "full",
+      "translation_file": "06-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 158,
+      "appendix_term": "Honrado Concejo de Mesta",
+      "chapter": 2,
+      "chapter_pdf_page": 33,
+      "item": 17,
+      "korean_term": "명예로운 메스타 평의회",
+      "status": "full",
+      "translation_file": "02-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 158,
+      "appendix_term": "Ilustración (la)",
+      "chapter": 4,
+      "chapter_pdf_page": 59,
+      "item": 14,
+      "korean_term": "계몽주의",
+      "status": "full",
+      "translation_file": "04-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 158,
+      "appendix_term": "Imperio Otomano (el)",
+      "chapter": 4,
+      "chapter_pdf_page": 59,
+      "item": 15,
+      "korean_term": "오스만 제국",
+      "status": "full",
+      "translation_file": "04-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 158,
+      "appendix_term": "Instituto Nacional de Industria",
+      "chapter": 7,
+      "chapter_pdf_page": 118,
+      "item": 10,
+      "korean_term": "국립산업원",
+      "status": "full",
+      "translation_file": "07-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 158,
+      "appendix_term": "jesuíta (el/la)",
+      "chapter": 4,
+      "chapter_pdf_page": 60,
+      "item": 16,
+      "korean_term": "예수회 회원",
+      "status": "full",
+      "translation_file": "04-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 159,
+      "appendix_term": "José María Aznar",
+      "chapter": 8,
+      "chapter_pdf_page": 137,
+      "item": 10,
+      "korean_term": "호세 마리아 아스나르",
+      "status": "full",
+      "translation_file": "08-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 159,
+      "appendix_term": "judería (la)",
+      "chapter": 2,
+      "chapter_pdf_page": 33,
+      "item": 18,
+      "korean_term": "유대인 구역",
+      "status": "full",
+      "translation_file": "02-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 159,
+      "appendix_term": "Junta Democrática",
+      "chapter": 7,
+      "chapter_pdf_page": 118,
+      "item": 11,
+      "korean_term": "민주위원회",
+      "status": "full",
+      "translation_file": "07-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 159,
+      "appendix_term": "Legión Cóndor (la)",
+      "chapter": 6,
+      "chapter_pdf_page": 103,
+      "item": 17,
+      "korean_term": "콘도르 군단",
+      "status": "full",
+      "translation_file": "06-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 159,
+      "appendix_term": "Leopoldo Calvo Sotelo",
+      "chapter": 8,
+      "chapter_pdf_page": 137,
+      "item": 11,
+      "korean_term": "레오폴도 칼보소텔로",
+      "status": "full",
+      "translation_file": "08-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 159,
+      "appendix_term": "Ley de Reforma Agraria (la)",
+      "chapter": 6,
+      "chapter_pdf_page": 103,
+      "item": 18,
+      "korean_term": "농지개혁법",
+      "status": "full",
+      "translation_file": "06-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 159,
+      "appendix_term": "Ley de reforma política",
+      "chapter": 8,
+      "chapter_pdf_page": 137,
+      "item": 12,
+      "korean_term": "정치개혁법",
+      "status": "full",
+      "translation_file": "08-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 159,
+      "appendix_term": "Ley sálica",
+      "chapter": 5,
+      "chapter_pdf_page": 83,
+      "item": 13,
+      "korean_term": "살리카법",
+      "status": "full",
+      "translation_file": "05-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 159,
+      "appendix_term": "Leyes desamortizadoras de Mendizábal",
+      "chapter": 5,
+      "chapter_pdf_page": 83,
+      "item": 14,
+      "korean_term": "멘디사발의 영구소유재산 매각법",
+      "status": "full",
+      "translation_file": "05-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": true
+    },
+    {
+      "appendix_pdf_page": 159,
+      "appendix_term": "liberal",
+      "chapter": 5,
+      "chapter_pdf_page": 84,
+      "item": 15,
+      "korean_term": "자유주의자",
+      "status": "full",
+      "translation_file": "05-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 159,
+      "appendix_term": "Liga Santa (la)",
+      "chapter": 3,
+      "chapter_pdf_page": 44,
+      "item": 15,
+      "korean_term": "신성동맹",
+      "status": "full",
+      "translation_file": "03-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 159,
+      "appendix_term": "luterano/a",
+      "chapter": 3,
+      "chapter_pdf_page": 45,
+      "item": 16,
+      "korean_term": "루터파 신자·루터파의",
+      "status": "full",
+      "translation_file": "03-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 159,
+      "appendix_term": "Manuel Azaña",
+      "chapter": 6,
+      "chapter_pdf_page": 103,
+      "item": 19,
+      "korean_term": "마누엘 아사냐",
+      "status": "full",
+      "translation_file": "06-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 160,
+      "appendix_term": "Manuel Fraga",
+      "chapter": 8,
+      "chapter_pdf_page": 137,
+      "item": 13,
+      "korean_term": "마누엘 프라가",
+      "status": "full",
+      "translation_file": "08-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 160,
+      "appendix_term": "maquis",
+      "chapter": 7,
+      "chapter_pdf_page": 118,
+      "item": 12,
+      "korean_term": "마키",
+      "status": "full",
+      "translation_file": "07-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 160,
+      "appendix_term": "Marca Hispánica",
+      "chapter": 2,
+      "chapter_pdf_page": 33,
+      "item": 19,
+      "korean_term": "에스파냐 변경지대",
+      "status": "full",
+      "translation_file": "02-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 160,
+      "appendix_term": "María Cristina de Austria",
+      "chapter": 5,
+      "chapter_pdf_page": 84,
+      "item": 16,
+      "korean_term": "오스트리아의 마리아 크리스티나",
+      "status": "full",
+      "translation_file": "05-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 160,
+      "appendix_term": "Mariano Rajoy",
+      "chapter": 8,
+      "chapter_pdf_page": 137,
+      "item": 14,
+      "korean_term": "마리아노 라호이",
+      "status": "full",
+      "translation_file": "08-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 160,
+      "appendix_term": "Mayo Francés",
+      "chapter": 7,
+      "chapter_pdf_page": 118,
+      "item": 13,
+      "korean_term": "프랑스 5월 항쟁",
+      "status": "full",
+      "translation_file": "07-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 160,
+      "appendix_term": "medida protecionista (la)",
+      "chapter": 4,
+      "chapter_pdf_page": 60,
+      "item": 17,
+      "korean_term": "보호무역 조치",
+      "status": "full",
+      "translation_file": "04-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 160,
+      "appendix_term": "metrópolis (la)",
+      "chapter": 1,
+      "chapter_pdf_page": 21,
+      "item": 7,
+      "korean_term": "모도시",
+      "status": "full",
+      "translation_file": "01-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 160,
+      "appendix_term": "mezquita (la)",
+      "chapter": 2,
+      "chapter_pdf_page": 33,
+      "item": 20,
+      "korean_term": "모스크",
+      "status": "full",
+      "translation_file": "02-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 160,
+      "appendix_term": "moderado/a",
+      "chapter": 5,
+      "chapter_pdf_page": 84,
+      "item": 17,
+      "korean_term": "온건파의·온건파 인사",
+      "status": "full",
+      "translation_file": "05-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 160,
+      "appendix_term": "monarquia (la)",
+      "chapter": 3,
+      "chapter_pdf_page": 45,
+      "item": 18,
+      "korean_term": "군주정",
+      "status": "full",
+      "translation_file": "03-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 160,
+      "appendix_term": "monarquía autoritaria (la)",
+      "chapter": 3,
+      "chapter_pdf_page": 45,
+      "item": 17,
+      "korean_term": "권위주의적 군주정",
+      "status": "full",
+      "translation_file": "03-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 160,
+      "appendix_term": "morisco/a",
+      "chapter": 3,
+      "chapter_pdf_page": 45,
+      "item": 19,
+      "korean_term": "모리스코",
+      "status": "full",
+      "translation_file": "03-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 160,
+      "appendix_term": "Motín de Esquilache (el)",
+      "chapter": 4,
+      "chapter_pdf_page": 60,
+      "item": 18,
+      "korean_term": "에스킬라체 폭동",
+      "status": "full",
+      "translation_file": "04-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 161,
+      "appendix_term": "Movimiento cantonal",
+      "chapter": 5,
+      "chapter_pdf_page": 84,
+      "item": 18,
+      "korean_term": "칸톤 운동",
+      "status": "full",
+      "translation_file": "05-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 161,
+      "appendix_term": "Movimiento regionalista",
+      "chapter": 5,
+      "chapter_pdf_page": 84,
+      "item": 19,
+      "korean_term": "지역주의 운동",
+      "status": "hold",
+      "translation_file": "05-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 161,
+      "appendix_term": "muralla (la)",
+      "chapter": 1,
+      "chapter_pdf_page": 21,
+      "item": 8,
+      "korean_term": "성벽",
+      "status": "full",
+      "translation_file": "01-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 161,
+      "appendix_term": "Mussolini",
+      "chapter": 6,
+      "chapter_pdf_page": 103,
+      "item": 20,
+      "korean_term": "무솔리니",
+      "status": "full",
+      "translation_file": "06-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 161,
+      "appendix_term": "nacionalcatolicismo",
+      "chapter": 7,
+      "chapter_pdf_page": 118,
+      "item": 14,
+      "korean_term": "국가가톨릭주의",
+      "status": "full",
+      "translation_file": "07-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 161,
+      "appendix_term": "nazarí",
+      "chapter": 2,
+      "chapter_pdf_page": 33,
+      "item": 21,
+      "korean_term": "나스르 왕조의",
+      "status": "full",
+      "translation_file": "02-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 161,
+      "appendix_term": "neutralidad (la)",
+      "chapter": 4,
+      "chapter_pdf_page": 60,
+      "item": 19,
+      "korean_term": "중립성",
+      "status": "full",
+      "translation_file": "04-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 161,
+      "appendix_term": "Niceto Alcalá Zamora",
+      "chapter": 6,
+      "chapter_pdf_page": 103,
+      "item": 21,
+      "korean_term": "니세토 알칼라사모라",
+      "status": "full",
+      "translation_file": "06-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 161,
+      "appendix_term": "nobleza (la)",
+      "chapter": 2,
+      "chapter_pdf_page": 33,
+      "item": 22,
+      "korean_term": "귀족",
+      "status": "full",
+      "translation_file": "02-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 161,
+      "appendix_term": "obispo (el)",
+      "chapter": 2,
+      "chapter_pdf_page": 33,
+      "item": 23,
+      "korean_term": "주교",
+      "status": "full",
+      "translation_file": "02-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 161,
+      "appendix_term": "Opus Dei",
+      "chapter": 7,
+      "chapter_pdf_page": 118,
+      "item": 15,
+      "korean_term": "오푸스데이",
+      "status": "full",
+      "translation_file": "07-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 161,
+      "appendix_term": "Organización de Naciones Unidas (ONU)",
+      "chapter": 7,
+      "chapter_pdf_page": 118,
+      "item": 16,
+      "korean_term": "국제연합",
+      "status": "full",
+      "translation_file": "07-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 161,
+      "appendix_term": "Organización del Tratado del Atlántico Norte (OTAN)",
+      "chapter": 8,
+      "chapter_pdf_page": 137,
+      "item": 15,
+      "korean_term": "북대서양조약기구",
+      "status": "full",
+      "translation_file": "08-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 161,
+      "appendix_term": "Pacto de familia (el)",
+      "chapter": 4,
+      "chapter_pdf_page": 60,
+      "item": 20,
+      "korean_term": "가문 협약",
+      "status": "full",
+      "translation_file": "04-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 161,
+      "appendix_term": "Pactos de la Moncloa",
+      "chapter": 8,
+      "chapter_pdf_page": 137,
+      "item": 16,
+      "korean_term": "몽클로아 협약",
+      "status": "full",
+      "translation_file": "08-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 162,
+      "appendix_term": "Partido Popular",
+      "chapter": 8,
+      "chapter_pdf_page": 138,
+      "item": 17,
+      "korean_term": "국민당",
+      "status": "full",
+      "translation_file": "08-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 162,
+      "appendix_term": "Partido Radical (el)",
+      "chapter": 6,
+      "chapter_pdf_page": 103,
+      "item": 22,
+      "korean_term": "급진당",
+      "status": "full",
+      "translation_file": "06-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 162,
+      "appendix_term": "Partido Socialista Obrero Español (PSOE)",
+      "chapter": 5,
+      "chapter_pdf_page": 84,
+      "item": 22,
+      "korean_term": "에스파냐 사회노동당",
+      "status": "full",
+      "translation_file": "05-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 162,
+      "appendix_term": "patrimonio (el)",
+      "chapter": 3,
+      "chapter_pdf_page": 45,
+      "item": 20,
+      "korean_term": "재산",
+      "status": "full",
+      "translation_file": "03-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 162,
+      "appendix_term": "Pax Hispánica (la)",
+      "chapter": 4,
+      "chapter_pdf_page": 60,
+      "item": 21,
+      "korean_term": "팍스 히스파니카",
+      "status": "full",
+      "translation_file": "04-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 162,
+      "appendix_term": "PCE (Partido Comunista de España)",
+      "chapter": 7,
+      "chapter_pdf_page": 119,
+      "item": 17,
+      "korean_term": "에스파냐 공산당",
+      "status": "full",
+      "translation_file": "07-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 162,
+      "appendix_term": "Planes de Desarrollo",
+      "chapter": 7,
+      "chapter_pdf_page": 119,
+      "item": 18,
+      "korean_term": "개발계획",
+      "status": "full",
+      "translation_file": "07-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 162,
+      "appendix_term": "Plataforma de Convergencia Democrática",
+      "chapter": 7,
+      "chapter_pdf_page": 119,
+      "item": 19,
+      "korean_term": "민주수렴플랫폼",
+      "status": "full",
+      "translation_file": "07-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 162,
+      "appendix_term": "plaza (la)/ foro (el)",
+      "chapter": 1,
+      "chapter_pdf_page": 21,
+      "item": 9,
+      "korean_term": "광장·포룸",
+      "status": "full",
+      "translation_file": "01-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 162,
+      "appendix_term": "Podemos",
+      "chapter": 8,
+      "chapter_pdf_page": 138,
+      "item": 18,
+      "korean_term": "포데모스",
+      "status": "full",
+      "translation_file": "08-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 162,
+      "appendix_term": "polis (la)",
+      "chapter": 1,
+      "chapter_pdf_page": 21,
+      "item": 10,
+      "korean_term": "폴리스",
+      "status": "full",
+      "translation_file": "01-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 162,
+      "appendix_term": "politeísta",
+      "chapter": 1,
+      "chapter_pdf_page": 21,
+      "item": 11,
+      "korean_term": "다신교의·다신교도",
+      "status": "full",
+      "translation_file": "01-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 162,
+      "appendix_term": "política matrimonial",
+      "chapter": 2,
+      "chapter_pdf_page": 33,
+      "item": 24,
+      "korean_term": "혼인 정책",
+      "status": "full",
+      "translation_file": "02-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 162,
+      "appendix_term": "Prehistoria (la)",
+      "chapter": 1,
+      "chapter_pdf_page": 21,
+      "item": 12,
+      "korean_term": "선사시대",
+      "status": "full",
+      "translation_file": "01-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 162,
+      "appendix_term": "progresista",
+      "chapter": 5,
+      "chapter_pdf_page": 84,
+      "item": 20,
+      "korean_term": "진보주의자",
+      "status": "full",
+      "translation_file": "05-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 162,
+      "appendix_term": "pronunciamiento (el)",
+      "chapter": 5,
+      "chapter_pdf_page": 84,
+      "item": 21,
+      "korean_term": "군사정변",
+      "status": "full",
+      "translation_file": "05-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 163,
+      "appendix_term": "Protestante (la/el)",
+      "chapter": 3,
+      "chapter_pdf_page": 45,
+      "item": 21,
+      "korean_term": "프로테스탄트의·프로테스탄트 신자",
+      "status": "full",
+      "translation_file": "03-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": true
+    },
+    {
+      "appendix_pdf_page": 163,
+      "appendix_term": "Reconquista (la)",
+      "chapter": 3,
+      "chapter_pdf_page": 45,
+      "item": 22,
+      "korean_term": "레콩키스타",
+      "status": "full",
+      "translation_file": "03-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 163,
+      "appendix_term": "reformista",
+      "chapter": 5,
+      "chapter_pdf_page": 84,
+      "item": 23,
+      "korean_term": "개혁주의자",
+      "status": "full",
+      "translation_file": "05-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 163,
+      "appendix_term": "regente (el)",
+      "chapter": 3,
+      "chapter_pdf_page": 45,
+      "item": 23,
+      "korean_term": "섭정",
+      "status": "full",
+      "translation_file": "03-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 163,
+      "appendix_term": "reino (el)",
+      "chapter": 2,
+      "chapter_pdf_page": 33,
+      "item": 25,
+      "korean_term": "왕국",
+      "status": "full",
+      "translation_file": "02-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 163,
+      "appendix_term": "Repsol",
+      "chapter": 8,
+      "chapter_pdf_page": 138,
+      "item": 19,
+      "korean_term": "렙솔",
+      "status": "full",
+      "translation_file": "08-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 163,
+      "appendix_term": "República (la)",
+      "chapter": 5,
+      "chapter_pdf_page": 84,
+      "item": 24,
+      "korean_term": "공화국",
+      "status": "full",
+      "translation_file": "05-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 163,
+      "appendix_term": "Restauración",
+      "chapter": 5,
+      "chapter_pdf_page": 84,
+      "item": 25,
+      "korean_term": "왕정복고",
+      "status": "full",
+      "translation_file": "05-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 163,
+      "appendix_term": "Revolución de los Claveles",
+      "chapter": 7,
+      "chapter_pdf_page": 119,
+      "item": 20,
+      "korean_term": "카네이션혁명",
+      "status": "full",
+      "translation_file": "07-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 163,
+      "appendix_term": "Revolución francesa (la)",
+      "chapter": 4,
+      "chapter_pdf_page": 60,
+      "item": 22,
+      "korean_term": "프랑스혁명",
+      "status": "full",
+      "translation_file": "04-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 163,
+      "appendix_term": "Revuelta de las Comunidades",
+      "chapter": 3,
+      "chapter_pdf_page": 45,
+      "item": 24,
+      "korean_term": "코무네로스 반란",
+      "status": "full",
+      "translation_file": "03-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 163,
+      "appendix_term": "romanización (la)",
+      "chapter": 1,
+      "chapter_pdf_page": 21,
+      "item": 13,
+      "korean_term": "로마화",
+      "status": "full",
+      "translation_file": "01-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 163,
+      "appendix_term": "Sagasta",
+      "chapter": 5,
+      "chapter_pdf_page": 84,
+      "item": 26,
+      "korean_term": "사가스타",
+      "status": "hold",
+      "translation_file": "05-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 164,
+      "appendix_term": "Santa Alianza",
+      "chapter": 5,
+      "chapter_pdf_page": 84,
+      "item": 27,
+      "korean_term": "신성동맹",
+      "status": "hold",
+      "translation_file": "05-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 164,
+      "appendix_term": "Santa Hermandad",
+      "chapter": 3,
+      "chapter_pdf_page": 45,
+      "item": 25,
+      "korean_term": "산타에르만다드",
+      "status": "full",
+      "translation_file": "03-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 164,
+      "appendix_term": "Seguridad Social",
+      "chapter": 8,
+      "chapter_pdf_page": 138,
+      "item": 20,
+      "korean_term": "사회보장",
+      "status": "full",
+      "translation_file": "08-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 164,
+      "appendix_term": "Serrano",
+      "chapter": 5,
+      "chapter_pdf_page": 85,
+      "item": 28,
+      "korean_term": "세라노",
+      "status": "hold",
+      "translation_file": "05-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 164,
+      "appendix_term": "sinagoga (la)",
+      "chapter": 2,
+      "chapter_pdf_page": 33,
+      "item": 26,
+      "korean_term": "시나고그",
+      "status": "full",
+      "translation_file": "02-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 164,
+      "appendix_term": "soberanía nacional (la)",
+      "chapter": 5,
+      "chapter_pdf_page": 85,
+      "item": 29,
+      "korean_term": "국민주권",
+      "status": "full",
+      "translation_file": "05-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 164,
+      "appendix_term": "Socialismo",
+      "chapter": 5,
+      "chapter_pdf_page": 85,
+      "item": 30,
+      "korean_term": "사회주의",
+      "status": "hold",
+      "translation_file": "05-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 164,
+      "appendix_term": "Stalin",
+      "chapter": 6,
+      "chapter_pdf_page": 103,
+      "item": 23,
+      "korean_term": "스탈린",
+      "status": "full",
+      "translation_file": "06-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 164,
+      "appendix_term": "sufragio universal (el)",
+      "chapter": 5,
+      "chapter_pdf_page": 85,
+      "item": 31,
+      "korean_term": "보통선거권",
+      "status": "full",
+      "translation_file": "05-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 164,
+      "appendix_term": "taifa (la)",
+      "chapter": 2,
+      "chapter_pdf_page": 33,
+      "item": 27,
+      "korean_term": "타이파",
+      "status": "full",
+      "translation_file": "02-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 164,
+      "appendix_term": "Tecnócratas (los)",
+      "chapter": 7,
+      "chapter_pdf_page": 119,
+      "item": 21,
+      "korean_term": "기술관료들",
+      "status": "full",
+      "translation_file": "07-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 164,
+      "appendix_term": "Telefónica",
+      "chapter": 8,
+      "chapter_pdf_page": 138,
+      "item": 21,
+      "korean_term": "텔레포니카",
+      "status": "full",
+      "translation_file": "08-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 164,
+      "appendix_term": "terma (la)",
+      "chapter": 1,
+      "chapter_pdf_page": 21,
+      "item": 14,
+      "korean_term": "테르마·공중목욕시설",
+      "status": "full",
+      "translation_file": "01-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 164,
+      "appendix_term": "toma de Teruel (la)",
+      "chapter": 6,
+      "chapter_pdf_page": 103,
+      "item": 24,
+      "korean_term": "테루엘 점령",
+      "status": "full",
+      "translation_file": "06-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 164,
+      "appendix_term": "Trafalgar (batalla de)",
+      "chapter": 4,
+      "chapter_pdf_page": 60,
+      "item": 23,
+      "korean_term": "트라팔가르 해전",
+      "status": "full",
+      "translation_file": "04-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 165,
+      "appendix_term": "transición (la)",
+      "chapter": 4,
+      "chapter_pdf_page": 60,
+      "item": 24,
+      "korean_term": "이행기",
+      "status": "full",
+      "translation_file": "04-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 165,
+      "appendix_term": "Tratado de Fontainebleau",
+      "chapter": 5,
+      "chapter_pdf_page": 85,
+      "item": 32,
+      "korean_term": "퐁텐블로조약",
+      "status": "hold",
+      "translation_file": "05-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 165,
+      "appendix_term": "Tratado de los Pirineos (el)",
+      "chapter": 4,
+      "chapter_pdf_page": 60,
+      "item": 25,
+      "korean_term": "피레네조약",
+      "status": "full",
+      "translation_file": "04-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 165,
+      "appendix_term": "Tratado de Utrecht (el)",
+      "chapter": 4,
+      "chapter_pdf_page": 60,
+      "item": 26,
+      "korean_term": "위트레흐트조약",
+      "status": "full",
+      "translation_file": "04-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 165,
+      "appendix_term": "tregua (la)",
+      "chapter": 4,
+      "chapter_pdf_page": 60,
+      "item": 27,
+      "korean_term": "휴전",
+      "status": "full",
+      "translation_file": "04-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 165,
+      "appendix_term": "Tribunal de la Inquisición",
+      "chapter": 3,
+      "chapter_pdf_page": 45,
+      "item": 26,
+      "korean_term": "종교재판소",
+      "status": "hold",
+      "translation_file": "03-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 165,
+      "appendix_term": "UGT (Unión General de Trabajadores)",
+      "chapter": 6,
+      "chapter_pdf_page": 103,
+      "item": 25,
+      "korean_term": "노동자총연맹",
+      "status": "full",
+      "translation_file": "06-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 165,
+      "appendix_term": "Unión de armas (la)",
+      "chapter": 4,
+      "chapter_pdf_page": 61,
+      "item": 28,
+      "korean_term": "무력연합",
+      "status": "full",
+      "translation_file": "04-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 165,
+      "appendix_term": "Unión de Centro Democrático (UCD)",
+      "chapter": 8,
+      "chapter_pdf_page": 138,
+      "item": 22,
+      "korean_term": "민주중도연합",
+      "status": "full",
+      "translation_file": "08-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 165,
+      "appendix_term": "Unión Dinástica (la)",
+      "chapter": 2,
+      "chapter_pdf_page": 33,
+      "item": 28,
+      "korean_term": "왕조 연합",
+      "status": "full",
+      "translation_file": "02-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 165,
+      "appendix_term": "Unión Liberal",
+      "chapter": 5,
+      "chapter_pdf_page": 85,
+      "item": 33,
+      "korean_term": "자유연합",
+      "status": "hold",
+      "translation_file": "05-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 165,
+      "appendix_term": "valido (el)",
+      "chapter": 4,
+      "chapter_pdf_page": 61,
+      "item": 29,
+      "korean_term": "총신",
+      "status": "full",
+      "translation_file": "04-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 165,
+      "appendix_term": "vasallaje (el)",
+      "chapter": 2,
+      "chapter_pdf_page": 33,
+      "item": 29,
+      "korean_term": "봉신 관계",
+      "status": "full",
+      "translation_file": "02-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 166,
+      "appendix_term": "vasallo (el)",
+      "chapter": 2,
+      "chapter_pdf_page": 33,
+      "item": 30,
+      "korean_term": "봉신",
+      "status": "full",
+      "translation_file": "02-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 166,
+      "appendix_term": "virrey (el)",
+      "chapter": 3,
+      "chapter_pdf_page": 45,
+      "item": 27,
+      "korean_term": "부왕",
+      "status": "full",
+      "translation_file": "03-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 166,
+      "appendix_term": "Zapatero, José Luís Rodríguez",
+      "chapter": 8,
+      "chapter_pdf_page": 138,
+      "item": 23,
+      "korean_term": "호세 루이스 로드리게스 사파테로",
+      "status": "full",
+      "translation_file": "08-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    },
+    {
+      "appendix_pdf_page": 166,
+      "appendix_term": "zoco (el)",
+      "chapter": 2,
+      "chapter_pdf_page": 33,
+      "item": 31,
+      "korean_term": "수크",
+      "status": "full",
+      "translation_file": "02-concepts-attributed.ko.draft.md",
+      "normalized_definition_equal": true,
+      "label_difference": false
+    }
+  ],
+  "baseline_files_checked": [
+    {
+      "file": "eight-chapters-main-prose.ko.draft.md",
+      "expected_sha256": "ee3545e7121ee15637a2d8b363913a31712ccca414939f0dad89b5de39613e1f",
+      "observed_sha256": "ee3545e7121ee15637a2d8b363913a31712ccca414939f0dad89b5de39613e1f",
+      "unchanged": true
+    },
+    {
+      "file": "01-main-prose.ko.draft.md",
+      "expected_sha256": "996197a9d9d127dd5a5ae4c04e90dcc00728caf0f8b9d9df2c65842a4c50b58a",
+      "observed_sha256": "996197a9d9d127dd5a5ae4c04e90dcc00728caf0f8b9d9df2c65842a4c50b58a",
+      "unchanged": true
+    },
+    {
+      "file": "02-main-prose.ko.draft.md",
+      "expected_sha256": "b92759334d24d7a4d3efc62671205514e9cfd7569c3fe69f9d8ff0d26f2faf22",
+      "observed_sha256": "b92759334d24d7a4d3efc62671205514e9cfd7569c3fe69f9d8ff0d26f2faf22",
+      "unchanged": true
+    },
+    {
+      "file": "03-main-prose.ko.draft.md",
+      "expected_sha256": "55d9bc0e6e4ea05fcd99116abc01116ce2d8f027c3c1ca606fb434d9b8bd8978",
+      "observed_sha256": "55d9bc0e6e4ea05fcd99116abc01116ce2d8f027c3c1ca606fb434d9b8bd8978",
+      "unchanged": true
+    },
+    {
+      "file": "04-main-prose.ko.draft.md",
+      "expected_sha256": "e71e0e2ec2a6531d6489fa2d4f4ff5ee7c393d381c6eefa96ed15d59f9ba76c5",
+      "observed_sha256": "e71e0e2ec2a6531d6489fa2d4f4ff5ee7c393d381c6eefa96ed15d59f9ba76c5",
+      "unchanged": true
+    },
+    {
+      "file": "05-main-prose.ko.draft.md",
+      "expected_sha256": "26dbb867638e4ce677c7fcbee41d602857c125254a55adee1ba56b0b75750eab",
+      "observed_sha256": "26dbb867638e4ce677c7fcbee41d602857c125254a55adee1ba56b0b75750eab",
+      "unchanged": true
+    },
+    {
+      "file": "06-main-prose.ko.draft.md",
+      "expected_sha256": "00a38c7d82050a63865733dd6276161c69aa48fa8a6a29bf543aa51d274583c1",
+      "observed_sha256": "00a38c7d82050a63865733dd6276161c69aa48fa8a6a29bf543aa51d274583c1",
+      "unchanged": true
+    },
+    {
+      "file": "07-main-prose.ko.draft.md",
+      "expected_sha256": "500109f993786d7aedb30cf493596487cc51d2d990552677aa77e1148c7e1c16",
+      "observed_sha256": "500109f993786d7aedb30cf493596487cc51d2d990552677aa77e1148c7e1c16",
+      "unchanged": true
+    },
+    {
+      "file": "08-main-prose.ko.draft.md",
+      "expected_sha256": "0b326d293f014b0586c7f7fc79295fd08149ea7805fcc804dc660e32f74ff404",
+      "observed_sha256": "0b326d293f014b0586c7f7fc79295fd08149ea7805fcc804dc660e32f74ff404",
+      "unchanged": true
+    },
+    {
+      "file": "chronology-01.ko.draft.md",
+      "expected_sha256": "db9ded79c99e76fea601ad25159a672f576cf57d8fcddc4bcee8e21a2722b9df",
+      "observed_sha256": "db9ded79c99e76fea601ad25159a672f576cf57d8fcddc4bcee8e21a2722b9df",
+      "unchanged": true
+    },
+    {
+      "file": "chronology-02.ko.draft.md",
+      "expected_sha256": "71d77673fa0884c862f9cd09fd9c49c5cc4d8fc52cac972a6ced0dc9517a12c1",
+      "observed_sha256": "71d77673fa0884c862f9cd09fd9c49c5cc4d8fc52cac972a6ced0dc9517a12c1",
+      "unchanged": true
+    },
+    {
+      "file": "chronology-03.ko.draft.md",
+      "expected_sha256": "333db35ad8b8cb3917cc14bb1361d40943e78cf58cef647e83a2705ea262d355",
+      "observed_sha256": "333db35ad8b8cb3917cc14bb1361d40943e78cf58cef647e83a2705ea262d355",
+      "unchanged": true
+    },
+    {
+      "file": "chronology-04.ko.draft.md",
+      "expected_sha256": "0437580652b8405fe8f807dc81757899c0b97ee837990175e867107bb261448a",
+      "observed_sha256": "0437580652b8405fe8f807dc81757899c0b97ee837990175e867107bb261448a",
+      "unchanged": true
+    },
+    {
+      "file": "chronology-05.ko.draft.md",
+      "expected_sha256": "2cb0eb5e8da8c8427fb7df66ab33a94ec4f4fee3affc3236ba3b6867dcb54509",
+      "observed_sha256": "2cb0eb5e8da8c8427fb7df66ab33a94ec4f4fee3affc3236ba3b6867dcb54509",
+      "unchanged": true
+    },
+    {
+      "file": "chronology-06.ko.draft.md",
+      "expected_sha256": "4ac00ebcac710c62ceeeabdbaa7cdcf6634be79c7c95340968b256b0ecb24248",
+      "observed_sha256": "4ac00ebcac710c62ceeeabdbaa7cdcf6634be79c7c95340968b256b0ecb24248",
+      "unchanged": true
+    },
+    {
+      "file": "chronology-07.ko.draft.md",
+      "expected_sha256": "aacbdc7cfff8cacdde7ce6823d5bfe1a8039735a58f69a146e7be7ed77ec8e30",
+      "observed_sha256": "aacbdc7cfff8cacdde7ce6823d5bfe1a8039735a58f69a146e7be7ed77ec8e30",
+      "unchanged": true
+    },
+    {
+      "file": "chronology-08.ko.draft.md",
+      "expected_sha256": "0da6b27f70cfcf207ec128692d7d3373d422c290aa555ffa5594f64594746dd6",
+      "observed_sha256": "0da6b27f70cfcf207ec128692d7d3373d422c290aa555ffa5594f64594746dd6",
+      "unchanged": true
+    },
+    {
+      "file": "01-activities-author-prose.ko.draft.md",
+      "expected_sha256": "def2cdda5e2765f105aae4cff7a38c44af85efc6d38fda5fbe849420f7e12e0b",
+      "observed_sha256": "def2cdda5e2765f105aae4cff7a38c44af85efc6d38fda5fbe849420f7e12e0b",
+      "unchanged": true
+    },
+    {
+      "file": "02-activities-author-prose.ko.draft.md",
+      "expected_sha256": "b46be37949f9657915eb11e286d021b1c3dafa525a1ef5e0cfdf729b47967b21",
+      "observed_sha256": "b46be37949f9657915eb11e286d021b1c3dafa525a1ef5e0cfdf729b47967b21",
+      "unchanged": true
+    },
+    {
+      "file": "03-activities-author-prose.ko.draft.md",
+      "expected_sha256": "6957abb8c0375fbe3c63feba4e884163089c2b4ada86c52949f6e2906ac6d29e",
+      "observed_sha256": "6957abb8c0375fbe3c63feba4e884163089c2b4ada86c52949f6e2906ac6d29e",
+      "unchanged": true
+    },
+    {
+      "file": "04-activities-author-prose.ko.draft.md",
+      "expected_sha256": "020c73c89d75ad251fc10672db536f6a66338636633e3d8998de4d7a5addebfe",
+      "observed_sha256": "020c73c89d75ad251fc10672db536f6a66338636633e3d8998de4d7a5addebfe",
+      "unchanged": true
+    },
+    {
+      "file": "05-activities-author-prose.ko.draft.md",
+      "expected_sha256": "0609c816ba1cd2cea1215d3d9c1059b7c087e2d432b1a1720205337a396247c5",
+      "observed_sha256": "0609c816ba1cd2cea1215d3d9c1059b7c087e2d432b1a1720205337a396247c5",
+      "unchanged": true
+    },
+    {
+      "file": "06-activities-author-prose.ko.draft.md",
+      "expected_sha256": "d459d7f50d5fa27b8cf2204c3a64df00cd3d4d721bbd64f4f5bd67842bb366cc",
+      "observed_sha256": "d459d7f50d5fa27b8cf2204c3a64df00cd3d4d721bbd64f4f5bd67842bb366cc",
+      "unchanged": true
+    },
+    {
+      "file": "07-activities-author-prose.ko.draft.md",
+      "expected_sha256": "330011ad48f8734504d46fd12c5ce090d1c78e17de1c3f316f12a431ea0ad7a2",
+      "observed_sha256": "330011ad48f8734504d46fd12c5ce090d1c78e17de1c3f316f12a431ea0ad7a2",
+      "unchanged": true
+    },
+    {
+      "file": "08-activities-author-prose.ko.draft.md",
+      "expected_sha256": "efad3c1dc272dfd3197ad24323de5670e08d1a42db73e58a13352beb0628beba",
+      "observed_sha256": "efad3c1dc272dfd3197ad24323de5670e08d1a42db73e58a13352beb0628beba",
+      "unchanged": true
+    },
+    {
+      "file": "rights-inventory.student.partial-ko.md",
+      "expected_sha256": "daa7c2dda725f34bfbbc7977f4a3e0dd7d962f6fa76b7d60e530aae2e9bb8d34",
+      "observed_sha256": "daa7c2dda725f34bfbbc7977f4a3e0dd7d962f6fa76b7d60e530aae2e9bb8d34",
+      "unchanged": true
+    }
+  ],
+  "source_pdf_unchanged": true,
+  "limitations": [
+    "The presence-of-values numeric test is not a complete linguistic or historical validation.",
+    "Credited authorship is editorial evidence, not proof of independent authorship for every definition. External source history and rights remain partly unverified.",
+    "Original dates and historical simplifications were preserved, not corrected.",
+    "General-language dictionary definitions, external images, lyrics, quotations and teacher answer keys are not included."
+  ]
+}

@@ -1,0 +1,1041 @@
+{
+  "status": "author_text_first_pass_complete_with_holds",
+  "source_sha256": "52f69a10d2ad5c679b922a39b185065438b1211554abef0fa3c134010ab251ab",
+  "pdf_range": [
+    176,
+    278
+  ],
+  "page_count": 103,
+  "pages": [
+    {
+      "pdf_page": 176,
+      "teacher_print_page": 1,
+      "chapter": null,
+      "draft": "teacher-00-frontmatter.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 177,
+      "teacher_print_page": 2,
+      "chapter": null,
+      "draft": "teacher-00-frontmatter.ko.draft.md",
+      "processing": "blank_page_confirmed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 178,
+      "teacher_print_page": 3,
+      "chapter": null,
+      "draft": "teacher-00-frontmatter.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 179,
+      "teacher_print_page": 4,
+      "chapter": null,
+      "draft": "teacher-00-frontmatter.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 180,
+      "teacher_print_page": 5,
+      "chapter": 1,
+      "draft": "teacher-01-guidance-answers.ko.draft.md",
+      "processing": "cover_title_linked_images_excluded",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 181,
+      "teacher_print_page": 6,
+      "chapter": 1,
+      "draft": "teacher-01-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 182,
+      "teacher_print_page": 7,
+      "chapter": 1,
+      "draft": "teacher-01-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": true,
+      "hold_or_boundary_note": "학생 본문 발췌는 기존 절 연결"
+    },
+    {
+      "pdf_page": 183,
+      "teacher_print_page": 8,
+      "chapter": 1,
+      "draft": "teacher-01-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": true,
+      "hold_or_boundary_note": "학생 본문 발췌 연결·표는 새 답"
+    },
+    {
+      "pdf_page": 184,
+      "teacher_print_page": 9,
+      "chapter": 1,
+      "draft": "teacher-01-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 185,
+      "teacher_print_page": 10,
+      "chapter": 1,
+      "draft": "teacher-01-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 186,
+      "teacher_print_page": 11,
+      "chapter": 1,
+      "draft": "teacher-01-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 187,
+      "teacher_print_page": 12,
+      "chapter": 1,
+      "draft": "teacher-01-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 188,
+      "teacher_print_page": 13,
+      "chapter": 1,
+      "draft": "teacher-01-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": "로마시설 정의10개 보류"
+    },
+    {
+      "pdf_page": 189,
+      "teacher_print_page": 14,
+      "chapter": 1,
+      "draft": "teacher-01-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": "외부 사진"
+    },
+    {
+      "pdf_page": 190,
+      "teacher_print_page": 15,
+      "chapter": 1,
+      "draft": "teacher-01-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 191,
+      "teacher_print_page": 16,
+      "chapter": 1,
+      "draft": "teacher-01-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": "정의10개 재수록 보류"
+    },
+    {
+      "pdf_page": 192,
+      "teacher_print_page": 17,
+      "chapter": 1,
+      "draft": "teacher-01-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": "외부 사진"
+    },
+    {
+      "pdf_page": 193,
+      "teacher_print_page": 18,
+      "chapter": 2,
+      "draft": "teacher-02-guidance-answers.ko.draft.md",
+      "processing": "cover_title_linked_images_excluded",
+      "visual_review": "overview_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 194,
+      "teacher_print_page": 19,
+      "chapter": 2,
+      "draft": "teacher-02-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 195,
+      "teacher_print_page": 20,
+      "chapter": 2,
+      "draft": "teacher-02-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 196,
+      "teacher_print_page": 21,
+      "chapter": 2,
+      "draft": "teacher-02-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 197,
+      "teacher_print_page": 22,
+      "chapter": 2,
+      "draft": "teacher-02-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 198,
+      "teacher_print_page": 23,
+      "chapter": 2,
+      "draft": "teacher-02-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 199,
+      "teacher_print_page": 24,
+      "chapter": 2,
+      "draft": "teacher-02-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 200,
+      "teacher_print_page": 25,
+      "chapter": 2,
+      "draft": "teacher-02-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 201,
+      "teacher_print_page": 26,
+      "chapter": 3,
+      "draft": "teacher-03-guidance-answers.ko.draft.md",
+      "processing": "cover_title_linked_images_excluded",
+      "visual_review": "overview_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 202,
+      "teacher_print_page": 27,
+      "chapter": 3,
+      "draft": "teacher-03-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": true,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 203,
+      "teacher_print_page": 28,
+      "chapter": 3,
+      "draft": "teacher-03-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": true,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 204,
+      "teacher_print_page": 29,
+      "chapter": 3,
+      "draft": "teacher-03-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": true,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 205,
+      "teacher_print_page": 30,
+      "chapter": 3,
+      "draft": "teacher-03-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": true,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 206,
+      "teacher_print_page": 31,
+      "chapter": 3,
+      "draft": "teacher-03-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 207,
+      "teacher_print_page": 32,
+      "chapter": 3,
+      "draft": "teacher-03-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": "외부 지도"
+    },
+    {
+      "pdf_page": 208,
+      "teacher_print_page": 33,
+      "chapter": 3,
+      "draft": "teacher-03-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": "제국 표어·풀이·지도"
+    },
+    {
+      "pdf_page": 209,
+      "teacher_print_page": 34,
+      "chapter": 3,
+      "draft": "teacher-03-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 210,
+      "teacher_print_page": 35,
+      "chapter": 3,
+      "draft": "teacher-03-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 211,
+      "teacher_print_page": 36,
+      "chapter": 3,
+      "draft": "teacher-03-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": "표어·풀이·지도"
+    },
+    {
+      "pdf_page": 212,
+      "teacher_print_page": 37,
+      "chapter": 3,
+      "draft": "teacher-03-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": "표어 해설1문단"
+    },
+    {
+      "pdf_page": 213,
+      "teacher_print_page": 38,
+      "chapter": 4,
+      "draft": "teacher-04-guidance-answers.ko.draft.md",
+      "processing": "cover_title_linked_images_excluded",
+      "visual_review": "overview_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 214,
+      "teacher_print_page": 39,
+      "chapter": 4,
+      "draft": "teacher-04-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": true,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 215,
+      "teacher_print_page": 40,
+      "chapter": 4,
+      "draft": "teacher-04-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": true,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 216,
+      "teacher_print_page": 41,
+      "chapter": 4,
+      "draft": "teacher-04-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": true,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 217,
+      "teacher_print_page": 42,
+      "chapter": 4,
+      "draft": "teacher-04-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "overview_and_text",
+      "duplicate_student_content_linked": true,
+      "hold_or_boundary_note": "외부 계보도"
+    },
+    {
+      "pdf_page": 218,
+      "teacher_print_page": 43,
+      "chapter": 4,
+      "draft": "teacher-04-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "overview_and_text",
+      "duplicate_student_content_linked": true,
+      "hold_or_boundary_note": "외부 계보도"
+    },
+    {
+      "pdf_page": 219,
+      "teacher_print_page": 44,
+      "chapter": 4,
+      "draft": "teacher-04-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": true,
+      "hold_or_boundary_note": "계몽전제정 표어·답풀이"
+    },
+    {
+      "pdf_page": 220,
+      "teacher_print_page": 45,
+      "chapter": 4,
+      "draft": "teacher-04-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": true,
+      "hold_or_boundary_note": "외부 회화"
+    },
+    {
+      "pdf_page": 221,
+      "teacher_print_page": 46,
+      "chapter": 4,
+      "draft": "teacher-04-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": true,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 222,
+      "teacher_print_page": 47,
+      "chapter": 4,
+      "draft": "teacher-04-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": "외부 지도"
+    },
+    {
+      "pdf_page": 223,
+      "teacher_print_page": 48,
+      "chapter": 4,
+      "draft": "teacher-04-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 224,
+      "teacher_print_page": 49,
+      "chapter": 4,
+      "draft": "teacher-04-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 225,
+      "teacher_print_page": 50,
+      "chapter": 4,
+      "draft": "teacher-04-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 226,
+      "teacher_print_page": 51,
+      "chapter": 5,
+      "draft": "teacher-05-guidance-answers.ko.draft.md",
+      "processing": "cover_title_linked_images_excluded",
+      "visual_review": "overview_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 227,
+      "teacher_print_page": 52,
+      "chapter": 5,
+      "draft": "teacher-05-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "overview_and_text",
+      "duplicate_student_content_linked": true,
+      "hold_or_boundary_note": "외부 Wikipedia 글"
+    },
+    {
+      "pdf_page": 228,
+      "teacher_print_page": 53,
+      "chapter": 5,
+      "draft": "teacher-05-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": true,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 229,
+      "teacher_print_page": 54,
+      "chapter": 5,
+      "draft": "teacher-05-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "overview_and_text",
+      "duplicate_student_content_linked": true,
+      "hold_or_boundary_note": "Barja 기사답"
+    },
+    {
+      "pdf_page": 230,
+      "teacher_print_page": 55,
+      "chapter": 5,
+      "draft": "teacher-05-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": true,
+      "hold_or_boundary_note": "헌법직접정의1번"
+    },
+    {
+      "pdf_page": 231,
+      "teacher_print_page": 56,
+      "chapter": 5,
+      "draft": "teacher-05-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": true,
+      "hold_or_boundary_note": "연설·각색·예문1/2"
+    },
+    {
+      "pdf_page": 232,
+      "teacher_print_page": 57,
+      "chapter": 5,
+      "draft": "teacher-05-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "overview_and_text",
+      "duplicate_student_content_linked": true,
+      "hold_or_boundary_note": "외부지도"
+    },
+    {
+      "pdf_page": 233,
+      "teacher_print_page": 58,
+      "chapter": 5,
+      "draft": "teacher-05-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": true,
+      "hold_or_boundary_note": "외부지도"
+    },
+    {
+      "pdf_page": 234,
+      "teacher_print_page": 59,
+      "chapter": 5,
+      "draft": "teacher-05-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": true,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 235,
+      "teacher_print_page": 60,
+      "chapter": 5,
+      "draft": "teacher-05-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "overview_and_text",
+      "duplicate_student_content_linked": true,
+      "hold_or_boundary_note": "외부그림/사진"
+    },
+    {
+      "pdf_page": 236,
+      "teacher_print_page": 61,
+      "chapter": 5,
+      "draft": "teacher-05-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "overview_and_text",
+      "duplicate_student_content_linked": true,
+      "hold_or_boundary_note": "외부이미지"
+    },
+    {
+      "pdf_page": 237,
+      "teacher_print_page": 62,
+      "chapter": 5,
+      "draft": "teacher-05-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": true,
+      "hold_or_boundary_note": "외부공격그림"
+    },
+    {
+      "pdf_page": 238,
+      "teacher_print_page": 63,
+      "chapter": 5,
+      "draft": "teacher-05-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": true,
+      "hold_or_boundary_note": "LaRazón 발췌"
+    },
+    {
+      "pdf_page": 239,
+      "teacher_print_page": 64,
+      "chapter": 5,
+      "draft": "teacher-05-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "overview_and_text",
+      "duplicate_student_content_linked": true,
+      "hold_or_boundary_note": "외부사진"
+    },
+    {
+      "pdf_page": 240,
+      "teacher_print_page": 65,
+      "chapter": 5,
+      "draft": "teacher-05-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 241,
+      "teacher_print_page": 66,
+      "chapter": 5,
+      "draft": "teacher-05-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "overview_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": "Barja 후속기사"
+    },
+    {
+      "pdf_page": 242,
+      "teacher_print_page": 67,
+      "chapter": 5,
+      "draft": "teacher-05-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": "외부그림1–3"
+    },
+    {
+      "pdf_page": 243,
+      "teacher_print_page": 68,
+      "chapter": 5,
+      "draft": "teacher-05-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": "외부그림4–6"
+    },
+    {
+      "pdf_page": 244,
+      "teacher_print_page": 69,
+      "chapter": 5,
+      "draft": "teacher-05-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": "Ayén 외부도표"
+    },
+    {
+      "pdf_page": 245,
+      "teacher_print_page": 70,
+      "chapter": 5,
+      "draft": "teacher-05-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 246,
+      "teacher_print_page": 71,
+      "chapter": 5,
+      "draft": "teacher-05-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "overview_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": "Barja 후속기사답"
+    },
+    {
+      "pdf_page": 247,
+      "teacher_print_page": 72,
+      "chapter": 5,
+      "draft": "teacher-05-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": "외부그림1–3"
+    },
+    {
+      "pdf_page": 248,
+      "teacher_print_page": 73,
+      "chapter": 5,
+      "draft": "teacher-05-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": "외부그림4–6"
+    },
+    {
+      "pdf_page": 249,
+      "teacher_print_page": 74,
+      "chapter": 5,
+      "draft": "teacher-05-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": "Ayén 외부도표"
+    },
+    {
+      "pdf_page": 250,
+      "teacher_print_page": 75,
+      "chapter": 5,
+      "draft": "teacher-05-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 251,
+      "teacher_print_page": 76,
+      "chapter": 6,
+      "draft": "teacher-06-guidance-answers.ko.draft.md",
+      "processing": "cover_title_linked_images_excluded",
+      "visual_review": "overview_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 252,
+      "teacher_print_page": 77,
+      "chapter": 6,
+      "draft": "teacher-06-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": true,
+      "hold_or_boundary_note": "헌법조문"
+    },
+    {
+      "pdf_page": 253,
+      "teacher_print_page": 78,
+      "chapter": 6,
+      "draft": "teacher-06-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": true,
+      "hold_or_boundary_note": "연설원문·사전정의미수록"
+    },
+    {
+      "pdf_page": 254,
+      "teacher_print_page": 79,
+      "chapter": 6,
+      "draft": "teacher-06-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": true,
+      "hold_or_boundary_note": "외부지도"
+    },
+    {
+      "pdf_page": 255,
+      "teacher_print_page": 80,
+      "chapter": 6,
+      "draft": "teacher-06-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": true,
+      "hold_or_boundary_note": "외부지도"
+    },
+    {
+      "pdf_page": 256,
+      "teacher_print_page": 81,
+      "chapter": 6,
+      "draft": "teacher-06-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": true,
+      "hold_or_boundary_note": "게르니카·시를 새로수집하지않음"
+    },
+    {
+      "pdf_page": 257,
+      "teacher_print_page": 82,
+      "chapter": 6,
+      "draft": "teacher-06-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": true,
+      "hold_or_boundary_note": "시작성란만대응"
+    },
+    {
+      "pdf_page": 258,
+      "teacher_print_page": 83,
+      "chapter": 6,
+      "draft": "teacher-06-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": "시·음악·업로드 실행안함"
+    },
+    {
+      "pdf_page": 259,
+      "teacher_print_page": 84,
+      "chapter": 6,
+      "draft": "teacher-06-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": "우의화·내부표어"
+    },
+    {
+      "pdf_page": 260,
+      "teacher_print_page": 85,
+      "chapter": 6,
+      "draft": "teacher-06-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": "가사·빈칸"
+    },
+    {
+      "pdf_page": 261,
+      "teacher_print_page": 86,
+      "chapter": 6,
+      "draft": "teacher-06-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": "Wikipedia 노래소개"
+    },
+    {
+      "pdf_page": 262,
+      "teacher_print_page": 87,
+      "chapter": 6,
+      "draft": "teacher-06-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": "이미지표어 재인용"
+    },
+    {
+      "pdf_page": 263,
+      "teacher_print_page": 88,
+      "chapter": 6,
+      "draft": "teacher-06-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": "가사답"
+    },
+    {
+      "pdf_page": 264,
+      "teacher_print_page": 89,
+      "chapter": 7,
+      "draft": "teacher-07-guidance-answers.ko.draft.md",
+      "processing": "cover_title_linked_images_excluded",
+      "visual_review": "overview_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 265,
+      "teacher_print_page": 90,
+      "chapter": 7,
+      "draft": "teacher-07-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": true,
+      "hold_or_boundary_note": "사진/상징"
+    },
+    {
+      "pdf_page": 266,
+      "teacher_print_page": 91,
+      "chapter": 7,
+      "draft": "teacher-07-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": true,
+      "hold_or_boundary_note": "사진/기호"
+    },
+    {
+      "pdf_page": 267,
+      "teacher_print_page": 92,
+      "chapter": 7,
+      "draft": "teacher-07-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": true,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 268,
+      "teacher_print_page": 93,
+      "chapter": 7,
+      "draft": "teacher-07-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": true,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 269,
+      "teacher_print_page": 94,
+      "chapter": 8,
+      "draft": "teacher-08-guidance-answers.ko.draft.md",
+      "processing": "cover_title_linked_images_excluded",
+      "visual_review": "overview_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 270,
+      "teacher_print_page": 95,
+      "chapter": 8,
+      "draft": "teacher-08-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": true,
+      "hold_or_boundary_note": "헌법인용"
+    },
+    {
+      "pdf_page": 271,
+      "teacher_print_page": 96,
+      "chapter": 8,
+      "draft": "teacher-08-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": true,
+      "hold_or_boundary_note": "사진1–6"
+    },
+    {
+      "pdf_page": 272,
+      "teacher_print_page": 97,
+      "chapter": 8,
+      "draft": "teacher-08-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": true,
+      "hold_or_boundary_note": "사진7–8·직접발언"
+    },
+    {
+      "pdf_page": 273,
+      "teacher_print_page": 98,
+      "chapter": 8,
+      "draft": "teacher-08-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": "Jueves가사답"
+    },
+    {
+      "pdf_page": 274,
+      "teacher_print_page": 99,
+      "chapter": 8,
+      "draft": "teacher-08-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": true,
+      "hold_or_boundary_note": "가사재인용풀이·지도"
+    },
+    {
+      "pdf_page": 275,
+      "teacher_print_page": 100,
+      "chapter": 8,
+      "draft": "teacher-08-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": true,
+      "hold_or_boundary_note": "영상미수집"
+    },
+    {
+      "pdf_page": 276,
+      "teacher_print_page": 101,
+      "chapter": 8,
+      "draft": "teacher-08-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": true,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 277,
+      "teacher_print_page": 102,
+      "chapter": 8,
+      "draft": "teacher-08-guidance-answers.ko.draft.md",
+      "processing": "author_text_translated_or_exact_duplicate_linked_with_holds_if_listed",
+      "visual_review": "individual_render_and_text",
+      "duplicate_student_content_linked": true,
+      "hold_or_boundary_note": null
+    },
+    {
+      "pdf_page": 278,
+      "teacher_print_page": null,
+      "chapter": null,
+      "draft": "teacher-00-frontmatter.ko.draft.md",
+      "processing": "back_cover_assets_excluded",
+      "visual_review": "overview_and_text",
+      "duplicate_student_content_linked": false,
+      "hold_or_boundary_note": "QR·로고·디자인"
+    }
+  ]
+}
